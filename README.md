@@ -36,8 +36,8 @@ A CLI tool for fetching GitHub commit data and processing commit messages into a
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-github-username>/Classification-of-DEMPE-functions.git
-cd Classification-of-DEMPE-functions
+git clone git@github.com:islam15-8789/Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions.git
+cd Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions/
 ```
 
 ### Install Dependencies
