@@ -120,5 +120,3 @@ def extract_raw_commit_messages(input_folder, output_file):
     if errors:
         for error in errors:
             console.print(error)
-
-    console.rule("[bold green]Pipeline Completed")

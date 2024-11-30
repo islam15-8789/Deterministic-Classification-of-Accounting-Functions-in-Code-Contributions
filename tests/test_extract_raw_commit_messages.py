@@ -145,7 +145,6 @@ def test_mixed_json_files(runner, setup_test_environment):
     # Check for key parts of the output
     assert "Found 2 JSON files to process." in result.output
     assert "Error decoding JSON:" in result.output
-    assert "Pipeline Completed" in result.output
 
     # Verify the commit messages were saved
     assert os.path.exists(output_file)
