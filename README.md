@@ -1,6 +1,6 @@
 # **Deterministic Classification of Accounting Functions in Code Contributions**
 
-A CLI tool for fetching GitHub commit data and processing commit messages into a structured CSV format. This tool is ideal for analyzing commit messages, labeling them for machine learning purposes, and automating GitHub data extraction.
+A CLI tool for fetching GitHub commit data and processing commit messages into a structured CSV format.
 
 ---
 
