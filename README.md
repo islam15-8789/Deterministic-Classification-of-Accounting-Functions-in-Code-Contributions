@@ -1,7 +1,3 @@
-Here’s a comprehensive **README.md** for your project that provides clear instructions on how to use your CLI tool effectively.
-
----
-
 # **Deterministic Classification of Accounting Functions in Code Contributions**
 
 A powerful CLI tool for fetching GitHub commit data and processing commit messages into a structured CSV format. This tool is ideal for analyzing commit messages, labeling them for machine learning purposes, and automating GitHub data extraction.
@@ -154,6 +150,3 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 ### **Contact**
 For any questions or issues, feel free to reach out to **Arni Islam** at [arniislam03@gmail.com](mailto:arniislam03@gmail.com).
 
----
-
-With this `README.md`, your repository will have clear, professional documentation that guides users through installation, usage, and contributing.
