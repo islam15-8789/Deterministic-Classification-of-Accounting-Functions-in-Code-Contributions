@@ -110,7 +110,7 @@ The CSV file will have the following columns:
 
 ## **Directory Structure**
 ```
-Classification-of-DEMPE-functions/
+Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions/
 ├── cli.py                          # Main CLI entry point
 ├── commands/
 │   ├── fetch_commits.py            # Command to fetch commits
