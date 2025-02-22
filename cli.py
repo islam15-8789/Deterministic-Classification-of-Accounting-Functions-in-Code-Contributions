@@ -2,7 +2,9 @@ import click
 
 from commands.extract_raw_commits import extract_raw_commit_messages
 from commands.fetch_commits import fetch_commits
+from commands.label_commits import label_commits
 from commands.pipeline import run_pipeline
+
 @click.group()
 def cli():
     """
@@ -19,6 +21,6 @@ def execute_pipeline():
 # Add commands to the CLI group
 cli.add_command(fetch_commits)
 cli.add_command(extract_raw_commit_messages)
-
+cli.add_command(label_commits)
 if __name__ == "__main__":
     cli()

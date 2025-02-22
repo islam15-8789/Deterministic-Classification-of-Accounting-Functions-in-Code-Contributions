@@ -47,6 +47,29 @@ def run_pipeline():
         console.print("[bold red]❌ Error in extract-raw-commit-messages. Exiting pipeline.[/bold red]")
         return
     console.print("[bold green]✔ Step 2 completed successfully![/bold green]")
+    
+    # Step 3: Label raw commit messages
+    console.print("\n[bold yellow]Step 3: labeling commit messages...[/bold yellow]")
+    with Progress(
+        SpinnerColumn(),
+        TextColumn("[progress.description]{task.description}"),
+        transient=True,
+    ) as progress:
+        task = progress.add_task("labeling commit messages...", start=False)
+        progress.start_task(task)
+        result = subprocess.run(
+            [
+                "pdm", "run", "c", "label-commits",
+                "--input-file", "data/csv_data/raw_commit_messages.csv",
+                "--output-file", "data/csv_data/labeled_commits.csv"
+            ]
+        )
+        progress.stop()
+
+    if result.returncode != 0:
+        console.print("[bold red]❌ Error in label-commits. Exiting pipeline.[/bold red]")
+        return
+    console.print("[bold green]✔ Step 3 completed successfully![/bold green]")
 
     console.rule("[bold green]Pipeline executed successfully![/bold green]")
     console.print("[bold magenta]:rocket: All steps completed! Your data is ready.[/bold magenta]")
