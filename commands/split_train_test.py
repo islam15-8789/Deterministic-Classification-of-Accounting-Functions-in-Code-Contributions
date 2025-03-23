@@ -3,10 +3,10 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 @click.command()
-@click.option("--input_file", default="data/csv_data/cleaned_commits.csv", type=click.Path(exists=True), help="Path to the labeled CSV file.")
-@click.option("--train_output", default="data/csv_data/train_set.csv", type=click.Path(), help="Path to save the training set.")
-@click.option("--test_output", default="data/csv_data/test_set.csv", type=click.Path(), help="Path to save the test set.")
-@click.option("--test_size", default=0.2, help="Proportion of the dataset to include in the test split.")
+@click.option("--input-file", default="data/csv_data/cleaned_commits.csv", type=click.Path(exists=True), help="Path to the labeled CSV file.")
+@click.option("--train-output", default="data/csv_data/train_set.csv", type=click.Path(), help="Path to save the training set.")
+@click.option("--test-output", default="data/csv_data/test_set.csv", type=click.Path(), help="Path to save the test set.")
+@click.option("--test-size", default=0.2, help="Proportion of the dataset to include in the test split.")
 def split_dataset(input_file, train_output, test_output, test_size):
     """
     Splits the labeled dataset into training and test sets, excluding non-conventional commits.

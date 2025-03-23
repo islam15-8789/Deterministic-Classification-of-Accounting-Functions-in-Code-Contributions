@@ -11,9 +11,9 @@ def clean_text(text):
     return text.strip()
 
 @click.command()
-@click.option("--input_file", default="data/csv_data/labeled_commits.csv", type=click.Path(exists=True), help="Path to the labeled commit CSV file.")
-@click.option("--output_file", default="data/csv_data/cleaned_commits.csv", type=click.Path(), help="Path to save the cleaned CSV file.")
-@click.option("--nonconv_output", default="data/csv_data/non_conventional_commits.csv", type=click.Path(), help="Path to save the non-conventional commits.")
+@click.option("--input-file", default="data/csv_data/labeled_commits.csv", type=click.Path(exists=True), help="Path to the labeled commit CSV file.")
+@click.option("--output-file", default="data/csv_data/cleaned_commits.csv", type=click.Path(), help="Path to save the cleaned CSV file.")
+@click.option("--nonconv-output", default="data/csv_data/non_conventional_commits.csv", type=click.Path(), help="Path to save the non-conventional commits.")
 def clean_commits(input_file, output_file, nonconv_output):
     """Cleans commit messages, saves cleaned data and non-conventional commits separately (no vectorization)."""
     click.echo(f"Loading data from {input_file}...")
