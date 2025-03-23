@@ -22,7 +22,7 @@ DEMPE_CLASS_MAPPING = {
 
 # Command to plot DEMPE Function distribution
 @click.command()
-@click.option("--input_file", default="data/csv_data/labeled_commits.csv", type=click.Path(exists=True))
+@click.option("--input_file", default="data/csv_data/cleaned_commits.csv", type=click.Path(exists=True))
 @click.option("--output_file", default = "figures/dempe_dist.png", type=click.Path())
 def dempe_distribution(input_file, output_file):
     """Plots the distribution of commit messages across DEMPE functions and saves to output file."""
@@ -47,7 +47,7 @@ def dempe_distribution(input_file, output_file):
 
 # Command to generate word cloud
 @click.command()
-@click.option("--input_file", default="data/csv_data/labeled_commits.csv", type=click.Path(exists=True))
+@click.option("--input_file", default="data/csv_data/cleaned_commits.csv", type=click.Path(exists=True))
 @click.option("--output_file", default = "figures/wordcloud.png", type=click.Path())
 def wordcloud(input_file, output_file):
     """Generates a word cloud from commit messages and saves to output file."""
@@ -69,7 +69,7 @@ def wordcloud(input_file, output_file):
 
 # Command to visualize most common words in commit messages
 @click.command()
-@click.option("--input_file", default="data/csv_data/labeled_commits.csv", type=click.Path(exists=True))
+@click.option("--input_file", default="data/csv_data/cleaned_commits.csv", type=click.Path(exists=True))
 @click.option("--output_file", default = "figures/common_words.png", type=click.Path())
 def common_words(input_file, output_file):
     """Displays a bar chart of the most common words in commit messages and saves to output file."""
