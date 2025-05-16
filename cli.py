@@ -9,6 +9,8 @@ from commands.split_train_test import split_dataset
 from commands.cleaned_commits import  clean_commits
 from commands.train_svm import train_svm
 from commands.predict_svm import classify_commit
+from commands.semantic_keywords import semantic_relabel
+
 
 @click.group()
 def cli():
@@ -34,6 +36,7 @@ cli.add_command(split_dataset, name= "split-dataset")
 cli.add_command(clean_commits, name= "clean-commits")
 cli.add_command(train_svm, name= "train-svm")
 cli.add_command(classify_commit, name= "predict-svm")
+cli.add_command(semantic_relabel, name= "semantic-relabel")
 
 
 if __name__ == "__main__":
