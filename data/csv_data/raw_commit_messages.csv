@@ -1,0 +1,793 @@
+"Serial Number","Commit Message","Label"
+"1","Create nodejs.yml (#51)",""
+"2","fix: fix sroll change detection",""
+"3","fix: improve detection of external scroll
+
+'floor' raw scrollPosition when checking for scroll change (codepen returning floating values)",""
+"4","docs: fix jsdelivr references",""
+"5","Update dependencies to enable Greenkeeper 🌴 (#49)
+
+* chore(package): update dependencies
+
+* chore(package): update lockfile package-lock.json",""
+"6","refactor: improve api
+
+* chore: fix promise issue using cypress
+
+* refactor: improve public api
+
+BREAKING CHANGE: api changed
+
+* feat: improve public api
+
+merge scroll functions into scrollTo
+
+* test: add browserstack tests
+
+replace cypress with browserstack for better browser support
+
+Squashed commit of the following:
+
+commit 9f91793ff5a2a46d7b217c5cc0b4e195f99d803e
+Author: David Perez Alvarez <david@leddgroup.com>
+Date:   Mon Apr 29 00:08:58 2019 -0400
+
+    test: improve tests
+
+commit 4dae7a75c43f10ec5397efd3467ec27315024871
+Author: David Perez Alvarez <david@leddgroup.com>
+Date:   Sun Apr 28 22:59:28 2019 -0400
+
+    test: change to TDD
+
+    change 'describe' for 'suit'
+
+commit db8bfabc3b4baedb470de5d029f87d7ee6e457dd
+Author: David Perez Alvarez <david@leddgroup.com>
+Date:   Sun Apr 28 20:44:33 2019 -0400
+
+    test: improve tests
+
+commit 5f6ca6ba1c086fa1311a3dc80e1842b7f8ed4ff5
+Author: David Perez Alvarez <david@leddgroup.com>
+Date:   Sun Apr 28 18:40:11 2019 -0400
+
+    test: remove cypress
+
+commit f0af97d38814fcfbe67038b6ab8cd181680aae9f
+Author: David Perez Alvarez <david@leddgroup.com>
+Date:   Sun Apr 28 18:36:34 2019 -0400
+
+    test: add basic scroll test
+
+commit 34fef3c9d6708bc77275eea1965f998d89997141
+Author: David Perez Alvarez <david@leddgroup.com>
+Date:   Sun Apr 28 17:45:34 2019 -0400
+
+    test: basic browserstack test config
+
+* chore: remove yarn.lock
+
+* chore: new api
+
+* feat: add getElementPlacement
+
+* fix: proper handling of scroll to element ""percent""
+
+* chore: use scrollSize as avaliable scroll instead of scrollSize
+
+* fix: scrolling in document element
+
+* perf: replace ScrollElement class with functions
+
+* refactor: remove unnecessary getters
+
+* refactor: change detection of external scroll
+
+* perf: not removing all scroll animations
+
+* fix: scrollSize getter
+
+* fix: make tests use new api
+
+* refactor: move ""element"" function logic to 'ScrollElement'
+
+* fix: remove browserstack scripts returning cyclic structures
+
+* test: improve centerElement test
+
+* refactor: improve api
+
+* docs(wip): update readme
+
+* refactor: rename elementRelativePosition => relativeElementPosition
+
+* docs: update readme
+
+* test: update test for elementPosition
+
+* test: use min capabilities test
+
+* fix: getDistToCenterElement not working
+
+* fix: update properly animation position after user scroll
+
+* fix: test capabilities
+
+* test: reduce precision
+
+* refactor: fix codeclimate issues
+
+* docs: add browserstack logo",""
+"7","Update ts-node to the latest version 🚀 (#46)
+
+* chore(package): update ts-node to version 8.0.3
+
+* chore(package): update lockfile yarn.lock",""
+"8","Update @types/node to the latest version 🚀 (#45)
+
+* chore(package): update @types/node to version 10.12.22
+
+* chore(package): update lockfile yarn.lock",""
+"9","fix(readme): fix 'element' examples",""
+"10","docs(readme): add codepen for examples in README",""
+"11","fix(readme): incorrect external onScroll example",""
+"12","v3 greater refactor (#43)
+
+BREAKING CHANGE: api changed
+* chore: change exported api
+
+* refactor: change animationManager
+
+* chore: remove demo
+
+* docs: update readme
+
+* docs: update readme
+
+* feat: add `misc`
+
+* refactor: remove tests
+
+* feat(misc): add `scrollTo` function
+similar to `scrollBy`
+
+* feat(misc): add `isElementInRange`
+returns `true` if element is visible from its container #14
+
+* docs(readme): fix typo
+
+""design"" -> ""designed""
+
+* fix: missing module in package.json
+ts-node
+
+* test: add cypress
+Squashed commit of the following:
+    test: add screenshots for readme
+    test: refactor tests
+    test: add basic cypress tests
+
+* refactor: change position to scrollPosition
+
+* docs: update README
+
+* chore: remove browserstack",""
+"13","chore(package): update lockfile package-lock.json",""
+"14","docs(readme): add Greenkeeper badge",""
+"15","chore(package): update dependencies",""
+"16","docs: fix README",""
+"17","docs: add toc",""
+"18","fix: change type in `centerElement` from _HTMLElement_ to _Element_",""
+"19","docs(demo): remove readme",""
+"20","docs: update readme",""
+"21","fix: allow `document.querySelector` to instantiate ScrollManager
+
+change `HTMLElement` to `Element`
+`HTMLElement` extends `Element`",""
+"22","docs: add demo link to readme",""
+"23","fix: remove react-markdown from dependencies",""
+"24","docs(demo): fix cdn scroll-utility version
+
+Using scroll-utility@1, now use @2",""
+"25","docs: add badge for npm downloads",""
+"26","test: fix creating `scrollManager` scope",""
+"27","chore: fix exports and update readme",""
+"28","docs(demo): improve demo
+
+use new api
+
+docs(demo): add styled-components
+
+docs(demo): improve rulers
+
+docs(demo): add more ruler types
+
+docs(demo): improve site generation
+
+add prism
+
+docs(demo): remove some positioned elements
+
+docs: improve positioning
+
+docs(demo): improve styles
+
+docs: improve styles
+
+docs: improve grid responsiveness
+
+docs: add basic set of buttons in topbar
+
+docs: fix importing raw files
+
+docs(wip): add more documentation
+
+improve styles
+
+docs(wip): add CenterElement component
+
+fix: use new api
+
+docs(wip): refactor demo
+
+docs: improve demo
+
+docs: wip improve demo
+
+docs: improve demo
+
+docs(demo): add rightbar
+
+docs: move most styles to css",""
+"29","test: update tests to new api
+
+test: use new api",""
+"30","refactor: improve engine
+
+refactor: add PartialRecursive for Settings
+
+types thanks to Daniel Perez Alvarez <daniel@protonmail.com>
+
+refactor: add default settings file
+
+refactor: remove value from Options
+
+refactor: export (default) `windowScrollManager`
+
+`windowScrollManager` its usually prefer ed to scroll
+
+fix: incorrectly handling shouldBe when out of limits
+
+fix: minor problems
+
+fix: incorrectly handling shouldBe when out of limits",""
+"31","readme: note that no longer maintained
+
+Acknowledge that with UW-Madison's stepping away, this is now largely unmaintained.",""
+"32","Merge pull request #1051 from nogalpaulina/activate-myuw-feedback-component
+
+Activate Feedback Web Component in header",""
+"33","Activate Feedback Web Component in header",""
+"34","chore(release):prepare for next development iteration",""
+"35","chore(release):prepare release uportal-app-framework-maven-21.0.4",""
+"36","Merge pull request #1050 from nogalpaulina/tooltip-style-adj
+
+Adjust height and line-height of the tooltip for better readability",""
+"37","Adjust height and line-height of the tooltip for better readibility",""
+"38","Merge pull request #1049 from nogalpaulina/tooltips-adjustments
+
+Adjust z-index and position of tooltips attached to header buttons",""
+"39","Adjust z-index and position of tooltips attached to header buttons",""
+"40","chore(release):prepare for next development iteration",""
+"41","chore(release):prepare release uportal-app-framework-maven-21.0.3",""
+"42","Merge pull request #1048 from nogalpaulina/myuw-feedback-v-update
+
+Update myuw-feedbback version",""
+"43","Update myuw-feedbback version",""
+"44","Merge pull request #1047 from nogalpaulina/myuw-help-v-update
+
+Updates  myuw-help to v.1.5.5",""
+"45","Updates  to v.1.5.5",""
+"46","Merge pull request #1046 from nogalpaulina/add-favorites-hover-style
+
+Revert removing border when hovering on Add To Home button",""
+"47","Revert removing border when hovering on Add To Home button",""
+"48","Merge pull request #1045 from nogalpaulina/fix-widget-less-2
+
+Fix mismatched closing curly braces",""
+"49","Fix missmatched closing curly braces",""
+"50","Merge pull request #1044 from uPortal-Project/fix-widget-less
+
+add missing } in widget.less",""
+"51","add missing } in widget.less",""
+"52","Merge pull request #1043 from nogalpaulina/update-myuw-versions
+
+Updates myuw-feedback and myuw-help versions",""
+"53","Visual improvements for hover and focus effects on interactive elements",""
+"54","Updates myuw-feedback and myuw-help versions",""
+"55","Merge pull request #1042 from nogalpaulina/widget-action-focus-style
+
+Apply focus & hover style to widget action button",""
+"56","Apply focus style to widget action button",""
+"57","Merge pull request #1041 from nogalpaulina/apply-material-style-to-tooltips
+
+Make tooltips more readable by applying contrasting background",""
+"58","Make tooltips more readible by applying contrasting background",""
+"59","Merge pull request #1040 from nogalpaulina/update-profile-version
+
+Include lastName to be passed into myuw-login event listener",""
+"60","Include lastName to be passed into myuw-login event listener",""
+"61","refactor: remove unused field `ServiceWorkerMain::weak_factory_` (#46171)
+
+refactor: remove unused field ServiceWorkerMain::weak_factory_
+
+Added in a467d06, appears to have never been used",""
+"62","refactor: remove unused method `ElectronBrowserContext::GetWeakPtr()` (#46170)
+
+* refactor: use forward declaration of MediaDeviceIDSalt in electron_browser_context.h
+
+* refactor: remove unused #include from browser_context.h
+
+* refactor: remove unused ElectronBrowserContext::GetWeakPtr()
+
+last use removed in Aug 2020 by bac2f46",""
+"63","refactor: use `= default` to define trivial destructors (#46165)
+
+refactor: use '= default' to define trivial destructors",""
+"64","build: Use windows src cache (#45881)
+
+build: use source cache on windows",""
+"65","refactor: reduce coupling in `electron::api::Protocol` (#46122)
+
+* refactor: decouple api::Protocol from ElectronBrowserContext
+
+now they do not know about each other
+
+* refactor: make electron::api::ProtocolError private
+
+* refactor: remove unused isolate arg in Protocol constructor
+
+* refactor: use =default for trivial destructor",""
+"66","fix: remove `File.path` from types (#46005)",""
+"67","fix: add missing `cpp_heap` to Node.js worker `CreateParams` (#46104)",""
+"68","feat: add ffmpeg.dll to delay load configuration (#46151)
+
+feat: set ffmpeg.dll as a delay-loaded DLL
+
+Updated the /DELAYLOAD linker config in BUILD.gn to set ffmpeg.dll
+as a delay-loaded DLL. This reduces startup overhead and prevents unnecessary
+loading when ffmpeg-related functionality is not used (e.g., the browser process
+was unnecessarily loading it).",""
+"69","refactor: use upstream `Widget::IsVisibleOnAllWorkspaces()` (#45887)
+
+* refactor: use upstream Widget::IsVisibleOnAllWorkspaces()
+
+* chore: add to breaking changes",""
+"70","refactor: make URLPipeLoader private (#46113)
+
+Move the URLPipeLoader class into an anonymous namespace in
+electron_url_loader_factory.cc.",""
+"71","refactor: Add `ElectronBrowserContext::BrowserContexts()` (#46089)
+
+* refactor: add ElectronBrowserContext::BrowserContexts()
+
+* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronBrowserMainParts::PostMainMessageLoopRun()
+
+* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronExtensionsBrowserClient::IsValidContext()
+
+* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronExtensionsBrowserClient::BroadcastEventToRenderers()
+
+* refactor: move PartitionKey, BrowserContextMap private
+
+* refactor: add ElectronBrowserContext::IsValidContext()
+
+decouple ElectronExtensionsBrowserClient from the internals of ElectronBrowserContext",""
+"72","refactor: use base::NumberToString() (#46141)
+
+base::NumberToString() is slightly more efficient than
+absl::StrFormat(""%u"").",""
+"73","refactor: remove ToV8(isolate, const char*) (#46108)",""
+"74","fix: APNS token ids are lowercase ASCII (#46101)",""
+"75","fix: `webContents.print()` crash on Linux (#46087)",""
+"76","build: combine pipewire patches (#46129)",""
+"77","docs: use optional chaining for `app.dock` (#46119)
+
+docs: use optional chaining for app.dock",""
+"78","test: disable `parallel/test-worker-resource-limits` (#46105)
+
+test: disable parallel/test-worker-resource-limits",""
+"79","docs: fix code example in breaking-changes.md (#46093)",""
+"80","build: fail for out of date patches on forks (#46080)",""
+"81","chore: bump chromium to 136.0.7067.0 (main) (#46018)
+
+* chore: bump chromium in DEPS to 136.0.7066.0
+
+* chore: bump chromium in DEPS to 136.0.7067.0
+
+* 6325710: [LNA] Add Local Network Access permission type
+
+Refs https://chromium-review.googlesource.com/c/chromium/src/+/6325710
+
+* 6342514: Create frame mojo endpoints in renderer during window.open()
+
+Refs https://chromium-review.googlesource.com/c/chromium/src/+/6342514
+
+* 6344040: Create widget mojo endpoints in renderer process for window.open()
+
+Refs https://chromium-review.googlesource.com/c/chromium/src/+/6344040
+
+* chore: update patches
+
+* 6349218: Move ExtensionService::install_directory() to ExtensionRegistrar
+
+Refs https://chromium-review.googlesource.com/c/chromium/src/+/6349218
+
+* 6349395: Move ExtensionService::extensions_enabled() to ExtensionRegistrar
+
+Refs https://chromium-review.googlesource.com/c/chromium/src/+/6349395
+
+* 6331510: Migrate views::Background class to ui::ColorVariant | https://chromium-review.googlesource.com/c/chromium/src/+/6331510
+
+* build: reorder set-cookie step https://github.com/electron/electron/pull/46091
+
+---------
+
+Co-authored-by: electron-roller[bot] <84116207+electron-roller[bot]@users.noreply.github.com>
+Co-authored-by: David Sanders <dsanders11@ucsbalum.com>
+Co-authored-by: alice <alice@makenotion.com>",""
+"82","test: fix `app.dock` for corrected type (#46110)
+
+test: fix app.dock for corrected type",""
+"83","docs: fix types of `app.dock` (#46073)",""
+"84","build: move set chromium cookie before build tools step (#46091)
+
+build: move set cookie before build tools",""
+"85","refactor: add `ElectronBrowserContext::GetDefaultBrowserContext()` (#46065)
+
+* refactor: add ElectronBrowserContext::DestroyAllContexts()
+
+Simpler semantics than previous implementation; also hides the
+""default context must be destroyed last"" implementation detail.
+
+* refactor: add ElectronBrowserContext::GetDefaultBrowserContext()
+
+clearer semantics than everyone calling From("""", false)",""
+"86","refactor: use `GetDefaultStoragePartition()` instead of `GetStoragePartition(nullptr)` (#46064)
+
+refactor: use GetDefaultStoragePartition()
+
+Use GetDefaultStorageParition() instead of GetStoragePartition(nullptr)
+
+- It improves code uniformity, since we use get-default everywhere else
+- It's more readable
+- It's marginally faster, since GetStoragePartition() has more steps
+
+Added in https://github.com/electron/electron/pull/28907/commits/49b0a1bf4a6c032d1788aac56c1e5eaa0f61e3d3",""
+"87","fix: warning in file picker UI (#46067)",""
+"88","chore: e patches all (#46068)",""
+"89","perf: avoid redundant map lookup in ElectronBrowserContext::From() (#46044)
+
+perf: avoid redundant map lookup in ElectronBrowserContext::FromPath()",""
+"90","build: fix compound bash conditional in patchup (#46047)",""
+"91","readme: reflect that no longer maintained.
+
+Unmaintained.",""
+"92","Merge pull request #943 from uPortal-Project/self-aware-compact-mode
+
+Make modes and switching modes more discoverable",""
+"93","Make modes and switching modes more discoverable",""
+"94","chore(release):prepare for next development iteration",""
+"95","chore(release):prepare release uportal-home-parent-14.0.4",""
+"96","Changelog update for uPortal-app-framework 21.0.4 release (#942)",""
+"97","Merge pull request #939 from uPortal-Project/fix-build-on-snapshot
+
+build on frame 21.0.4-SNAPSHOT",""
+"98","build on frame 21.0.4-SNAPSHOT
+
+build on latest SNAPSHOT of uPortal-app-framework ( https://github.com/uPortal-Project/uportal-app-framework/blob/master/pom.xml#L27 ), so that latest snapshot of uPortal-home builds on latest snapshot of uPortal-app-framework so that an environment running uPortal-home latest snapshot is using the latest everything.",""
+"99","chore(release):prepare for next development iteration",""
+"100","chore(release):prepare release uportal-home-parent-14.0.3",""
+"101","Improve accessibility of tabbing through widgets in compact mode (#938)
+
+* Removes white border style when hovering over 'Add more to home' on compact layout
+
+* Removes unnecessary taindex from list items surrounding widgets
+
+* Adds tabindex to Add to home button as a fix for button being inaccessible in Firefox",""
+"102","Removes white border style when hovering over 'Add more to home' on compact layout (#937)",""
+"103","chore(release):prepare for next development iteration",""
+"104","chore(release):prepare release uportal-home-parent-14.0.2",""
+"105","prep 14.0.2 release",""
+"106","Merge pull request #936 from uPortal-Project/drop-duplicates-during-layout-migrate
+
+drop duplicate fnames when migrating layout from old layout backend",""
+"107","drop duplicate fnames when migrating layout from old layout backend",""
+"108","fix typo in dependency on latest framework snapshot",""
+"109","changelog: style: no end period in version number",""
+"110","changelog: reflect today's 14.0.1 release",""
+"111","chore(release):prepare for next development iteration",""
+"112","chore(release):prepare release uportal-home-parent-14.0.1",""
+"113","Merge pull request #935 from uPortal-Project/style
+
+style: address some eslint flagged issues in /layout/services.js",""
+"114","style: prefer AngularJS $log service over bare console log
+
+https://eslint.org/docs/rules/no-console",""
+"115","style: add trailing comma
+
+appease eslint https://eslint.org/docs/rules/comma-dangle",""
+"116","style: remove space after key
+
+appease eslint https://eslint.org/docs/rules/key-spacing",""
+"117","style: remove space before function parens
+
+appease eslint https://eslint.org/docs/rules/space-before-function-paren",""
+"118","style: remove block padding
+
+appease eslint https://eslint.org/docs/rules/padded-blocks",""
+"119","style: shorten too-long lines
+
+appease eslint https://eslint.org/docs/rules/max-len",""
+"120","style: prefer single quote rather than double quote
+
+https://eslint.org/docs/rules/quotes",""
+"121","chore(deps): update actions/checkout action to v4 (#950)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",""
+"122","docs: Add link to commit-and-tag-version as per #919 (#930)",""
+"123","chore(master): release 9.5.0 (#867)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"124","feat(deprecated): add deprecation message (#907)",""
+"125","fix(deps): update dependency conventional-changelog-conventionalcommits to v4.6.3 (#866)
+
+Co-authored-by: Renovate Bot <renovate@whitesourcesoftware.com>
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"126","fix(deps): update dependency conventional-changelog to v3.1.25 (#865)
+
+Co-authored-by: Renovate Bot <renovate@whitesourcesoftware.com>",""
+"127","chore(master): release 9.4.0 (#864)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"128","build: run tests on label",""
+"129","feat: add .cjs config file (#717)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"130","build: update publish configuration",""
+"131","test: updates .gitignore test to check against a default package and bump file found in the gitignore (#841)",""
+"132","chore: Move to native fs.access, removes fs-access package. (#840)
+
+closes #793",""
+"133","fix: Ensures provided `packageFiles` arguments are merged with `bumpFiles` when no `bumpFiles` argument is specified (default). (#534)
+
+- Merges `packageFiles` with `defaults.bumpFiles` before merging in arguments when a `packageFile` argument is present.
+- Adds some simple ""validation"" to updaters and improves error messaging.
+- Adds a test case covering #533
+
+closes #533",""
+"134","chore(deps): update dependency eslint-plugin-promise to v5 (#745)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>",""
+"135","test: adds basic coverage for --preset flag and CHANGELOG output (#723)
+
+closes #720",""
+"136","chore: release 9.3.2 (#836)
+
+Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>",""
+"137","fix(deps): update dependency conventional-changelog-conventionalcommits to v4.6.1 (#752)
+
+Co-authored-by: Renovate Bot <renovate@whitesourcesoftware.com>",""
+"138","chore(deps): update codecov/codecov-action action to v2 (#784)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>",""
+"139","chore: release 9.3.1 (#781)
+
+Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>",""
+"140","fix(updater): npm7 package lock's inner version not being updated (#713)",""
+"141","chore: release 9.3.0 (#755)
+
+Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>",""
+"142","feat: add --lerna-package flag used to extract tags in case of lerna repo (#503)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"143","chore: release 9.2.0 (#736)
+
+Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>",""
+"144","feat: allows seperate prefixTag version sequences (#573)",""
+"145","docs: Improve documentation on providing an empty tag-prefix (#579)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>
+Co-authored-by: Joe Bottigliero <694253+jbottigliero@users.noreply.github.com>
+
+fixes #490",""
+"146","docs: Updated generate artifacts code snippet (#645)
+
+Co-authored-by: Joe Bottigliero <694253+jbottigliero@users.noreply.github.com>",""
+"147","chore: Updates nyc and moves to Codecov (#701)
+
+chore(deps): Updates nyc and moves to Codecov 
+chore: Adds Codecov badge to README
+ci: Updates test matrix to include NodeJS distributions across multiple OS.",""
+"148","chore: release 9.1.1 (#697)
+
+Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>",""
+"149","fix(deps): update dependency conventional-recommended-bump to v6.1.0 (#695)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>",""
+"150","fix(deps): update dependency yargs to v16 (#660)
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>",""
+"151","chore: switch to non-deprecated GH action (#791)",""
+"152","chore: release main (#790)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"153","fix: `istanbul-lib-source-maps` implicit `else` crash edge case (#789)",""
+"154","chore: release main (#788)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"155","fix: `istanbul-lib-source-maps` to preserve implicit `else` when sourcemaps are used (#706)",""
+"156","chore: release main (#787)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"157","fix: allow use of importAttributes Babel parser plugin (#786)",""
+"158","chore: release main (#780)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"159","fix: handle missing source map",""
+"160","chore: release main (#779)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"161","fix: correct CI check to properly release 5.0.1",""
+"162","chore: release main (#778)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"163","fix: correct CI badge in source-maps readme",""
+"164","chore: attempt yet again to fix publish (#775)",""
+"165","chore: maybe fix release (#773)",""
+"166","chore: release main (#772)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"167","chore: update GH Actions (#769)",""
+"168","fix: use `allGeneratedPositionsFor` for more accurate source map transforms (#771)",""
+"169","chore: release main (#770)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"170","refactor!: replace source-map with @jridgewell/trace-mapping (#685)",""
+"171","fix: use `allGeneratedPositionsFor` for more accurate source map transforms (#768)
+
+See reasoning in https://github.com/istanbuljs/istanbuljs/pull/743#discussion_r1496887454 and https://github.com/istanbuljs/istanbuljs/pull/685#discussion_r887426322.
+
+This will enable us to switch to `TraceMap` without any test failures.",""
+"172","chore: remove Greenkeeper badges (#767)",""
+"173","chore: run CI on Node versions 18 and 20 as well (#744)",""
+"174","chore: release main (#766)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"175","build: rename master to main (#765)
+
+Rename master branch to main.",""
+"176","fix(ux): address bug with firefox event handling
+
+Co-authored-by: Alex Ristich <alex.ristich@zalando.de>
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"177","fix(deps): update deps addressing CVE-2023-45133",""
+"178","chore: release master (#755)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"179","fix: Proper data validation in findNearestContainer (#754)
+
+This prevents a thrown when the statement map needs to be processed for
+container hits, because the statement map entries do not contain a ""loc""
+field, they just have this inforation at the top level.
+
+Fix: #753",""
+"180","chore: release master (#752)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"181","docs",""
+"182","13.1.0",""
+"183","conditionally close modal and drawers",""
+"184","conditionally close modal and drawers",""
+"185","13.0.1",""
+"186","modal open prop",""
+"187","modal open prop",""
+"188","formatting and docs",""
+"189","13.0.0",""
+"190","test",""
+"191","bump css",""
+"192","12.1.1",""
+"193","update deps",""
+"194","12.1.0",""
+"195","autocomplete fix",""
+"196","12.0.5",""
+"197","package json update",""
+"198","12.0.4",""
+"199","formatting",""
+"200","formatting",""
+"201","12.0.4",""
+"202","tests",""
+"203","update demo component with latest hljs
+
+update deps",""
+"204","12.0.3",""
+"205","update deps",""
+"206","12.0.2",""
+"207","update deps",""
+"208","12.0.1",""
+"209","update deps",""
+"210","chore(deps): bump nth-check from 2.0.0 to 2.0.1 (#250)",""
+"211","docs: add example for objects using ENV vars (#2436)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"212","docs: improve readme (#2440)",""
+"213","fix(build): address problems with typescript compilation (#2445)",""
+"214","fix: propagate Dictionary including undefined in value type (#2393)",""
+"215","doc: switch legacy .argv to .parse() (#2346)",""
+"216","feat(locale): adds hebrew translation (#2357)",""
+"217","chore(deps): update dependency @types/node to v20 (#2370)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",""
+"218","docs: fix typos in .terminalWidth example (#2382)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"219","fix(build): update typescript / eslint / rollup deps fixing bundling of yargs (#2384)
+
+build(node)!: require Node >= 16.15.1",""
+"220","docs: missing return in usage builder function (#2328)",""
+"221","fix: exit after async handler done (#2313)",""
+"222","fix: coerce should play well with parser configuration (#2308)",""
+"223","docs: Fix example of coerce (#2316)",""
+"224","build: add watch run-script",""
+"225","chore(main): release 17.7.2 (#2323)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"226","fix: do not crash completion when having negated options (#2322)
+
+Current completion crashes when using ZSH and having negated options.",""
+"227","chore(main): release 17.7.1 (#2304)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"228","fix: address display bug with default sub-commands (#2303)
+
+Fixes #2291, #2247",""
+"229","chore(main): release 17.7.0 (#2285)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"230","feat: convert line break to whitespace for the description of the option (#2271)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"231","test: mock additional hasColors method introduced in Node 16 (#2297)",""
+"232","fix: copy the description of the option to its alias in completion (#2269)",""
+"233","chore: add en strings for unknown command (#2262)
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"234","feat: add method to hide option extras (#2156)",""
+"235","build: pin npm version (#2284)",""
+"236","chore(main): release 17.6.2 (#2260)
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",""
+"237","fix(lang): typo in Finnish unknown argument singular form (#2222)",""
+"238","docs: add Typescript example for .terminalWidth() (#2224)
+
+Add example note of `.wrap()` method usage with `.terminalWidth()`.
+
+Ref: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"239","docs: add Typescript example for .terminalWidth() (#2224)
+
+Add example note of `.wrap()` method usage with `.terminalWidth()`.
+
+Ref: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""
+"240","fix(deps): update dependency yargs-parser to v21.1.1 (#2231)
+
+Currently the `yargs` is not usable in Deno with `.env()`. 
+This was fixed in https://github.com/yargs/yargs-parser/pull/432
+It was released in yargs-parser v21.0.1
+This dependency bump will fix `yargs` for Deno.
+
+Co-authored-by: Benjamin E. Coe <bencoe@google.com>",""

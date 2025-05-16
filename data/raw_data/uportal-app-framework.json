@@ -1,0 +1,2522 @@
+[
+    {
+        "sha": "6122fdb38ae460cdfe66b5e1e7356403f55dc8c5",
+        "node_id": "C_kwDOAmdAq9oAKDYxMjJmZGIzOGFlNDYwY2RmZTY2YjVlMWU3MzU2NDAzZjU1ZGM4YzU",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-05-03T18:24:14Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-05-03T18:24:14Z"
+            },
+            "message": "readme: note that no longer maintained\n\nAcknowledge that with UW-Madison's stepping away, this is now largely unmaintained.",
+            "tree": {
+                "sha": "84d612a627dbfc175dcfea25c394428aa78288c7",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/84d612a627dbfc175dcfea25c394428aa78288c7"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/6122fdb38ae460cdfe66b5e1e7356403f55dc8c5",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJicXNOCRBK7hj4Ov3rIwAA2BkIAARt4GYz3pRS+z6Vi8iLnSZx\ntySHjgNU8kOxlCsOBp/Gi8rbkuE7NSg1r6wwYG6SiU0+gfz+ZiKv+FlJNXv0fUif\nLHPgIs2OdDEnXFP5JEU6/jB3IKe56vB6lyM7wKdsuF1AvxN4byw7yKa7FRRsCZrn\ntVWUk1rBSiSavNJC56Kc1A2NR66s2q2A/7MTg6UbFqO4iK5D6b1iCHM54DvHkd/y\nfs22dYIkoA932uU9ZHV3kULR8c3NNBFxDQwHP4Z/2SXM1Tjr6cFMztFKyrVdCg/a\n97H8NANE1Ho49Nqtr4IWj+V6D6xxfL6UHrycoWVzo5mXVSn0OHvwcYLXU6xvdmY=\n=cFLT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 84d612a627dbfc175dcfea25c394428aa78288c7\nparent 943f8215d6e7a35c44b7d300d4bfef8ac644d5fc\nauthor Andrew Petro <andrew.petro@wisc.edu> 1651602254 -0500\ncommitter GitHub <noreply@github.com> 1651602254 -0500\n\nreadme: note that no longer maintained\n\nAcknowledge that with UW-Madison's stepping away, this is now largely unmaintained.",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/6122fdb38ae460cdfe66b5e1e7356403f55dc8c5",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/6122fdb38ae460cdfe66b5e1e7356403f55dc8c5",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/6122fdb38ae460cdfe66b5e1e7356403f55dc8c5/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "943f8215d6e7a35c44b7d300d4bfef8ac644d5fc",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/943f8215d6e7a35c44b7d300d4bfef8ac644d5fc",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/943f8215d6e7a35c44b7d300d4bfef8ac644d5fc"
+            }
+        ]
+    },
+    {
+        "sha": "943f8215d6e7a35c44b7d300d4bfef8ac644d5fc",
+        "node_id": "C_kwDOAmdAq9oAKDk0M2Y4MjE1ZDZlN2EzNWM0NGI3ZDMwMGQ0YmZlZjhhYzY0NGQ1ZmM",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-30T14:42:30Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-03-30T14:42:30Z"
+            },
+            "message": "Merge pull request #1051 from nogalpaulina/activate-myuw-feedback-component\n\nActivate Feedback Web Component in header",
+            "tree": {
+                "sha": "e29521ccce0956f2da70407bb509f53ee083dfe2",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/e29521ccce0956f2da70407bb509f53ee083dfe2"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/943f8215d6e7a35c44b7d300d4bfef8ac644d5fc",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiRGxWCRBK7hj4Ov3rIwAA02oIAKXtAi1TSmqOCe02bukxjUKR\nQo44l0/11zlgIxpq8R3J6I3M8GAJWj6A7bqLV1xlwRm9iAGVgOgUkedHfvJGxK3B\nwo7CZxMAPDr6cabJQ4t0uqhab5PJYYK2wCZSJjyHKTjuQnQVF7IXWDb4L4mpGLBD\nyharfWqpWHJdT5TYOsueP8uO2vLrxM6NVovQ2dc93R7vUciyOBEmzQmXL0ZBWV8H\n0C059lzBkHR4JERMhJIE+2pkgQFOObKBSnAXkoUn9wuRC3PgZ56gteXG5h7sl34X\nnKZ2sT/Fpo/HWVsqSIGKfjNcjxS8Lhypin+Im1LTNLv54oT19sElJS2bk/FD74c=\n=aNSY\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree e29521ccce0956f2da70407bb509f53ee083dfe2\nparent c6b943fc54808bb1990a81f8a3094595876da0f8\nparent 724e8ee34ae743b98d8a8891d6bb9919d9152867\nauthor nogalpaulina <pnogal@wisc.edu> 1648651350 -0500\ncommitter GitHub <noreply@github.com> 1648651350 -0500\n\nMerge pull request #1051 from nogalpaulina/activate-myuw-feedback-component\n\nActivate Feedback Web Component in header",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/943f8215d6e7a35c44b7d300d4bfef8ac644d5fc",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/943f8215d6e7a35c44b7d300d4bfef8ac644d5fc",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/943f8215d6e7a35c44b7d300d4bfef8ac644d5fc/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c6b943fc54808bb1990a81f8a3094595876da0f8",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/c6b943fc54808bb1990a81f8a3094595876da0f8",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/c6b943fc54808bb1990a81f8a3094595876da0f8"
+            },
+            {
+                "sha": "724e8ee34ae743b98d8a8891d6bb9919d9152867",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/724e8ee34ae743b98d8a8891d6bb9919d9152867",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/724e8ee34ae743b98d8a8891d6bb9919d9152867"
+            }
+        ]
+    },
+    {
+        "sha": "724e8ee34ae743b98d8a8891d6bb9919d9152867",
+        "node_id": "C_kwDOAmdAq9oAKDcyNGU4ZWUzNGFlNzQzYjk4ZDhhODg5MWQ2YmI5OTE5ZDkxNTI4Njc",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-30T14:35:28Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-30T14:40:10Z"
+            },
+            "message": "Activate Feedback Web Component in header",
+            "tree": {
+                "sha": "e29521ccce0956f2da70407bb509f53ee083dfe2",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/e29521ccce0956f2da70407bb509f53ee083dfe2"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/724e8ee34ae743b98d8a8891d6bb9919d9152867",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/724e8ee34ae743b98d8a8891d6bb9919d9152867",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/724e8ee34ae743b98d8a8891d6bb9919d9152867",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/724e8ee34ae743b98d8a8891d6bb9919d9152867/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c6b943fc54808bb1990a81f8a3094595876da0f8",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/c6b943fc54808bb1990a81f8a3094595876da0f8",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/c6b943fc54808bb1990a81f8a3094595876da0f8"
+            }
+        ]
+    },
+    {
+        "sha": "c6b943fc54808bb1990a81f8a3094595876da0f8",
+        "node_id": "C_kwDOAmdAq9oAKGM2Yjk0M2ZjNTQ4MDhiYjE5OTBhODFmOGEzMDk0NTk1ODc2ZGEwZjg",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:59:51Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:59:51Z"
+            },
+            "message": "chore(release):prepare for next development iteration",
+            "tree": {
+                "sha": "258485186b91a10c6f1864f6298202a18ff6faed",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/258485186b91a10c6f1864f6298202a18ff6faed"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/c6b943fc54808bb1990a81f8a3094595876da0f8",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/c6b943fc54808bb1990a81f8a3094595876da0f8",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/c6b943fc54808bb1990a81f8a3094595876da0f8",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/c6b943fc54808bb1990a81f8a3094595876da0f8/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7f4ece76858f81dc2d757b74a9671f429a1f8a9a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/7f4ece76858f81dc2d757b74a9671f429a1f8a9a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/7f4ece76858f81dc2d757b74a9671f429a1f8a9a"
+            }
+        ]
+    },
+    {
+        "sha": "7f4ece76858f81dc2d757b74a9671f429a1f8a9a",
+        "node_id": "C_kwDOAmdAq9oAKDdmNGVjZTc2ODU4ZjgxZGMyZDc1N2I3NGE5NjcxZjQyOWExZjhhOWE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:59:50Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:59:50Z"
+            },
+            "message": "chore(release):prepare release uportal-app-framework-maven-21.0.4",
+            "tree": {
+                "sha": "28467807ef1a8d74997fe5ebe1d7d303e99d5d6c",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/28467807ef1a8d74997fe5ebe1d7d303e99d5d6c"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/7f4ece76858f81dc2d757b74a9671f429a1f8a9a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/7f4ece76858f81dc2d757b74a9671f429a1f8a9a",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/7f4ece76858f81dc2d757b74a9671f429a1f8a9a",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/7f4ece76858f81dc2d757b74a9671f429a1f8a9a/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4"
+            }
+        ]
+    },
+    {
+        "sha": "7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4",
+        "node_id": "C_kwDOAmdAq9oAKDdiY2I4MzdkNzNmN2U5NzY5ZDRmMjE0ZGViN2E3ZTE5ZTJiMGJhZDQ",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:51:40Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-03-07T20:51:40Z"
+            },
+            "message": "Merge pull request #1050 from nogalpaulina/tooltip-style-adj\n\nAdjust height and line-height of the tooltip for better readability",
+            "tree": {
+                "sha": "82e9ab67d44470406c709e1b99fb5703dcc8de51",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/82e9ab67d44470406c709e1b99fb5703dcc8de51"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiJnBcCRBK7hj4Ov3rIwAAFQwIAHZaiJ4FPktPPwG39n6+rr4L\ndtJcfiCLlb8gMgi3Ppns2bIczoHB/yzwPdle/Cn5AZu3mDuVOebLuDSga6K5T9+E\nSF7O0ByKq+s62yHtmgnllqPSmZtuzHoU+TZXdwAAMA4gxCkg8RKp5yttGtU4+Oyx\nfbIJ5IXmU7QfllQ7jTu3WpJKse0EbvDw7kqy2BBgjLqnFO3JB4tkMcPOFpUbLQVL\nCi96zx7EoIVv1Swbhs0oPrF8iRt3SmWzFhWSi2TCt8eh+Z3fdIrwkJKbwRQ25LzK\nPN1gQX9jUZpyxbCT9Y1vyvmmUrcBy/EBTT2TXqxAGg8kezRjO7gJm71Ok621hPA=\n=O1d1\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 82e9ab67d44470406c709e1b99fb5703dcc8de51\nparent 1584419a59105ba85222eb32d02f3965b3e5c4ee\nparent 5bca9432b5123898cc8c95bb6df62837d553d4c1\nauthor nogalpaulina <pnogal@wisc.edu> 1646686300 -0600\ncommitter GitHub <noreply@github.com> 1646686300 -0600\n\nMerge pull request #1050 from nogalpaulina/tooltip-style-adj\n\nAdjust height and line-height of the tooltip for better readability",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/7bcb837d73f7e9769d4f214deb7a7e19e2b0bad4/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1584419a59105ba85222eb32d02f3965b3e5c4ee",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/1584419a59105ba85222eb32d02f3965b3e5c4ee",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/1584419a59105ba85222eb32d02f3965b3e5c4ee"
+            },
+            {
+                "sha": "5bca9432b5123898cc8c95bb6df62837d553d4c1",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5bca9432b5123898cc8c95bb6df62837d553d4c1",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/5bca9432b5123898cc8c95bb6df62837d553d4c1"
+            }
+        ]
+    },
+    {
+        "sha": "5bca9432b5123898cc8c95bb6df62837d553d4c1",
+        "node_id": "C_kwDOAmdAq9oAKDViY2E5NDMyYjUxMjM4OThjYzhjOTViYjZkZjYyODM3ZDU1M2Q0YzE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:43:12Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T20:43:12Z"
+            },
+            "message": "Adjust height and line-height of the tooltip for better readibility",
+            "tree": {
+                "sha": "82e9ab67d44470406c709e1b99fb5703dcc8de51",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/82e9ab67d44470406c709e1b99fb5703dcc8de51"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/5bca9432b5123898cc8c95bb6df62837d553d4c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5bca9432b5123898cc8c95bb6df62837d553d4c1",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/5bca9432b5123898cc8c95bb6df62837d553d4c1",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5bca9432b5123898cc8c95bb6df62837d553d4c1/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1584419a59105ba85222eb32d02f3965b3e5c4ee",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/1584419a59105ba85222eb32d02f3965b3e5c4ee",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/1584419a59105ba85222eb32d02f3965b3e5c4ee"
+            }
+        ]
+    },
+    {
+        "sha": "1584419a59105ba85222eb32d02f3965b3e5c4ee",
+        "node_id": "C_kwDOAmdAq9oAKDE1ODQ0MTlhNTkxMDViYTg1MjIyZWIzMmQwMmYzOTY1YjNlNWM0ZWU",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-04T17:23:00Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-03-04T17:23:00Z"
+            },
+            "message": "Merge pull request #1049 from nogalpaulina/tooltips-adjustments\n\nAdjust z-index and position of tooltips attached to header buttons",
+            "tree": {
+                "sha": "76d52fd6270e760503b33cbd2416602631e9fdd6",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/76d52fd6270e760503b33cbd2416602631e9fdd6"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/1584419a59105ba85222eb32d02f3965b3e5c4ee",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiIkr0CRBK7hj4Ov3rIwAA/QEIAD7eSJkqshSvTydOxS0Lc6iS\nL7/7msdjCRbu7NWI7eBVxnpDTNapKp96KB+793S9fFQeFQPoCVsHJ+8xDg5dIROF\nCVkBrAKacyLV11zg5k9Zu7yajdgRoHb80ePSOkq0IItzNMowsaI3kE5YvdDLLIdG\nlMZG0Ifkq1kPAQTf2tn29c3/fOpC15zGlsnd5XSCvU11Kf4eGs+kbOV0zKuuo6Aj\nYyDH+c8h1kkvnBINgkhNWD2J2nTBPU4X7jzi4R9IjP7hMJvrsQfWxpe8mRIlrB0x\ngbSKletyFAw3DcHrRsP3xZUnIKXhbixTi/Ui4NbUPGuAqAppPcM7bML+kfuywPo=\n=HZpD\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 76d52fd6270e760503b33cbd2416602631e9fdd6\nparent b800b018d6ac087f3e8dbff80c49c5a8e8752f6a\nparent 5b7453b83a136f84f3571432ddfab25cefbce17b\nauthor nogalpaulina <pnogal@wisc.edu> 1646414580 -0600\ncommitter GitHub <noreply@github.com> 1646414580 -0600\n\nMerge pull request #1049 from nogalpaulina/tooltips-adjustments\n\nAdjust z-index and position of tooltips attached to header buttons",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/1584419a59105ba85222eb32d02f3965b3e5c4ee",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/1584419a59105ba85222eb32d02f3965b3e5c4ee",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/1584419a59105ba85222eb32d02f3965b3e5c4ee/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a"
+            },
+            {
+                "sha": "5b7453b83a136f84f3571432ddfab25cefbce17b",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5b7453b83a136f84f3571432ddfab25cefbce17b",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/5b7453b83a136f84f3571432ddfab25cefbce17b"
+            }
+        ]
+    },
+    {
+        "sha": "5b7453b83a136f84f3571432ddfab25cefbce17b",
+        "node_id": "C_kwDOAmdAq9oAKDViNzQ1M2I4M2ExMzZmODRmMzU3MTQzMmRkZmFiMjVjZWZiY2UxN2I",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-04T16:48:04Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-04T16:48:04Z"
+            },
+            "message": "Adjust z-index and position of tooltips attached to header buttons",
+            "tree": {
+                "sha": "76d52fd6270e760503b33cbd2416602631e9fdd6",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/76d52fd6270e760503b33cbd2416602631e9fdd6"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/5b7453b83a136f84f3571432ddfab25cefbce17b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5b7453b83a136f84f3571432ddfab25cefbce17b",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/5b7453b83a136f84f3571432ddfab25cefbce17b",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5b7453b83a136f84f3571432ddfab25cefbce17b/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a"
+            }
+        ]
+    },
+    {
+        "sha": "b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+        "node_id": "C_kwDOAmdAq9oAKGI4MDBiMDE4ZDZhYzA4N2YzZThkYmZmODBjNDljNWE4ZTg3NTJmNmE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:38:13Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:38:13Z"
+            },
+            "message": "chore(release):prepare for next development iteration",
+            "tree": {
+                "sha": "9efae8e574391c6044343bb0abf319942ede9dcd",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/9efae8e574391c6044343bb0abf319942ede9dcd"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b800b018d6ac087f3e8dbff80c49c5a8e8752f6a/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "660806327cad149eeb3e7534e67a48052f6498bc",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/660806327cad149eeb3e7534e67a48052f6498bc",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/660806327cad149eeb3e7534e67a48052f6498bc"
+            }
+        ]
+    },
+    {
+        "sha": "660806327cad149eeb3e7534e67a48052f6498bc",
+        "node_id": "C_kwDOAmdAq9oAKDY2MDgwNjMyN2NhZDE0OWVlYjNlNzUzNGU2N2E0ODA1MmY2NDk4YmM",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:38:13Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:38:13Z"
+            },
+            "message": "chore(release):prepare release uportal-app-framework-maven-21.0.3",
+            "tree": {
+                "sha": "217559c3abe709a419258cd7b12872b1175bb7ba",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/217559c3abe709a419258cd7b12872b1175bb7ba"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/660806327cad149eeb3e7534e67a48052f6498bc",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/660806327cad149eeb3e7534e67a48052f6498bc",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/660806327cad149eeb3e7534e67a48052f6498bc",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/660806327cad149eeb3e7534e67a48052f6498bc/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a"
+            }
+        ]
+    },
+    {
+        "sha": "de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a",
+        "node_id": "C_kwDOAmdAq9oAKGRlMGZiNWU1ZDFiZWNiMzkyN2JlOWIyZTdmMzRiYzFmNTZlODU2NGE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:15:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-22T18:15:55Z"
+            },
+            "message": "Merge pull request #1048 from nogalpaulina/myuw-feedback-v-update\n\nUpdate myuw-feedbback version",
+            "tree": {
+                "sha": "1c822b129e24705cf46937a84535726bc952d7c5",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/1c822b129e24705cf46937a84535726bc952d7c5"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiFShbCRBK7hj4Ov3rIwAA2goIAHlmpdnrqxGM93JGcpznshEN\n0zAVzn5iXyl0CB+lVzg3wZrcHZ5aIgg7PHpTiN9aMDQaCM8YVpXZhAMCkHP5zs0R\nJlsO/459+ajU3fB4VsS0qzmOO/iJfhMt+GPZGWUROYEI2ZjSAyIKrybs6WS2KRYD\nUjiSSyW85SbaqmOn1bZbiSRgrHYAwr2Wq1ZHJRk1E8qFJ9WeLUL6bSkdd7ig9pG5\nfCXcfAWMWHnJjmnKpMvTOvg8fK3iMIH1lh4+9TjlhKH7N6X0MMGIwIvfRo5oRhvW\n3wfS5ra8e3GUeqYukuc9vGs7e23T7Ca19N0NomDoA1GztN/PhMAekCR9o6+WAZE=\n=T8bL\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 1c822b129e24705cf46937a84535726bc952d7c5\nparent e0db8c1f1560c53882fdb3d5d25d06291fd82055\nparent 4c54b494dfbf69fa13663ef69c36b355a8a93e7a\nauthor nogalpaulina <pnogal@wisc.edu> 1645553755 -0600\ncommitter GitHub <noreply@github.com> 1645553755 -0600\n\nMerge pull request #1048 from nogalpaulina/myuw-feedback-v-update\n\nUpdate myuw-feedbback version",
+                "verified_at": "2024-11-09T15:03:18Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/de0fb5e5d1becb3927be9b2e7f34bc1f56e8564a/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/e0db8c1f1560c53882fdb3d5d25d06291fd82055"
+            },
+            {
+                "sha": "4c54b494dfbf69fa13663ef69c36b355a8a93e7a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/4c54b494dfbf69fa13663ef69c36b355a8a93e7a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/4c54b494dfbf69fa13663ef69c36b355a8a93e7a"
+            }
+        ]
+    },
+    {
+        "sha": "4c54b494dfbf69fa13663ef69c36b355a8a93e7a",
+        "node_id": "C_kwDOAmdAq9oAKDRjNTRiNDk0ZGZiZjY5ZmExMzY2M2VmNjljMzZiMzU1YThhOTNlN2E",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:00:04Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T18:01:40Z"
+            },
+            "message": "Update myuw-feedbback version",
+            "tree": {
+                "sha": "1c822b129e24705cf46937a84535726bc952d7c5",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/1c822b129e24705cf46937a84535726bc952d7c5"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/4c54b494dfbf69fa13663ef69c36b355a8a93e7a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/4c54b494dfbf69fa13663ef69c36b355a8a93e7a",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/4c54b494dfbf69fa13663ef69c36b355a8a93e7a",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/4c54b494dfbf69fa13663ef69c36b355a8a93e7a/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/e0db8c1f1560c53882fdb3d5d25d06291fd82055"
+            }
+        ]
+    },
+    {
+        "sha": "e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+        "node_id": "C_kwDOAmdAq9oAKGUwZGI4YzFmMTU2MGM1Mzg4MmZkYjNkNWQyNWQwNjI5MWZkODIwNTU",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-21T20:20:44Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-21T20:20:44Z"
+            },
+            "message": "Merge pull request #1047 from nogalpaulina/myuw-help-v-update\n\nUpdates  myuw-help to v.1.5.5",
+            "tree": {
+                "sha": "0ddc34acdef5b11ee482446118f0d0cad32180f4",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/0ddc34acdef5b11ee482446118f0d0cad32180f4"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiE/QcCRBK7hj4Ov3rIwAAkKMIADsFCYYml6Wxh0lOVG+lhJih\nDFDC+honIRZNyTtkikbcgHF2y/oPHanR71Cbc4PXsxUKhufXs1QxpUg5ktLJqbYb\nrLj0AyOoaeOurORf5uasq8jEvkbCtfxu1SDIzXDd1ukXug81PJX4m+FadG+jZ9Cl\nj+RshXzInU9DWcQTGwpycpAmQWG9AG9wBVzOzb9dfaJnviPoYJrPI/D7hzsp6/aq\noYYdpPXgMGOGVdi/VPcU3n51yiMTTGViITBxwMYN/vHemf3L1S/7q3XCQDxiYhjg\nknEalJwvT+b15e241BxNk9YGh5DtmLqk6NDzxYreP22E2GoaMRl9I1ySC+W4yRQ=\n=SkW0\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0ddc34acdef5b11ee482446118f0d0cad32180f4\nparent 257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438\nparent 9d9114d1498982ea29116a01c4514d493f720996\nauthor nogalpaulina <pnogal@wisc.edu> 1645474844 -0600\ncommitter GitHub <noreply@github.com> 1645474844 -0600\n\nMerge pull request #1047 from nogalpaulina/myuw-help-v-update\n\nUpdates  myuw-help to v.1.5.5",
+                "verified_at": "2024-11-09T15:03:18Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/e0db8c1f1560c53882fdb3d5d25d06291fd82055",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e0db8c1f1560c53882fdb3d5d25d06291fd82055/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438"
+            },
+            {
+                "sha": "9d9114d1498982ea29116a01c4514d493f720996",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/9d9114d1498982ea29116a01c4514d493f720996",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/9d9114d1498982ea29116a01c4514d493f720996"
+            }
+        ]
+    },
+    {
+        "sha": "9d9114d1498982ea29116a01c4514d493f720996",
+        "node_id": "C_kwDOAmdAq9oAKDlkOTExNGQxNDk4OTgyZWEyOTExNmEwMWM0NTE0ZDQ5M2Y3MjA5OTY",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-21T20:18:36Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-21T20:20:13Z"
+            },
+            "message": "Updates  to v.1.5.5",
+            "tree": {
+                "sha": "221ceae658da818675aa38589fa29033070c2aaa",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/221ceae658da818675aa38589fa29033070c2aaa"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/9d9114d1498982ea29116a01c4514d493f720996",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/9d9114d1498982ea29116a01c4514d493f720996",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/9d9114d1498982ea29116a01c4514d493f720996",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/9d9114d1498982ea29116a01c4514d493f720996/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0ef9b808d479bd6b344539b92d0ef16e20059760",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0ef9b808d479bd6b344539b92d0ef16e20059760",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0ef9b808d479bd6b344539b92d0ef16e20059760"
+            }
+        ]
+    },
+    {
+        "sha": "257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438",
+        "node_id": "C_kwDOAmdAq9oAKDI1N2RmZjlkMWM4YThjOGRjN2M3NTA0ZWE4ODhjMGQzZTViMjg0Mzg",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-21T14:32:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-21T14:32:16Z"
+            },
+            "message": "Merge pull request #1046 from nogalpaulina/add-favorites-hover-style\n\nRevert removing border when hovering on Add To Home button",
+            "tree": {
+                "sha": "54f347232dbd31dce64caedd2e432beef9f811a1",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/54f347232dbd31dce64caedd2e432beef9f811a1"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiE6JwCRBK7hj4Ov3rIwAArvsIAIWEnO3C5FHyzMziasUgU2i3\n630DpZXkXeW7cIWHgkWZcggn8LkrNpaxJ+vONKTZc3WHshbe7N3dJHkR63NuC6n0\nZqTdyytFNl4Ho7Rdfcv64tfqoo4femsvig1g+EJ54eXLvvX0Y3J9US8K3N4L9k7J\nrBkBjMyJ7YSPa+agkdhmQABF8d7tVQCgmS/Ci0Sws4xLcy9ucC1WR7eB7cAgIfvP\n63OCJ/nE4fy7E0dbeIWL4+YZdlzDJ4aKtUM224g8AE04KDBS/tsR9fDwwUg1ODQJ\nOiYfa01NadYB/R+DmLM3IBXyhl0x/Vxz/lQtJDcvt08FwUIBUFbGlNnbBLyPgeQ=\n=eD/d\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 54f347232dbd31dce64caedd2e432beef9f811a1\nparent 0ef9b808d479bd6b344539b92d0ef16e20059760\nparent f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed\nauthor nogalpaulina <pnogal@wisc.edu> 1645453936 -0600\ncommitter GitHub <noreply@github.com> 1645453936 -0600\n\nMerge pull request #1046 from nogalpaulina/add-favorites-hover-style\n\nRevert removing border when hovering on Add To Home button",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/257dff9d1c8a8c8dc7c7504ea888c0d3e5b28438/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0ef9b808d479bd6b344539b92d0ef16e20059760",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0ef9b808d479bd6b344539b92d0ef16e20059760",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0ef9b808d479bd6b344539b92d0ef16e20059760"
+            },
+            {
+                "sha": "f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed"
+            }
+        ]
+    },
+    {
+        "sha": "f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed",
+        "node_id": "C_kwDOAmdAq9oAKGY5YWIxMzVmMWFiMGE1ZjhlYzFkMmQzNDQ3N2IwOTkwYTIyMjJlZWQ",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-21T14:30:54Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-21T14:30:54Z"
+            },
+            "message": "Revert removing border when hovering on Add To Home button",
+            "tree": {
+                "sha": "54f347232dbd31dce64caedd2e432beef9f811a1",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/54f347232dbd31dce64caedd2e432beef9f811a1"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/f9ab135f1ab0a5f8ec1d2d34477b0990a2222eed/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0ef9b808d479bd6b344539b92d0ef16e20059760",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0ef9b808d479bd6b344539b92d0ef16e20059760",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0ef9b808d479bd6b344539b92d0ef16e20059760"
+            }
+        ]
+    },
+    {
+        "sha": "0ef9b808d479bd6b344539b92d0ef16e20059760",
+        "node_id": "C_kwDOAmdAq9oAKDBlZjliODA4ZDQ3OWJkNmIzNDQ1MzliOTJkMGVmMTZlMjAwNTk3NjA",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-02-18T21:53:43Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-18T21:53:43Z"
+            },
+            "message": "Merge pull request #1045 from nogalpaulina/fix-widget-less-2\n\nFix mismatched closing curly braces",
+            "tree": {
+                "sha": "ca9019f3d95717cea61c3d052fefa84af97c47fe",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/ca9019f3d95717cea61c3d052fefa84af97c47fe"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/0ef9b808d479bd6b344539b92d0ef16e20059760",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiEBVnCRBK7hj4Ov3rIwAAi3QIAFJqsmLtdeodnppZCxQYh1Y7\nN4pYUROWnm+j8qA3PmxLChxzxocQGtMY7pHz0JzoVBM68mfsc3bfPww1JPXD/rQ6\n/iH/wfs6TF/ytZWzN8LaAhKgP+8PFjAkmVt2WeMAydHwJSDxXWVbh7GfoDDN0pKO\nXclBcZGOGJMjJB8fXf9NruuQ46zIafmlaKuCEVBmWTEgtgFVtXbruWlCh8gR3UdB\nOn0EEPm7Cxq8ipu8gK0nDAx9OLc9C9pxoYgURFk+Xnt8+xfPVJ9sUzyd34WAj00h\n0hhGedvwasF6qkPzxa+VsIGY9r2VElIeCVhG2v5HyUxY8b9IXRWsvDmvryQH0WM=\n=8WMP\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ca9019f3d95717cea61c3d052fefa84af97c47fe\nparent e6203e517fa41d82243441cc43219be27517ac68\nparent b2a7da4bf13c84449ee72d417d97d893259aadf0\nauthor Andrew Petro <andrew.petro@wisc.edu> 1645221223 -0600\ncommitter GitHub <noreply@github.com> 1645221223 -0600\n\nMerge pull request #1045 from nogalpaulina/fix-widget-less-2\n\nFix mismatched closing curly braces",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0ef9b808d479bd6b344539b92d0ef16e20059760",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0ef9b808d479bd6b344539b92d0ef16e20059760",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0ef9b808d479bd6b344539b92d0ef16e20059760/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e6203e517fa41d82243441cc43219be27517ac68",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e6203e517fa41d82243441cc43219be27517ac68",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/e6203e517fa41d82243441cc43219be27517ac68"
+            },
+            {
+                "sha": "b2a7da4bf13c84449ee72d417d97d893259aadf0",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b2a7da4bf13c84449ee72d417d97d893259aadf0",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/b2a7da4bf13c84449ee72d417d97d893259aadf0"
+            }
+        ]
+    },
+    {
+        "sha": "b2a7da4bf13c84449ee72d417d97d893259aadf0",
+        "node_id": "C_kwDOAmdAq9oAKGIyYTdkYTRiZjEzYzg0NDQ5ZWU3MmQ0MTdkOTdkODkzMjU5YWFkZjA",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-18T21:47:01Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-18T21:47:01Z"
+            },
+            "message": "Fix missmatched closing curly braces",
+            "tree": {
+                "sha": "ca9019f3d95717cea61c3d052fefa84af97c47fe",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/ca9019f3d95717cea61c3d052fefa84af97c47fe"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/b2a7da4bf13c84449ee72d417d97d893259aadf0",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b2a7da4bf13c84449ee72d417d97d893259aadf0",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/b2a7da4bf13c84449ee72d417d97d893259aadf0",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/b2a7da4bf13c84449ee72d417d97d893259aadf0/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e6203e517fa41d82243441cc43219be27517ac68",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e6203e517fa41d82243441cc43219be27517ac68",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/e6203e517fa41d82243441cc43219be27517ac68"
+            }
+        ]
+    },
+    {
+        "sha": "e6203e517fa41d82243441cc43219be27517ac68",
+        "node_id": "C_kwDOAmdAq9oAKGU2MjAzZTUxN2ZhNDFkODIyNDM0NDFjYzQzMjE5YmUyNzUxN2FjNjg",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-02-18T19:52:24Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-18T19:52:24Z"
+            },
+            "message": "Merge pull request #1044 from uPortal-Project/fix-widget-less\n\nadd missing } in widget.less",
+            "tree": {
+                "sha": "f10e4ed889974b9423e030bbce3c9b51378bdf05",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/f10e4ed889974b9423e030bbce3c9b51378bdf05"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/e6203e517fa41d82243441cc43219be27517ac68",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiD/j4CRBK7hj4Ov3rIwAAgh4IAHyR/XyJdyXd/wCrAIpkraFZ\niywnA5jcn8wd5JOIKsDnEyDfXT7hZ191kk+ittme5qgebf9N7ZAsV9UYX09k5YSW\nRP1nG/gLgdfCzeEKyNauifeOF7ZyG8BfPExePF59qzzzR5Z8VMCihkG7UGlaLjm8\nQIyvvfoakS40ixqnDZP0cwR555jz2CpzqsP/uxEzhYdujwBHRovbCzzWtU9/AiKQ\nn/HfSAL6fZ/nqnNTs1SQgPgPiEaFAjyQDOm/osayaUoXhom0eNp6E8SWbrAphcSo\nRvxWXXfyyKlqPDLTTgv/fAB8rskRJV8ly50uXxn2QO99Zipq0OfGtTMqkYz7moY=\n=Bn6C\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f10e4ed889974b9423e030bbce3c9b51378bdf05\nparent 066e3abc8ad92a595a57d6aaae562e8b8811414b\nparent 2b79553c84279bc642b9bbdad187b0842c4dc3b5\nauthor Andrew Petro <andrew.petro@wisc.edu> 1645213944 -0600\ncommitter GitHub <noreply@github.com> 1645213944 -0600\n\nMerge pull request #1044 from uPortal-Project/fix-widget-less\n\nadd missing } in widget.less",
+                "verified_at": "2024-11-09T15:03:18Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e6203e517fa41d82243441cc43219be27517ac68",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/e6203e517fa41d82243441cc43219be27517ac68",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/e6203e517fa41d82243441cc43219be27517ac68/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "066e3abc8ad92a595a57d6aaae562e8b8811414b",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/066e3abc8ad92a595a57d6aaae562e8b8811414b",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/066e3abc8ad92a595a57d6aaae562e8b8811414b"
+            },
+            {
+                "sha": "2b79553c84279bc642b9bbdad187b0842c4dc3b5",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/2b79553c84279bc642b9bbdad187b0842c4dc3b5",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/2b79553c84279bc642b9bbdad187b0842c4dc3b5"
+            }
+        ]
+    },
+    {
+        "sha": "2b79553c84279bc642b9bbdad187b0842c4dc3b5",
+        "node_id": "C_kwDOAmdAq9oAKDJiNzk1NTNjODQyNzliYzY0MmI5YmJkYWQxODdiMDg0MmM0ZGMzYjU",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-02-18T19:49:27Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-02-18T19:49:27Z"
+            },
+            "message": "add missing } in widget.less",
+            "tree": {
+                "sha": "f10e4ed889974b9423e030bbce3c9b51378bdf05",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/f10e4ed889974b9423e030bbce3c9b51378bdf05"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/2b79553c84279bc642b9bbdad187b0842c4dc3b5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/2b79553c84279bc642b9bbdad187b0842c4dc3b5",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/2b79553c84279bc642b9bbdad187b0842c4dc3b5",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/2b79553c84279bc642b9bbdad187b0842c4dc3b5/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "066e3abc8ad92a595a57d6aaae562e8b8811414b",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/066e3abc8ad92a595a57d6aaae562e8b8811414b",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/066e3abc8ad92a595a57d6aaae562e8b8811414b"
+            }
+        ]
+    },
+    {
+        "sha": "066e3abc8ad92a595a57d6aaae562e8b8811414b",
+        "node_id": "C_kwDOAmdAq9oAKDA2NmUzYWJjOGFkOTJhNTk1YTU3ZDZhYWFlNTYyZThiODgxMTQxNGI",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-17T14:29:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-17T14:29:34Z"
+            },
+            "message": "Merge pull request #1043 from nogalpaulina/update-myuw-versions\n\nUpdates myuw-feedback and myuw-help versions",
+            "tree": {
+                "sha": "0b25481dfb298f32c919352e45a16a212e568a51",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/0b25481dfb298f32c919352e45a16a212e568a51"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/066e3abc8ad92a595a57d6aaae562e8b8811414b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiDlvOCRBK7hj4Ov3rIwAAtGoIADjREIFV54augpwO5WMQcRNB\nqwA56eAnZ/QNx1Yt1nfqrT98n+Qgr3UAgv9Z6b3MB71FEJ3FMHDKoBoTP58sj7DC\nfopr82E3MXEAuJfqCBU5XbKiXoZuHAO+MH0hpnZZ/nHmPQLzV+KzqJDNbZonKuPT\n+jP6TYFLGVultx2MzoN1PX4+2237Nwg+85SyfYIyf7JG0u4NQcU1xFK0NAoW8EJK\nOslz2Wu+K4KqZuEMLOkcAVCG4w4E42oZBDfcXyMFHGJ68HUftdQw9TP8hm8vYqMd\nDnsjhmSNvQXRlYtDMZ3CXl+fwJ9cJ+ITI7SXmqJSY/cl0JWvEJKmt/gSoSKsUFM=\n=5VfT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0b25481dfb298f32c919352e45a16a212e568a51\nparent 0d92148b55bdc95a3ee86c8e4e7035435e237bde\nparent 28379c61ba536f2349978c9da399044edaefd0aa\nauthor nogalpaulina <pnogal@wisc.edu> 1645108174 -0600\ncommitter GitHub <noreply@github.com> 1645108174 -0600\n\nMerge pull request #1043 from nogalpaulina/update-myuw-versions\n\nUpdates myuw-feedback and myuw-help versions",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/066e3abc8ad92a595a57d6aaae562e8b8811414b",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/066e3abc8ad92a595a57d6aaae562e8b8811414b",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/066e3abc8ad92a595a57d6aaae562e8b8811414b/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0d92148b55bdc95a3ee86c8e4e7035435e237bde"
+            },
+            {
+                "sha": "28379c61ba536f2349978c9da399044edaefd0aa",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/28379c61ba536f2349978c9da399044edaefd0aa",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/28379c61ba536f2349978c9da399044edaefd0aa"
+            }
+        ]
+    },
+    {
+        "sha": "28379c61ba536f2349978c9da399044edaefd0aa",
+        "node_id": "C_kwDOAmdAq9oAKDI4Mzc5YzYxYmE1MzZmMjM0OTk3OGM5ZGEzOTkwNDRlZGFlZmQwYWE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-16T17:38:58Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-16T17:38:58Z"
+            },
+            "message": "Visual improvements for hover and focus effects on interactive elements",
+            "tree": {
+                "sha": "0b25481dfb298f32c919352e45a16a212e568a51",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/0b25481dfb298f32c919352e45a16a212e568a51"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/28379c61ba536f2349978c9da399044edaefd0aa",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/28379c61ba536f2349978c9da399044edaefd0aa",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/28379c61ba536f2349978c9da399044edaefd0aa",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/28379c61ba536f2349978c9da399044edaefd0aa/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "013517578f105240e38160b3ed1bd57c2154fa51",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/013517578f105240e38160b3ed1bd57c2154fa51",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/013517578f105240e38160b3ed1bd57c2154fa51"
+            }
+        ]
+    },
+    {
+        "sha": "013517578f105240e38160b3ed1bd57c2154fa51",
+        "node_id": "C_kwDOAmdAq9oAKDAxMzUxNzU3OGYxMDUyNDBlMzgxNjBiM2VkMWJkNTdjMjE1NGZhNTE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-16T15:56:49Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-16T16:14:19Z"
+            },
+            "message": "Updates myuw-feedback and myuw-help versions",
+            "tree": {
+                "sha": "01da0905eabd85145cdabdb57d7df968e5122c06",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/01da0905eabd85145cdabdb57d7df968e5122c06"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/013517578f105240e38160b3ed1bd57c2154fa51",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/013517578f105240e38160b3ed1bd57c2154fa51",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/013517578f105240e38160b3ed1bd57c2154fa51",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/013517578f105240e38160b3ed1bd57c2154fa51/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0d92148b55bdc95a3ee86c8e4e7035435e237bde"
+            }
+        ]
+    },
+    {
+        "sha": "0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+        "node_id": "C_kwDOAmdAq9oAKDBkOTIxNDhiNTViZGM5NWEzZWU4NmM4ZTRlNzAzNTQzNWUyMzdiZGU",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-04T18:41:58Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-04T18:41:58Z"
+            },
+            "message": "Merge pull request #1042 from nogalpaulina/widget-action-focus-style\n\nApply focus & hover style to widget action button",
+            "tree": {
+                "sha": "c3ceae6e48dc9fe4ec561be8596d461647d7371c",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/c3ceae6e48dc9fe4ec561be8596d461647d7371c"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh/XN2CRBK7hj4Ov3rIwAAN20IAGJDujhPEc4Cpj9IUZ1IMdiZ\nCNlh12aKzugq73ytLxCXqte2D0sPAMlXWv1C+J+67nmPgyLijCHF0Qh9QxfJE1Y5\nLQLMM96WWmWFgfzY+KjeII/3LASgcqYJun/8V+FXkWgEf22tYuxV3PFFlvHgUp9n\nEBMaFFoS3p/KpQ+ZQYaJMCKRQf1JbXDlwADpsbH0wB13Qc1/tUbwF72arF0txXBA\nY9scEQrLM8Sq8GKG3/YImGrLmkSFX4qXZVaSqnkTCvPWQU/k7FuiuakA81NFVpHM\nYa1eaU8HzbdNA2JQAGPm6l92Qh9/qWgvzUO1dEg46P/RllqJx2C3TXJ/ZePKS2o=\n=z3SD\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c3ceae6e48dc9fe4ec561be8596d461647d7371c\nparent fb8fcf83da5b41d4340690543a6311e0541e6dc3\nparent d7cebe2d40ee7a8640cfce63f00cca407b28906a\nauthor nogalpaulina <pnogal@wisc.edu> 1644000118 -0600\ncommitter GitHub <noreply@github.com> 1644000118 -0600\n\nMerge pull request #1042 from nogalpaulina/widget-action-focus-style\n\nApply focus & hover style to widget action button",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/0d92148b55bdc95a3ee86c8e4e7035435e237bde",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/0d92148b55bdc95a3ee86c8e4e7035435e237bde/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/fb8fcf83da5b41d4340690543a6311e0541e6dc3"
+            },
+            {
+                "sha": "d7cebe2d40ee7a8640cfce63f00cca407b28906a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/d7cebe2d40ee7a8640cfce63f00cca407b28906a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/d7cebe2d40ee7a8640cfce63f00cca407b28906a"
+            }
+        ]
+    },
+    {
+        "sha": "d7cebe2d40ee7a8640cfce63f00cca407b28906a",
+        "node_id": "C_kwDOAmdAq9oAKGQ3Y2ViZTJkNDBlZTdhODY0MGNmY2U2M2YwMGNjYTQwN2IyODkwNmE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-04T17:38:24Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-04T17:53:47Z"
+            },
+            "message": "Apply focus style to widget action button",
+            "tree": {
+                "sha": "c3ceae6e48dc9fe4ec561be8596d461647d7371c",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/c3ceae6e48dc9fe4ec561be8596d461647d7371c"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/d7cebe2d40ee7a8640cfce63f00cca407b28906a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/d7cebe2d40ee7a8640cfce63f00cca407b28906a",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/d7cebe2d40ee7a8640cfce63f00cca407b28906a",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/d7cebe2d40ee7a8640cfce63f00cca407b28906a/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/fb8fcf83da5b41d4340690543a6311e0541e6dc3"
+            }
+        ]
+    },
+    {
+        "sha": "fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+        "node_id": "C_kwDOAmdAq9oAKGZiOGZjZjgzZGE1YjQxZDQzNDA2OTA1NDNhNjMxMWUwNTQxZTZkYzM",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "paulina.nogal@wisc.edu",
+                "date": "2022-01-25T18:24:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-01-25T18:24:09Z"
+            },
+            "message": "Merge pull request #1041 from nogalpaulina/apply-material-style-to-tooltips\n\nMake tooltips more readable by applying contrasting background",
+            "tree": {
+                "sha": "ea085db608b341aea729817cd9655dd509f6876f",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/ea085db608b341aea729817cd9655dd509f6876f"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh8EBJCRBK7hj4Ov3rIwAANdcIACypocal8ZhJyT7f5yHKm9Yw\nbVV2z/99OtI6pkDgFf5XhOKWZF45YvUjafDHdLn4icoPjx6197IVso4LLsOjbt71\nBZ6JMGdbS9MlhIcY/NB8a6Bhfw6Smtj0X0qQvF/ZvUhMngcHHi0P3Z2Zd5lYIKfV\neFB/B1btaUGGw6R4goChMTA6LzDnU4AeVHRtPTdptYPChr/7v9s3KDGTEy9DFi6z\nkMOtzVku1U0xT0E8LgRiC3ZKFfseAk4pO7dewDCUIZ26F3JTyib0J4/rrsMzt9re\n9uGPTOhAr+IUZLWWEDu+hZTqcRjJ8c3xyFhNa1QBNdofnhvAEUoFbEc7yHU7Nvc=\n=Uquk\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ea085db608b341aea729817cd9655dd509f6876f\nparent 52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6\nparent 5b7ab754593152b90ce64e4ca45d7955d9ff8dce\nauthor nogalpaulina <paulina.nogal@wisc.edu> 1643135049 -0600\ncommitter GitHub <noreply@github.com> 1643135049 -0600\n\nMerge pull request #1041 from nogalpaulina/apply-material-style-to-tooltips\n\nMake tooltips more readable by applying contrasting background",
+                "verified_at": "2024-11-09T15:03:18Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/fb8fcf83da5b41d4340690543a6311e0541e6dc3",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/fb8fcf83da5b41d4340690543a6311e0541e6dc3/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6"
+            },
+            {
+                "sha": "5b7ab754593152b90ce64e4ca45d7955d9ff8dce",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5b7ab754593152b90ce64e4ca45d7955d9ff8dce",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/5b7ab754593152b90ce64e4ca45d7955d9ff8dce"
+            }
+        ]
+    },
+    {
+        "sha": "5b7ab754593152b90ce64e4ca45d7955d9ff8dce",
+        "node_id": "C_kwDOAmdAq9oAKDViN2FiNzU0NTkzMTUyYjkwY2U2NGU0Y2E0NWQ3OTU1ZDlmZjhkY2U",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-01-20T21:19:05Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-01-25T18:23:10Z"
+            },
+            "message": "Make tooltips more readible by applying contrasting background",
+            "tree": {
+                "sha": "ea085db608b341aea729817cd9655dd509f6876f",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/ea085db608b341aea729817cd9655dd509f6876f"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/5b7ab754593152b90ce64e4ca45d7955d9ff8dce",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5b7ab754593152b90ce64e4ca45d7955d9ff8dce",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/5b7ab754593152b90ce64e4ca45d7955d9ff8dce",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/5b7ab754593152b90ce64e4ca45d7955d9ff8dce/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6"
+            }
+        ]
+    },
+    {
+        "sha": "52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+        "node_id": "C_kwDOAmdAq9oAKDUyYzVkY2U1YzQwYTUyYWIzMWQzMWIzNjFiNDBiMmM1YjhlNWFlYjY",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "paulina.nogal@wisc.edu",
+                "date": "2022-01-12T21:25:14Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-01-12T21:25:14Z"
+            },
+            "message": "Merge pull request #1040 from nogalpaulina/update-profile-version\n\nInclude lastName to be passed into myuw-login event listener",
+            "tree": {
+                "sha": "70aa58f152f1d29ff22cf1f2033f78ea5daf7d9c",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/70aa58f152f1d29ff22cf1f2033f78ea5daf7d9c"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh30c6CRBK7hj4Ov3rIwAAGC8IAC8/V8bF26m3J/zVaSVxaD9U\nzJ6bjxbPhPg+lvMu76z2kX72NZ/CaLeTzobTzwByQa0wCJpRTIUW4DfpzP8LBV4i\nzaTiJARpnlxdjjB7JEWV753gftTZgmG57N5HgRo9IdJtQa6f8Kt+14jhV/1YQQ0x\n11qsG0mbyltcmALySv3i/wJLUeNjpUQ/xtkXYFQmAdmNRiMEd0jMyn4AuFso1S9b\nguEQpzjh7PUTWOmfqSoBOXUz328Ns/+SKofby4pHJo3mgK4wu6vgav2poULfevqq\njiQ969lMutfSwSF2HDfV9XYjABiW4jUNOYsGIwj3S74oHlR6mGUsI1mtLiAp2Xw=\n=ZIZM\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 70aa58f152f1d29ff22cf1f2033f78ea5daf7d9c\nparent 968cbf48dcb9ee4c8c72a2be524a9575fc987aaa\nparent 95f97cbb7421faf7acd249ed79c08d09f00564ec\nauthor nogalpaulina <paulina.nogal@wisc.edu> 1642022714 -0600\ncommitter GitHub <noreply@github.com> 1642022714 -0600\n\nMerge pull request #1040 from nogalpaulina/update-profile-version\n\nInclude lastName to be passed into myuw-login event listener",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/52c5dce5c40a52ab31d31b361b40b2c5b8e5aeb6/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "968cbf48dcb9ee4c8c72a2be524a9575fc987aaa",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/968cbf48dcb9ee4c8c72a2be524a9575fc987aaa",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/968cbf48dcb9ee4c8c72a2be524a9575fc987aaa"
+            },
+            {
+                "sha": "95f97cbb7421faf7acd249ed79c08d09f00564ec",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/95f97cbb7421faf7acd249ed79c08d09f00564ec",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/95f97cbb7421faf7acd249ed79c08d09f00564ec"
+            }
+        ]
+    },
+    {
+        "sha": "95f97cbb7421faf7acd249ed79c08d09f00564ec",
+        "node_id": "C_kwDOAmdAq9oAKDk1Zjk3Y2JiNzQyMWZhZjdhY2QyNDllZDc5YzA4ZDA5ZjAwNTY0ZWM",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-01-12T21:10:51Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-01-12T21:14:19Z"
+            },
+            "message": "Include lastName to be passed into myuw-login event listener",
+            "tree": {
+                "sha": "70aa58f152f1d29ff22cf1f2033f78ea5daf7d9c",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/trees/70aa58f152f1d29ff22cf1f2033f78ea5daf7d9c"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/git/commits/95f97cbb7421faf7acd249ed79c08d09f00564ec",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/95f97cbb7421faf7acd249ed79c08d09f00564ec",
+        "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/95f97cbb7421faf7acd249ed79c08d09f00564ec",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/95f97cbb7421faf7acd249ed79c08d09f00564ec/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3dd677551e1c63fc8d39167b78b9b81243d87997",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-app-framework/commits/3dd677551e1c63fc8d39167b78b9b81243d87997",
+                "html_url": "https://github.com/uPortal-Attic/uportal-app-framework/commit/3dd677551e1c63fc8d39167b78b9b81243d87997"
+            }
+        ]
+    }
+]

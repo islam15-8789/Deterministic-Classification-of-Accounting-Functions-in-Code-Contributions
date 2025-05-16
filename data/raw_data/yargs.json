@@ -1,0 +1,2462 @@
+[
+    {
+        "sha": "ef28c98ae14621fd484ec80b128b46e85b6bf858",
+        "node_id": "C_kwDOANjV29oAKGVmMjhjOThhZTE0NjIxZmQ0ODRlYzgwYjEyOGI0NmU4NWI2YmY4NTg",
+        "commit": {
+            "author": {
+                "name": "Simon Christmann",
+                "email": "simon@christmann.email",
+                "date": "2025-01-03T15:50:32Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-01-03T15:50:32Z"
+            },
+            "message": "docs: add example for objects using ENV vars (#2436)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "57a42a7ea63990bfc09af2a15481db6c52af4972",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/57a42a7ea63990bfc09af2a15481db6c52af4972"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/ef28c98ae14621fd484ec80b128b46e85b6bf858",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJneAdICRC1aQ7uu5UhlAAABBYQAGf3M61EJ4RH79/H7SYJje7y\n8WxTQx8RKdAxZX2ZDROx2SlWIIsx/gmdLXX29iiwdmgzgRcZzPSB/LlU2s2LwpGW\nRarJR+kOcilb29RTKXmGHRFMEWdtOjcX4u4kT0f9+i5POemwaoM5VJiwY7Nid5MH\nsF6wjgv/nuLfsuShzbfLSllkt7CtEbM7ma+Ifv0uEL/hwZQpkIYaXF4dXmpQ9bYG\n0PH8gGTiLTnap/mFAoLm3OwTZIHt5mLqBAWeh4kVgsaKmdNXiHYNNZhAYdv0a+vs\nVXcAxuDDix7eb+XOSbCSgUvYAD+iC/wGtckrgFiXx+xUJRg+XcQjsecOALlTBsFp\n8FAupZTbiuPP02oaVnXHvXOvTrnUeQTdl7CEsLF5BYu09CEeLaPdSxa0EDZXhgJV\n9aXvZZU/koioie7TfTDvZU5L1ZH6d+1wr0ppgmMR8gwZqX8PBbYcVHItKhzqNAnE\nx08JleRusCbTG42NzmovWYoaJGAsNl2LYX1axC+6FKJHwomFAAqjlEo/SZYDTKLm\nc/Y2BTB73y5K4qLWSDPv++Q9dsGie8ZkfIZ9bRQ4qU6HW4ULKd9iS9fjBPq2n4Rp\nTOwklBNHtdPwC7msdtkFoFE7D4EYKruxwXyLoX53qQ3HQ/zoVkDT9BhM/XNNMZDh\n4kvm/K4z4cvZNNEBxKCT\n=/10a\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 57a42a7ea63990bfc09af2a15481db6c52af4972\nparent 2921efc14fba951b16fbc4c2936e0130b3c88529\nauthor Simon Christmann <simon@christmann.email> 1735919432 +0100\ncommitter GitHub <noreply@github.com> 1735919432 -0500\n\ndocs: add example for objects using ENV vars (#2436)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2025-01-03T15:55:35Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/ef28c98ae14621fd484ec80b128b46e85b6bf858",
+        "html_url": "https://github.com/yargs/yargs/commit/ef28c98ae14621fd484ec80b128b46e85b6bf858",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/ef28c98ae14621fd484ec80b128b46e85b6bf858/comments",
+        "author": {
+            "login": "dersimn",
+            "id": 3258452,
+            "node_id": "MDQ6VXNlcjMyNTg0NTI=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3258452?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dersimn",
+            "html_url": "https://github.com/dersimn",
+            "followers_url": "https://api.github.com/users/dersimn/followers",
+            "following_url": "https://api.github.com/users/dersimn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dersimn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dersimn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dersimn/subscriptions",
+            "organizations_url": "https://api.github.com/users/dersimn/orgs",
+            "repos_url": "https://api.github.com/users/dersimn/repos",
+            "events_url": "https://api.github.com/users/dersimn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dersimn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2921efc14fba951b16fbc4c2936e0130b3c88529",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/2921efc14fba951b16fbc4c2936e0130b3c88529",
+                "html_url": "https://github.com/yargs/yargs/commit/2921efc14fba951b16fbc4c2936e0130b3c88529"
+            }
+        ]
+    },
+    {
+        "sha": "2921efc14fba951b16fbc4c2936e0130b3c88529",
+        "node_id": "C_kwDOANjV29oAKDI5MjFlZmMxNGZiYTk1MWIxNmZiYzRjMjkzNmUwMTMwYjNjODg1Mjk",
+        "commit": {
+            "author": {
+                "name": "Victor Raton",
+                "email": "43411882+victorfernandesraton@users.noreply.github.com",
+                "date": "2025-01-03T14:58:43Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-01-03T14:58:43Z"
+            },
+            "message": "docs: improve readme (#2440)",
+            "tree": {
+                "sha": "2766292c5d10903534187fb7787127079b77c3a8",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/2766292c5d10903534187fb7787127079b77c3a8"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/2921efc14fba951b16fbc4c2936e0130b3c88529",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnd/sjCRC1aQ7uu5UhlAAA/70QAHU75naMtLHZ/olQXjiJY2wQ\n2YgNZLtHZhuDrRMgETfFwsKkj0AUAQgIFr+QTXKZMJjyY24Nnih5uoJCfv4PXe0Y\nJM34oxcu0CW59yiZv/tUTRSXOi+/FK+39U+nEVu6c4DMnEd8REx4/HexVM9QWxMv\nUaj9/BpR5YuFi8qYo39krf0P8HGp3B72WyC5SWZMVpj/b0RYzCv1ZvQsShVDS4OQ\nN0ZRg/ppz2/8hWamB5VffVFwp/IAtLI+r9IHDZvqYGwXtjLYfTqzH+PosaQt7bFG\n5DJ5ZZshISSSlwdipVwgd1Hy3EuLjGUEJUnYG1cmrZMWWwgcLVwFLMJriE4cjBZU\nvn2Kf++YQ2jqXJfZXmwSWfnbGJI8SY+g5+mo55frw5lXRiucQ6KKxI4DB6Iz9b1N\nMTN5innasDjTb/dXZjYu8xMAjzwOn+cMuhJMfg3H9uw8zbK623/jkLhYDh3S9cNG\nkg3DWxMLCLoxpALy8oJ3nwlpvVMMUA7gmKxmOqe9/pVzXW39MXh5TU6c9A7QTfI8\nR8p5K/q/pBHoCrAkp0msWyLtciUTxdfO2b5D15epuUNO2guiQSm+/yiho+giLGHr\nAyX5u6MTiz/ass0UkkA9eVr+CtNBtvdhr+0BFLiiZ4ujst6qTIK9hK7rGQk8W4F/\nSQX26zh8lFzhHoWpw3FO\n=xzKD\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2766292c5d10903534187fb7787127079b77c3a8\nparent 8d72fb3968498447df52e994e259920c9fefc2b5\nauthor Victor Raton <43411882+victorfernandesraton@users.noreply.github.com> 1735916323 -0300\ncommitter GitHub <noreply@github.com> 1735916323 -0500\n\ndocs: improve readme (#2440)\n\n",
+                "verified_at": "2025-01-03T14:59:10Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/2921efc14fba951b16fbc4c2936e0130b3c88529",
+        "html_url": "https://github.com/yargs/yargs/commit/2921efc14fba951b16fbc4c2936e0130b3c88529",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/2921efc14fba951b16fbc4c2936e0130b3c88529/comments",
+        "author": {
+            "login": "victorfernandesraton",
+            "id": 43411882,
+            "node_id": "MDQ6VXNlcjQzNDExODgy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/43411882?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/victorfernandesraton",
+            "html_url": "https://github.com/victorfernandesraton",
+            "followers_url": "https://api.github.com/users/victorfernandesraton/followers",
+            "following_url": "https://api.github.com/users/victorfernandesraton/following{/other_user}",
+            "gists_url": "https://api.github.com/users/victorfernandesraton/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/victorfernandesraton/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/victorfernandesraton/subscriptions",
+            "organizations_url": "https://api.github.com/users/victorfernandesraton/orgs",
+            "repos_url": "https://api.github.com/users/victorfernandesraton/repos",
+            "events_url": "https://api.github.com/users/victorfernandesraton/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/victorfernandesraton/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8d72fb3968498447df52e994e259920c9fefc2b5",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/8d72fb3968498447df52e994e259920c9fefc2b5",
+                "html_url": "https://github.com/yargs/yargs/commit/8d72fb3968498447df52e994e259920c9fefc2b5"
+            }
+        ]
+    },
+    {
+        "sha": "8d72fb3968498447df52e994e259920c9fefc2b5",
+        "node_id": "C_kwDOANjV29oAKDhkNzJmYjM5Njg0OTg0NDdkZjUyZTk5NGUyNTk5MjBjOWZlZmMyYjU",
+        "commit": {
+            "author": {
+                "name": "Benjamin E. Coe",
+                "email": "bencoe@google.com",
+                "date": "2025-01-02T21:54:23Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-01-02T21:54:23Z"
+            },
+            "message": "fix(build): address problems with typescript compilation (#2445)",
+            "tree": {
+                "sha": "07e442e17df150d69a3941146ea90875f25fd149",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/07e442e17df150d69a3941146ea90875f25fd149"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/8d72fb3968498447df52e994e259920c9fefc2b5",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJndwsPCRC1aQ7uu5UhlAAAb34QAFM0FhShYe7tGmvjKd4yOd1w\nBbL8pwxEW47rzHKrcJ5ouARTEhWUYkEq3GmqARXIODbbtfrM9CBHqy9bYTw4Y/rM\nfFH3APaiH06CaW+JNoi/si2/YRKXhxhCcdedcCGj1Fo3ApBwCRXTXeKf52yyoojd\ns5W/PkFc8+k3CToVOeHbhPDU4DNziae04jFFpjbGsHwZFG0MJl9sKulPhSspjzir\nMMGPcjjhw2oFCP4rT9nGVz8OHSRM57SJKmFILLzhz8jgKOUTPRT/LL2ya2UIivh0\nXEl1Rs9B779JAHDeJK8wUnwBNduL+fIS4cC9ws6a2NOKrdpvQ8HSsskBuoWrWeEZ\n8cSqUeveWQCocvKboh79sukJVP0N7US3CHm22KeqZCraZ6AX9yZM+cxaBeHbxClj\nsbOoyWOMzd7icB6i9SXFxkafM2aMn1+Rd0EeZwYlWq99PhnJk4g3Ojrg+g5IpDMT\nSp0Dral23Hss/e5dF6CYSbawbKYNFgoTwU3vre6qvrWvslroZxYbHbB4brIi1GJW\nwNsXy/C6iertpPAt0xMnWVmo8C2eehAL3D93TEXHEW2dLl6nN5GtKxf80eU2jmbr\nlWrIiOB/a0R0xqU1YBKBQo4vlfhBETjKPTpdqgwPXtXfilRjWkNwwrkTWXPWov09\n9J5+KigDAUTtzwi3igP/\n=D/OX\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 07e442e17df150d69a3941146ea90875f25fd149\nparent 2b2f7f5611ec6b4229ca609041b0fc8ffc393d14\nauthor Benjamin E. Coe <bencoe@google.com> 1735854863 -0500\ncommitter GitHub <noreply@github.com> 1735854863 -0500\n\nfix(build): address problems with typescript compilation (#2445)\n\n",
+                "verified_at": "2025-01-02T21:54:26Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/8d72fb3968498447df52e994e259920c9fefc2b5",
+        "html_url": "https://github.com/yargs/yargs/commit/8d72fb3968498447df52e994e259920c9fefc2b5",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/8d72fb3968498447df52e994e259920c9fefc2b5/comments",
+        "author": {
+            "login": "bcoe",
+            "id": 194609,
+            "node_id": "MDQ6VXNlcjE5NDYwOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/194609?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bcoe",
+            "html_url": "https://github.com/bcoe",
+            "followers_url": "https://api.github.com/users/bcoe/followers",
+            "following_url": "https://api.github.com/users/bcoe/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bcoe/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bcoe/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bcoe/subscriptions",
+            "organizations_url": "https://api.github.com/users/bcoe/orgs",
+            "repos_url": "https://api.github.com/users/bcoe/repos",
+            "events_url": "https://api.github.com/users/bcoe/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bcoe/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2b2f7f5611ec6b4229ca609041b0fc8ffc393d14",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/2b2f7f5611ec6b4229ca609041b0fc8ffc393d14",
+                "html_url": "https://github.com/yargs/yargs/commit/2b2f7f5611ec6b4229ca609041b0fc8ffc393d14"
+            }
+        ]
+    },
+    {
+        "sha": "2b2f7f5611ec6b4229ca609041b0fc8ffc393d14",
+        "node_id": "C_kwDOANjV29oAKDJiMmY3ZjU2MTFlYzZiNDIyOWNhNjA5MDQxYjBmYzhmZmMzOTNkMTQ",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2025-01-02T16:44:47Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-01-02T16:44:47Z"
+            },
+            "message": "fix: propagate Dictionary including undefined in value type (#2393)",
+            "tree": {
+                "sha": "68799a6ed0ef602a92be8a50d47dcb07637e27bd",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/68799a6ed0ef602a92be8a50d47dcb07637e27bd"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/2b2f7f5611ec6b4229ca609041b0fc8ffc393d14",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJndsJ/CRC1aQ7uu5UhlAAAi/IQAJvf9MCs55cB1C6snCS+EqCW\nCfzejPdItMBXPYsvY3wDccTiMRYU1dMCGRpWQkEfG0WWxLlovyT7E5RGKGvVjxnq\nrEXyo2ZJi5ZxNiW+/vY+Qy/uYxBcVjbrBaPYmoRxOlCe7FaEclzjL/Af5/0GKgyi\nmln5veXQOmjdPHZ5PDsZ/bsDCUumW5duG66rs1JJJmzBZcwJ07pgDh2yAtwc5vut\nygPBFPIIkwukoxy59kmgCMy98r9ihdYiIMJfeEned7if3iP634xbG8zF3URyQKPN\ngJOAPwyxD7C5ow3yK7Qh9RVP9tUGnCEDL37hhCpk804sl/B3HVfob1RuBzwgzeHk\n7dUD8mJr/8vXthOW1FmCv8vpnakVgf3AKSFq/lU87fqih7hgncsuKVZ+izwTH+IG\nH01xv1oDmeUXnE3yVDD8NuzyRN3oQnpPcBaxgB0qDCTrLkYfZqFiurrxwK7aY6/V\nxWMlyYWKY8Fv73D+IhKwBG8S9YNCgk1EsFaT9gMyXal+U+7EgAOEz7iR7fnFO1Ws\nTDyWrL3LITjL+J3eS4WemzZp9A2eumFrQJTluvapOsYU8cdbppnVB+9Y5FirYwFX\nuY4rSflTvHcid2uVKGcCGL6+6jAXE7lnfcQPp0sdT2Xrkwqm9LJObuGljnkKmC87\nsKnmDVDF4tNN5sNfEr/s\n=Yoj8\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 68799a6ed0ef602a92be8a50d47dcb07637e27bd\nparent 0c95f9c79e1810cf9c8964fbf7d139009412f7e7\nauthor John Gee <john@ruru.gen.nz> 1735836287 +1300\ncommitter GitHub <noreply@github.com> 1735836287 -0500\n\nfix: propagate Dictionary including undefined in value type (#2393)\n\n",
+                "verified_at": "2025-01-02T16:45:18Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/2b2f7f5611ec6b4229ca609041b0fc8ffc393d14",
+        "html_url": "https://github.com/yargs/yargs/commit/2b2f7f5611ec6b4229ca609041b0fc8ffc393d14",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/2b2f7f5611ec6b4229ca609041b0fc8ffc393d14/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0c95f9c79e1810cf9c8964fbf7d139009412f7e7",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/0c95f9c79e1810cf9c8964fbf7d139009412f7e7",
+                "html_url": "https://github.com/yargs/yargs/commit/0c95f9c79e1810cf9c8964fbf7d139009412f7e7"
+            }
+        ]
+    },
+    {
+        "sha": "0c95f9c79e1810cf9c8964fbf7d139009412f7e7",
+        "node_id": "C_kwDOANjV29oAKDBjOTVmOWM3OWUxODEwY2Y5Yzg5NjRmYmY3ZDEzOTAwOTQxMmY3ZTc",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2024-01-05T16:43:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-01-05T16:43:55Z"
+            },
+            "message": "doc: switch legacy .argv to .parse() (#2346)",
+            "tree": {
+                "sha": "6934896dc21cf59b8c60c1fa6bb2fc8dfe18ac29",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/6934896dc21cf59b8c60c1fa6bb2fc8dfe18ac29"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/0c95f9c79e1810cf9c8964fbf7d139009412f7e7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlmDHLCRBK7hj4Ov3rIwAA8CEIAGYOFXiqa3IieEXaHhcRk5lN\nhlsAFQn7jNGF8iIPwmSIwS1Fr+a+CJ7cXfZ3MVn3ukfLvuioDTY9iZJrY/7e9yDi\n6ZhBK11pF1Bzek3jZIUxrVyMwv8P9K/CFIn//17kHv7zYDl9g6dqWSVLKmUqQ8vb\n3akPwAv6hP2Qt30R9ycanlMh0RinBShXBPEVXpkNVMUBBPx1Vua7urJg8vZhl52e\niP1S+TmR2wZFXHokcO7fuZVutc0+gUg7da1vgueHEHCo/x5/LmQpJ1yKTgEiLQsV\nLGLJsfcyFOdCpgicvDNkgz9ehCXlL9F6gOUV192AgAkz3bqCNlQi4t7ApIXV95U=\n=3F/A\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6934896dc21cf59b8c60c1fa6bb2fc8dfe18ac29\nparent 4266485b20e9b0f3a7f196e84c6d8284b04642cd\nauthor John Gee <john@ruru.gen.nz> 1704473035 +1300\ncommitter GitHub <noreply@github.com> 1704473035 -0500\n\ndoc: switch legacy .argv to .parse() (#2346)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/0c95f9c79e1810cf9c8964fbf7d139009412f7e7",
+        "html_url": "https://github.com/yargs/yargs/commit/0c95f9c79e1810cf9c8964fbf7d139009412f7e7",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/0c95f9c79e1810cf9c8964fbf7d139009412f7e7/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4266485b20e9b0f3a7f196e84c6d8284b04642cd",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/4266485b20e9b0f3a7f196e84c6d8284b04642cd",
+                "html_url": "https://github.com/yargs/yargs/commit/4266485b20e9b0f3a7f196e84c6d8284b04642cd"
+            }
+        ]
+    },
+    {
+        "sha": "4266485b20e9b0f3a7f196e84c6d8284b04642cd",
+        "node_id": "C_kwDOANjV29oAKDQyNjY0ODViMjBlOWIwZjNhN2YxOTZlODRjNmQ4Mjg0YjA0NjQyY2Q",
+        "commit": {
+            "author": {
+                "name": "Omer M",
+                "email": "125453822+mendlero@users.noreply.github.com",
+                "date": "2024-01-05T16:23:42Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-01-05T16:23:42Z"
+            },
+            "message": "feat(locale): adds hebrew translation (#2357)",
+            "tree": {
+                "sha": "736186d013856db7013c9ba778a4928b31a5fa10",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/736186d013856db7013c9ba778a4928b31a5fa10"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/4266485b20e9b0f3a7f196e84c6d8284b04642cd",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlmC0OCRBK7hj4Ov3rIwAALZoIAGa8wDSNBNsyo9ht8RZdbX6M\n58BDs+08oz3CJDTh7+/6y0gRbvKb8N8PtDXF4PTvTsvoOSSnmcNEvRXdVZU3c0pt\nuNzQkZMA2OHwSKVg8I8zo8WTIxq0rl/i/vB0sV9F7AmtoXSptSX5rtf8D25ZsUbp\nU4boZDR2B4jURIzsCVIPHvWCSNtVixX1m8sNH+eIT4NGMIQoZi1HxMG7jxRcr5X2\ngA86rGwpij4NSNQtDoDhQsIZ3e7OQ4gJB9w7FRwkDKq1YyrEKHFosDjOIq74bDUo\nO58FWIN9ZGjiUYXGMRrVQc9bpINzx7foWkAm5eNSEIsaVJoSJdIOY/PVhwu750A=\n=7o1p\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 736186d013856db7013c9ba778a4928b31a5fa10\nparent 9bb4d6ea10303eec00d64d8d3cb2d801b853d72a\nauthor Omer M <125453822+mendlero@users.noreply.github.com> 1704471822 +0200\ncommitter GitHub <noreply@github.com> 1704471822 -0500\n\nfeat(locale): adds hebrew translation (#2357)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/4266485b20e9b0f3a7f196e84c6d8284b04642cd",
+        "html_url": "https://github.com/yargs/yargs/commit/4266485b20e9b0f3a7f196e84c6d8284b04642cd",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/4266485b20e9b0f3a7f196e84c6d8284b04642cd/comments",
+        "author": {
+            "login": "mendlero",
+            "id": 125453822,
+            "node_id": "U_kgDOB3pF_g",
+            "avatar_url": "https://avatars.githubusercontent.com/u/125453822?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mendlero",
+            "html_url": "https://github.com/mendlero",
+            "followers_url": "https://api.github.com/users/mendlero/followers",
+            "following_url": "https://api.github.com/users/mendlero/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mendlero/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mendlero/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mendlero/subscriptions",
+            "organizations_url": "https://api.github.com/users/mendlero/orgs",
+            "repos_url": "https://api.github.com/users/mendlero/repos",
+            "events_url": "https://api.github.com/users/mendlero/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mendlero/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9bb4d6ea10303eec00d64d8d3cb2d801b853d72a",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/9bb4d6ea10303eec00d64d8d3cb2d801b853d72a",
+                "html_url": "https://github.com/yargs/yargs/commit/9bb4d6ea10303eec00d64d8d3cb2d801b853d72a"
+            }
+        ]
+    },
+    {
+        "sha": "9bb4d6ea10303eec00d64d8d3cb2d801b853d72a",
+        "node_id": "C_kwDOANjV29oAKDliYjRkNmVhMTAzMDNlZWMwMGQ2NGQ4ZDNjYjJkODAxYjg1M2Q3MmE",
+        "commit": {
+            "author": {
+                "name": "renovate[bot]",
+                "email": "29139614+renovate[bot]@users.noreply.github.com",
+                "date": "2024-01-05T16:17:11Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-01-05T16:17:11Z"
+            },
+            "message": "chore(deps): update dependency @types/node to v20 (#2370)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "06b23dd59f3bcdb6ffeb0463367c2a9dcd25f276",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/06b23dd59f3bcdb6ffeb0463367c2a9dcd25f276"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/9bb4d6ea10303eec00d64d8d3cb2d801b853d72a",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlmCuHCRBK7hj4Ov3rIwAA3JQIAJhXVH+ei2IAE98bHb64zed8\nSXwr1u0230U/j178idpK9H8pF/SbIz3MquEZOVXRA4CR+4eIqxLRbLcBVs87GOvq\nlCOceyff1tQ4cErliYenbWzqR/kzP2Vo4/UnJMCVyRLpSCJ8knNQTa74+ndpJ6Ph\niShJKklqf2udOrwFYXMmWOyqtTWaT3CXJyG9VkZNdwrGl8lQRUOZrTX9v/di1nsh\ncAAJbc33fPZz+T+RMqrQhrEAWkjremnBZN84cePJKPXulJiwH8kr2uNynUOdzXbk\nzPTd0BnFYFuqLJxmsncRFQ0rgNbNOOigScsGFpLSXKF8v6Ss7kzYnQ9bYkCu4Dw=\n=CWfg\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 06b23dd59f3bcdb6ffeb0463367c2a9dcd25f276\nparent 136a79a840dc36697a535a4bbb5cc8d7fae65cc2\nauthor renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 1704471431 -0500\ncommitter GitHub <noreply@github.com> 1704471431 -0500\n\nchore(deps): update dependency @types/node to v20 (#2370)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/9bb4d6ea10303eec00d64d8d3cb2d801b853d72a",
+        "html_url": "https://github.com/yargs/yargs/commit/9bb4d6ea10303eec00d64d8d3cb2d801b853d72a",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/9bb4d6ea10303eec00d64d8d3cb2d801b853d72a/comments",
+        "author": {
+            "login": "renovate[bot]",
+            "id": 29139614,
+            "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/renovate%5Bbot%5D",
+            "html_url": "https://github.com/apps/renovate",
+            "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "136a79a840dc36697a535a4bbb5cc8d7fae65cc2",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/136a79a840dc36697a535a4bbb5cc8d7fae65cc2",
+                "html_url": "https://github.com/yargs/yargs/commit/136a79a840dc36697a535a4bbb5cc8d7fae65cc2"
+            }
+        ]
+    },
+    {
+        "sha": "136a79a840dc36697a535a4bbb5cc8d7fae65cc2",
+        "node_id": "C_kwDOANjV29oAKDEzNmE3OWE4NDBkYzM2Njk3YTUzNWE0YmJiNWNjOGQ3ZmFlNjVjYzI",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2024-01-04T16:55:22Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-01-04T16:55:22Z"
+            },
+            "message": "docs: fix typos in .terminalWidth example (#2382)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "2f568f4930faffbbcb10d825668f2bc64a58ce7e",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/2f568f4930faffbbcb10d825668f2bc64a58ce7e"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/136a79a840dc36697a535a4bbb5cc8d7fae65cc2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlluL6CRBK7hj4Ov3rIwAAy98IAF4JjkZDqm6aB1+1P0z1Y6NR\nGk8xqDsdOOFsKn5ktaJsCpbJBpltZohcWPk1lAY83wWSPjTQ3uiHUTdSmwHSJXgc\nyuIHle9z7jyChXpmD66XmQ7e9FSvL20IK9gZqone9DR43ITfyEN+iiGISj7dElUz\nGiNQe1k0GritAXd87pyWMhL/nN0JGMD9dWNehLvbG1+n/ucaDpSkFQyvd2HA2lBw\nqjmfRUFL7VUQy4eCmxi7IAxFy6cKtnOPMEfQZYmmxVvtExAUv7yku0kHsCOXv7zY\nG7HJdmsZcOLkN4ACNiC1zk6LGB0ZY0ErQx/7wWaajcoN3Cka47QFkU776X+wfys=\n=CwrL\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2f568f4930faffbbcb10d825668f2bc64a58ce7e\nparent d92984def0442b247848e3527527f35f1a2abbbe\nauthor John Gee <john@ruru.gen.nz> 1704387322 +1300\ncommitter GitHub <noreply@github.com> 1704387322 -0500\n\ndocs: fix typos in .terminalWidth example (#2382)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/136a79a840dc36697a535a4bbb5cc8d7fae65cc2",
+        "html_url": "https://github.com/yargs/yargs/commit/136a79a840dc36697a535a4bbb5cc8d7fae65cc2",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/136a79a840dc36697a535a4bbb5cc8d7fae65cc2/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d92984def0442b247848e3527527f35f1a2abbbe",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/d92984def0442b247848e3527527f35f1a2abbbe",
+                "html_url": "https://github.com/yargs/yargs/commit/d92984def0442b247848e3527527f35f1a2abbbe"
+            }
+        ]
+    },
+    {
+        "sha": "d92984def0442b247848e3527527f35f1a2abbbe",
+        "node_id": "C_kwDOANjV29oAKGQ5Mjk4NGRlZjA0NDJiMjQ3ODQ4ZTM1Mjc1MjdmMzVmMWEyYWJiYmU",
+        "commit": {
+            "author": {
+                "name": "Benjamin E. Coe",
+                "email": "bencoe@google.com",
+                "date": "2024-01-04T15:59:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2024-01-04T15:59:08Z"
+            },
+            "message": "fix(build): update typescript / eslint / rollup deps fixing bundling of yargs (#2384)\n\nbuild(node)!: require Node >= 16.15.1",
+            "tree": {
+                "sha": "f3e60c1ddadb9ff06b46380106425ea51453ee79",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/f3e60c1ddadb9ff06b46380106425ea51453ee79"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/d92984def0442b247848e3527527f35f1a2abbbe",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlltXMCRBK7hj4Ov3rIwAA97gIACIY17m3KbDR0TgHwJEwsvsi\nfuTTCOYpBjzXtcRLBMY0EeB9KuTI9YCvzyodukmCTdsET2Tj2i6Gzy7f3XQfh4Ke\n5Kcq/aZ1jCbk5prROmICoRrjKmK1ui3X0CrcGZC7sUOch/WPCl3xqJyYXVr4mK1g\njLQ+Oh4xLBiLDoQWRD670bQH2NyF6LLkCzq/qVcaE76EFAAyheQuRH9BCxdboqIt\nIKFI4qJi4orBoAcP9BzhebvkAztvgl8rRCS+JT4jnO+x4XddwYWlRT4d+G46ZTXP\njvBgeuLIsywiVCONhEDj9tC2cHWZUqFHV8aE3hGMb7X9ZPios45dd9PWza9hwAo=\n=YkOa\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f3e60c1ddadb9ff06b46380106425ea51453ee79\nparent e517318cea0087b813f5de414b3cdec7b70efe33\nauthor Benjamin E. Coe <bencoe@google.com> 1704383948 -0500\ncommitter GitHub <noreply@github.com> 1704383948 -0500\n\nfix(build): update typescript / eslint / rollup deps fixing bundling of yargs (#2384)\n\nbuild(node)!: require Node >= 16.15.1",
+                "verified_at": "2024-11-06T15:57:51Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/d92984def0442b247848e3527527f35f1a2abbbe",
+        "html_url": "https://github.com/yargs/yargs/commit/d92984def0442b247848e3527527f35f1a2abbbe",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/d92984def0442b247848e3527527f35f1a2abbbe/comments",
+        "author": {
+            "login": "bcoe",
+            "id": 194609,
+            "node_id": "MDQ6VXNlcjE5NDYwOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/194609?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bcoe",
+            "html_url": "https://github.com/bcoe",
+            "followers_url": "https://api.github.com/users/bcoe/followers",
+            "following_url": "https://api.github.com/users/bcoe/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bcoe/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bcoe/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bcoe/subscriptions",
+            "organizations_url": "https://api.github.com/users/bcoe/orgs",
+            "repos_url": "https://api.github.com/users/bcoe/repos",
+            "events_url": "https://api.github.com/users/bcoe/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bcoe/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e517318cea0087b813f5de414b3cdec7b70efe33",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/e517318cea0087b813f5de414b3cdec7b70efe33",
+                "html_url": "https://github.com/yargs/yargs/commit/e517318cea0087b813f5de414b3cdec7b70efe33"
+            }
+        ]
+    },
+    {
+        "sha": "e517318cea0087b813f5de414b3cdec7b70efe33",
+        "node_id": "C_kwDOANjV29oAKGU1MTczMThjZWEwMDg3YjgxM2Y1ZGU0MTRiM2NkZWM3YjcwZWZlMzM",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2023-05-01T15:09:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-05-01T15:09:39Z"
+            },
+            "message": "docs: missing return in usage builder function (#2328)",
+            "tree": {
+                "sha": "fa4e6090afc6b9d9add6bcce3f47b46fb3e36af4",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/fa4e6090afc6b9d9add6bcce3f47b46fb3e36af4"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/e517318cea0087b813f5de414b3cdec7b70efe33",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkT9YzCRBK7hj4Ov3rIwAA0jMIACwHr/0NcDbuG+iyeHOKnKVX\ng2CnDpz4/h6E1XMwVLfpuA6sJu7siGWFALaHtR00QyirOhHqoPpq/wjCr+ZT2LpW\n6jzVcqxh9eTPwcJWwEBkL9aCaAha1f0YI3f8S4WP9nPivtn5aWCgdpGODpNGf/H/\n6UU3fdHVBEpxfHAOIR0lyC4eFoDJ1rBqOvJ7VvUFGeeX0/0xkiKdEFPakkL87FCa\nfJfmCwVfiYYYrak4tZYcSmqYpra4kLYi5Azg2LY6U2G6mEvZ03ST55+bZuc4D54x\nDEBOnlhpxUoP8BuKpQ0HbNmwUwQZ4dPizYKJDVa6sH1IoNzYRfFl7yo8EBeu5E8=\n=mUJt\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree fa4e6090afc6b9d9add6bcce3f47b46fb3e36af4\nparent e326cde53173e82407bf5e79cfdd58a199bcb909\nauthor John Gee <john@ruru.gen.nz> 1682953779 +1200\ncommitter GitHub <noreply@github.com> 1682953779 -0400\n\ndocs: missing return in usage builder function (#2328)\n\n",
+                "verified_at": "2024-11-06T15:57:51Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/e517318cea0087b813f5de414b3cdec7b70efe33",
+        "html_url": "https://github.com/yargs/yargs/commit/e517318cea0087b813f5de414b3cdec7b70efe33",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/e517318cea0087b813f5de414b3cdec7b70efe33/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e326cde53173e82407bf5e79cfdd58a199bcb909",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/e326cde53173e82407bf5e79cfdd58a199bcb909",
+                "html_url": "https://github.com/yargs/yargs/commit/e326cde53173e82407bf5e79cfdd58a199bcb909"
+            }
+        ]
+    },
+    {
+        "sha": "e326cde53173e82407bf5e79cfdd58a199bcb909",
+        "node_id": "C_kwDOANjV29oAKGUzMjZjZGU1MzE3M2U4MjQwN2JmNWU3OWNmZGQ1OGExOTliY2I5MDk",
+        "commit": {
+            "author": {
+                "name": "pengbo",
+                "email": "57180744+PengBoUESTC@users.noreply.github.com",
+                "date": "2023-04-28T17:55:33Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-04-28T17:55:33Z"
+            },
+            "message": "fix: exit after async handler done (#2313)",
+            "tree": {
+                "sha": "4b0bbfa8ef940e8b959316ecf5b5f3617d12f86f",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/4b0bbfa8ef940e8b959316ecf5b5f3617d12f86f"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/e326cde53173e82407bf5e79cfdd58a199bcb909",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkTAiVCRBK7hj4Ov3rIwAA6B4IAEaD92FSP63h/XHP4v3XlwMM\nbPQ8UHdDQ7Qr33nmPUQqz3b4Z3lTsttJJ3f5NAYlMUXePbbA8xP6Vj+e9K1ucp7Y\nHhxRzCPSoCcOkzkbexCbTKIsHg1opzCHv1XkLgrJ5BVVyyU9DlHW2I80hBBQIENg\ndKBTdtmgdnqVdxqFaS+68C3OCey0S1ewfVrilUvC2TXvLnfWd+5WAhTAUENjGCZs\n89sopXIsKmHEvVSFDpvgGNeSKe+DZDcgm4WQWa1Ajl7qJ/brq2Y/aDc9RUSVis3Q\n61849ERm1XQO3GzCHRmPtZbXVE1+7uL953eptf5mD2x9lQGkcNNdsVAxEOndt5A=\n=Bfhd\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4b0bbfa8ef940e8b959316ecf5b5f3617d12f86f\nparent 8343c66eac10fbe60e85fc17adfe07eadd45cb35\nauthor pengbo <57180744+PengBoUESTC@users.noreply.github.com> 1682704533 +0800\ncommitter GitHub <noreply@github.com> 1682704533 -0400\n\nfix: exit after async handler done (#2313)\n\n",
+                "verified_at": "2024-11-06T15:57:51Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/e326cde53173e82407bf5e79cfdd58a199bcb909",
+        "html_url": "https://github.com/yargs/yargs/commit/e326cde53173e82407bf5e79cfdd58a199bcb909",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/e326cde53173e82407bf5e79cfdd58a199bcb909/comments",
+        "author": {
+            "login": "PengBoUESTC",
+            "id": 57180744,
+            "node_id": "MDQ6VXNlcjU3MTgwNzQ0",
+            "avatar_url": "https://avatars.githubusercontent.com/u/57180744?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/PengBoUESTC",
+            "html_url": "https://github.com/PengBoUESTC",
+            "followers_url": "https://api.github.com/users/PengBoUESTC/followers",
+            "following_url": "https://api.github.com/users/PengBoUESTC/following{/other_user}",
+            "gists_url": "https://api.github.com/users/PengBoUESTC/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/PengBoUESTC/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/PengBoUESTC/subscriptions",
+            "organizations_url": "https://api.github.com/users/PengBoUESTC/orgs",
+            "repos_url": "https://api.github.com/users/PengBoUESTC/repos",
+            "events_url": "https://api.github.com/users/PengBoUESTC/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/PengBoUESTC/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8343c66eac10fbe60e85fc17adfe07eadd45cb35",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/8343c66eac10fbe60e85fc17adfe07eadd45cb35",
+                "html_url": "https://github.com/yargs/yargs/commit/8343c66eac10fbe60e85fc17adfe07eadd45cb35"
+            }
+        ]
+    },
+    {
+        "sha": "8343c66eac10fbe60e85fc17adfe07eadd45cb35",
+        "node_id": "C_kwDOANjV29oAKDgzNDNjNjZlYWMxMGZiZTYwZTg1ZmMxN2FkZmUwN2VhZGQ0NWNiMzU",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2023-04-28T17:44:41Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-04-28T17:44:41Z"
+            },
+            "message": "fix: coerce should play well with parser configuration (#2308)",
+            "tree": {
+                "sha": "671d6cd82bf5b180dda0349043137e9543f3c533",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/671d6cd82bf5b180dda0349043137e9543f3c533"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/8343c66eac10fbe60e85fc17adfe07eadd45cb35",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkTAYJCRBK7hj4Ov3rIwAAiCYIAIE8hDg5aAy5l0K7ayx8m+mW\nWGJ+fkjTYw4lUDnVKCaEgHdipJjFRSS4epTJegdT3PYrnbZ7eJo/qSyHJVwiVQx8\nGH1js4SQK3ua06+1bI/I/0wzzd31L0Z96Lt1W564YTTAa2bIMsZLwpnfBjmjTR7m\no+VoMUeClq2gq+ga/PxDQDa/3rUeDheoAlG9zHIa6+YvSuzqxCrm66psX8K+0ocU\nir9MTTgSQ79zWUGwRJBcps8EdKTOyUd3xDDOaGXdyqay3MkOy6tu325eWQK8sQ3M\nRFyYBY7pWh4u8c2qy0WTKbfchKF0acd8L7scBaABZWM4oCft9sCxqltephlYIIo=\n=ntYR\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 671d6cd82bf5b180dda0349043137e9543f3c533\nparent 731c06b3bca933ea8b4186dd0bd462943d635eb2\nauthor John Gee <john@ruru.gen.nz> 1682703881 +1200\ncommitter GitHub <noreply@github.com> 1682703881 -0400\n\nfix: coerce should play well with parser configuration (#2308)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/8343c66eac10fbe60e85fc17adfe07eadd45cb35",
+        "html_url": "https://github.com/yargs/yargs/commit/8343c66eac10fbe60e85fc17adfe07eadd45cb35",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/8343c66eac10fbe60e85fc17adfe07eadd45cb35/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "731c06b3bca933ea8b4186dd0bd462943d635eb2",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/731c06b3bca933ea8b4186dd0bd462943d635eb2",
+                "html_url": "https://github.com/yargs/yargs/commit/731c06b3bca933ea8b4186dd0bd462943d635eb2"
+            }
+        ]
+    },
+    {
+        "sha": "731c06b3bca933ea8b4186dd0bd462943d635eb2",
+        "node_id": "C_kwDOANjV29oAKDczMWMwNmIzYmNhOTMzZWE4YjQxODZkZDBiZDQ2Mjk0M2Q2MzVlYjI",
+        "commit": {
+            "author": {
+                "name": "S\u00e9bastien R\u00e8gne",
+                "email": "regseb@gmail.com",
+                "date": "2023-04-28T17:28:52Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-04-28T17:28:52Z"
+            },
+            "message": "docs: Fix example of coerce (#2316)",
+            "tree": {
+                "sha": "b21e09e5afdaa2c96cf61252745b881aab6c5d0a",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/b21e09e5afdaa2c96cf61252745b881aab6c5d0a"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/731c06b3bca933ea8b4186dd0bd462943d635eb2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkTAJUCRBK7hj4Ov3rIwAAK7UIAI63xMlbWAkhC/dWFmR8LVO6\n+dVv5O/kFLfoAvYXVANYvpfRsTBdRxzt/zbm/5SrN1EU58JmveAmLx9+ltOoWqH0\nILFvfQ3TOOgXXF82th9lHJeMXGzEM0YUT52fNNFccS22FJX9whYMqb7ftv3mkGG+\nJOoY8ImCOMnGpxWahMW2ysKyghmpvqNbQFhP6vcAIaFGdv1olwHg1NHAXQjnUIad\ne7hLTcjZprHanm2JJhiUEKBO5lTgGpSMDg6ZCg0962mzdMruoWU97HU405P4t6oV\n3XD2JGjibd76taK1oeSdjYdjEF9HH0eQaTox3wNpdrEdbBoqIaBnHTyPZszS8RA=\n=A16/\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b21e09e5afdaa2c96cf61252745b881aab6c5d0a\nparent 0196a25c54eb693743624269f65b8282a260ae5d\nauthor S\u00e9bastien R\u00e8gne <regseb@gmail.com> 1682702932 +0200\ncommitter GitHub <noreply@github.com> 1682702932 -0400\n\ndocs: Fix example of coerce (#2316)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/731c06b3bca933ea8b4186dd0bd462943d635eb2",
+        "html_url": "https://github.com/yargs/yargs/commit/731c06b3bca933ea8b4186dd0bd462943d635eb2",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/731c06b3bca933ea8b4186dd0bd462943d635eb2/comments",
+        "author": {
+            "login": "regseb",
+            "id": 1262990,
+            "node_id": "MDQ6VXNlcjEyNjI5OTA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1262990?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/regseb",
+            "html_url": "https://github.com/regseb",
+            "followers_url": "https://api.github.com/users/regseb/followers",
+            "following_url": "https://api.github.com/users/regseb/following{/other_user}",
+            "gists_url": "https://api.github.com/users/regseb/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/regseb/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/regseb/subscriptions",
+            "organizations_url": "https://api.github.com/users/regseb/orgs",
+            "repos_url": "https://api.github.com/users/regseb/repos",
+            "events_url": "https://api.github.com/users/regseb/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/regseb/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0196a25c54eb693743624269f65b8282a260ae5d",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/0196a25c54eb693743624269f65b8282a260ae5d",
+                "html_url": "https://github.com/yargs/yargs/commit/0196a25c54eb693743624269f65b8282a260ae5d"
+            }
+        ]
+    },
+    {
+        "sha": "0196a25c54eb693743624269f65b8282a260ae5d",
+        "node_id": "C_kwDOANjV29oAKDAxOTZhMjVjNTRlYjY5Mzc0MzYyNDI2OWY2NWI4MjgyYTI2MGFlNWQ",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2023-04-28T17:27:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-04-28T17:27:26Z"
+            },
+            "message": "build: add watch run-script",
+            "tree": {
+                "sha": "7626c2246c293e6b3198c10b172340d12a87239b",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/7626c2246c293e6b3198c10b172340d12a87239b"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/0196a25c54eb693743624269f65b8282a260ae5d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkTAH+CRBK7hj4Ov3rIwAAcM4IAH7YRVcOGwgfqmrMX6fSsvBT\nx6KJhQDPlfLepv/guQmUA3FnhlcMcu4FI2KNpBSJYwQcI12P5/Vu1eTdcZbhyvBD\ntn+0OFkLI01a2wtmcnbu+2q4ZUIwaRJXXHWYRWNbtumuqBSf7Iv6YrFnVAukw/GX\niY6s76T6YCqsbfe6Huwfn7su4aRKnCi/Fwcoz/Py9q6EfdHgnHiCqrisgvb5m0ee\nXF+68bqO/XQD15xY+N56BZsgGNBSg5m4Q8NCbkCrtDCIQZF46HfhHxv2cas6g/sD\nlDu51HJD65cnHcGK0HCVqDGIk7VkprolO1oCacXgQYTmkII8981kPs9gVUtuooM=\n=4Dlp\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7626c2246c293e6b3198c10b172340d12a87239b\nparent 3566b84b24a7e8cf24badac73ea1d20a0851924e\nauthor John Gee <john@ruru.gen.nz> 1682702846 +1200\ncommitter GitHub <noreply@github.com> 1682702846 -0400\n\nbuild: add watch run-script\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/0196a25c54eb693743624269f65b8282a260ae5d",
+        "html_url": "https://github.com/yargs/yargs/commit/0196a25c54eb693743624269f65b8282a260ae5d",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/0196a25c54eb693743624269f65b8282a260ae5d/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3566b84b24a7e8cf24badac73ea1d20a0851924e",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/3566b84b24a7e8cf24badac73ea1d20a0851924e",
+                "html_url": "https://github.com/yargs/yargs/commit/3566b84b24a7e8cf24badac73ea1d20a0851924e"
+            }
+        ]
+    },
+    {
+        "sha": "3566b84b24a7e8cf24badac73ea1d20a0851924e",
+        "node_id": "C_kwDOANjV29oAKDM1NjZiODRiMjRhN2U4Y2YyNGJhZGFjNzNlYTFkMjBhMDg1MTkyNGU",
+        "commit": {
+            "author": {
+                "name": "github-actions[bot]",
+                "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                "date": "2023-04-27T19:56:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-04-27T19:56:55Z"
+            },
+            "message": "chore(main): release 17.7.2 (#2323)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "f3ac8266ecf8aacde1d777f7c1160b429a8aa688",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/f3ac8266ecf8aacde1d777f7c1160b429a8aa688"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/3566b84b24a7e8cf24badac73ea1d20a0851924e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkStOHCRBK7hj4Ov3rIwAA36kIAAoIJ3XA9LyZYrlazd90l3dC\nW0G3bm7BozZwozUD7S0s8QkPh8qWpYNTvdJz4LgqYuzVwuwQ2dO+m4uYTW+DeNsy\n7V7miQhwdhnJr16TlIU6L+HR9X4z810fz4LH3hctKyKrVMJTNaJV/Tfmg5vmcK/R\nNul1n6FFHPCEudi8/Z3X4swhn1dDy8lghW7XZ9nj2lzi0wdxaMyqEkXb7kgcP0GT\nwsWYOUjn9RB78+zAQy0zQCt89cF6t5Jo0IT4TKbCHX7QfRnGwIrDPe5Q2qPLdJB8\n7uNt2Fh5OouL/GFrIIWZ1Xf2UVrjGDUZZw9dPkIW55kVaBsQgpBMrLcnSIa5Es8=\n=pnmK\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree f3ac8266ecf8aacde1d777f7c1160b429a8aa688\nparent 7f428485e75e9b1b0db1320216d1c31469770563\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1682625415 -0400\ncommitter GitHub <noreply@github.com> 1682625415 -0400\n\nchore(main): release 17.7.2 (#2323)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/3566b84b24a7e8cf24badac73ea1d20a0851924e",
+        "html_url": "https://github.com/yargs/yargs/commit/3566b84b24a7e8cf24badac73ea1d20a0851924e",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/3566b84b24a7e8cf24badac73ea1d20a0851924e/comments",
+        "author": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7f428485e75e9b1b0db1320216d1c31469770563",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/7f428485e75e9b1b0db1320216d1c31469770563",
+                "html_url": "https://github.com/yargs/yargs/commit/7f428485e75e9b1b0db1320216d1c31469770563"
+            }
+        ]
+    },
+    {
+        "sha": "7f428485e75e9b1b0db1320216d1c31469770563",
+        "node_id": "C_kwDOANjV29oAKDdmNDI4NDg1ZTc1ZTliMWIwZGIxMzIwMjE2ZDFjMzE0Njk3NzA1NjM",
+        "commit": {
+            "author": {
+                "name": "Alan Agius",
+                "email": "alanagius@google.com",
+                "date": "2023-04-27T19:49:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-04-27T19:49:20Z"
+            },
+            "message": "fix: do not crash completion when having negated options (#2322)\n\nCurrent completion crashes when using ZSH and having negated options.",
+            "tree": {
+                "sha": "e7b7fd05bd103db01fa1e1193b0850622dd63116",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/e7b7fd05bd103db01fa1e1193b0850622dd63116"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/7f428485e75e9b1b0db1320216d1c31469770563",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJkStHACRBK7hj4Ov3rIwAAEfQIAFGOVYACZoAQ0YSnpC6NVd73\nUtEeCRdDvdu6WemMjw6P+KiCFgb+60fv3YB88ZoJ06FZuEXXOYgczMoA43i7i68h\n13F3JeWMoqLURj9pyhvQS3aR729zHCv9LrWinK33ewqfSIAh3/lo7c7C3zL8Xwli\n9fdVXN+8g29mTTq1AUJjmntUDfo1f18SFybPOhrhf5iWuzj6bZ/6JdzOPGK5hRaF\nnpL2CUPZnq/efY3Svx47X6VyKnwyJLJNqup+qaMq89XDWRZdTo4Isgm5X56WFXLs\nXri4WBJvHIMzv+f9HMQQz0KuIskmT2HGbfznkUPPjooBqiDs/9cXAFYHooyx8a4=\n=Ihi5\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree e7b7fd05bd103db01fa1e1193b0850622dd63116\nparent 2b6ba3139396b2e623aed404293f467f16590039\nauthor Alan Agius <alanagius@google.com> 1682624960 +0200\ncommitter GitHub <noreply@github.com> 1682624960 -0400\n\nfix: do not crash completion when having negated options (#2322)\n\nCurrent completion crashes when using ZSH and having negated options.",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/7f428485e75e9b1b0db1320216d1c31469770563",
+        "html_url": "https://github.com/yargs/yargs/commit/7f428485e75e9b1b0db1320216d1c31469770563",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/7f428485e75e9b1b0db1320216d1c31469770563/comments",
+        "author": {
+            "login": "alan-agius4",
+            "id": 17563226,
+            "node_id": "MDQ6VXNlcjE3NTYzMjI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17563226?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alan-agius4",
+            "html_url": "https://github.com/alan-agius4",
+            "followers_url": "https://api.github.com/users/alan-agius4/followers",
+            "following_url": "https://api.github.com/users/alan-agius4/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alan-agius4/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alan-agius4/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alan-agius4/subscriptions",
+            "organizations_url": "https://api.github.com/users/alan-agius4/orgs",
+            "repos_url": "https://api.github.com/users/alan-agius4/repos",
+            "events_url": "https://api.github.com/users/alan-agius4/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alan-agius4/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2b6ba3139396b2e623aed404293f467f16590039",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/2b6ba3139396b2e623aed404293f467f16590039",
+                "html_url": "https://github.com/yargs/yargs/commit/2b6ba3139396b2e623aed404293f467f16590039"
+            }
+        ]
+    },
+    {
+        "sha": "2b6ba3139396b2e623aed404293f467f16590039",
+        "node_id": "C_kwDOANjV29oAKDJiNmJhMzEzOTM5NmIyZTYyM2FlZDQwNDI5M2Y0NjdmMTY1OTAwMzk",
+        "commit": {
+            "author": {
+                "name": "github-actions[bot]",
+                "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                "date": "2023-02-21T15:42:53Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-02-21T15:42:53Z"
+            },
+            "message": "chore(main): release 17.7.1 (#2304)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "b98a78b7be0439f17741a627fcd992ec03ade8fe",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/b98a78b7be0439f17741a627fcd992ec03ade8fe"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/2b6ba3139396b2e623aed404293f467f16590039",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj9OZ9CRBK7hj4Ov3rIwAAzNIIAEoZsk5s+bC190nsGk6xyrrS\n2LqXkFDCYZyacWLMAnK+0vQu3b8xJ5b8B0yeamlt9QD/0Rvj5/sGi0sKz+BfnC7N\nZo3sEApGE6Jw6gYszfQzIXhNk2UZIJn6SSW298myOvnqiF2s9REe+i5ZtDBCN1SK\nPbuyiuMgW4c6F570okHsFs6oALzePv6N9Zy6a9IVwQhOU1XXTktLTQ8+aEzbTDly\nK3Uw+ErLl6QmxJQiuDabUERB/EL7f7EnFyFgxrMeYT6Trg09+GixIBDFp/raZmW+\nDRlOnP63RX1hLQjXZtozqvYHbF5EWtAW7hBoad1AzBuTiFaTR3c/csZuAYqZQPo=\n=7kv0\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b98a78b7be0439f17741a627fcd992ec03ade8fe\nparent 9aa24908ae4e857161d5084613a402f9dc4895a7\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1676994173 -0500\ncommitter GitHub <noreply@github.com> 1676994173 -0500\n\nchore(main): release 17.7.1 (#2304)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/2b6ba3139396b2e623aed404293f467f16590039",
+        "html_url": "https://github.com/yargs/yargs/commit/2b6ba3139396b2e623aed404293f467f16590039",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/2b6ba3139396b2e623aed404293f467f16590039/comments",
+        "author": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9aa24908ae4e857161d5084613a402f9dc4895a7",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/9aa24908ae4e857161d5084613a402f9dc4895a7",
+                "html_url": "https://github.com/yargs/yargs/commit/9aa24908ae4e857161d5084613a402f9dc4895a7"
+            }
+        ]
+    },
+    {
+        "sha": "9aa24908ae4e857161d5084613a402f9dc4895a7",
+        "node_id": "C_kwDOANjV29oAKDlhYTI0OTA4YWU0ZTg1NzE2MWQ1MDg0NjEzYTQwMmY5ZGM0ODk1YTc",
+        "commit": {
+            "author": {
+                "name": "Benjamin E. Coe",
+                "email": "bencoe@google.com",
+                "date": "2023-02-21T15:15:57Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-02-21T15:15:57Z"
+            },
+            "message": "fix: address display bug with default sub-commands (#2303)\n\nFixes #2291, #2247",
+            "tree": {
+                "sha": "233fe002bc81444c284bf3207dd60e9faf697a90",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/233fe002bc81444c284bf3207dd60e9faf697a90"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/9aa24908ae4e857161d5084613a402f9dc4895a7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj9OAtCRBK7hj4Ov3rIwAAhH8IAHmFBkOKNKYcWW/x1dLgCS8o\nNnrT8RGyXT+32/ASoSKblIV2EFpjcDcXNTz07N2zFfFTBbQYJgY95/oUGXhUwGHC\nMrioLEd0y2Zcj56e0YebiZK4P20rlThOpohor0nEzkRCGCUwm2O8/uj5W2oTc2tE\n1LeIJPMNUwzXP5zxghQ49BcJybZdefWkhciwP9ce7ZvYlruVEaVe7djkHaRi6w9R\n43eU94a13cx6cwBoEo2+Rm5IhzwJnZn2CO8CD9VJWOcpoWUyI8XCnlPUDUJkHwbU\npgpG1+HQ/duUI3ySXWm+qyTNLwP8i+VtuY3Megv6nfflOHUEdJKnbsan36L7VAM=\n=3CA8\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 233fe002bc81444c284bf3207dd60e9faf697a90\nparent 663c1b61557eee97b0ff2f1d68017495d2347126\nauthor Benjamin E. Coe <bencoe@google.com> 1676992557 +0000\ncommitter GitHub <noreply@github.com> 1676992557 -0500\n\nfix: address display bug with default sub-commands (#2303)\n\nFixes #2291, #2247 ",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/9aa24908ae4e857161d5084613a402f9dc4895a7",
+        "html_url": "https://github.com/yargs/yargs/commit/9aa24908ae4e857161d5084613a402f9dc4895a7",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/9aa24908ae4e857161d5084613a402f9dc4895a7/comments",
+        "author": {
+            "login": "bcoe",
+            "id": 194609,
+            "node_id": "MDQ6VXNlcjE5NDYwOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/194609?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bcoe",
+            "html_url": "https://github.com/bcoe",
+            "followers_url": "https://api.github.com/users/bcoe/followers",
+            "following_url": "https://api.github.com/users/bcoe/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bcoe/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bcoe/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bcoe/subscriptions",
+            "organizations_url": "https://api.github.com/users/bcoe/orgs",
+            "repos_url": "https://api.github.com/users/bcoe/repos",
+            "events_url": "https://api.github.com/users/bcoe/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bcoe/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "663c1b61557eee97b0ff2f1d68017495d2347126",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/663c1b61557eee97b0ff2f1d68017495d2347126",
+                "html_url": "https://github.com/yargs/yargs/commit/663c1b61557eee97b0ff2f1d68017495d2347126"
+            }
+        ]
+    },
+    {
+        "sha": "663c1b61557eee97b0ff2f1d68017495d2347126",
+        "node_id": "C_kwDOANjV29oAKDY2M2MxYjYxNTU3ZWVlOTdiMGZmMmYxZDY4MDE3NDk1ZDIzNDcxMjY",
+        "commit": {
+            "author": {
+                "name": "github-actions[bot]",
+                "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                "date": "2023-02-16T16:40:11Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-02-16T16:40:11Z"
+            },
+            "message": "chore(main): release 17.7.0 (#2285)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "dedbebd095accbf928d59b910498fa6f15e7beef",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/dedbebd095accbf928d59b910498fa6f15e7beef"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/663c1b61557eee97b0ff2f1d68017495d2347126",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj7lxrCRBK7hj4Ov3rIwAAgsIIADFzeTho3Jenv9uFHml08uoX\nNoGpFryG85jpsjrXRY15UkByK9HJgu+7YXY2dgHvIbzW8B7YBeUHNqBxv7mN6uD+\nfCqXtk9XTzkP7/OvGrWurVbImEk0vOGSyp1L+SVCZJPo7lmzUotJaRRwLioc/Mjc\nSQKia5eQEEntyTTwnMdy4ZrU/sFD95yXcr6uNUNfbsuj8dfdZeAKGu1ASt40cnYK\nDq1bw+9VrXaTHNF2W+2VWuZ9LtxVz350ejOONAl1pGZIKgrZZk4O7GiuO9N4xpPz\nhmVciqMay0J4mxwcskrhJw6oQOUqFEepy9M6Pdn01rMElmphP0z0anrXykde7Y0=\n=os6K\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree dedbebd095accbf928d59b910498fa6f15e7beef\nparent 4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1676565611 -0500\ncommitter GitHub <noreply@github.com> 1676565611 -0500\n\nchore(main): release 17.7.0 (#2285)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/663c1b61557eee97b0ff2f1d68017495d2347126",
+        "html_url": "https://github.com/yargs/yargs/commit/663c1b61557eee97b0ff2f1d68017495d2347126",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/663c1b61557eee97b0ff2f1d68017495d2347126/comments",
+        "author": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876",
+                "html_url": "https://github.com/yargs/yargs/commit/4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876"
+            }
+        ]
+    },
+    {
+        "sha": "4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876",
+        "node_id": "C_kwDOANjV29oAKDRjYjQxZGM4MGFhYTczMGEyYWJkMTViZDMxMThlY2Q5ZjRlYmU4NzY",
+        "commit": {
+            "author": {
+                "name": "Nguyen Thai Hung",
+                "email": "59815499+hung-cybo@users.noreply.github.com",
+                "date": "2023-02-13T17:50:28Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-02-13T17:50:28Z"
+            },
+            "message": "feat: convert line break to whitespace for the description of the option (#2271)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "d7e856d42be4c7752df06582cbd777304e98a5c9",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/d7e856d42be4c7752df06582cbd777304e98a5c9"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj6nhkCRBK7hj4Ov3rIwAAwLoIAD/NKhgo4z7UVUXeUiFKm03a\n8vHY9cm3/wJmi3DVzEc4KkTN8chG9PA2+9HERY5eX145dI1Qqw28xmWdoucMnEzv\nasJMFou4gHNS4ttE+MvSud89fBFeDqT+bWaJ+ybKZUVfIUcSAeE3kEBHN0MvwsWl\n4lwRKT62VN4+VWGzNO4NZfJPOiSy7h9ixEZW0Gl+q8ngUMWLSjmtBjJKH2ZLl64x\nQvIrVOvtM6IO6RW9fxtk3u3pvZlzgaM7UZ7c/m+cl9miCyqR5zIEgW4AxJzKXOaX\ngXbvMhpf9Kxbni3CLPkYf3gKUSko0xdmkIP3Bx/7Z2xwKMhgvHOAVtuY0uz8aJ0=\n=eoAp\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d7e856d42be4c7752df06582cbd777304e98a5c9\nparent 7dc108667d034e59095fa0bf33dd3b18270321e1\nauthor Nguyen Thai Hung <59815499+hung-cybo@users.noreply.github.com> 1676310628 +0700\ncommitter GitHub <noreply@github.com> 1676310628 -0500\n\nfeat: convert line break to whitespace for the description of the option (#2271)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876",
+        "html_url": "https://github.com/yargs/yargs/commit/4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/4cb41dc80aaa730a2abd15bd3118ecd9f4ebe876/comments",
+        "author": {
+            "login": "hung-cybo",
+            "id": 59815499,
+            "node_id": "MDQ6VXNlcjU5ODE1NDk5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/59815499?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/hung-cybo",
+            "html_url": "https://github.com/hung-cybo",
+            "followers_url": "https://api.github.com/users/hung-cybo/followers",
+            "following_url": "https://api.github.com/users/hung-cybo/following{/other_user}",
+            "gists_url": "https://api.github.com/users/hung-cybo/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/hung-cybo/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/hung-cybo/subscriptions",
+            "organizations_url": "https://api.github.com/users/hung-cybo/orgs",
+            "repos_url": "https://api.github.com/users/hung-cybo/repos",
+            "events_url": "https://api.github.com/users/hung-cybo/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/hung-cybo/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7dc108667d034e59095fa0bf33dd3b18270321e1",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/7dc108667d034e59095fa0bf33dd3b18270321e1",
+                "html_url": "https://github.com/yargs/yargs/commit/7dc108667d034e59095fa0bf33dd3b18270321e1"
+            }
+        ]
+    },
+    {
+        "sha": "7dc108667d034e59095fa0bf33dd3b18270321e1",
+        "node_id": "C_kwDOANjV29oAKDdkYzEwODY2N2QwMzRlNTkwOTVmYTBiZjMzZGQzYjE4MjcwMzIxZTE",
+        "commit": {
+            "author": {
+                "name": "Benjamin E. Coe",
+                "email": "bencoe@google.com",
+                "date": "2023-02-13T17:19:42Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2023-02-13T17:19:42Z"
+            },
+            "message": "test: mock additional hasColors method introduced in Node 16 (#2297)",
+            "tree": {
+                "sha": "bce86c88b089fcc42420baf267d2729b8cbab11a",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/bce86c88b089fcc42420baf267d2729b8cbab11a"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/7dc108667d034e59095fa0bf33dd3b18270321e1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJj6nEuCRBK7hj4Ov3rIwAAivoIAIARhqKI0Pfh+SxUDgqaX6tt\nMFCLkpKG1SS3LQuTvoKLrJIxTZcx37jjnQ0ANNGZwLtIl5lTgw4C0Epv/GUsh7bL\nNVILmHfOMuVyH+5PHwzm/hoLoP76WVgMPQ65j9o4HfStTewSGRI3CpjsjuziIb/l\nSaM0qLoP8+HU+mif9JNgxwkHMWakwqd72VpMl9IVRSrqSdf+QDowf//uMMTqFvB9\nP14OB16SfktGnrW+3wHFDh95oNhXs/xDl+PtnnJjArPGF5jFdfWFR2XfYtZQbEQx\nJj6ENVi9ADypaXMXVgix+QOeCpxQ+08/jP4KKmSRUL3Pt168K7ndHqWnA1hZICk=\n=3Qtd\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree bce86c88b089fcc42420baf267d2729b8cbab11a\nparent f37ee6f7da386a1244bf0a0c21b9572f2bb3131b\nauthor Benjamin E. Coe <bencoe@google.com> 1676308782 +0000\ncommitter GitHub <noreply@github.com> 1676308782 -0500\n\ntest: mock additional hasColors method introduced in Node 16 (#2297)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/7dc108667d034e59095fa0bf33dd3b18270321e1",
+        "html_url": "https://github.com/yargs/yargs/commit/7dc108667d034e59095fa0bf33dd3b18270321e1",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/7dc108667d034e59095fa0bf33dd3b18270321e1/comments",
+        "author": {
+            "login": "bcoe",
+            "id": 194609,
+            "node_id": "MDQ6VXNlcjE5NDYwOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/194609?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bcoe",
+            "html_url": "https://github.com/bcoe",
+            "followers_url": "https://api.github.com/users/bcoe/followers",
+            "following_url": "https://api.github.com/users/bcoe/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bcoe/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bcoe/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bcoe/subscriptions",
+            "organizations_url": "https://api.github.com/users/bcoe/orgs",
+            "repos_url": "https://api.github.com/users/bcoe/repos",
+            "events_url": "https://api.github.com/users/bcoe/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bcoe/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f37ee6f7da386a1244bf0a0c21b9572f2bb3131b",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/f37ee6f7da386a1244bf0a0c21b9572f2bb3131b",
+                "html_url": "https://github.com/yargs/yargs/commit/f37ee6f7da386a1244bf0a0c21b9572f2bb3131b"
+            }
+        ]
+    },
+    {
+        "sha": "f37ee6f7da386a1244bf0a0c21b9572f2bb3131b",
+        "node_id": "C_kwDOANjV29oAKGYzN2VlNmY3ZGEzODZhMTI0NGJmMGEwYzIxYjk1NzJmMmJiMzEzMWI",
+        "commit": {
+            "author": {
+                "name": "tasshi / Masaharu TASHIRO",
+                "email": "33759872+mshrtsr@users.noreply.github.com",
+                "date": "2022-12-28T18:28:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-12-28T18:28:03Z"
+            },
+            "message": "fix: copy the description of the option to its alias in completion (#2269)",
+            "tree": {
+                "sha": "0ceffb86519daabf1390eb5928e73afcfb0697a4",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/0ceffb86519daabf1390eb5928e73afcfb0697a4"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/f37ee6f7da386a1244bf0a0c21b9572f2bb3131b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjrIqzCRBK7hj4Ov3rIwAAJWAIAKuu29+Ih2f6BAzUKZ8wRLex\ne/KNGal4ohUjpUTjyMsIA9MIdGjAMZ2DEkX7pSr9uS4B4ZHxN7hntadUylkKyLrt\ni+aaG2TtiJ3MGSnVF1B1ho5AyMSgVsZj0U6OQSM5ZiNqcVeNAvK0nLxF1Kiy8C2l\nmIMcYyCm4U9U0F7xjx8X3tk72CiOaXFLx6d++FmBXbHlusJjYU4wTwTPcoOEPg2l\nnZLqaH5EWwCuUePeaxwTAn0hvMm6c1ZzjP4TQW3cBUKits8OaCl27Ey9HRi1PK91\nFg2PA7gF8SpYnMjagMk/6ufvZzFgydZSB8lQAJKi/+Qe5/5y61jjCxYj3FBice4=\n=GdWY\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0ceffb86519daabf1390eb5928e73afcfb0697a4\nparent 1fd530a863a32a2d0367f236e9c5b12cf950f3a5\nauthor tasshi / Masaharu TASHIRO <33759872+mshrtsr@users.noreply.github.com> 1672252083 +0900\ncommitter GitHub <noreply@github.com> 1672252083 +0000\n\nfix: copy the description of the option to its alias in completion (#2269)\n\n",
+                "verified_at": "2024-11-06T15:51:50Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/f37ee6f7da386a1244bf0a0c21b9572f2bb3131b",
+        "html_url": "https://github.com/yargs/yargs/commit/f37ee6f7da386a1244bf0a0c21b9572f2bb3131b",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/f37ee6f7da386a1244bf0a0c21b9572f2bb3131b/comments",
+        "author": {
+            "login": "tasshi-me",
+            "id": 33759872,
+            "node_id": "MDQ6VXNlcjMzNzU5ODcy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33759872?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/tasshi-me",
+            "html_url": "https://github.com/tasshi-me",
+            "followers_url": "https://api.github.com/users/tasshi-me/followers",
+            "following_url": "https://api.github.com/users/tasshi-me/following{/other_user}",
+            "gists_url": "https://api.github.com/users/tasshi-me/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/tasshi-me/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/tasshi-me/subscriptions",
+            "organizations_url": "https://api.github.com/users/tasshi-me/orgs",
+            "repos_url": "https://api.github.com/users/tasshi-me/repos",
+            "events_url": "https://api.github.com/users/tasshi-me/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/tasshi-me/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1fd530a863a32a2d0367f236e9c5b12cf950f3a5",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/1fd530a863a32a2d0367f236e9c5b12cf950f3a5",
+                "html_url": "https://github.com/yargs/yargs/commit/1fd530a863a32a2d0367f236e9c5b12cf950f3a5"
+            }
+        ]
+    },
+    {
+        "sha": "1fd530a863a32a2d0367f236e9c5b12cf950f3a5",
+        "node_id": "C_kwDOANjV29oAKDFmZDUzMGE4NjNhMzJhMmQwMzY3ZjIzNmU5YzViMTJjZjk1MGYzYTU",
+        "commit": {
+            "author": {
+                "name": "John Gee",
+                "email": "john@ruru.gen.nz",
+                "date": "2022-12-28T18:18:09Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-12-28T18:18:09Z"
+            },
+            "message": "chore: add en strings for unknown command (#2262)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "357a7cb0c2693209e94304529412e2e55f27219c",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/357a7cb0c2693209e94304529412e2e55f27219c"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/1fd530a863a32a2d0367f236e9c5b12cf950f3a5",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjrIhhCRBK7hj4Ov3rIwAA6+YIAFzYX3tqHZGcAiOYbyNfDdkX\nU9RNMaObj4fulYgYvijztJ72I7Z4ufEL1sEyQ+JMRy4bDFuT2gAAH4EYrgTIGv1p\nz5YKPm/2PYhTsSc+cvUvTRmHsSwb6rACdvV4PuArFEGFHMee8VypiFAbLcyc4Lwu\nDROx2PKNbOpsaOyWAwO9rbEfFzKsKNYZzzLUR2m6g8TQ9Pfxa1+DhmTSKentIEQG\nQUuqy7NoUzW15/FXcikFU36JP/Ryjp7uvvzkP8moHkldw0Bx9H2uEGPerxOd8XFL\nmhymwLe3mH0aTy7sNRRPq55J8GEYIKZZugpGYYGm/SzJ3ZCpoHL+ZWdJuhsRIGY=\n=+3gt\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 357a7cb0c2693209e94304529412e2e55f27219c\nparent 2c144c4ea534646df26d6177f73ce917105c6c09\nauthor John Gee <john@ruru.gen.nz> 1672251489 +1300\ncommitter GitHub <noreply@github.com> 1672251489 +0000\n\nchore: add en strings for unknown command (#2262)\n\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/1fd530a863a32a2d0367f236e9c5b12cf950f3a5",
+        "html_url": "https://github.com/yargs/yargs/commit/1fd530a863a32a2d0367f236e9c5b12cf950f3a5",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/1fd530a863a32a2d0367f236e9c5b12cf950f3a5/comments",
+        "author": {
+            "login": "shadowspawn",
+            "id": 15719847,
+            "node_id": "MDQ6VXNlcjE1NzE5ODQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/15719847?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/shadowspawn",
+            "html_url": "https://github.com/shadowspawn",
+            "followers_url": "https://api.github.com/users/shadowspawn/followers",
+            "following_url": "https://api.github.com/users/shadowspawn/following{/other_user}",
+            "gists_url": "https://api.github.com/users/shadowspawn/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/shadowspawn/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/shadowspawn/subscriptions",
+            "organizations_url": "https://api.github.com/users/shadowspawn/orgs",
+            "repos_url": "https://api.github.com/users/shadowspawn/repos",
+            "events_url": "https://api.github.com/users/shadowspawn/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/shadowspawn/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2c144c4ea534646df26d6177f73ce917105c6c09",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/2c144c4ea534646df26d6177f73ce917105c6c09",
+                "html_url": "https://github.com/yargs/yargs/commit/2c144c4ea534646df26d6177f73ce917105c6c09"
+            }
+        ]
+    },
+    {
+        "sha": "2c144c4ea534646df26d6177f73ce917105c6c09",
+        "node_id": "C_kwDOANjV29oAKDJjMTQ0YzRlYTUzNDY0NmRmMjZkNjE3N2Y3M2NlOTE3MTA1YzZjMDk",
+        "commit": {
+            "author": {
+                "name": "Landon Yarrington",
+                "email": "33426811+jly36963@users.noreply.github.com",
+                "date": "2022-12-28T18:09:45Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-12-28T18:09:45Z"
+            },
+            "message": "feat: add method to hide option extras (#2156)",
+            "tree": {
+                "sha": "8ba83a2361c32695173b42ad070d19254865d125",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/8ba83a2361c32695173b42ad070d19254865d125"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/2c144c4ea534646df26d6177f73ce917105c6c09",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjrIZpCRBK7hj4Ov3rIwAAbhMIAEdyiv4q9VEnq5lk/6DOXOJ8\n1hT1Ro10ppaCr9oH8NxaTYrX/awM0JpmJb9QnvZhp0vs0oXA0schVpCJ8xu9FEDq\n6sPK4vdCXd4P+Sc8Q9qpij0IE6i73GOQGaJQFK2C7j6FJ0WQbIgescCpxfXHX2At\nG7E9nl75AunSb7pqNTfDMpdpVeRTajURmcxZZywP5weembZap6GgtAlKOl6vAkFi\n5fZ2TkZ5aBZlyQrHOlHITw2re+/3oU3kRD9ggtl95zbgh0AG1sIzQTav/EvvgnLa\ngtH0HdFr6MScoDNCZPeNUXpdfloq9MiCVdCSfdFNB17oujyB5NvGQ2aEoQ5STCA=\n=ltsA\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8ba83a2361c32695173b42ad070d19254865d125\nparent 6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85\nauthor Landon Yarrington <33426811+jly36963@users.noreply.github.com> 1672250985 -0700\ncommitter GitHub <noreply@github.com> 1672250985 +0000\n\nfeat: add method to hide option extras (#2156)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/2c144c4ea534646df26d6177f73ce917105c6c09",
+        "html_url": "https://github.com/yargs/yargs/commit/2c144c4ea534646df26d6177f73ce917105c6c09",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/2c144c4ea534646df26d6177f73ce917105c6c09/comments",
+        "author": {
+            "login": "jly36963",
+            "id": 33426811,
+            "node_id": "MDQ6VXNlcjMzNDI2ODEx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/33426811?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jly36963",
+            "html_url": "https://github.com/jly36963",
+            "followers_url": "https://api.github.com/users/jly36963/followers",
+            "following_url": "https://api.github.com/users/jly36963/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jly36963/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jly36963/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jly36963/subscriptions",
+            "organizations_url": "https://api.github.com/users/jly36963/orgs",
+            "repos_url": "https://api.github.com/users/jly36963/repos",
+            "events_url": "https://api.github.com/users/jly36963/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jly36963/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85",
+                "html_url": "https://github.com/yargs/yargs/commit/6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85"
+            }
+        ]
+    },
+    {
+        "sha": "6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85",
+        "node_id": "C_kwDOANjV29oAKDZjYjY5ZmJiYmU1YmM4MjI2YzRkZmE5MGM2NDM3YzZiYzJmNDZlODU",
+        "commit": {
+            "author": {
+                "name": "Benjamin E. Coe",
+                "email": "bencoe@google.com",
+                "date": "2022-12-28T18:03:27Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-12-28T18:03:27Z"
+            },
+            "message": "build: pin npm version (#2284)",
+            "tree": {
+                "sha": "090a64608a9f01948a1bc116a7010de0c84c489c",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/090a64608a9f01948a1bc116a7010de0c84c489c"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjrITvCRBK7hj4Ov3rIwAA5rcIABbFMwP/LGXA4TzFLy9GPYlu\nliYB5CRpq2urb5oPnSK+/44tG+RTiv0pFZQ/yUW32C550aJELqk5VFsWW68tit6a\n6TKRr8SFkDcY0D03PWlNQw+evwjaQ52Zz6dL8v9yRmWTW6fQYhh+p+uxKun+FeJJ\n5zDITycrHaxi31VDG1OHTDePFd11wMVIRHTpji2O8gv0MMh4JYbOF3YKb2FWMbXQ\nu0og4KtdrvqXXNJmFQEClOpio4NUuy7uTqTBgut2gb/fNRFyrgtevYsWL4x4ga1f\nUNqxi5WlXkVJ1llSx1MBLT/DyGMqDJeAxCDi0x1Ex2g6gH2jMnSKKmoBzmvzBvA=\n=2m9g\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 090a64608a9f01948a1bc116a7010de0c84c489c\nparent 2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0\nauthor Benjamin E. Coe <bencoe@google.com> 1672250607 +0000\ncommitter GitHub <noreply@github.com> 1672250607 +0000\n\nbuild: pin npm version (#2284)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85",
+        "html_url": "https://github.com/yargs/yargs/commit/6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/6cb69fbbbe5bc8226c4dfa90c6437c6bc2f46e85/comments",
+        "author": {
+            "login": "bcoe",
+            "id": 194609,
+            "node_id": "MDQ6VXNlcjE5NDYwOQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/194609?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/bcoe",
+            "html_url": "https://github.com/bcoe",
+            "followers_url": "https://api.github.com/users/bcoe/followers",
+            "following_url": "https://api.github.com/users/bcoe/following{/other_user}",
+            "gists_url": "https://api.github.com/users/bcoe/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/bcoe/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/bcoe/subscriptions",
+            "organizations_url": "https://api.github.com/users/bcoe/orgs",
+            "repos_url": "https://api.github.com/users/bcoe/repos",
+            "events_url": "https://api.github.com/users/bcoe/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/bcoe/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0",
+                "html_url": "https://github.com/yargs/yargs/commit/2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0"
+            }
+        ]
+    },
+    {
+        "sha": "2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0",
+        "node_id": "C_kwDOANjV29oAKDJlMGVmM2M5NjVkZDc4OGVjNGFmMDczNWNlOTZkNjZlZDlmOTFjYzA",
+        "commit": {
+            "author": {
+                "name": "github-actions[bot]",
+                "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                "date": "2022-11-03T16:27:36Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-03T16:27:36Z"
+            },
+            "message": "chore(main): release 17.6.2 (#2260)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+            "tree": {
+                "sha": "87208c725d93e9f08c816671e58c46be7f35d893",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/87208c725d93e9f08c816671e58c46be7f35d893"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjY+v5CRBK7hj4Ov3rIwAAUcYIABlNkcFibv7LrDuBF5T48hsh\nxhRxcX5/8mDqS7ohFMngI0zBhUdp49MCWIUQjEAJsYzWwKQ6xzakjE82+FIEidyC\nv5kVfK/Ufqbh/ujRSXM49z0hAODDTr+9s05Uy8VyuuCWPH87Qs4uGRbPyNlMLIro\nt8R2jV9dXuGST7ANRy0XGKNP5TRja2hNzt7BREYwYri/OsCIv/ijuj5bu5hu5Daf\n80z5cSTFhQXTcCxGZ3/lGCj0mRF3af14YuioDCxnsiSDJVxHSbytkfsKjlYWALWR\n/kFmPA6pIoCrvtVNWAPC6woHK4a7Dg0BQO+BHd1ya/WC2F1rl5u0FIR1f7N1Zw0=\n=O3Yb\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 87208c725d93e9f08c816671e58c46be7f35d893\nparent a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027\nauthor github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> 1667492856 -0400\ncommitter GitHub <noreply@github.com> 1667492856 -0400\n\nchore(main): release 17.6.2 (#2260)\n\nCo-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0",
+        "html_url": "https://github.com/yargs/yargs/commit/2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/2e0ef3c965dd788ec4af0735ce96d66ed9f91cc0/comments",
+        "author": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027",
+                "html_url": "https://github.com/yargs/yargs/commit/a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027"
+            }
+        ]
+    },
+    {
+        "sha": "a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027",
+        "node_id": "C_kwDOANjV29oAKGE2ZGZkMGE4ZjdmMmM1OGEyZThiN2RkZTAxNDJjYzFhMTJjNGUwMjc",
+        "commit": {
+            "author": {
+                "name": "Joonas Rouhiainen",
+                "email": "rjoonas@users.noreply.github.com",
+                "date": "2022-11-03T16:07:18Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-03T16:07:18Z"
+            },
+            "message": "fix(lang): typo in Finnish unknown argument singular form (#2222)",
+            "tree": {
+                "sha": "4306c47a1e503f27e4367b6d129da8b93fa94db1",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/4306c47a1e503f27e4367b6d129da8b93fa94db1"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjY+c2CRBK7hj4Ov3rIwAA1QwIAHaxGH+pB5draF+YeIko/Qbk\nk2MGwRKUt/PiyZPnKTS4cf+CL/02AKZwVHipQSoUv7JZEkktwJKg4N7xAga96NFP\nC2N9NHteSMRYdNNvHqY/UTMLaK1wI2XuL/SfQ/yltfQZa7LXqUS3G3UmzvXhCJb3\nVxC4IKaHyZROFuyuQnk1HvmSxPZMdvyu8pKP+1A3mHN5l+WUQsb2PaSqInAYZnr9\nUrbsHcosT/RAEZzLlpBgTLPyssrD6BUw7lbawomwwsTKFEIq6Mv7brhSirst0df3\nEbIjA6hW2WHRvLptN4GBxUrNVAQjY+GgmF3YQv0COCqBRQP1AMV+LIqLIdDU/8s=\n=OR9K\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 4306c47a1e503f27e4367b6d129da8b93fa94db1\nparent cb02c3627294b00d619f02df56fdb199371628b3\nauthor Joonas Rouhiainen <rjoonas@users.noreply.github.com> 1667491638 +0200\ncommitter GitHub <noreply@github.com> 1667491638 -0400\n\nfix(lang): typo in Finnish unknown argument singular form (#2222)\n\n",
+                "verified_at": "2024-11-06T15:51:50Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027",
+        "html_url": "https://github.com/yargs/yargs/commit/a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/a6dfd0a8f7f2c58a2e8b7dde0142cc1a12c4e027/comments",
+        "author": {
+            "login": "rjoonas",
+            "id": 1095425,
+            "node_id": "MDQ6VXNlcjEwOTU0MjU=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/1095425?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rjoonas",
+            "html_url": "https://github.com/rjoonas",
+            "followers_url": "https://api.github.com/users/rjoonas/followers",
+            "following_url": "https://api.github.com/users/rjoonas/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rjoonas/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rjoonas/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rjoonas/subscriptions",
+            "organizations_url": "https://api.github.com/users/rjoonas/orgs",
+            "repos_url": "https://api.github.com/users/rjoonas/repos",
+            "events_url": "https://api.github.com/users/rjoonas/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rjoonas/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "cb02c3627294b00d619f02df56fdb199371628b3",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/cb02c3627294b00d619f02df56fdb199371628b3",
+                "html_url": "https://github.com/yargs/yargs/commit/cb02c3627294b00d619f02df56fdb199371628b3"
+            }
+        ]
+    },
+    {
+        "sha": "cb02c3627294b00d619f02df56fdb199371628b3",
+        "node_id": "C_kwDOANjV29oAKGNiMDJjMzYyNzI5NGIwMGQ2MTlmMDJkZjU2ZmRiMTk5MzcxNjI4YjM",
+        "commit": {
+            "author": {
+                "name": "Nelson Martell",
+                "email": "nelson6e65@gmail.com",
+                "date": "2022-11-03T16:06:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-03T16:06:08Z"
+            },
+            "message": "docs: add Typescript example for .terminalWidth() (#2224)\n\nAdd example note of `.wrap()` method usage with `.terminalWidth()`.\r\n\r\nRef: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504\r\n\r\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "0d9f250db4fcb7f068734e2020ae55e4645c3f4c",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/0d9f250db4fcb7f068734e2020ae55e4645c3f4c"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/cb02c3627294b00d619f02df56fdb199371628b3",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjY+bwCRBK7hj4Ov3rIwAA0RUIABativO+m/YrmQvbKBvOt8xL\nzNVA1eEuW5W+/tvyFO3rp2Uvq33DhkNBgLorBqM/1AH15uambL9CCOKvJ0a0UN2e\ngJyfmmRuAfsd5/aPMUwpRPmd3a+YoaOtNlLulYcbYDJJkccFvPLpaxl9M7ZFmXxs\nJOYfjXsWTbCV8ORK+6jytBShAMZQ2O1ubFJO8Szfuz5mNLxobALhl63xy69yetZP\nOVU8LOkJISCwpJtUW6hUd6Qnx6ZBDyY/tmm7adTpGlxv/z6XnZnK4hzptBS0i9xY\nTD9xwObw6IoQo2pquWr/H5B8KD2GeF3es5TTAQih5Xnmn40isYpiY5aGtwlqqlo=\n=Ax9V\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0d9f250db4fcb7f068734e2020ae55e4645c3f4c\nparent a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1\nauthor Nelson Martell <nelson6e65@gmail.com> 1667491568 -0500\ncommitter GitHub <noreply@github.com> 1667491568 -0400\n\ndocs: add Typescript example for .terminalWidth() (#2224)\n\nAdd example note of `.wrap()` method usage with `.terminalWidth()`.\r\n\r\nRef: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504\r\n\r\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2024-11-06T15:51:50Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/cb02c3627294b00d619f02df56fdb199371628b3",
+        "html_url": "https://github.com/yargs/yargs/commit/cb02c3627294b00d619f02df56fdb199371628b3",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/cb02c3627294b00d619f02df56fdb199371628b3/comments",
+        "author": {
+            "login": "nelson6e65",
+            "id": 9272498,
+            "node_id": "MDQ6VXNlcjkyNzI0OTg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9272498?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nelson6e65",
+            "html_url": "https://github.com/nelson6e65",
+            "followers_url": "https://api.github.com/users/nelson6e65/followers",
+            "following_url": "https://api.github.com/users/nelson6e65/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nelson6e65/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nelson6e65/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nelson6e65/subscriptions",
+            "organizations_url": "https://api.github.com/users/nelson6e65/orgs",
+            "repos_url": "https://api.github.com/users/nelson6e65/repos",
+            "events_url": "https://api.github.com/users/nelson6e65/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nelson6e65/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1",
+                "html_url": "https://github.com/yargs/yargs/commit/a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1"
+            }
+        ]
+    },
+    {
+        "sha": "a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1",
+        "node_id": "C_kwDOANjV29oAKGExYjJlYjdhYmE2Y2RkNDRiOGI4ZDNkYTRkMmVmYTE2M2MwMGVlYTE",
+        "commit": {
+            "author": {
+                "name": "Nelson Martell",
+                "email": "nelson6e65@gmail.com",
+                "date": "2022-11-03T16:05:16Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-03T16:05:16Z"
+            },
+            "message": "docs: add Typescript example for .terminalWidth() (#2224)\n\nAdd example note of `.wrap()` method usage with `.terminalWidth()`.\r\n\r\nRef: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504\r\n\r\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "0d9f250db4fcb7f068734e2020ae55e4645c3f4c",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/0d9f250db4fcb7f068734e2020ae55e4645c3f4c"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjY+a8CRBK7hj4Ov3rIwAAJkMIAICkSypIV9w0l/i0kY5CD0ST\nYyDNlxSt0jDjfhYrDgz5k1CdhtZsHA7BkevUPbWht/WntWnAWMQCBydrv4fOGmGf\nezpaful8mnzBAsPPctmzsviEFQCeMO4KorO3jrtC+fHK4bpgWH9Dgcmjgo7H9Knq\n/7m8/yh3hZaHUUdGjr0PengjJLmRgUQdE/OjC5FYcvzBGWJU8ZdLOVARtUdKeA/v\nwIInFGD2kdfOUqNterakpuE+e6JPGlkPPcBDwUmJKtpX4VvsfPZ3Et8H5xl/Lbs4\nQYU5c5y9CzZ0104xyW8E/tiCZaUHpiTavpQ4iN+XQgrQAVmVv6Cj4jrETMC4iMI=\n=xix/\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0d9f250db4fcb7f068734e2020ae55e4645c3f4c\nparent 75b4d5222f8f0152790b9ca0718fa5314c9a1c6b\nauthor Nelson Martell <nelson6e65@gmail.com> 1667491516 -0500\ncommitter GitHub <noreply@github.com> 1667491516 -0400\n\ndocs: add Typescript example for .terminalWidth() (#2224)\n\nAdd example note of `.wrap()` method usage with `.terminalWidth()`.\r\n\r\nRef: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504\r\n\r\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1",
+        "html_url": "https://github.com/yargs/yargs/commit/a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/a1b2eb7aba6cdd44b8b8d3da4d2efa163c00eea1/comments",
+        "author": {
+            "login": "nelson6e65",
+            "id": 9272498,
+            "node_id": "MDQ6VXNlcjkyNzI0OTg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9272498?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nelson6e65",
+            "html_url": "https://github.com/nelson6e65",
+            "followers_url": "https://api.github.com/users/nelson6e65/followers",
+            "following_url": "https://api.github.com/users/nelson6e65/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nelson6e65/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nelson6e65/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nelson6e65/subscriptions",
+            "organizations_url": "https://api.github.com/users/nelson6e65/orgs",
+            "repos_url": "https://api.github.com/users/nelson6e65/repos",
+            "events_url": "https://api.github.com/users/nelson6e65/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nelson6e65/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "75b4d5222f8f0152790b9ca0718fa5314c9a1c6b",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/75b4d5222f8f0152790b9ca0718fa5314c9a1c6b",
+                "html_url": "https://github.com/yargs/yargs/commit/75b4d5222f8f0152790b9ca0718fa5314c9a1c6b"
+            }
+        ]
+    },
+    {
+        "sha": "75b4d5222f8f0152790b9ca0718fa5314c9a1c6b",
+        "node_id": "C_kwDOANjV29oAKDc1YjRkNTIyMmY4ZjAxNTI3OTBiOWNhMDcxOGZhNTMxNGM5YTFjNmI",
+        "commit": {
+            "author": {
+                "name": "Webber Takken",
+                "email": "webber.nl@gmail.com",
+                "date": "2022-11-03T16:02:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-11-03T16:02:03Z"
+            },
+            "message": "fix(deps): update dependency yargs-parser to v21.1.1 (#2231)\n\nCurrently the `yargs` is not usable in Deno with `.env()`. \r\nThis was fixed in https://github.com/yargs/yargs-parser/pull/432\r\nIt was released in yargs-parser v21.0.1\r\nThis dependency bump will fix `yargs` for Deno.\r\n\r\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+            "tree": {
+                "sha": "3885a09dc8e2364d9c159a3bc0324b0c98b323e9",
+                "url": "https://api.github.com/repos/yargs/yargs/git/trees/3885a09dc8e2364d9c159a3bc0324b0c98b323e9"
+            },
+            "url": "https://api.github.com/repos/yargs/yargs/git/commits/75b4d5222f8f0152790b9ca0718fa5314c9a1c6b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJjY+X7CRBK7hj4Ov3rIwAAF8sIADfi5LciHwIP9ozddx4RKLPg\nkzPOloubkVWv0F1SEfdsI6UdaqSTtHaqli5QO12m9le4yH25iOSlvr+g4gESLMtT\n5y749nDHKF/49GM/zo2S7LiPQB4tTJWZ/A7Xp/bQN/14n+otPfCcR70yp9FngUdJ\nVHdRrMLXnUlMxkBWVlU+m4z8RIg2rvRqIOLoz++rMqLgG2UKn4B2KH8BlukG6GD7\nKT1qnuCbs7xAzwwkj89WdGezB3Ul0wtlxujnpA9RJWQTfy29DK3FJBhL7Ub0nE2o\nBN835qL3MCgQFDCijC8HQF3edQQTVKOvLE/b/MHgF7paAFwd7SRmeSMz0Ho1XmE=\n=tjYj\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3885a09dc8e2364d9c159a3bc0324b0c98b323e9\nparent bc84a61a9dd907525497aa39a8d1b4af6bbea6fc\nauthor Webber Takken <webber.nl@gmail.com> 1667491323 +0100\ncommitter GitHub <noreply@github.com> 1667491323 -0400\n\nfix(deps): update dependency yargs-parser to v21.1.1 (#2231)\n\nCurrently the `yargs` is not usable in Deno with `.env()`. \r\nThis was fixed in https://github.com/yargs/yargs-parser/pull/432\r\nIt was released in yargs-parser v21.0.1\r\nThis dependency bump will fix `yargs` for Deno.\r\n\r\nCo-authored-by: Benjamin E. Coe <bencoe@google.com>",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/yargs/yargs/commits/75b4d5222f8f0152790b9ca0718fa5314c9a1c6b",
+        "html_url": "https://github.com/yargs/yargs/commit/75b4d5222f8f0152790b9ca0718fa5314c9a1c6b",
+        "comments_url": "https://api.github.com/repos/yargs/yargs/commits/75b4d5222f8f0152790b9ca0718fa5314c9a1c6b/comments",
+        "author": {
+            "login": "webbertakken",
+            "id": 20756439,
+            "node_id": "MDQ6VXNlcjIwNzU2NDM5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/20756439?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/webbertakken",
+            "html_url": "https://github.com/webbertakken",
+            "followers_url": "https://api.github.com/users/webbertakken/followers",
+            "following_url": "https://api.github.com/users/webbertakken/following{/other_user}",
+            "gists_url": "https://api.github.com/users/webbertakken/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/webbertakken/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/webbertakken/subscriptions",
+            "organizations_url": "https://api.github.com/users/webbertakken/orgs",
+            "repos_url": "https://api.github.com/users/webbertakken/repos",
+            "events_url": "https://api.github.com/users/webbertakken/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/webbertakken/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bc84a61a9dd907525497aa39a8d1b4af6bbea6fc",
+                "url": "https://api.github.com/repos/yargs/yargs/commits/bc84a61a9dd907525497aa39a8d1b4af6bbea6fc",
+                "html_url": "https://github.com/yargs/yargs/commit/bc84a61a9dd907525497aa39a8d1b4af6bbea6fc"
+            }
+        ]
+    }
+]

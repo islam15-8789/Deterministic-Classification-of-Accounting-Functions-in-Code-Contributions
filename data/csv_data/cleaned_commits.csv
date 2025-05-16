@@ -1,0 +1,294 @@
+Raw Serial Number,Commit Message,DEMPE Function Class
+2,fix fix sroll change detection,3
+3,fix improve detection of external scroll,3
+4,docs fix jsdelivr references,3
+5,chorepackage update dependencies,3
+5,chorepackage update lockfile packagelockjson,3
+6,refactor improve api,1
+6,chore fix promise issue using cypress,3
+6,refactor improve public api,1
+6,breaking change api changed,0
+6,feat improve public api,0
+6,test add browserstack tests,3
+6,test improve tests,3
+6,test change to tdd,3
+6,test improve tests,3
+6,test remove cypress,3
+6,test add basic scroll test,3
+6,test basic browserstack test config,3
+6,chore remove yarnlock,3
+6,chore new api,3
+6,feat add getelementplacement,0
+6,fix proper handling of scroll to element percent,3
+6,chore use scrollsize as avaliable scroll instead of scrollsize,3
+6,fix scrolling in document element,3
+6,perf replace scrollelement class with functions,1
+6,refactor remove unnecessary getters,1
+6,refactor change detection of external scroll,1
+6,perf not removing all scroll animations,1
+6,fix scrollsize getter,3
+6,fix make tests use new api,3
+6,refactor move element function logic to scrollelement,1
+6,fix remove browserstack scripts returning cyclic structures,3
+6,test improve centerelement test,3
+6,refactor improve api,1
+6,docswip update readme,3
+6,refactor rename elementrelativeposition relativeelementposition,1
+6,docs update readme,3
+6,test update test for elementposition,3
+6,test use min capabilities test,3
+6,fix getdisttocenterelement not working,3
+6,fix update properly animation position after user scroll,3
+6,fix test capabilities,3
+6,test reduce precision,3
+6,refactor fix codeclimate issues,1
+6,docs add browserstack logo,3
+7,chorepackage update tsnode to version,3
+7,chorepackage update lockfile yarnlock,3
+8,chorepackage update typesnode to version,3
+8,chorepackage update lockfile yarnlock,3
+9,fixreadme fix element examples,3
+10,docsreadme add codepen for examples in readme,3
+11,fixreadme incorrect external onscroll example,3
+12,breaking change api changed,0
+12,chore change exported api,3
+12,refactor change animationmanager,1
+12,chore remove demo,3
+12,docs update readme,3
+12,docs update readme,3
+12,feat add misc,0
+12,refactor remove tests,1
+12,featmisc add scrollto function,0
+12,featmisc add iselementinrange,0
+12,docsreadme fix typo,3
+12,fix missing module in packagejson,3
+12,test add cypress,3
+12,test add screenshots for readme,3
+12,test refactor tests,3
+12,test add basic cypress tests,3
+12,refactor change position to scrollposition,1
+12,docs update readme,3
+12,chore remove browserstack,3
+13,chorepackage update lockfile packagelockjson,3
+14,docsreadme add greenkeeper badge,3
+15,chorepackage update dependencies,3
+16,docs fix readme,3
+17,docs add toc,3
+18,fix change type in centerelement from _htmlelement_ to _element_,3
+19,docsdemo remove readme,3
+20,docs update readme,3
+21,fix allow documentqueryselector to instantiate scrollmanager,3
+22,docs add demo link to readme,3
+23,fix remove reactmarkdown from dependencies,3
+24,docsdemo fix cdn scrollutility version,3
+25,docs add badge for npm downloads,3
+26,test fix creating scrollmanager scope,3
+27,chore fix exports and update readme,3
+28,docsdemo improve demo,3
+28,docsdemo add styledcomponents,3
+28,docsdemo improve rulers,3
+28,docsdemo add more ruler types,3
+28,docsdemo improve site generation,3
+28,docsdemo remove some positioned elements,3
+28,docs improve positioning,3
+28,docsdemo improve styles,3
+28,docs improve styles,3
+28,docs improve grid responsiveness,3
+28,docs add basic set of buttons in topbar,3
+28,docs fix importing raw files,3
+28,docswip add more documentation,3
+28,docswip add centerelement component,3
+28,fix use new api,3
+28,docswip refactor demo,3
+28,docs improve demo,3
+28,docs wip improve demo,3
+28,docs improve demo,3
+28,docsdemo add rightbar,3
+28,docs move most styles to css,3
+29,test update tests to new api,3
+29,test use new api,3
+30,refactor improve engine,1
+30,refactor add partialrecursive for settings,1
+30,refactor add default settings file,1
+30,refactor remove value from options,1
+30,refactor export default windowscrollmanager,1
+30,fix incorrectly handling shouldbe when out of limits,3
+30,fix minor problems,3
+30,fix incorrectly handling shouldbe when out of limits,3
+34,chorereleaseprepare for next development iteration,3
+35,chorereleaseprepare release uportalappframeworkmaven,3
+40,chorereleaseprepare for next development iteration,3
+41,chorereleaseprepare release uportalappframeworkmaven,3
+61,refactor remove unused field serviceworkermainweak_factory_,1
+61,refactor remove unused field serviceworkermainweak_factory_,1
+62,refactor remove unused method electronbrowsercontextgetweakptr,1
+62,refactor use forward declaration of mediadeviceidsalt in electron_browser_contexth,1
+62,refactor remove unused include from browser_contexth,1
+62,refactor remove unused electronbrowsercontextgetweakptr,1
+63,refactor use default to define trivial destructors,1
+63,refactor use default to define trivial destructors,1
+64,build use windows src cache,4
+64,build use source cache on windows,4
+65,refactor reduce coupling in electronapiprotocol,1
+65,refactor decouple apiprotocol from electronbrowsercontext,1
+65,refactor make electronapiprotocolerror private,1
+65,refactor remove unused isolate arg in protocol constructor,1
+65,refactor use default for trivial destructor,1
+66,fix remove filepath from types,3
+67,fix add missing cpp_heap to nodejs worker createparams,3
+68,feat add ffmpegdll to delay load configuration,0
+68,feat set ffmpegdll as a delayloaded dll,0
+69,refactor use upstream widgetisvisibleonallworkspaces,1
+69,refactor use upstream widgetisvisibleonallworkspaces,1
+69,chore add to breaking changes,3
+70,refactor make urlpipeloader private,1
+71,refactor add electronbrowsercontextbrowsercontexts,1
+71,refactor add electronbrowsercontextbrowsercontexts,1
+71,refactor use electronbrowsercontextbrowsercontexts in electronbrowsermainpartspostmainmessagelooprun,1
+71,refactor use electronbrowsercontextbrowsercontexts in electronextensionsbrowserclientisvalidcontext,1
+71,refactor use electronbrowsercontextbrowsercontexts in electronextensionsbrowserclientbroadcasteventtorenderers,1
+71,refactor move partitionkey browsercontextmap private,1
+71,refactor add electronbrowsercontextisvalidcontext,1
+72,refactor use basenumbertostring,1
+73,refactor remove tovisolate const char,1
+74,fix apns token ids are lowercase ascii,3
+75,fix webcontentsprint crash on linux,3
+76,build combine pipewire patches,4
+77,docs use optional chaining for appdock,3
+77,docs use optional chaining for appdock,3
+78,test disable paralleltestworkerresourcelimits,3
+78,test disable paralleltestworkerresourcelimits,3
+79,docs fix code example in breakingchangesmd,3
+80,build fail for out of date patches on forks,4
+81,chore bump chromium to main,3
+81,chore bump chromium in deps to,3
+81,chore bump chromium in deps to,3
+81,chore update patches,3
+81,build reorder setcookie step httpsgithubcomelectronelectronpull,4
+82,test fix appdock for corrected type,3
+82,test fix appdock for corrected type,3
+83,docs fix types of appdock,3
+84,build move set chromium cookie before build tools step,4
+84,build move set cookie before build tools,4
+85,refactor add electronbrowsercontextgetdefaultbrowsercontext,1
+85,refactor add electronbrowsercontextdestroyallcontexts,1
+85,refactor add electronbrowsercontextgetdefaultbrowsercontext,1
+86,refactor use getdefaultstoragepartition instead of getstoragepartitionnullptr,1
+86,refactor use getdefaultstoragepartition,1
+87,fix warning in file picker ui,3
+88,chore e patches all,3
+89,perf avoid redundant map lookup in electronbrowsercontextfrom,1
+89,perf avoid redundant map lookup in electronbrowsercontextfrompath,1
+90,build fix compound bash conditional in patchup,4
+94,chorereleaseprepare for next development iteration,3
+95,chorereleaseprepare release uportalhomeparent,3
+99,chorereleaseprepare for next development iteration,3
+100,chorereleaseprepare release uportalhomeparent,3
+103,chorereleaseprepare for next development iteration,3
+104,chorereleaseprepare release uportalhomeparent,3
+109,changelog style no end period in version number,2
+111,chorereleaseprepare for next development iteration,3
+112,chorereleaseprepare release uportalhomeparent,3
+113,style address some eslint flagged issues in layoutservicesjs,2
+114,style prefer angularjs log service over bare console log,2
+115,style add trailing comma,2
+116,style remove space after key,2
+117,style remove space before function parens,2
+118,style remove block padding,2
+119,style shorten toolong lines,2
+120,style prefer single quote rather than double quote,2
+121,choredeps update actionscheckout action to v,3
+122,docs add link to commitandtagversion as per,3
+123,choremaster release,3
+124,featdeprecated add deprecation message,0
+125,fixdeps update dependency conventionalchangelogconventionalcommits to v,3
+126,fixdeps update dependency conventionalchangelog to v,3
+127,choremaster release,3
+128,build run tests on label,4
+129,feat add cjs config file,0
+130,build update publish configuration,4
+131,test updates gitignore test to check against a default package and bump file found in the gitignore,3
+132,chore move to native fsaccess removes fsaccess package,3
+133,fix ensures provided packagefiles arguments are merged with bumpfiles when no bumpfiles argument is specified default,3
+134,choredeps update dependency eslintpluginpromise to v,3
+135,test adds basic coverage for preset flag and changelog output,3
+136,chore release,3
+137,fixdeps update dependency conventionalchangelogconventionalcommits to v,3
+138,choredeps update codecovcodecovaction action to v,3
+139,chore release,3
+140,fixupdater npm package locks inner version not being updated,3
+141,chore release,3
+142,feat add lernapackage flag used to extract tags in case of lerna repo,0
+143,chore release,3
+144,feat allows seperate prefixtag version sequences,0
+145,docs improve documentation on providing an empty tagprefix,3
+146,docs updated generate artifacts code snippet,3
+147,chore updates nyc and moves to codecov,3
+147,choredeps updates nyc and moves to codecov,3
+147,chore adds codecov badge to readme,3
+147,ci updates test matrix to include nodejs distributions across multiple os,4
+148,chore release,3
+149,fixdeps update dependency conventionalrecommendedbump to v,3
+150,fixdeps update dependency yargs to v,3
+151,chore switch to nondeprecated gh action,3
+152,chore release main,3
+153,fix istanbullibsourcemaps implicit else crash edge case,3
+154,chore release main,3
+155,fix istanbullibsourcemaps to preserve implicit else when sourcemaps are used,3
+156,chore release main,3
+157,fix allow use of importattributes babel parser plugin,3
+158,chore release main,3
+159,fix handle missing source map,3
+160,chore release main,3
+161,fix correct ci check to properly release,3
+162,chore release main,3
+163,fix correct ci badge in sourcemaps readme,3
+164,chore attempt yet again to fix publish,3
+165,chore maybe fix release,3
+166,chore release main,3
+167,chore update gh actions,3
+168,fix use allgeneratedpositionsfor for more accurate source map transforms,3
+169,chore release main,3
+170,refactor replace sourcemap with jridgewelltracemapping,1
+171,fix use allgeneratedpositionsfor for more accurate source map transforms,3
+172,chore remove greenkeeper badges,3
+173,chore run ci on node versions and as well,3
+174,chore release main,3
+175,build rename master to main,4
+176,fixux address bug with firefox event handling,3
+177,fixdeps update deps addressing cve,3
+178,chore release master,3
+179,fix proper data validation in findnearestcontainer,3
+179,fix,3
+180,chore release master,3
+210,choredeps bump nthcheck from to,3
+211,docs add example for objects using env vars,3
+212,docs improve readme,3
+213,fixbuild address problems with typescript compilation,3
+214,fix propagate dictionary including undefined in value type,3
+216,featlocale adds hebrew translation,0
+217,choredeps update dependency typesnode to v,3
+218,docs fix typos in terminalwidth example,3
+219,fixbuild update typescript eslint rollup deps fixing bundling of yargs,3
+219,buildnode require node,4
+220,docs missing return in usage builder function,3
+221,fix exit after async handler done,3
+222,fix coerce should play well with parser configuration,3
+223,docs fix example of coerce,3
+224,build add watch runscript,4
+225,choremain release,3
+226,fix do not crash completion when having negated options,3
+227,choremain release,3
+228,fix address display bug with default subcommands,3
+229,choremain release,3
+230,feat convert line break to whitespace for the description of the option,0
+231,test mock additional hascolors method introduced in node,3
+232,fix copy the description of the option to its alias in completion,3
+233,chore add en strings for unknown command,3
+234,feat add method to hide option extras,0
+235,build pin npm version,4
+236,choremain release,3
+237,fixlang typo in finnish unknown argument singular form,3
+238,docs add typescript example for terminalwidth,3
+239,docs add typescript example for terminalwidth,3
+240,fixdeps update dependency yargsparser to v,3

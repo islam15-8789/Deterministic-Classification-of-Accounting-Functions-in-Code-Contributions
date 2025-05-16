@@ -1,0 +1,60 @@
+Commit Message,DEMPE Function Class
+docswip refactor demo,3
+breaking change api changed,0
+refactor use upstream widgetisvisibleonallworkspaces,1
+refactor replace sourcemap with jridgewelltracemapping,1
+style address some eslint flagged issues in layoutservicesjs,2
+feat allows seperate prefixtag version sequences,0
+docs add typescript example for terminalwidth,3
+style prefer single quote rather than double quote,2
+test add basic cypress tests,3
+refactor remove tests,1
+chore release main,3
+docs improve readme,3
+choredeps update actionscheckout action to v,3
+chorepackage update dependencies,3
+build run tests on label,4
+chore fix exports and update readme,3
+fix coerce should play well with parser configuration,3
+chore remove demo,3
+choredeps update codecovcodecovaction action to v,3
+build combine pipewire patches,4
+chorepackage update lockfile yarnlock,3
+chore attempt yet again to fix publish,3
+docs add badge for npm downloads,3
+fixdeps update dependency conventionalchangelogconventionalcommits to v,3
+fix istanbullibsourcemaps implicit else crash edge case,3
+test add basic scroll test,3
+fix proper data validation in findnearestcontainer,3
+fixdeps update dependency yargsparser to v,3
+docs add typescript example for terminalwidth,3
+featmisc add iselementinrange,0
+chore new api,3
+build add watch runscript,4
+refactor improve public api,1
+refactor remove unused electronbrowsercontextgetweakptr,1
+docsdemo remove some positioned elements,3
+fix update properly animation position after user scroll,3
+docs update readme,3
+chore release,3
+fix incorrectly handling shouldbe when out of limits,3
+fixdeps update deps addressing cve,3
+docs update readme,3
+fix handle missing source map,3
+test updates gitignore test to check against a default package and bump file found in the gitignore,3
+fixlang typo in finnish unknown argument singular form,3
+refactor use electronbrowsercontextbrowsercontexts in electronextensionsbrowserclientisvalidcontext,1
+test change to tdd,3
+refactor remove unused isolate arg in protocol constructor,1
+docs improve demo,3
+docs improve positioning,3
+chorepackage update lockfile packagelockjson,3
+test use new api,3
+chore maybe fix release,3
+refactor add electronbrowsercontextgetdefaultbrowsercontext,1
+docs add link to commitandtagversion as per,3
+test fix appdock for corrected type,3
+choremain release,3
+refactor use forward declaration of mediadeviceidsalt in electron_browser_contexth,1
+refactor remove unused method electronbrowsercontextgetweakptr,1
+test add cypress,3

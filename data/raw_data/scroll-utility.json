@@ -1,0 +1,2282 @@
+[
+    {
+        "sha": "11a355e76516964ce90daa62f352b7118f8c0e82",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjExYTM1NWU3NjUxNjk2NGNlOTBkYWE2MmYzNTJiNzExOGY4YzBlODI=",
+        "commit": {
+            "author": {
+                "name": "Daniel Perez Alvarez",
+                "email": "danielpza@protonmail.com",
+                "date": "2020-01-18T02:52:52Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2020-01-18T02:52:52Z"
+            },
+            "message": "Create nodejs.yml (#51)",
+            "tree": {
+                "sha": "869a31dcacd1dca7d96dcf131e1d31fb4b2f7f23",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/869a31dcacd1dca7d96dcf131e1d31fb4b2f7f23"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/11a355e76516964ce90daa62f352b7118f8c0e82",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/11a355e76516964ce90daa62f352b7118f8c0e82",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/11a355e76516964ce90daa62f352b7118f8c0e82",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/11a355e76516964ce90daa62f352b7118f8c0e82/comments",
+        "author": {
+            "login": "danielpza",
+            "id": 17787042,
+            "node_id": "MDQ6VXNlcjE3Nzg3MDQy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17787042?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielpza",
+            "html_url": "https://github.com/danielpza",
+            "followers_url": "https://api.github.com/users/danielpza/followers",
+            "following_url": "https://api.github.com/users/danielpza/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielpza/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielpza/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielpza/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielpza/orgs",
+            "repos_url": "https://api.github.com/users/danielpza/repos",
+            "events_url": "https://api.github.com/users/danielpza/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielpza/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1ce6835e612c5330834c06174a82ef56825ce4a9",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/1ce6835e612c5330834c06174a82ef56825ce4a9",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/1ce6835e612c5330834c06174a82ef56825ce4a9"
+            }
+        ]
+    },
+    {
+        "sha": "1ce6835e612c5330834c06174a82ef56825ce4a9",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjFjZTY4MzVlNjEyYzUzMzA4MzRjMDYxNzRhODJlZjU2ODI1Y2U0YTk=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-07T00:37:59Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-07T00:37:59Z"
+            },
+            "message": "fix: fix sroll change detection",
+            "tree": {
+                "sha": "ab820b4369e3c7a8fe8b17bf6d08ef5605e284ac",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/ab820b4369e3c7a8fe8b17bf6d08ef5605e284ac"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/1ce6835e612c5330834c06174a82ef56825ce4a9",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCAAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlzQ05QACgkQcZhtWMNB\nAPEH9gv8CeT0dgDOekURstLpByAx+IUtT6cb7lyhK3Reaei6dR/JsB79V2istVuf\nDVY2AO58Z3eZ366Z7pWyGEeohFlVcHWWMFI9sKjH9ND1aOuxm2LiH3SqLPqHy1D/\nEA30iGiMS12wLtxIVIt5MLiduqkt5GOZ4oeQQQwqh1i9y4vDjfpeUYW1AgtV4Qnt\nOTKyqmx4Lp79WaibKh0KnFNhBk/FkKhIMDqhHx4Y5LUR+uBdvja2ETmF1MHyXUFU\ncCxisAcf/20hiQ97CStUfXeHCvcLsZpUBlPePOqGe+5G5yL76CxfCUT6jtt45RKA\nlRIPxoTv63RziiNqa6/xFs74YWk4B6F9N3j2u75f4eTHT845kRASeIxI6siPk9WT\nUuqY2BSjjmPGSjdM5xVJxDVE9ExWPDkcL62EEMuNC9O895ZwKZf0XVQDcoTkIFbS\ng66O3OqYC/39721U8fA8rbIDxMuKmNz1Mh9dnHfgGwyQyMywiuUZLux8jskZbPZ9\nYQpvaAoF\n=6S4q\n-----END PGP SIGNATURE-----",
+                "payload": "tree ab820b4369e3c7a8fe8b17bf6d08ef5605e284ac\nparent b727a6b7cf3dab878930b7f66952a3cf5c0a845b\nauthor David Perez Alvarez <david@leddgroup.com> 1557189479 -0400\ncommitter David Perez Alvarez <david@leddgroup.com> 1557189479 -0400\n\nfix: fix sroll change detection\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/1ce6835e612c5330834c06174a82ef56825ce4a9",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/1ce6835e612c5330834c06174a82ef56825ce4a9",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/1ce6835e612c5330834c06174a82ef56825ce4a9/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b727a6b7cf3dab878930b7f66952a3cf5c0a845b",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/b727a6b7cf3dab878930b7f66952a3cf5c0a845b",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/b727a6b7cf3dab878930b7f66952a3cf5c0a845b"
+            }
+        ]
+    },
+    {
+        "sha": "b727a6b7cf3dab878930b7f66952a3cf5c0a845b",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmI3MjdhNmI3Y2YzZGFiODc4OTMwYjdmNjY5NTJhM2NmNWMwYTg0NWI=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-06T03:23:03Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-06T03:27:25Z"
+            },
+            "message": "fix: improve detection of external scroll\n\n'floor' raw scrollPosition when checking for scroll change (codepen returning floating values)",
+            "tree": {
+                "sha": "8d139f425690dd669d3e509198d0c90187a333d8",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/8d139f425690dd669d3e509198d0c90187a333d8"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/b727a6b7cf3dab878930b7f66952a3cf5c0a845b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCAAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlzPqfMACgkQcZhtWMNB\nAPFQYwwAuA5Yf1eW77GYDw6fBOkThcRhoAg4rOGXXSo//Tl9D8ql7PGyUPTbxdv8\n7t1aH5jYY7/sEIyJ3+4WdfIS7AtgluwqYsd7/l1y94FnnQWOTMD6PFACgjbGIQ5U\nigtlEiXigP99YnuPyU+/sQbuRoWVbpYP9fHZbL7e4uJgHDDncuo4X1buXMr6Gcc5\n3WnQwt6fkRZlcqcJBQH8JzJqNRgLlpUDkXvUor89xhHuaFaR4KNYQcSL3j013nFi\npzMNm8o6AwOUOLZNU354qQQPblzutq2AW7FL6ytNgEU/uXmYvUfKlWrmKtUK/dNd\npNaHV+Ymjlkp2xvhRFgNwlAZxDoff7ycaoGcm4mQJt20Mi/IzcEAOz4TvS3gV47w\nm8AeFdsJXX10S2+0TNa4eBLWRIZig7MuyqcCDPabA+N9dTG5QExASxEpuqtSko0J\nE+gIDutFRmYZWdFOqWBU0YlqGEDlH/lRN2prfdfgFUbqTAGXeG0y36PUwpcS+2Is\nTWaBMhyr\n=og6z\n-----END PGP SIGNATURE-----",
+                "payload": "tree 8d139f425690dd669d3e509198d0c90187a333d8\nparent f0695502eeb3cd267b21026d85a41f13e42eda36\nauthor David Perez Alvarez <david@leddgroup.com> 1557112983 -0400\ncommitter David Perez Alvarez <david@leddgroup.com> 1557113245 -0400\n\nfix: improve detection of external scroll\n\n'floor' raw scrollPosition when checking for scroll change (codepen returning floating values)\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/b727a6b7cf3dab878930b7f66952a3cf5c0a845b",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/b727a6b7cf3dab878930b7f66952a3cf5c0a845b",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/b727a6b7cf3dab878930b7f66952a3cf5c0a845b/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f0695502eeb3cd267b21026d85a41f13e42eda36",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/f0695502eeb3cd267b21026d85a41f13e42eda36",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/f0695502eeb3cd267b21026d85a41f13e42eda36"
+            }
+        ]
+    },
+    {
+        "sha": "f0695502eeb3cd267b21026d85a41f13e42eda36",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmYwNjk1NTAyZWViM2NkMjY3YjIxMDI2ZDg1YTQxZjEzZTQyZWRhMzY=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-06T02:51:21Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-06T02:51:21Z"
+            },
+            "message": "docs: fix jsdelivr references",
+            "tree": {
+                "sha": "2f8a8a0c98b0937bc0f0779463a4ace74044ae78",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/2f8a8a0c98b0937bc0f0779463a4ace74044ae78"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/f0695502eeb3cd267b21026d85a41f13e42eda36",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCAAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlzPoWIACgkQcZhtWMNB\nAPEL9gv/dHsIbsRGCoNe3KBq/uI2zC33SY5prCfnAK0poQT8hLDera3Z70GkiX99\n5jN0dinwAO+hMXTDrOIU5lg1mQLTTcCx//lWIA7ruxNoCGmoFAC0q3embV7RcBaN\nb+YQxyEMjiBRXlA+1ctv/Emhv1/H7kjDAUaAl4VAPXOfaNCtmOcfNlN9xMLTxkwb\npYLSqa3I0Hi9lRiV/1uIKrxS+hvFceZ5yvDGqMPU08D48pocnSjcfQvKkJ15wOv6\nIoCIrnBaunr3rqPV3uHf7pIq7OMjlUUYtzHJcD8aCvkG14d/f8w8c+6HXDJamGBZ\nbjLm7Cm2xIv1o/8kexvTNii4qibhisiXRuQqCjj0AysE0y17D1fIWWRAfw50tOcP\nPWGPeFpuAOkFKrFRmxGeJTyFcNmR5WG0YO+QLGIK1rhq+GbGmBhH69hETP9oNGmQ\nvHqqmD45Sz0zCr4OpKOYRTFTGTyO9BcstAy4HKZcmNlHB152LjRT1h1k6uj6QLLi\nygvcxj9a\n=BX+g\n-----END PGP SIGNATURE-----",
+                "payload": "tree 2f8a8a0c98b0937bc0f0779463a4ace74044ae78\nparent 57659a12d356e1693d8192d2909699a3db94eb05\nauthor David Perez Alvarez <david@leddgroup.com> 1557111081 -0400\ncommitter David Perez Alvarez <david@leddgroup.com> 1557111081 -0400\n\ndocs: fix jsdelivr references\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/f0695502eeb3cd267b21026d85a41f13e42eda36",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/f0695502eeb3cd267b21026d85a41f13e42eda36",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/f0695502eeb3cd267b21026d85a41f13e42eda36/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "57659a12d356e1693d8192d2909699a3db94eb05",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/57659a12d356e1693d8192d2909699a3db94eb05",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/57659a12d356e1693d8192d2909699a3db94eb05"
+            }
+        ]
+    },
+    {
+        "sha": "57659a12d356e1693d8192d2909699a3db94eb05",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjU3NjU5YTEyZDM1NmUxNjkzZDgxOTJkMjkwOTY5OWEzZGI5NGViMDU=",
+        "commit": {
+            "author": {
+                "name": "greenkeeper[bot]",
+                "email": "greenkeeper[bot]@users.noreply.github.com",
+                "date": "2019-05-06T02:41:51Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-06T02:41:51Z"
+            },
+            "message": "Update dependencies to enable Greenkeeper \ud83c\udf34 (#49)\n\n* chore(package): update dependencies\r\n\r\n* chore(package): update lockfile package-lock.json",
+            "tree": {
+                "sha": "83052d7d27a57b805f0974819eac617fd180606c",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/83052d7d27a57b805f0974819eac617fd180606c"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/57659a12d356e1693d8192d2909699a3db94eb05",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/57659a12d356e1693d8192d2909699a3db94eb05",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/57659a12d356e1693d8192d2909699a3db94eb05",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/57659a12d356e1693d8192d2909699a3db94eb05/comments",
+        "author": {
+            "login": "greenkeeper[bot]",
+            "id": 23040076,
+            "node_id": "MDM6Qm90MjMwNDAwNzY=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+            "html_url": "https://github.com/apps/greenkeeper",
+            "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a2418561ad5aa3b461701eb79b1c323787c12003",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/a2418561ad5aa3b461701eb79b1c323787c12003",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/a2418561ad5aa3b461701eb79b1c323787c12003"
+            }
+        ]
+    },
+    {
+        "sha": "a2418561ad5aa3b461701eb79b1c323787c12003",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmEyNDE4NTYxYWQ1YWEzYjQ2MTcwMWViNzliMWMzMjM3ODdjMTIwMDM=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-05-02T06:19:14Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2019-05-02T06:19:14Z"
+            },
+            "message": "refactor: improve api\n\n* chore: fix promise issue using cypress\r\n\r\n* refactor: improve public api\r\n\r\nBREAKING CHANGE: api changed\r\n\r\n* feat: improve public api\r\n\r\nmerge scroll functions into scrollTo\r\n\r\n* test: add browserstack tests\r\n\r\nreplace cypress with browserstack for better browser support\r\n\r\nSquashed commit of the following:\r\n\r\ncommit 9f91793ff5a2a46d7b217c5cc0b4e195f99d803e\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Mon Apr 29 00:08:58 2019 -0400\r\n\r\n    test: improve tests\r\n\r\ncommit 4dae7a75c43f10ec5397efd3467ec27315024871\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 22:59:28 2019 -0400\r\n\r\n    test: change to TDD\r\n\r\n    change 'describe' for 'suit'\r\n\r\ncommit db8bfabc3b4baedb470de5d029f87d7ee6e457dd\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 20:44:33 2019 -0400\r\n\r\n    test: improve tests\r\n\r\ncommit 5f6ca6ba1c086fa1311a3dc80e1842b7f8ed4ff5\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 18:40:11 2019 -0400\r\n\r\n    test: remove cypress\r\n\r\ncommit f0af97d38814fcfbe67038b6ab8cd181680aae9f\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 18:36:34 2019 -0400\r\n\r\n    test: add basic scroll test\r\n\r\ncommit 34fef3c9d6708bc77275eea1965f998d89997141\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 17:45:34 2019 -0400\r\n\r\n    test: basic browserstack test config\r\n\r\n* chore: remove yarn.lock\r\n\r\n* chore: new api\r\n\r\n* feat: add getElementPlacement\r\n\r\n* fix: proper handling of scroll to element \"percent\"\r\n\r\n* chore: use scrollSize as avaliable scroll instead of scrollSize\r\n\r\n* fix: scrolling in document element\r\n\r\n* perf: replace ScrollElement class with functions\r\n\r\n* refactor: remove unnecessary getters\r\n\r\n* refactor: change detection of external scroll\r\n\r\n* perf: not removing all scroll animations\r\n\r\n* fix: scrollSize getter\r\n\r\n* fix: make tests use new api\r\n\r\n* refactor: move \"element\" function logic to 'ScrollElement'\r\n\r\n* fix: remove browserstack scripts returning cyclic structures\r\n\r\n* test: improve centerElement test\r\n\r\n* refactor: improve api\r\n\r\n* docs(wip): update readme\r\n\r\n* refactor: rename elementRelativePosition => relativeElementPosition\r\n\r\n* docs: update readme\r\n\r\n* test: update test for elementPosition\r\n\r\n* test: use min capabilities test\r\n\r\n* fix: getDistToCenterElement not working\r\n\r\n* fix: update properly animation position after user scroll\r\n\r\n* fix: test capabilities\r\n\r\n* test: reduce precision\r\n\r\n* refactor: fix codeclimate issues\r\n\r\n* docs: add browserstack logo",
+            "tree": {
+                "sha": "2f66b30856f4951169055473ed76aa50bb44378b",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/2f66b30856f4951169055473ed76aa50bb44378b"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/a2418561ad5aa3b461701eb79b1c323787c12003",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcyoviCRBK7hj4Ov3rIwAAdHIIAIekbHssS8p8kepvCA9Yeydf\nrageRoD63tzCO3oAWVNaRIune/HzFXuafty40grvCvQtdi53BbYT5uVnzMG3ps30\nCqIR7aW+OcJEUGqecUumAL1ReH5T/aiL2K+PeKX0TauDr/fz3qIAeN5R/UI0GiXP\nOpoWc1v7L0yuJcLV6nFoomoEfZnNGNfTw9Qcf8VlI0cRJ1LSh1Sx5gV83esrzCuK\ndLiTexw286eo9m5OnNq9f2ABHQDGeB01V5vmdhVTXtSZv+dfwpLH2IUEWiYs6ljo\nIHZUkFXUdzboHsooRewxWFSYj9rAXVk/N53vOKxf/r5yWuCnJFv3pBjNQh/i5FM=\n=aRhx\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 2f66b30856f4951169055473ed76aa50bb44378b\nparent e06fd2c098618203fea68ea889f36e3805717534\nauthor David Perez Alvarez <david@leddgroup.com> 1556777954 -0400\ncommitter GitHub <noreply@github.com> 1556777954 -0400\n\nrefactor: improve api\n\n* chore: fix promise issue using cypress\r\n\r\n* refactor: improve public api\r\n\r\nBREAKING CHANGE: api changed\r\n\r\n* feat: improve public api\r\n\r\nmerge scroll functions into scrollTo\r\n\r\n* test: add browserstack tests\r\n\r\nreplace cypress with browserstack for better browser support\r\n\r\nSquashed commit of the following:\r\n\r\ncommit 9f91793ff5a2a46d7b217c5cc0b4e195f99d803e\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Mon Apr 29 00:08:58 2019 -0400\r\n\r\n    test: improve tests\r\n\r\ncommit 4dae7a75c43f10ec5397efd3467ec27315024871\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 22:59:28 2019 -0400\r\n\r\n    test: change to TDD\r\n\r\n    change 'describe' for 'suit'\r\n\r\ncommit db8bfabc3b4baedb470de5d029f87d7ee6e457dd\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 20:44:33 2019 -0400\r\n\r\n    test: improve tests\r\n\r\ncommit 5f6ca6ba1c086fa1311a3dc80e1842b7f8ed4ff5\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 18:40:11 2019 -0400\r\n\r\n    test: remove cypress\r\n\r\ncommit f0af97d38814fcfbe67038b6ab8cd181680aae9f\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 18:36:34 2019 -0400\r\n\r\n    test: add basic scroll test\r\n\r\ncommit 34fef3c9d6708bc77275eea1965f998d89997141\r\nAuthor: David Perez Alvarez <david@leddgroup.com>\r\nDate:   Sun Apr 28 17:45:34 2019 -0400\r\n\r\n    test: basic browserstack test config\r\n\r\n* chore: remove yarn.lock\r\n\r\n* chore: new api\r\n\r\n* feat: add getElementPlacement\r\n\r\n* fix: proper handling of scroll to element \"percent\"\r\n\r\n* chore: use scrollSize as avaliable scroll instead of scrollSize\r\n\r\n* fix: scrolling in document element\r\n\r\n* perf: replace ScrollElement class with functions\r\n\r\n* refactor: remove unnecessary getters\r\n\r\n* refactor: change detection of external scroll\r\n\r\n* perf: not removing all scroll animations\r\n\r\n* fix: scrollSize getter\r\n\r\n* fix: make tests use new api\r\n\r\n* refactor: move \"element\" function logic to 'ScrollElement'\r\n\r\n* fix: remove browserstack scripts returning cyclic structures\r\n\r\n* test: improve centerElement test\r\n\r\n* refactor: improve api\r\n\r\n* docs(wip): update readme\r\n\r\n* refactor: rename elementRelativePosition => relativeElementPosition\r\n\r\n* docs: update readme\r\n\r\n* test: update test for elementPosition\r\n\r\n* test: use min capabilities test\r\n\r\n* fix: getDistToCenterElement not working\r\n\r\n* fix: update properly animation position after user scroll\r\n\r\n* fix: test capabilities\r\n\r\n* test: reduce precision\r\n\r\n* refactor: fix codeclimate issues\r\n\r\n* docs: add browserstack logo\r\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/a2418561ad5aa3b461701eb79b1c323787c12003",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/a2418561ad5aa3b461701eb79b1c323787c12003",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/a2418561ad5aa3b461701eb79b1c323787c12003/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e06fd2c098618203fea68ea889f36e3805717534",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e06fd2c098618203fea68ea889f36e3805717534",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e06fd2c098618203fea68ea889f36e3805717534"
+            }
+        ]
+    },
+    {
+        "sha": "e06fd2c098618203fea68ea889f36e3805717534",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmUwNmZkMmMwOTg2MTgyMDNmZWE2OGVhODg5ZjM2ZTM4MDU3MTc1MzQ=",
+        "commit": {
+            "author": {
+                "name": "greenkeeper[bot]",
+                "email": "greenkeeper[bot]@users.noreply.github.com",
+                "date": "2019-04-23T01:57:20Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2019-04-23T01:57:20Z"
+            },
+            "message": "Update ts-node to the latest version \ud83d\ude80 (#46)\n\n* chore(package): update ts-node to version 8.0.3\r\n\r\n* chore(package): update lockfile yarn.lock",
+            "tree": {
+                "sha": "9c0f2d7ee4f43a827d34f712a2abd62bb118e497",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/9c0f2d7ee4f43a827d34f712a2abd62bb118e497"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/e06fd2c098618203fea68ea889f36e3805717534",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e06fd2c098618203fea68ea889f36e3805717534",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e06fd2c098618203fea68ea889f36e3805717534",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e06fd2c098618203fea68ea889f36e3805717534/comments",
+        "author": {
+            "login": "greenkeeper[bot]",
+            "id": 23040076,
+            "node_id": "MDM6Qm90MjMwNDAwNzY=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+            "html_url": "https://github.com/apps/greenkeeper",
+            "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "d3437dc43be435a6bed8de1ed37f80b59d8a8d97",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/d3437dc43be435a6bed8de1ed37f80b59d8a8d97",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/d3437dc43be435a6bed8de1ed37f80b59d8a8d97"
+            }
+        ]
+    },
+    {
+        "sha": "d3437dc43be435a6bed8de1ed37f80b59d8a8d97",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmQzNDM3ZGM0M2JlNDM1YTZiZWQ4ZGUxZWQzN2Y4MGI1OWQ4YThkOTc=",
+        "commit": {
+            "author": {
+                "name": "greenkeeper[bot]",
+                "email": "greenkeeper[bot]@users.noreply.github.com",
+                "date": "2019-04-23T01:57:08Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2019-04-23T01:57:08Z"
+            },
+            "message": "Update @types/node to the latest version \ud83d\ude80 (#45)\n\n* chore(package): update @types/node to version 10.12.22\r\n\r\n* chore(package): update lockfile yarn.lock",
+            "tree": {
+                "sha": "34ed1d51a87f48b27f839bbdbfe70d196e0678ff",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/34ed1d51a87f48b27f839bbdbfe70d196e0678ff"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/d3437dc43be435a6bed8de1ed37f80b59d8a8d97",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/d3437dc43be435a6bed8de1ed37f80b59d8a8d97",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/d3437dc43be435a6bed8de1ed37f80b59d8a8d97",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/d3437dc43be435a6bed8de1ed37f80b59d8a8d97/comments",
+        "author": {
+            "login": "greenkeeper[bot]",
+            "id": 23040076,
+            "node_id": "MDM6Qm90MjMwNDAwNzY=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+            "html_url": "https://github.com/apps/greenkeeper",
+            "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "201728282a534ed76828327d232cbb464f621d56",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/201728282a534ed76828327d232cbb464f621d56",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/201728282a534ed76828327d232cbb464f621d56"
+            }
+        ]
+    },
+    {
+        "sha": "201728282a534ed76828327d232cbb464f621d56",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjIwMTcyODI4MmE1MzRlZDc2ODI4MzI3ZDIzMmNiYjQ2NGY2MjFkNTY=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-01-19T03:26:28Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-01-19T03:28:13Z"
+            },
+            "message": "fix(readme): fix 'element' examples",
+            "tree": {
+                "sha": "6b29a787882a438fffa15bf4e3209167e1259cc0",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/6b29a787882a438fffa15bf4e3209167e1259cc0"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/201728282a534ed76828327d232cbb464f621d56",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlxCmVcACgkQcZhtWMNB\nAPG2YQwAqtnSGxIBdgjd7fABBblNISMkeUsbFeFKh6/A1tFSIii8S/UngTubETIz\nPOljGl8w2kJMYksr3jQOZx1ig588AEfjoAXWT1kMqXRaqWPTKZ6dRKSypcOwQJ/m\nR0VGRzRiz7iututvwRBbirv+alR98UcVDF+rIdS1wHj8U42kmQBxNiTotcUQpP5H\n2zI2i/OrgHJZFiu4mmk7q+2LKWF7JO6SwTnymizLU1ngOwxqMea9n6Z3FOeHAFk6\nOE5nAKNI63rRLScNo5KWkgxpIicME8CnFQtJhzIPALv0InJG6Xz4I3CozOH7nst4\nmz5Gc/VZ1PAXJQOh5M++IVfliUUNO2O+FzjvbPkUiRUMvc/LIIzgr4A7y3cWaA9j\naKgAK+ot1hJXfnB0xxwszaO87QrbFOHhrCOru9Eda6rI3MwLIRW7vxciA9PN8F2e\nTGQm8raAx+kyeIdVdlJ7H545w+Huw1WurpNxMGTYh3Mx8WHXxaprGY0gj4KNYYa7\nSmShMDd1\n=0Ag5\n-----END PGP SIGNATURE-----",
+                "payload": "tree 6b29a787882a438fffa15bf4e3209167e1259cc0\nparent 977c617ee2cf2a773dc4b3c60245d45000e282a3\nauthor David Perez Alvarez <david@leddgroup.com> 1547868388 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1547868493 -0500\n\nfix(readme): fix 'element' examples\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/201728282a534ed76828327d232cbb464f621d56",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/201728282a534ed76828327d232cbb464f621d56",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/201728282a534ed76828327d232cbb464f621d56/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "977c617ee2cf2a773dc4b3c60245d45000e282a3",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/977c617ee2cf2a773dc4b3c60245d45000e282a3",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/977c617ee2cf2a773dc4b3c60245d45000e282a3"
+            }
+        ]
+    },
+    {
+        "sha": "977c617ee2cf2a773dc4b3c60245d45000e282a3",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1Ojk3N2M2MTdlZTJjZjJhNzczZGM0YjNjNjAyNDVkNDUwMDBlMjgyYTM=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-01-19T03:25:55Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-01-19T03:25:55Z"
+            },
+            "message": "docs(readme): add codepen for examples in README",
+            "tree": {
+                "sha": "2ea96823527d3e1517741ef644a8a32f5e546ce1",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/2ea96823527d3e1517741ef644a8a32f5e546ce1"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/977c617ee2cf2a773dc4b3c60245d45000e282a3",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlxCmNgACgkQcZhtWMNB\nAPH7CQv+Lqq+75mhESLkLoOs1Y5lYDSkRrtwG6VwcxtmLlJCBqAIql2dSNNgmHdH\nwpPn7sPiUB0LPKlSu/znEgd/bKIHqh+kfCnOpixTdkxQKSih//4LSzedDjpL7SQt\n/nWTCBsvRUyAJnBUEq/SZp8U3co+e2UW/s5DgyHTkEETUYJ7t7vy1YcaT6VqR/2x\nj2e5RJFW0v7Sfy5CSCvHa2zjobmfYzBNXIOnxxEBGcR8DrwCi2gWZqzb3/i+DUG3\nxNa6R/LmcgfxSjtvQL1pgfFYyW/Tz1Za2vDBuwPVMFxUS4vrI5BUhSxhTEpJ7gXs\nttGFT/XxSvX0YTMxWE/nGIs2tY7CMi5YJlMrdmUi7rU0TV404LcGSRPpWZP38AiA\nNv7uXMjX/vbcbBAoIFssBmxzempdPNrPRkf2jkJYLXY8L7f6n6tOXpPEeEOOHbut\nhXSuDD/Oc0JSkkUsaygSK7qFu3jyTrn5LshrhRw+RVlO0Kr47ZoHvnNl7Fa+VdTN\nLJl0SZ1g\n=rilf\n-----END PGP SIGNATURE-----",
+                "payload": "tree 2ea96823527d3e1517741ef644a8a32f5e546ce1\nparent 71136d64a7e0936dc4df41331db10b5464482c3c\nauthor David Perez Alvarez <david@leddgroup.com> 1547868355 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1547868355 -0500\n\ndocs(readme): add codepen for examples in README\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/977c617ee2cf2a773dc4b3c60245d45000e282a3",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/977c617ee2cf2a773dc4b3c60245d45000e282a3",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/977c617ee2cf2a773dc4b3c60245d45000e282a3/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "71136d64a7e0936dc4df41331db10b5464482c3c",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/71136d64a7e0936dc4df41331db10b5464482c3c",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/71136d64a7e0936dc4df41331db10b5464482c3c"
+            }
+        ]
+    },
+    {
+        "sha": "71136d64a7e0936dc4df41331db10b5464482c3c",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjcxMTM2ZDY0YTdlMDkzNmRjNGRmNDEzMzFkYjEwYjU0NjQ0ODJjM2M=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-01-15T17:09:07Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2019-01-15T17:09:07Z"
+            },
+            "message": "fix(readme): incorrect external onScroll example",
+            "tree": {
+                "sha": "80a734d415250a458a8c53040e05b9386247cc73",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/80a734d415250a458a8c53040e05b9386247cc73"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/71136d64a7e0936dc4df41331db10b5464482c3c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlw+FB4ACgkQcZhtWMNB\nAPHkOAv/ZRVMEMkyfaG7QO6X8kwJ/nF8cbb5HpcPLswm6O6KePdNsGiGFIjmvPTc\njTq3RNTwKf1T/w+iE7UymdlkvHotzpOykuw4yZWJ3Of/BxxI1dw0KQg9WvKApFHt\nn6zTrPw9PmOoVGaEZ/hvNoIVdhFHRbRZuKz3yiIuv+ilJCYxYL0KObKFYa0XgKtq\nHY9+PHXLZRdYVkpEi8Rj+H/dpMd6FAdINGZc3K75vM8Vz2AwWIcaqELXO9Ciop3I\nQCmz/sYZ5q+Krhn/6DAI8bVVOYEPBN9r218bFpeZzaY3ky1BMdblZhkQCmH72a37\ndCvMWPsREuTy+7XxQ/3wBAgp5G0nNgNkgeMGTBI/tLjiTeyIG9Ms2wQ5hf2mBhiw\nK3siYRwpmRvj9sxlGcVz91/YECJAIXr6SO0i8c4kB0IGPeKrSWH1w2LrQ20sphBo\n3dhcUlXdMdLlqLBzF4aCJWQqF8lCnMOVgKVFJfE4RoVSyrc8nZYNbP3a+1mAsucs\ngG/os3H6\n=jjZ+\n-----END PGP SIGNATURE-----",
+                "payload": "tree 80a734d415250a458a8c53040e05b9386247cc73\nparent 5f71a61068a6fced007fa9ed15a10868cb21d5e2\nauthor David Perez Alvarez <david@leddgroup.com> 1547572147 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1547572147 -0500\n\nfix(readme): incorrect external onScroll example\n",
+                "verified_at": "2024-11-08T09:09:58Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/71136d64a7e0936dc4df41331db10b5464482c3c",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/71136d64a7e0936dc4df41331db10b5464482c3c",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/71136d64a7e0936dc4df41331db10b5464482c3c/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5f71a61068a6fced007fa9ed15a10868cb21d5e2",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/5f71a61068a6fced007fa9ed15a10868cb21d5e2",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/5f71a61068a6fced007fa9ed15a10868cb21d5e2"
+            }
+        ]
+    },
+    {
+        "sha": "5f71a61068a6fced007fa9ed15a10868cb21d5e2",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjVmNzFhNjEwNjhhNmZjZWQwMDdmYTllZDE1YTEwODY4Y2IyMWQ1ZTI=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2019-01-14T00:30:31Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2019-01-14T00:30:31Z"
+            },
+            "message": "v3 greater refactor (#43)\n\nBREAKING CHANGE: api changed\r\n* chore: change exported api\r\n\r\n* refactor: change animationManager\r\n\r\n* chore: remove demo\r\n\r\n* docs: update readme\r\n\r\n* docs: update readme\r\n\r\n* feat: add `misc`\r\n\r\n* refactor: remove tests\r\n\r\n* feat(misc): add `scrollTo` function\r\nsimilar to `scrollBy`\r\n\r\n* feat(misc): add `isElementInRange`\r\nreturns `true` if element is visible from its container #14\r\n\r\n* docs(readme): fix typo\r\n\r\n\"design\" -> \"designed\"\r\n\r\n* fix: missing module in package.json\r\nts-node\r\n\r\n* test: add cypress\r\nSquashed commit of the following:\r\n    test: add screenshots for readme\r\n    test: refactor tests\r\n    test: add basic cypress tests\r\n\r\n* refactor: change position to scrollPosition\r\n\r\n* docs: update README\r\n\r\n* chore: remove browserstack",
+            "tree": {
+                "sha": "33efe00a28803ff3bbcfe7b9630dd30fb8c66659",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/33efe00a28803ff3bbcfe7b9630dd30fb8c66659"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/5f71a61068a6fced007fa9ed15a10868cb21d5e2",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJcO9gnCRBK7hj4Ov3rIwAAdHIIABtza71zs6ZaqWfwCp2rOrlD\nkHuL8mgK6KVRcRxFo00B1rIEG+mofVuXyAjin6rLmBsMz/3BeD87IwHzxtMk6+pC\n6gDsLLXPzNhL5K66TD3L+5FycrGG1iauJcJ6Ahql9CIOTFSSaYxMDg7dAOCQbAjR\nnlO6iM/XS+BzhgG7IRVnX4unNSEBpJ8HnErajdg4RwDgQGb7S935G56inQdqM6IT\nWmu2P2xna8595ro9H1env6uqoV8CBGYtUoqNgmkPQSuq1UOjLmPOJrCSDOEqF+E3\ny4BXKdRuyvMIx/l9NQvOz0FEE/d37k6a78GFpeAop6Cttn1+jgvEz+OjA6IALV4=\n=mwzo\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 33efe00a28803ff3bbcfe7b9630dd30fb8c66659\nparent 42e8d2d5141b176aa7fada79bb2ec94fec009ba3\nauthor David Perez Alvarez <davidpa9708@gmail.com> 1547425831 -0500\ncommitter GitHub <noreply@github.com> 1547425831 -0500\n\nv3 greater refactor (#43)\n\nBREAKING CHANGE: api changed\r\n* chore: change exported api\r\n\r\n* refactor: change animationManager\r\n\r\n* chore: remove demo\r\n\r\n* docs: update readme\r\n\r\n* docs: update readme\r\n\r\n* feat: add `misc`\r\n\r\n* refactor: remove tests\r\n\r\n* feat(misc): add `scrollTo` function\r\nsimilar to `scrollBy`\r\n\r\n* feat(misc): add `isElementInRange`\r\nreturns `true` if element is visible from its container #14\r\n\r\n* docs(readme): fix typo\r\n\r\n\"design\" -> \"designed\"\r\n\r\n* fix: missing module in package.json\r\nts-node\r\n\r\n* test: add cypress\r\nSquashed commit of the following:\r\n    test: add screenshots for readme\r\n    test: refactor tests\r\n    test: add basic cypress tests\r\n\r\n* refactor: change position to scrollPosition\r\n\r\n* docs: update README\r\n\r\n* chore: remove browserstack\r\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/5f71a61068a6fced007fa9ed15a10868cb21d5e2",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/5f71a61068a6fced007fa9ed15a10868cb21d5e2",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/5f71a61068a6fced007fa9ed15a10868cb21d5e2/comments",
+        "author": null,
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "42e8d2d5141b176aa7fada79bb2ec94fec009ba3",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/42e8d2d5141b176aa7fada79bb2ec94fec009ba3",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/42e8d2d5141b176aa7fada79bb2ec94fec009ba3"
+            }
+        ]
+    },
+    {
+        "sha": "42e8d2d5141b176aa7fada79bb2ec94fec009ba3",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjQyZThkMmQ1MTQxYjE3NmFhN2ZhZGE3OWJiMmVjOTRmZWMwMDliYTM=",
+        "commit": {
+            "author": {
+                "name": "greenkeeper[bot]",
+                "email": "greenkeeper[bot]@users.noreply.github.com",
+                "date": "2019-01-06T01:42:58Z"
+            },
+            "committer": {
+                "name": "Daniel Perez Alvarez",
+                "email": "danielpza@protonmail.com",
+                "date": "2019-01-08T20:02:23Z"
+            },
+            "message": "chore(package): update lockfile package-lock.json",
+            "tree": {
+                "sha": "5460235630798bd77210cd99dd27ec988abd97c1",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/5460235630798bd77210cd99dd27ec988abd97c1"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/42e8d2d5141b176aa7fada79bb2ec94fec009ba3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/42e8d2d5141b176aa7fada79bb2ec94fec009ba3",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/42e8d2d5141b176aa7fada79bb2ec94fec009ba3",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/42e8d2d5141b176aa7fada79bb2ec94fec009ba3/comments",
+        "author": {
+            "login": "greenkeeper[bot]",
+            "id": 23040076,
+            "node_id": "MDM6Qm90MjMwNDAwNzY=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+            "html_url": "https://github.com/apps/greenkeeper",
+            "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielpza",
+            "id": 17787042,
+            "node_id": "MDQ6VXNlcjE3Nzg3MDQy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17787042?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielpza",
+            "html_url": "https://github.com/danielpza",
+            "followers_url": "https://api.github.com/users/danielpza/followers",
+            "following_url": "https://api.github.com/users/danielpza/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielpza/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielpza/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielpza/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielpza/orgs",
+            "repos_url": "https://api.github.com/users/danielpza/repos",
+            "events_url": "https://api.github.com/users/danielpza/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielpza/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "85a27531cdb776b7939591228e08e051148d1cdd",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/85a27531cdb776b7939591228e08e051148d1cdd",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/85a27531cdb776b7939591228e08e051148d1cdd"
+            }
+        ]
+    },
+    {
+        "sha": "85a27531cdb776b7939591228e08e051148d1cdd",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1Ojg1YTI3NTMxY2RiNzc2Yjc5Mzk1OTEyMjhlMDhlMDUxMTQ4ZDFjZGQ=",
+        "commit": {
+            "author": {
+                "name": "greenkeeper[bot]",
+                "email": "greenkeeper[bot]@users.noreply.github.com",
+                "date": "2019-01-06T01:42:55Z"
+            },
+            "committer": {
+                "name": "Daniel Perez Alvarez",
+                "email": "danielpza@protonmail.com",
+                "date": "2019-01-08T20:02:23Z"
+            },
+            "message": "docs(readme): add Greenkeeper badge",
+            "tree": {
+                "sha": "5fcdadb7f37ff47cc720851bd1f3c4561d1230a6",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/5fcdadb7f37ff47cc720851bd1f3c4561d1230a6"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/85a27531cdb776b7939591228e08e051148d1cdd",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/85a27531cdb776b7939591228e08e051148d1cdd",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/85a27531cdb776b7939591228e08e051148d1cdd",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/85a27531cdb776b7939591228e08e051148d1cdd/comments",
+        "author": {
+            "login": "greenkeeper[bot]",
+            "id": 23040076,
+            "node_id": "MDM6Qm90MjMwNDAwNzY=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+            "html_url": "https://github.com/apps/greenkeeper",
+            "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielpza",
+            "id": 17787042,
+            "node_id": "MDQ6VXNlcjE3Nzg3MDQy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17787042?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielpza",
+            "html_url": "https://github.com/danielpza",
+            "followers_url": "https://api.github.com/users/danielpza/followers",
+            "following_url": "https://api.github.com/users/danielpza/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielpza/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielpza/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielpza/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielpza/orgs",
+            "repos_url": "https://api.github.com/users/danielpza/repos",
+            "events_url": "https://api.github.com/users/danielpza/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielpza/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e68351d1a55e6873e3955cda9022fb8950bb99c1",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e68351d1a55e6873e3955cda9022fb8950bb99c1",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e68351d1a55e6873e3955cda9022fb8950bb99c1"
+            }
+        ]
+    },
+    {
+        "sha": "e68351d1a55e6873e3955cda9022fb8950bb99c1",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmU2ODM1MWQxYTU1ZTY4NzNlMzk1NWNkYTkwMjJmYjg5NTBiYjk5YzE=",
+        "commit": {
+            "author": {
+                "name": "greenkeeper[bot]",
+                "email": "greenkeeper[bot]@users.noreply.github.com",
+                "date": "2019-01-06T01:42:52Z"
+            },
+            "committer": {
+                "name": "Daniel Perez Alvarez",
+                "email": "danielpza@protonmail.com",
+                "date": "2019-01-08T20:02:23Z"
+            },
+            "message": "chore(package): update dependencies",
+            "tree": {
+                "sha": "e8289708f83e05a01bf24f0ea06815b194c41099",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/e8289708f83e05a01bf24f0ea06815b194c41099"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/e68351d1a55e6873e3955cda9022fb8950bb99c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e68351d1a55e6873e3955cda9022fb8950bb99c1",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e68351d1a55e6873e3955cda9022fb8950bb99c1",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e68351d1a55e6873e3955cda9022fb8950bb99c1/comments",
+        "author": {
+            "login": "greenkeeper[bot]",
+            "id": 23040076,
+            "node_id": "MDM6Qm90MjMwNDAwNzY=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/505?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/greenkeeper%5Bbot%5D",
+            "html_url": "https://github.com/apps/greenkeeper",
+            "followers_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/greenkeeper%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "danielpza",
+            "id": 17787042,
+            "node_id": "MDQ6VXNlcjE3Nzg3MDQy",
+            "avatar_url": "https://avatars.githubusercontent.com/u/17787042?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/danielpza",
+            "html_url": "https://github.com/danielpza",
+            "followers_url": "https://api.github.com/users/danielpza/followers",
+            "following_url": "https://api.github.com/users/danielpza/following{/other_user}",
+            "gists_url": "https://api.github.com/users/danielpza/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/danielpza/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/danielpza/subscriptions",
+            "organizations_url": "https://api.github.com/users/danielpza/orgs",
+            "repos_url": "https://api.github.com/users/danielpza/repos",
+            "events_url": "https://api.github.com/users/danielpza/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/danielpza/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9bfe999748e7dd0dfc9ee0e206a38273ee3f9011",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/9bfe999748e7dd0dfc9ee0e206a38273ee3f9011",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/9bfe999748e7dd0dfc9ee0e206a38273ee3f9011"
+            }
+        ]
+    },
+    {
+        "sha": "9bfe999748e7dd0dfc9ee0e206a38273ee3f9011",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjliZmU5OTk3NDhlN2RkMGRmYzllZTBlMjA2YTM4MjczZWUzZjkwMTE=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T02:50:28Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T02:51:51Z"
+            },
+            "message": "docs: fix README",
+            "tree": {
+                "sha": "cdebd4e65e9d225e9ed84541ee89a03f803ff907",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/cdebd4e65e9d225e9ed84541ee89a03f803ff907"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/9bfe999748e7dd0dfc9ee0e206a38273ee3f9011",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvrjcgACgkQcZhtWMNB\nAPH4qAv+IACGUxNCN33epds07MwfiKVqrJIeHGZFY6TDUNTKSlFa8V2/KnU12lkZ\nXYB2QoXCoHxgSLameCfz3UhbZVsoLGlFee+Er44Wxg5EG4Wfo7A8dkCyr7piEYQU\nGbDKSu1I7JnOJbR1ut7F2GDhuPdI1u4rAwVNEdjJ5LPcR+rJ3whjNKMXR3dTLdjz\nu4ZrmF679NTqnvlg5WcokHN+GO3T4dcd+Y9077Jv6mWU446e6VqHa1+A5e+CCscN\nPiq1nMFch4HLVxpKIdXlBHKLnTMjofdPzQUsX5s3DkGvAJumv3/qJd3nYLifQito\nw7K57Vv4oieMhOfo0cufg8/sT3jIncH8zuVaDoMON1Qx8doq7a/RHggVlLQLhRaw\n8Em2y8sU/rvlvrx0hzpX7Or/CAJj+b6xaXaVsauSBz3BeCqDSFClA3le1ndkrll/\n9iQNxHokQIZ4C4kXvW8d57WptWSxA8DzA7MS7YY8+YeXHY+uJubhNPaAMN/M7ZXi\n5ADVJ1s/\n=pKWw\n-----END PGP SIGNATURE-----",
+                "payload": "tree cdebd4e65e9d225e9ed84541ee89a03f803ff907\nparent 78feeaa9f6439e6d296f995eb48ba3791aec25dd\nauthor David Perez Alvarez <david@leddgroup.com> 1542163828 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1542163911 -0500\n\ndocs: fix README\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/9bfe999748e7dd0dfc9ee0e206a38273ee3f9011",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/9bfe999748e7dd0dfc9ee0e206a38273ee3f9011",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/9bfe999748e7dd0dfc9ee0e206a38273ee3f9011/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "78feeaa9f6439e6d296f995eb48ba3791aec25dd",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/78feeaa9f6439e6d296f995eb48ba3791aec25dd",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/78feeaa9f6439e6d296f995eb48ba3791aec25dd"
+            }
+        ]
+    },
+    {
+        "sha": "78feeaa9f6439e6d296f995eb48ba3791aec25dd",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1Ojc4ZmVlYWE5ZjY0MzllNmQyOTZmOTk1ZWI0OGJhMzc5MWFlYzI1ZGQ=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T02:46:08Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T02:46:08Z"
+            },
+            "message": "docs: add toc",
+            "tree": {
+                "sha": "06ea762444f9bfea7ec2c51e110ccd1047d61eca",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/06ea762444f9bfea7ec2c51e110ccd1047d61eca"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/78feeaa9f6439e6d296f995eb48ba3791aec25dd",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvrjH8ACgkQcZhtWMNB\nAPEROQv+LlGup9jz5v0Qz9RSYG/HioSrqRVYsJsSuywdg86qu/L3UwbY777qvvyo\nBwTicDosxXB5bUhxlMZjuadIE1SmUZpMJ8dRY0Y+vfWlI1pqrQBKXdVzSicMaf4V\nT/GdCAKo8OjoE80zkzKgXam3ATXD7Tv8XVttS+P9kJPE0XRNu9gljc+nrgwA+wLW\nJ6DCCg5A2UCujtqy/vnE2jTiBqdMF3ASyYtGko5tf3cYL22kze0Bs+jOm0tpLsWs\nayEmwshf9+5xWbmalwAzlNFyLHwhOinWSZPo9fQNRzmCh851QJjmcrVZajkb4Gow\nFRGDTKayR++O2McrgRtBtU/HYUFf/th7jMa7mLGF8SqtOWjaairYLiR0iGN9HNEc\nybDAjUJKUt1V06xiNzfLkCe82qkaoB1XCR/okxhwTIrzwwNJiO6TwrZgAgewfzF8\nhLdEv0mtVDjLTuouEnY9KqHGzymIi9R0Pga5XAcKJ3srb2Uw2U5YV8P2zdmJf9Db\n4JNHT2I7\n=BdQ4\n-----END PGP SIGNATURE-----",
+                "payload": "tree 06ea762444f9bfea7ec2c51e110ccd1047d61eca\nparent 72280ce1fe7ea56999694d45ffcad95d9ed02365\nauthor David Perez Alvarez <david@leddgroup.com> 1542163568 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1542163568 -0500\n\ndocs: add toc\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/78feeaa9f6439e6d296f995eb48ba3791aec25dd",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/78feeaa9f6439e6d296f995eb48ba3791aec25dd",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/78feeaa9f6439e6d296f995eb48ba3791aec25dd/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "72280ce1fe7ea56999694d45ffcad95d9ed02365",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/72280ce1fe7ea56999694d45ffcad95d9ed02365",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/72280ce1fe7ea56999694d45ffcad95d9ed02365"
+            }
+        ]
+    },
+    {
+        "sha": "72280ce1fe7ea56999694d45ffcad95d9ed02365",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjcyMjgwY2UxZmU3ZWE1Njk5OTY5NGQ0NWZmY2FkOTVkOWVkMDIzNjU=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T02:31:42Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T02:31:42Z"
+            },
+            "message": "fix: change type in `centerElement` from _HTMLElement_ to _Element_",
+            "tree": {
+                "sha": "ebeae23b578ed6bab49c9f933b0b5f5231d7e322",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/ebeae23b578ed6bab49c9f933b0b5f5231d7e322"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/72280ce1fe7ea56999694d45ffcad95d9ed02365",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvriU0ACgkQcZhtWMNB\nAPE04Av/f5JqNzavk/ZZJq7Lx4x8AqDdANnYFurzecJMxt5EU29T9M9K50aO0Jhu\nxNrCW3lDUD11b0CiE7Jfsae8h6yYYqI+k0R77wNqsSmbey6BsL3v9gV5FFtx6wpy\n3evolHBLsMX9XtTgn6dbETSF81oJPtCCoFfKzsDbLdT/ThHQevGJD8FFfoXr1Ks5\nGQDzWcBOwuPjOdE9TAlTHASjcIyUiLZFSu8XhOECcca3QskoeYKsn8Z13catyLqr\nc501WexOWBWkl6lVXl8J/3SZkpBR9KU21WewA4i7RRiR7hV1udzE0vC0INaNPQOF\n9CoDVN4NolKzEgiNq/9AzFT4bgL36WtwIZ0XaB7EOoU5VCq0FrbaNPjV+bWCaOza\nmrvJxaj6ARAmYgwy6lDah6Mn6lZTlvYgDYxcGBHDhablRht/F2C7BWuI2hFfkw9y\n8KwWvRyMTjGrtNKGNsV6mwzSt/8neabMwcmg+kfXjZ6ZHH3BTU/ndJAeS3WkVXmo\ndX/yK18R\n=opd2\n-----END PGP SIGNATURE-----",
+                "payload": "tree ebeae23b578ed6bab49c9f933b0b5f5231d7e322\nparent e3011955d9683a0a01543e74e829d49e47769b97\nauthor David Perez Alvarez <david@leddgroup.com> 1542162702 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1542162702 -0500\n\nfix: change type in `centerElement` from _HTMLElement_ to _Element_\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/72280ce1fe7ea56999694d45ffcad95d9ed02365",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/72280ce1fe7ea56999694d45ffcad95d9ed02365",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/72280ce1fe7ea56999694d45ffcad95d9ed02365/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e3011955d9683a0a01543e74e829d49e47769b97",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e3011955d9683a0a01543e74e829d49e47769b97",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e3011955d9683a0a01543e74e829d49e47769b97"
+            }
+        ]
+    },
+    {
+        "sha": "e3011955d9683a0a01543e74e829d49e47769b97",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmUzMDExOTU1ZDk2ODNhMGEwMTU0M2U3NGU4MjlkNDllNDc3NjliOTc=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T01:37:54Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T01:37:54Z"
+            },
+            "message": "docs(demo): remove readme",
+            "tree": {
+                "sha": "bee061a72c18a2601df39d46bbf41b841ef5e860",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/bee061a72c18a2601df39d46bbf41b841ef5e860"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/e3011955d9683a0a01543e74e829d49e47769b97",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvrfh8ACgkQcZhtWMNB\nAPGFBAv+JvGRa5h51viSo99VyXhI6Rxr8nLO/VMjtzsGkJy1b8ZKBx5/v4UE3B72\n0BXDbzCqAdyvzq0bjV7vABKwf/Br+hZDFT9+JmyP0PvcqvTTqhjQiimMZen8Zsqw\nsr7kMopx+bNi5fgtCTml19bcvfXujJ8+UEt4EPOoH3Dt/XDzJREKXhpMGrzoXbTU\nd6K0NDcJ+tE0nBFmm17B4HLyL3DfvrSLlHuXcbXjUdnnDEVkakMsrSmliWj6jrjt\ny5XGpDDH2BvQGKNleVHKHXh32bt+rUpjltNbKz6x8B+jxFbhr0lAqGolCL1IkInl\nwm6JjX6RR4LG5iISIfPOIzHEGUqXHg+1zzbHasXFhvGY19oQp2oGojrKfkXsXjsM\nFVR7gNGC1k1CHDmVzlsoiblDWM9/hfOAKRTxyfjoGNDZwIXE2BjOHXl+fBp6bOBj\nVdz6piTyzZ5VMc4qsHDn1vzqh2Mnento+555CZzlMhLwhg62he/gECzQmit9aNn3\nEH+54n1i\n=WIjK\n-----END PGP SIGNATURE-----",
+                "payload": "tree bee061a72c18a2601df39d46bbf41b841ef5e860\nparent 7197fa29084c30b68c52840396d7d3239b9a20f6\nauthor David Perez Alvarez <david@leddgroup.com> 1542159474 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1542159474 -0500\n\ndocs(demo): remove readme\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e3011955d9683a0a01543e74e829d49e47769b97",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e3011955d9683a0a01543e74e829d49e47769b97",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e3011955d9683a0a01543e74e829d49e47769b97/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7197fa29084c30b68c52840396d7d3239b9a20f6",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/7197fa29084c30b68c52840396d7d3239b9a20f6",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/7197fa29084c30b68c52840396d7d3239b9a20f6"
+            }
+        ]
+    },
+    {
+        "sha": "7197fa29084c30b68c52840396d7d3239b9a20f6",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjcxOTdmYTI5MDg0YzMwYjY4YzUyODQwMzk2ZDdkMzIzOWI5YTIwZjY=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T00:01:26Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-14T00:01:26Z"
+            },
+            "message": "docs: update readme",
+            "tree": {
+                "sha": "043713880d86eacb295b5b39df136c500a899828",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/043713880d86eacb295b5b39df136c500a899828"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/7197fa29084c30b68c52840396d7d3239b9a20f6",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvrZecACgkQcZhtWMNB\nAPE12QwAsMttO3tQpWMct+lLyoijtsNHyJeBdrMV6iiC5lbx66hxj//F2wEVZtjS\nF/J05kK4uHqV/Nzd1qxoDkzNir+H77ndXxUlQjZVFTMd3kPKDBxdtLUF72YGDn3K\nNKVYGxfNevVVtoAT8u7kd/tECt6AZj2am1J/vgOl9T0q4mCpA8PhhDELvrmw1k1m\nTUzfTwSAuCnH9Me4l+89F7ldTlLu4n5DYC/ZEW+9mWwCzahB5WcOyi8hurUkb0Z5\n4ZlIvzZ+zvupp6/NQQvs4ReeWSizHJEK/3IUm4LOT0g68jco5l8j0/snSHsa8Nky\nHTU+Z0w+SDTKC/5r/CUMe3npKF0JchqIMThyhRi3+frIBLPk19b3nnR/mRbKbbsM\nspc0vPEXSA736Virp1ZYmp4XBPnq8zqWUsfReffz5ryRW2uuUDfiG36fi4YZbUJE\ntcgC8ODvMuUqOBR0r/YiKdmRq0+yILaswo+4BU5xRipMFEDsaZQRdTFBuBS4Mvq3\nTVkgFHS6\n=yqbP\n-----END PGP SIGNATURE-----",
+                "payload": "tree 043713880d86eacb295b5b39df136c500a899828\nparent 03d9f487e44305f832313acbd71ae772101717c4\nauthor David Perez Alvarez <david@leddgroup.com> 1542153686 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1542153686 -0500\n\ndocs: update readme\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/7197fa29084c30b68c52840396d7d3239b9a20f6",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/7197fa29084c30b68c52840396d7d3239b9a20f6",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/7197fa29084c30b68c52840396d7d3239b9a20f6/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "03d9f487e44305f832313acbd71ae772101717c4",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/03d9f487e44305f832313acbd71ae772101717c4",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/03d9f487e44305f832313acbd71ae772101717c4"
+            }
+        ]
+    },
+    {
+        "sha": "03d9f487e44305f832313acbd71ae772101717c4",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjAzZDlmNDg3ZTQ0MzA1ZjgzMjMxM2FjYmQ3MWFlNzcyMTAxNzE3YzQ=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-08T20:11:37Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-08T20:11:37Z"
+            },
+            "message": "fix: allow `document.querySelector` to instantiate ScrollManager\n\nchange `HTMLElement` to `Element`\n`HTMLElement` extends `Element`",
+            "tree": {
+                "sha": "d74044712f627d623e6ce500c203dc555c3dfcf3",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/d74044712f627d623e6ce500c203dc555c3dfcf3"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/03d9f487e44305f832313acbd71ae772101717c4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvkmPYACgkQcZhtWMNB\nAPGgKQv+Ng3AuFITSaoSc4utIo5bdy04ShvTL7HHASq7JLyUdxNLQJkFzSiJDt+X\nXlOjs7XoHW4/pHqkMnFGKpIvLv+XRs8/P246h69agf71X0Z9AnBu+TwKK60DFp9B\nN/d9PUaG/Cd5V1DzbyRC9FC93ABQdWAnqJej2zmKBGJx7TYG84JNH1BnIllljGlj\nml8upRxnjcwWw+QN2XGjksWRZ6NCHhKv1rcUjBo0L10rvcivnbxM1RQQ8IZLmYRF\nI1/u6NJHLBbHv42xVpzUnlVYepRDB9tPvVCbFepNGrQ5L3mPyB+WIWIgMMRci/oL\nZZD5jEnEBHkNsNXCAEVV9EuR70OHoj0eBeZF/qCUyadbqzxfYXeucz4cZChSEO/W\nhcDr3nGrMZIUhUun20zta5YKpMlqUiNCtKeJ26+rCjlBh/vz2TvtE3mVUNTgCugU\nVrh5W99FcmKW8hL9+pvKZHxK4fTG472TIivrAjspg+v4b1MRS0de6BxYI27mxcdx\n6ef/GnR/\n=173J\n-----END PGP SIGNATURE-----",
+                "payload": "tree d74044712f627d623e6ce500c203dc555c3dfcf3\nparent 8d0307ea8099e9a8856e33ee516be3e130bf1cb4\nauthor David Perez Alvarez <david@leddgroup.com> 1541707897 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1541707897 -0500\n\nfix: allow `document.querySelector` to instantiate ScrollManager\n\nchange `HTMLElement` to `Element`\n`HTMLElement` extends `Element`\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/03d9f487e44305f832313acbd71ae772101717c4",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/03d9f487e44305f832313acbd71ae772101717c4",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/03d9f487e44305f832313acbd71ae772101717c4/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8d0307ea8099e9a8856e33ee516be3e130bf1cb4",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8d0307ea8099e9a8856e33ee516be3e130bf1cb4",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/8d0307ea8099e9a8856e33ee516be3e130bf1cb4"
+            }
+        ]
+    },
+    {
+        "sha": "8d0307ea8099e9a8856e33ee516be3e130bf1cb4",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjhkMDMwN2VhODA5OWU5YTg4NTZlMzNlZTUxNmJlM2UxMzBiZjFjYjQ=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-08T20:10:25Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-08T20:10:25Z"
+            },
+            "message": "docs: add demo link to readme",
+            "tree": {
+                "sha": "2c720fb7a90f869dad75e68afda85e65b88cccba",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/2c720fb7a90f869dad75e68afda85e65b88cccba"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/8d0307ea8099e9a8856e33ee516be3e130bf1cb4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvkmF0ACgkQcZhtWMNB\nAPGMDAwAiiw+HCfLfqT5gR8KF54qXq3HkSE+2vqoGJg5Ah9CWJ0Y7igJS1sA4+SG\n9DKijBsMNA9ybd9ioIrnDK2dFdVaNeHd9Xi5DCim1UfHvC6wExXh4ZNHR/HbwAuO\nBjq+LPK5twfR9hQVFB51l2uNchVQtISgtPqavOIvofoTreEZlnm78WlWmDXk1DSp\nReZMIu6yXwjuoWVbK0KL8qJdwzrYO1fpfx7SOsTyC04C5oFUb8QuIxQYpiQWDVQa\nIU70Mzx/T/eKTZeZXmgmE0OKjv2+czr1GBeYkiOqwZGiwUgJ9x1mp97nDUAU357G\nlqJewV/bvzGPAaQo2Cekiyf17gmQZaNRerYH8tN/NYhxOj6FIWfI8Z2iUsvOC7os\nVb081mEOUj5bW6t+Q4I+SHMtVxUPCrJ1OGK6/lBUD06UV40wyYFVTgbn1T0gqq9c\ngtBGUAGu0cpn1x3sy7L8Sa5pHDEOioz3gcDOPctd8GgBfe3+aS7nfxDAz4Hv4hEo\nhHaW3fjv\n=Ijfj\n-----END PGP SIGNATURE-----",
+                "payload": "tree 2c720fb7a90f869dad75e68afda85e65b88cccba\nparent fdea91c3e3b1febfaed87b26789166d83aafb703\nauthor David Perez Alvarez <david@leddgroup.com> 1541707825 -0500\ncommitter David Perez Alvarez <david@leddgroup.com> 1541707825 -0500\n\ndocs: add demo link to readme\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8d0307ea8099e9a8856e33ee516be3e130bf1cb4",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/8d0307ea8099e9a8856e33ee516be3e130bf1cb4",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8d0307ea8099e9a8856e33ee516be3e130bf1cb4/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fdea91c3e3b1febfaed87b26789166d83aafb703",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/fdea91c3e3b1febfaed87b26789166d83aafb703",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/fdea91c3e3b1febfaed87b26789166d83aafb703"
+            }
+        ]
+    },
+    {
+        "sha": "fdea91c3e3b1febfaed87b26789166d83aafb703",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmZkZWE5MWMzZTNiMWZlYmZhZWQ4N2IyNjc4OTE2NmQ4M2FhZmI3MDM=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-02T05:03:11Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-02T05:03:11Z"
+            },
+            "message": "fix: remove react-markdown from dependencies",
+            "tree": {
+                "sha": "1628f153fad35a447d26388555d59ef21a53cbdd",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/1628f153fad35a447d26388555d59ef21a53cbdd"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/fdea91c3e3b1febfaed87b26789166d83aafb703",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvb2qkACgkQcZhtWMNB\nAPHQlgv/fEtMZNKWcJw1kbTbh9kvPEuAJBxhwVlhBpF+LqLVTrjWGsngl6u5/sEV\nkmdqrTOm8qQx8K5K8LRcTefjJQHzrIpSFyu0mSV5pwSRQC3DeKmigyDhxWGhrR9Q\nl3W20N/eysQvJMB+/aNAp4Ec5xXyWq7coLmPTjlZbqzJb27t+qItDiNfMrgJcnkD\nj67DpclMFzqm7zelPslsJ2de/1jWrPzF+A8oxlsfd5LHXJPXPVCjgk2n3k/u80Cw\n+lFV2KaCi8g6M/8atGbet8W2zFXi2psdvVfi635f3gRJmfScb6N4MszRw5Bj/n33\nP+5ZeJyEojaIdgrgZFPKJ8rX0X2GPZP0Va+XnwXGwtfVkKAJQt3wWrdCVrnpht3R\niOiyBN1Pop/GrB1i0naNNhcgAXQscRxk02o+8DXons4X68SJgc/tKYzfpy3v+CRa\n6Cpj5yd/iRuBRY3yrbvqu5ekfy7IZw+Gbc1dZPwtaKsov5OJxhNG946lz11gdk+X\nbOX81IlM\n=1mZE\n-----END PGP SIGNATURE-----",
+                "payload": "tree 1628f153fad35a447d26388555d59ef21a53cbdd\nparent 96cbfc0160f14c14938a3df113a2d11908fd98fe\nauthor David Perez Alvarez <david@leddgroup.com> 1541134991 -0400\ncommitter David Perez Alvarez <david@leddgroup.com> 1541134991 -0400\n\nfix: remove react-markdown from dependencies\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/fdea91c3e3b1febfaed87b26789166d83aafb703",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/fdea91c3e3b1febfaed87b26789166d83aafb703",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/fdea91c3e3b1febfaed87b26789166d83aafb703/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "96cbfc0160f14c14938a3df113a2d11908fd98fe",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/96cbfc0160f14c14938a3df113a2d11908fd98fe",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/96cbfc0160f14c14938a3df113a2d11908fd98fe"
+            }
+        ]
+    },
+    {
+        "sha": "96cbfc0160f14c14938a3df113a2d11908fd98fe",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1Ojk2Y2JmYzAxNjBmMTRjMTQ5MzhhM2RmMTEzYTJkMTE5MDhmZDk4ZmU=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-02T04:01:35Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-02T04:01:35Z"
+            },
+            "message": "docs(demo): fix cdn scroll-utility version\n\nUsing scroll-utility@1, now use @2",
+            "tree": {
+                "sha": "7128d485a978147d7539277a0be14575b0d8b8af",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/7128d485a978147d7539277a0be14575b0d8b8af"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/96cbfc0160f14c14938a3df113a2d11908fd98fe",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\niQGzBAABCgAdFiEED1Kw2+cYLKYNbVRncZhtWMNBAPEFAlvbzFcACgkQcZhtWMNB\nAPEQVQv+MPF+yxRdlSya2oQgOgn2ObZ0l3AcszZQdI3FjJXVomaoe+4T3mY0lNmL\nR8LY/v3Nvx0cICfRkvKBt3DrypxKALlJoMZ08/DabYccrZ9S2HAHrilddkAm1Bby\nCt2O0R6RQZ40+uOB23MhtcdRKPbTSRg9jalsQ/dz7bShemAGac4bip7DBabCQ2Tt\nVvVzEKSKR6eVD5WqSD5dNgX4U9/03Tc7gN0GLKfDX5lKMovQUa7xdBV0jlWsRx/B\noIm0iEjEOdGG43KfRxx4hjLCZuilT5bX449Bk25GF/Rg3Jpr1RTLcTFksZBFMgHy\nrXG9QGj8datAdQmcV4Wd8Kts8J/7hcNZZUG8oeCYL4hSKBFOxcAgnSkHR3F72TN8\nPM49u5PgYsvTWxzc4olruTenBJ2PUsO0hupA+IAPB8k2G1EOLy+fYP3nB1I1ieAv\noZQjZ1EprQXz635OchIU9lwy4mvEmBL9ID1U+mIxqv6HXfigMHD3pPb+VvCUYPfk\nBR0gAZ5T\n=3tJ3\n-----END PGP SIGNATURE-----",
+                "payload": "tree 7128d485a978147d7539277a0be14575b0d8b8af\nparent a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e\nauthor David Perez Alvarez <david@leddgroup.com> 1541131295 -0400\ncommitter David Perez Alvarez <david@leddgroup.com> 1541131295 -0400\n\ndocs(demo): fix cdn scroll-utility version\n\nUsing scroll-utility@1, now use @2\n",
+                "verified_at": "2024-11-09T14:29:43Z"
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/96cbfc0160f14c14938a3df113a2d11908fd98fe",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/96cbfc0160f14c14938a3df113a2d11908fd98fe",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/96cbfc0160f14c14938a3df113a2d11908fd98fe/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e"
+            }
+        ]
+    },
+    {
+        "sha": "a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmE1YjBkYTdmNWMxN2M0NzgzZTU1Y2ZkZDk5NzdlOGVmNjM5ZDNjMGU=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-02T03:30:48Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2018-11-02T03:33:37Z"
+            },
+            "message": "docs: add badge for npm downloads",
+            "tree": {
+                "sha": "6fa6e70aa07b05f7be8e640719b60ac9477c747c",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/6fa6e70aa07b05f7be8e640719b60ac9477c747c"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/a5b0da7f5c17c4783e55cfdd9977e8ef639d3c0e/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "48a9a1e119c506266d77daa14bfb85a3a5256787",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/48a9a1e119c506266d77daa14bfb85a3a5256787",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/48a9a1e119c506266d77daa14bfb85a3a5256787"
+            }
+        ]
+    },
+    {
+        "sha": "48a9a1e119c506266d77daa14bfb85a3a5256787",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjQ4YTlhMWUxMTljNTA2MjY2ZDc3ZGFhMTRiZmI4NWEzYTUyNTY3ODc=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-01T04:14:24Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2018-11-02T03:33:37Z"
+            },
+            "message": "test: fix creating `scrollManager` scope",
+            "tree": {
+                "sha": "cfc8275947cf12180d6d0ee805e8ddac9e8daf28",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/cfc8275947cf12180d6d0ee805e8ddac9e8daf28"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/48a9a1e119c506266d77daa14bfb85a3a5256787",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/48a9a1e119c506266d77daa14bfb85a3a5256787",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/48a9a1e119c506266d77daa14bfb85a3a5256787",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/48a9a1e119c506266d77daa14bfb85a3a5256787/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "45965cc514e1a53a00b61746edfe7b1628bbcd75",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/45965cc514e1a53a00b61746edfe7b1628bbcd75",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/45965cc514e1a53a00b61746edfe7b1628bbcd75"
+            }
+        ]
+    },
+    {
+        "sha": "45965cc514e1a53a00b61746edfe7b1628bbcd75",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjQ1OTY1Y2M1MTRlMWE1M2EwMGI2MTc0NmVkZmU3YjE2MjhiYmNkNzU=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-11-01T04:05:16Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2018-11-02T03:33:37Z"
+            },
+            "message": "chore: fix exports and update readme",
+            "tree": {
+                "sha": "d20c2303574bceea46636fc7362ec757db856c01",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/d20c2303574bceea46636fc7362ec757db856c01"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/45965cc514e1a53a00b61746edfe7b1628bbcd75",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/45965cc514e1a53a00b61746edfe7b1628bbcd75",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/45965cc514e1a53a00b61746edfe7b1628bbcd75",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/45965cc514e1a53a00b61746edfe7b1628bbcd75/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "8405ecd6d190fa90a5025e820c02750ab4fa1bf0",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8405ecd6d190fa90a5025e820c02750ab4fa1bf0",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/8405ecd6d190fa90a5025e820c02750ab4fa1bf0"
+            }
+        ]
+    },
+    {
+        "sha": "8405ecd6d190fa90a5025e820c02750ab4fa1bf0",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1Ojg0MDVlY2Q2ZDE5MGZhOTBhNTAyNWU4MjBjMDI3NTBhYjRmYTFiZjA=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-10-25T16:51:22Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2018-11-02T03:33:37Z"
+            },
+            "message": "docs(demo): improve demo\n\nuse new api\n\ndocs(demo): add styled-components\n\ndocs(demo): improve rulers\n\ndocs(demo): add more ruler types\n\ndocs(demo): improve site generation\n\nadd prism\n\ndocs(demo): remove some positioned elements\n\ndocs: improve positioning\n\ndocs(demo): improve styles\n\ndocs: improve styles\n\ndocs: improve grid responsiveness\n\ndocs: add basic set of buttons in topbar\n\ndocs: fix importing raw files\n\ndocs(wip): add more documentation\n\nimprove styles\n\ndocs(wip): add CenterElement component\n\nfix: use new api\n\ndocs(wip): refactor demo\n\ndocs: improve demo\n\ndocs: wip improve demo\n\ndocs: improve demo\n\ndocs(demo): add rightbar\n\ndocs: move most styles to css",
+            "tree": {
+                "sha": "8e49bdc84b3508f0f470d995e3784bad48dc17b1",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/8e49bdc84b3508f0f470d995e3784bad48dc17b1"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/8405ecd6d190fa90a5025e820c02750ab4fa1bf0",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8405ecd6d190fa90a5025e820c02750ab4fa1bf0",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/8405ecd6d190fa90a5025e820c02750ab4fa1bf0",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8405ecd6d190fa90a5025e820c02750ab4fa1bf0/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53"
+            }
+        ]
+    },
+    {
+        "sha": "b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OmI4OGFjMTBkODNmYjZkOTZiMjEzODBhNmJjZjRlZDA5ZTViYjhjNTM=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-10-27T01:06:36Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2018-11-02T03:33:37Z"
+            },
+            "message": "test: update tests to new api\n\ntest: use new api",
+            "tree": {
+                "sha": "9a2425234929a76ce85d2526309ffbf6b97a6b53",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/9a2425234929a76ce85d2526309ffbf6b97a6b53"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/b88ac10d83fb6d96b21380a6bcf4ed09e5bb8c53/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "8c9d584bdcec1237025f5d85f119838e18f714a3",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8c9d584bdcec1237025f5d85f119838e18f714a3",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/8c9d584bdcec1237025f5d85f119838e18f714a3"
+            }
+        ]
+    },
+    {
+        "sha": "8c9d584bdcec1237025f5d85f119838e18f714a3",
+        "node_id": "MDY6Q29tbWl0MTI2NTE3MzI1OjhjOWQ1ODRiZGNlYzEyMzcwMjVmNWQ4NWYxMTk4MzhlMThmNzE0YTM=",
+        "commit": {
+            "author": {
+                "name": "David Perez Alvarez",
+                "email": "david@leddgroup.com",
+                "date": "2018-10-29T03:45:55Z"
+            },
+            "committer": {
+                "name": "David Perez Alvarez",
+                "email": "davidpa9708@gmail.com",
+                "date": "2018-11-02T03:33:37Z"
+            },
+            "message": "refactor: improve engine\n\nrefactor: add PartialRecursive for Settings\n\ntypes thanks to Daniel Perez Alvarez <daniel@protonmail.com>\n\nrefactor: add default settings file\n\nrefactor: remove value from Options\n\nrefactor: export (default) `windowScrollManager`\n\n`windowScrollManager` its usually prefer ed to scroll\n\nfix: incorrectly handling shouldBe when out of limits\n\nfix: minor problems\n\nfix: incorrectly handling shouldBe when out of limits",
+            "tree": {
+                "sha": "be9bb112380c5789c1444fd02e254a9b3aa25744",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/trees/be9bb112380c5789c1444fd02e254a9b3aa25744"
+            },
+            "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/git/commits/8c9d584bdcec1237025f5d85f119838e18f714a3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8c9d584bdcec1237025f5d85f119838e18f714a3",
+        "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/8c9d584bdcec1237025f5d85f119838e18f714a3",
+        "comments_url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/8c9d584bdcec1237025f5d85f119838e18f714a3/comments",
+        "author": {
+            "login": "davidpa9708",
+            "id": 24394426,
+            "node_id": "MDQ6VXNlcjI0Mzk0NDI2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/24394426?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/davidpa9708",
+            "html_url": "https://github.com/davidpa9708",
+            "followers_url": "https://api.github.com/users/davidpa9708/followers",
+            "following_url": "https://api.github.com/users/davidpa9708/following{/other_user}",
+            "gists_url": "https://api.github.com/users/davidpa9708/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/davidpa9708/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/davidpa9708/subscriptions",
+            "organizations_url": "https://api.github.com/users/davidpa9708/orgs",
+            "repos_url": "https://api.github.com/users/davidpa9708/repos",
+            "events_url": "https://api.github.com/users/davidpa9708/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/davidpa9708/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": null,
+        "parents": [
+            {
+                "sha": "e385ffd23193bbd4d569b5758a8851b80408789b",
+                "url": "https://api.github.com/repos/LeDDGroup/scroll-utility/commits/e385ffd23193bbd4d569b5758a8851b80408789b",
+                "html_url": "https://github.com/LeDDGroup/scroll-utility/commit/e385ffd23193bbd4d569b5758a8851b80408789b"
+            }
+        ]
+    }
+]

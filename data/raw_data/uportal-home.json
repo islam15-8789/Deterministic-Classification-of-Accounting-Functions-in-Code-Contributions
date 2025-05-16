@@ -1,0 +1,2482 @@
+[
+    {
+        "sha": "9a1277e725eb178421179b3ff535812e6d9e5ed0",
+        "node_id": "C_kwDOAXTAMtoAKDlhMTI3N2U3MjVlYjE3ODQyMTE3OWIzZmY1MzU4MTJlNmQ5ZTVlZDA",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-05-03T21:33:29Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-05-03T21:33:29Z"
+            },
+            "message": "readme: reflect that no longer maintained.\n\nUnmaintained.",
+            "tree": {
+                "sha": "3c953bb71c3f286586e742b02f3c146f57646d06",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/3c953bb71c3f286586e742b02f3c146f57646d06"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/9a1277e725eb178421179b3ff535812e6d9e5ed0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJicZ+pCRBK7hj4Ov3rIwAAFCwIAAFXS+eG435Wk0xJkVOF6Oaz\nI09kG+SON3AQSFMwOkoyf+EBGjZDP3Bp3oRlX6WY5D4dC5bzDqOJtRNzepFvNsyR\nMPJ8hcdm6EZ9aHLSMYAWgSGfQ67wnmmGzqlIr34x7nxt9UVi3FpLcW/qIKBncSvM\nROzCwbwu0FZo/hBecVcGYKjDVj8NdboRxcfVLXyoA1ntpbF468/z4RkZpre9zbXF\nsHwl3HlrE9v98AEqOJuoQbpNKV1mBu/uD9RtcFksFrRVyEI8z4Z6KX6XaW17R7+l\n5RmOVTAElVmaHvseyOHdfgG2Ol0OAaG0kmJS2cJRYMQzbtCQPig0cgRu1Ja+YYc=\n=TqDR\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 3c953bb71c3f286586e742b02f3c146f57646d06\nparent 26bffe67396ee571af93a5cc398d2a917a1d825e\nauthor Andrew Petro <andrew.petro@wisc.edu> 1651613609 -0500\ncommitter GitHub <noreply@github.com> 1651613609 -0500\n\nreadme: reflect that no longer maintained.\n\nUnmaintained.",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/9a1277e725eb178421179b3ff535812e6d9e5ed0",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/9a1277e725eb178421179b3ff535812e6d9e5ed0",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/9a1277e725eb178421179b3ff535812e6d9e5ed0/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "26bffe67396ee571af93a5cc398d2a917a1d825e",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/26bffe67396ee571af93a5cc398d2a917a1d825e",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/26bffe67396ee571af93a5cc398d2a917a1d825e"
+            }
+        ]
+    },
+    {
+        "sha": "26bffe67396ee571af93a5cc398d2a917a1d825e",
+        "node_id": "C_kwDOAXTAMtoAKDI2YmZmZTY3Mzk2ZWU1NzFhZjkzYTVjYzM5OGQyYTkxN2ExZDgyNWU",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-03-15T16:24:24Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-03-15T16:24:24Z"
+            },
+            "message": "Merge pull request #943 from uPortal-Project/self-aware-compact-mode\n\nMake modes and switching modes more discoverable",
+            "tree": {
+                "sha": "c19c0827352870da19e7ceeebc22611d7495a584",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/c19c0827352870da19e7ceeebc22611d7495a584"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/26bffe67396ee571af93a5cc398d2a917a1d825e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiML24CRBK7hj4Ov3rIwAAwgAIACYDpzoGP4NJVhsj2KqPwUba\nXDbmUXL7Y7q/fIBXrFz0wDqFoylF3IbgZ7zwByEIsmSl6gBj4UaO6jYOy3N4gFjE\nF66BJVVI6cFJX76U7c0oD3N9byvElyGkFL1oJcbPrJ7Sm6jVGKP1VjLiO4lUodbW\nzxbTFrxLAUyYXK9BfANJTc9rxFqLArOQOUDaKjkFYgqVh8XITatjjbB+PRUt2zQM\nAGTDU35BoUtTyq+m8ZnOwQP4uPfWo05MR8AnirmQyC6AObe5NFt8hL+KwvxJCBe+\n16IQ0FxB/JQdEdRLnkUOAd2l4fQNIm+bxFD6gXZ+vk+bsSc/zx5wH/PzE3WXGUg=\n=dQ+t\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree c19c0827352870da19e7ceeebc22611d7495a584\nparent fa7b8f7a1be23d878c2c83276850d547d41aa428\nparent 122958f686e645f513c5209561bd68556617d6c1\nauthor Andrew Petro <andrew.petro@wisc.edu> 1647361464 -0500\ncommitter GitHub <noreply@github.com> 1647361464 -0500\n\nMerge pull request #943 from uPortal-Project/self-aware-compact-mode\n\nMake modes and switching modes more discoverable",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/26bffe67396ee571af93a5cc398d2a917a1d825e",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/26bffe67396ee571af93a5cc398d2a917a1d825e",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/26bffe67396ee571af93a5cc398d2a917a1d825e/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fa7b8f7a1be23d878c2c83276850d547d41aa428",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fa7b8f7a1be23d878c2c83276850d547d41aa428",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/fa7b8f7a1be23d878c2c83276850d547d41aa428"
+            },
+            {
+                "sha": "122958f686e645f513c5209561bd68556617d6c1",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/122958f686e645f513c5209561bd68556617d6c1",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/122958f686e645f513c5209561bd68556617d6c1"
+            }
+        ]
+    },
+    {
+        "sha": "122958f686e645f513c5209561bd68556617d6c1",
+        "node_id": "C_kwDOAXTAMtoAKDEyMjk1OGY2ODZlNjQ1ZjUxM2M1MjA5NTYxYmQ2ODU1NjYxN2Q2YzE",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-03-15T16:00:57Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-03-15T16:00:57Z"
+            },
+            "message": "Make modes and switching modes more discoverable",
+            "tree": {
+                "sha": "c19c0827352870da19e7ceeebc22611d7495a584",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/c19c0827352870da19e7ceeebc22611d7495a584"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/122958f686e645f513c5209561bd68556617d6c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/122958f686e645f513c5209561bd68556617d6c1",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/122958f686e645f513c5209561bd68556617d6c1",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/122958f686e645f513c5209561bd68556617d6c1/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fa7b8f7a1be23d878c2c83276850d547d41aa428",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fa7b8f7a1be23d878c2c83276850d547d41aa428",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/fa7b8f7a1be23d878c2c83276850d547d41aa428"
+            }
+        ]
+    },
+    {
+        "sha": "fa7b8f7a1be23d878c2c83276850d547d41aa428",
+        "node_id": "C_kwDOAXTAMtoAKGZhN2I4ZjdhMWJlMjNkODc4YzJjODMyNzY4NTBkNTQ3ZDQxYWE0Mjg",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T21:15:21Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T21:15:21Z"
+            },
+            "message": "chore(release):prepare for next development iteration",
+            "tree": {
+                "sha": "3875ceb26e5f3758ce20d2b3fafeb184b8f30ea2",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/3875ceb26e5f3758ce20d2b3fafeb184b8f30ea2"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/fa7b8f7a1be23d878c2c83276850d547d41aa428",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fa7b8f7a1be23d878c2c83276850d547d41aa428",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/fa7b8f7a1be23d878c2c83276850d547d41aa428",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fa7b8f7a1be23d878c2c83276850d547d41aa428/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9cbb824f31c6c4b3e98b6835bc0fa5db662f0990",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/9cbb824f31c6c4b3e98b6835bc0fa5db662f0990",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/9cbb824f31c6c4b3e98b6835bc0fa5db662f0990"
+            }
+        ]
+    },
+    {
+        "sha": "9cbb824f31c6c4b3e98b6835bc0fa5db662f0990",
+        "node_id": "C_kwDOAXTAMtoAKDljYmI4MjRmMzFjNmM0YjNlOThiNjgzNWJjMGZhNWRiNjYyZjA5OTA",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T21:15:10Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T21:15:10Z"
+            },
+            "message": "chore(release):prepare release uportal-home-parent-14.0.4",
+            "tree": {
+                "sha": "ab6858bbc4a54527cb3a8ffba6e38116a58e6b80",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/ab6858bbc4a54527cb3a8ffba6e38116a58e6b80"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/9cbb824f31c6c4b3e98b6835bc0fa5db662f0990",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/9cbb824f31c6c4b3e98b6835bc0fa5db662f0990",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/9cbb824f31c6c4b3e98b6835bc0fa5db662f0990",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/9cbb824f31c6c4b3e98b6835bc0fa5db662f0990/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "7d097280090ad34a0f50b6a44c0c090cb005602f",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/7d097280090ad34a0f50b6a44c0c090cb005602f",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/7d097280090ad34a0f50b6a44c0c090cb005602f"
+            }
+        ]
+    },
+    {
+        "sha": "7d097280090ad34a0f50b6a44c0c090cb005602f",
+        "node_id": "C_kwDOAXTAMtoAKDdkMDk3MjgwMDkwYWQzNGEwZjUwYjZhNDRjMGMwOTBjYjAwNTYwMmY",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-03-07T21:13:59Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-03-07T21:13:59Z"
+            },
+            "message": "Changelog update for uPortal-app-framework 21.0.4 release (#942)",
+            "tree": {
+                "sha": "5bce7f0c35b367b9db87c9071e572c77255d319f",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/5bce7f0c35b367b9db87c9071e572c77255d319f"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/7d097280090ad34a0f50b6a44c0c090cb005602f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiJnWXCRBK7hj4Ov3rIwAAFpIIAAFSkBT1xmw05ULTGUUQ5LmP\n6R4X4MICRdTv9F79dJaQaFnyyPBQA3GErI0zvX5XlGyb/RndaSElN4bKl9vYp9ZO\nipZEuFmvGOIiDD8POEwetfYvy+TemTv6JzhPmz64muFHnlK7Obd4koEkHIlPvTee\nZl40qgKTo49Zo4L4/LEDpipQMLEp7f0QO7Ud7tXYe6JCrUFiLgw/lRtuQiBO+j1e\ngJh0vcR8QBsEPC5WHq8oh9a+rYXgbGPlzAk2n0YuWupOr2psVkIMHee8dN0UNSOI\nIPpTzlO4P0BiSzBQsoXCH8+t6CpDx1Xa6KLFDz7ByyV2SupBhzQ5wn46N8u1Bos=\n=Xtij\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5bce7f0c35b367b9db87c9071e572c77255d319f\nparent 5071a6f719ec0e32f3de667f9bbb88eb2f475a1b\nauthor nogalpaulina <pnogal@wisc.edu> 1646687639 -0600\ncommitter GitHub <noreply@github.com> 1646687639 -0600\n\nChangelog update for uPortal-app-framework 21.0.4 release (#942)\n\n",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/7d097280090ad34a0f50b6a44c0c090cb005602f",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/7d097280090ad34a0f50b6a44c0c090cb005602f",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/7d097280090ad34a0f50b6a44c0c090cb005602f/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5071a6f719ec0e32f3de667f9bbb88eb2f475a1b",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/5071a6f719ec0e32f3de667f9bbb88eb2f475a1b",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/5071a6f719ec0e32f3de667f9bbb88eb2f475a1b"
+            }
+        ]
+    },
+    {
+        "sha": "5071a6f719ec0e32f3de667f9bbb88eb2f475a1b",
+        "node_id": "C_kwDOAXTAMtoAKDUwNzFhNmY3MTllYzBlMzJmM2RlNjY3ZjliYmI4OGViMmY0NzVhMWI",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-03-07T18:31:31Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-03-07T18:31:31Z"
+            },
+            "message": "Merge pull request #939 from uPortal-Project/fix-build-on-snapshot\n\nbuild on frame 21.0.4-SNAPSHOT",
+            "tree": {
+                "sha": "ab98c364eafa0804b5b4c4317a5d233b670cf385",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/ab98c364eafa0804b5b4c4317a5d233b670cf385"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/5071a6f719ec0e32f3de667f9bbb88eb2f475a1b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiJk+DCRBK7hj4Ov3rIwAATbYIABHJoFzeF6HdDo5T2ubHREn/\nO8YJOkPA3+iAskLIcC8lBFClTvxYJH6G2kb6WYJGGigARH2wpdooXJuww1ZLVzEW\n8MxQUOKtMRCLHf1sh2Pm5COHnnINnkHYJ6juH3jselfExQSOiM4oZuADCi0mjepg\nb2vODoCrChcIn9ETz0JtDCi72I+Cei2aGACod676KuL+EF8uru/UzqqH94iykltq\nmfHWXGMkMRHEnx6icVSv6si3bL9LOFY4c16Eq+IviipE611KV0tkHtWbLs3fP/RG\nUXsV1MWhybyuihjqjX1EhGl1AhZZvE6SPdoUpWlMyIhxdEMCUJmeUdYGVsrfeJc=\n=IAp8\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree ab98c364eafa0804b5b4c4317a5d233b670cf385\nparent 1e8ddff68fd6a9c499846f978c04821ede837e48\nparent 568cd6e5ebaf44eefbd76b098bb812a8ad03e999\nauthor Andrew Petro <andrew.petro@wisc.edu> 1646677891 -0600\ncommitter GitHub <noreply@github.com> 1646677891 -0600\n\nMerge pull request #939 from uPortal-Project/fix-build-on-snapshot\n\nbuild on frame 21.0.4-SNAPSHOT",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/5071a6f719ec0e32f3de667f9bbb88eb2f475a1b",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/5071a6f719ec0e32f3de667f9bbb88eb2f475a1b",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/5071a6f719ec0e32f3de667f9bbb88eb2f475a1b/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1e8ddff68fd6a9c499846f978c04821ede837e48",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/1e8ddff68fd6a9c499846f978c04821ede837e48",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/1e8ddff68fd6a9c499846f978c04821ede837e48"
+            },
+            {
+                "sha": "568cd6e5ebaf44eefbd76b098bb812a8ad03e999",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/568cd6e5ebaf44eefbd76b098bb812a8ad03e999",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/568cd6e5ebaf44eefbd76b098bb812a8ad03e999"
+            }
+        ]
+    },
+    {
+        "sha": "568cd6e5ebaf44eefbd76b098bb812a8ad03e999",
+        "node_id": "C_kwDOAXTAMtoAKDU2OGNkNmU1ZWJhZjQ0ZWVmYmQ3NmIwOThiYjgxMmE4YWQwM2U5OTk",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-03-07T17:56:32Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2022-03-07T17:56:32Z"
+            },
+            "message": "build on frame 21.0.4-SNAPSHOT\n\nbuild on latest SNAPSHOT of uPortal-app-framework ( https://github.com/uPortal-Project/uportal-app-framework/blob/master/pom.xml#L27 ), so that latest snapshot of uPortal-home builds on latest snapshot of uPortal-app-framework so that an environment running uPortal-home latest snapshot is using the latest everything.",
+            "tree": {
+                "sha": "ab98c364eafa0804b5b4c4317a5d233b670cf385",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/ab98c364eafa0804b5b4c4317a5d233b670cf385"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/568cd6e5ebaf44eefbd76b098bb812a8ad03e999",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/568cd6e5ebaf44eefbd76b098bb812a8ad03e999",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/568cd6e5ebaf44eefbd76b098bb812a8ad03e999",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/568cd6e5ebaf44eefbd76b098bb812a8ad03e999/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1e8ddff68fd6a9c499846f978c04821ede837e48",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/1e8ddff68fd6a9c499846f978c04821ede837e48",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/1e8ddff68fd6a9c499846f978c04821ede837e48"
+            }
+        ]
+    },
+    {
+        "sha": "1e8ddff68fd6a9c499846f978c04821ede837e48",
+        "node_id": "C_kwDOAXTAMtoAKDFlOGRkZmY2OGZkNmE5YzQ5OTg0NmY5NzhjMDQ4MjFlZGU4MzdlNDg",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T19:47:01Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T19:47:01Z"
+            },
+            "message": "chore(release):prepare for next development iteration",
+            "tree": {
+                "sha": "6f9f4b393e966d2eb40307e2b29a61217342d292",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/6f9f4b393e966d2eb40307e2b29a61217342d292"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/1e8ddff68fd6a9c499846f978c04821ede837e48",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/1e8ddff68fd6a9c499846f978c04821ede837e48",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/1e8ddff68fd6a9c499846f978c04821ede837e48",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/1e8ddff68fd6a9c499846f978c04821ede837e48/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "05357606da6b628b0b29b0328b4840f4c54469c3",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/05357606da6b628b0b29b0328b4840f4c54469c3",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/05357606da6b628b0b29b0328b4840f4c54469c3"
+            }
+        ]
+    },
+    {
+        "sha": "05357606da6b628b0b29b0328b4840f4c54469c3",
+        "node_id": "C_kwDOAXTAMtoAKDA1MzU3NjA2ZGE2YjYyOGIwYjI5YjAzMjhiNDg0MGY0YzU0NDY5YzM",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T19:46:49Z"
+            },
+            "committer": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-22T19:46:49Z"
+            },
+            "message": "chore(release):prepare release uportal-home-parent-14.0.3",
+            "tree": {
+                "sha": "341c4526be8195591ce82685143e84d0bc483e8c",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/341c4526be8195591ce82685143e84d0bc483e8c"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/05357606da6b628b0b29b0328b4840f4c54469c3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/05357606da6b628b0b29b0328b4840f4c54469c3",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/05357606da6b628b0b29b0328b4840f4c54469c3",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/05357606da6b628b0b29b0328b4840f4c54469c3/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "752b37e0125b5d0c5eff738c10d79205da4c46fb",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/752b37e0125b5d0c5eff738c10d79205da4c46fb",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/752b37e0125b5d0c5eff738c10d79205da4c46fb"
+            }
+        ]
+    },
+    {
+        "sha": "752b37e0125b5d0c5eff738c10d79205da4c46fb",
+        "node_id": "C_kwDOAXTAMtoAKDc1MmIzN2UwMTI1YjVkMGM1ZWZmNzM4YzEwZDc5MjA1ZGE0YzQ2ZmI",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "pnogal@wisc.edu",
+                "date": "2022-02-04T18:41:32Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-02-04T18:41:32Z"
+            },
+            "message": "Improve accessibility of tabbing through widgets in compact mode (#938)\n\n* Removes white border style when hovering over 'Add more to home' on compact layout\r\n\r\n* Removes unnecessary taindex from list items surrounding widgets\r\n\r\n* Adds tabindex to Add to home button as a fix for button being inaccessible in Firefox",
+            "tree": {
+                "sha": "dabdb80d10162e59fbb81d69b8fd5ae2f72e7891",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/dabdb80d10162e59fbb81d69b8fd5ae2f72e7891"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/752b37e0125b5d0c5eff738c10d79205da4c46fb",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh/XNcCRBK7hj4Ov3rIwAAZb0IADQjHBRVGvZE9qZekqUZiH8O\nc6Hxz3roA/qzT8NP/hbBpwyPkIZMiZ2NSLsrGxSxkH4mkHIhn3xYoYvsWf6e5l6N\nyPw5pBLypUpi2lWklmtKHoXiGD3JHwQ6pMrykq/fVo+oU5oljRNalNzAXV4dbeZA\nkj/cN3Y6lJHx4yBmlxMguu3SGGVjp67XBPj4dDdLXtK6cGmrorGVVTTFdFKFylqs\nhxExlA3nnl4mFIADWfBFQGIjB5IuN+z158jX8SO+++fF9R/cNBVWAx58y9JTxIEa\nosYsVrS9SBbMOsrjRx3TfNOxZvJgu6pWz+MHYCoc4ur8FYRk+1aW4F08xXYh9OY=\n=il5C\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree dabdb80d10162e59fbb81d69b8fd5ae2f72e7891\nparent febead660077a771c7ff8d489c1e5b1eeaf4e681\nauthor nogalpaulina <pnogal@wisc.edu> 1644000092 -0600\ncommitter GitHub <noreply@github.com> 1644000092 -0600\n\nImprove accessibility of tabbing through widgets in compact mode (#938)\n\n* Removes white border style when hovering over 'Add more to home' on compact layout\r\n\r\n* Removes unnecessary taindex from list items surrounding widgets\r\n\r\n* Adds tabindex to Add to home button as a fix for button being inaccessible in Firefox",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/752b37e0125b5d0c5eff738c10d79205da4c46fb",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/752b37e0125b5d0c5eff738c10d79205da4c46fb",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/752b37e0125b5d0c5eff738c10d79205da4c46fb/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "febead660077a771c7ff8d489c1e5b1eeaf4e681",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/febead660077a771c7ff8d489c1e5b1eeaf4e681",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/febead660077a771c7ff8d489c1e5b1eeaf4e681"
+            }
+        ]
+    },
+    {
+        "sha": "febead660077a771c7ff8d489c1e5b1eeaf4e681",
+        "node_id": "C_kwDOAXTAMtoAKGZlYmVhZDY2MDA3N2E3NzFjN2ZmOGQ0ODljMWU1YjFlZWFmNGU2ODE",
+        "commit": {
+            "author": {
+                "name": "nogalpaulina",
+                "email": "paulina.nogal@wisc.edu",
+                "date": "2022-01-25T18:26:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2022-01-25T18:26:26Z"
+            },
+            "message": "Removes white border style when hovering over 'Add more to home' on compact layout (#937)",
+            "tree": {
+                "sha": "794967b1ce4529dbfe2027111d8f919da0d65f15",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/794967b1ce4529dbfe2027111d8f919da0d65f15"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/febead660077a771c7ff8d489c1e5b1eeaf4e681",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJh8EDSCRBK7hj4Ov3rIwAApd0IAKtTHDRWwQ12smBsFkwyO0Hl\njVlyTpr0YeAtGW398LdWjjv80GLppzH+iowtur4XXpnsxAqQ0nhSv9J78F2WztHf\n34B9mxnJpAfaVvuLIwmGIYwtx8DalQ3IdqR/52uMC7rM396ZESRT4IIUNJi93rn0\nbEMVQ40e0ZWguQKCsQSjhotXjR213E+J7nn6DFHQ60SoNNjSDRGoeUTHLvb/o9qt\nacWbfOfkDd7uMw9ZVogLxlfgiNXI12NPqWlRzu6A+QBN/SOXzdM7RQ4FaHkFoXsd\nYMVHd2aTLeVKVBKJqLUZq0xjwR3kn/a/FwpVtWX4wC8K3+Ew12ZqxpzJiJnXNi8=\n=ci1d\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 794967b1ce4529dbfe2027111d8f919da0d65f15\nparent ec304c9b7a2715d02497186a33523bf9c3f54fb0\nauthor nogalpaulina <paulina.nogal@wisc.edu> 1643135186 -0600\ncommitter GitHub <noreply@github.com> 1643135186 -0600\n\nRemoves white border style when hovering over 'Add more to home' on compact layout (#937)\n\n",
+                "verified_at": "2024-11-09T15:03:32Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/febead660077a771c7ff8d489c1e5b1eeaf4e681",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/febead660077a771c7ff8d489c1e5b1eeaf4e681",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/febead660077a771c7ff8d489c1e5b1eeaf4e681/comments",
+        "author": {
+            "login": "nogalpaulina",
+            "id": 10341961,
+            "node_id": "MDQ6VXNlcjEwMzQxOTYx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/10341961?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nogalpaulina",
+            "html_url": "https://github.com/nogalpaulina",
+            "followers_url": "https://api.github.com/users/nogalpaulina/followers",
+            "following_url": "https://api.github.com/users/nogalpaulina/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nogalpaulina/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nogalpaulina/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nogalpaulina/subscriptions",
+            "organizations_url": "https://api.github.com/users/nogalpaulina/orgs",
+            "repos_url": "https://api.github.com/users/nogalpaulina/repos",
+            "events_url": "https://api.github.com/users/nogalpaulina/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nogalpaulina/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ec304c9b7a2715d02497186a33523bf9c3f54fb0",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/ec304c9b7a2715d02497186a33523bf9c3f54fb0",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/ec304c9b7a2715d02497186a33523bf9c3f54fb0"
+            }
+        ]
+    },
+    {
+        "sha": "ec304c9b7a2715d02497186a33523bf9c3f54fb0",
+        "node_id": "C_kwDOAXTAMtoAKGVjMzA0YzliN2EyNzE1ZDAyNDk3MTg2YTMzNTIzYmY5YzNmNTRmYjA",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T19:22:49Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T19:22:49Z"
+            },
+            "message": "chore(release):prepare for next development iteration",
+            "tree": {
+                "sha": "7a673d9b2676439be06fa1211b5bd219189bbb04",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/7a673d9b2676439be06fa1211b5bd219189bbb04"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/ec304c9b7a2715d02497186a33523bf9c3f54fb0",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/ec304c9b7a2715d02497186a33523bf9c3f54fb0",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/ec304c9b7a2715d02497186a33523bf9c3f54fb0",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/ec304c9b7a2715d02497186a33523bf9c3f54fb0/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a"
+            }
+        ]
+    },
+    {
+        "sha": "fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a",
+        "node_id": "C_kwDOAXTAMtoAKGZkNzYwMjdlMDBjN2U3YTA0YWYxZjZmODI3ZDZlNzVmM2VhMjJlMmE",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T19:22:47Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T19:22:47Z"
+            },
+            "message": "chore(release):prepare release uportal-home-parent-14.0.2",
+            "tree": {
+                "sha": "dd0b6e78f5bc841e746f35947ee849f8ff08f5b9",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/dd0b6e78f5bc841e746f35947ee849f8ff08f5b9"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/fd76027e00c7e7a04af1f6f827d6e75f3ea22e2a/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4a9a779dee3889934978a13db9f498783873c837",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/4a9a779dee3889934978a13db9f498783873c837",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/4a9a779dee3889934978a13db9f498783873c837"
+            }
+        ]
+    },
+    {
+        "sha": "4a9a779dee3889934978a13db9f498783873c837",
+        "node_id": "C_kwDOAXTAMtoAKDRhOWE3NzlkZWUzODg5OTM0OTc4YTEzZGI5ZjQ5ODc4Mzg3M2M4Mzc",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T19:21:54Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T19:21:54Z"
+            },
+            "message": "prep 14.0.2 release",
+            "tree": {
+                "sha": "83a106bd0a5d14745dfa208f7e10aec2c748ab9b",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/83a106bd0a5d14745dfa208f7e10aec2c748ab9b"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/4a9a779dee3889934978a13db9f498783873c837",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/4a9a779dee3889934978a13db9f498783873c837",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/4a9a779dee3889934978a13db9f498783873c837",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/4a9a779dee3889934978a13db9f498783873c837/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5757235f3473655e784400d36a01d2e703b58c49",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/5757235f3473655e784400d36a01d2e703b58c49",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/5757235f3473655e784400d36a01d2e703b58c49"
+            }
+        ]
+    },
+    {
+        "sha": "5757235f3473655e784400d36a01d2e703b58c49",
+        "node_id": "C_kwDOAXTAMtoAKDU3NTcyMzVmMzQ3MzY1NWU3ODQ0MDBkMzZhMDFkMmU3MDNiNThjNDk",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T19:20:40Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-11-22T19:20:40Z"
+            },
+            "message": "Merge pull request #936 from uPortal-Project/drop-duplicates-during-layout-migrate\n\ndrop duplicate fnames when migrating layout from old layout backend",
+            "tree": {
+                "sha": "61006ce5b2993dc6c5239eb5b6427bf2256e05e9",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/61006ce5b2993dc6c5239eb5b6427bf2256e05e9"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/5757235f3473655e784400d36a01d2e703b58c49",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhm+2ICRBK7hj4Ov3rIwAA4eIIADb5UPlrCM1E5CP5w7VN8dPd\nkU5ZJuPTfl25ki/POVL1S1f4FCusnKwcCju4YHm+qikOMRXHmRTFv0G8JbghPiaH\nt6G5YS+mJehsV5CyOBYXyQVIlCvAiP14KCiTb/+4kwumu0GZ2OBBflDsNEtrN/N/\n/0iENUd1rnhJtfEQxiKQ5pZ3KGkFBPyvlgvYI/wzjeJtBbiBCDplZf8gM0wkuRmL\nzaZbZm4riv6URtkGGFruBo9SUm5NVWzeYTSDgwdKPKKtIGdIibEpzKqL5caaCOqF\n0Fly3zV1rH48o6TzyOjHYg4o171DzVvwAXJ7POSdtfZdC5sBDJQP0u7eYx0UmYA=\n=/wYt\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 61006ce5b2993dc6c5239eb5b6427bf2256e05e9\nparent c55e0cf9400d0966a66bbbcd582d54029ad37ddd\nparent c135289159f4499ce904a28023209833f134e698\nauthor Andrew Petro <andrew.petro@wisc.edu> 1637608840 -0600\ncommitter GitHub <noreply@github.com> 1637608840 -0600\n\nMerge pull request #936 from uPortal-Project/drop-duplicates-during-layout-migrate\n\ndrop duplicate fnames when migrating layout from old layout backend",
+                "verified_at": "2024-01-16T19:59:59Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/5757235f3473655e784400d36a01d2e703b58c49",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/5757235f3473655e784400d36a01d2e703b58c49",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/5757235f3473655e784400d36a01d2e703b58c49/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c55e0cf9400d0966a66bbbcd582d54029ad37ddd"
+            },
+            {
+                "sha": "c135289159f4499ce904a28023209833f134e698",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c135289159f4499ce904a28023209833f134e698",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c135289159f4499ce904a28023209833f134e698"
+            }
+        ]
+    },
+    {
+        "sha": "c135289159f4499ce904a28023209833f134e698",
+        "node_id": "C_kwDOAXTAMtoAKGMxMzUyODkxNTlmNDQ5OWNlOTA0YTI4MDIzMjA5ODMzZjEzNGU2OTg",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T18:53:10Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T19:07:06Z"
+            },
+            "message": "drop duplicate fnames when migrating layout from old layout backend",
+            "tree": {
+                "sha": "61006ce5b2993dc6c5239eb5b6427bf2256e05e9",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/61006ce5b2993dc6c5239eb5b6427bf2256e05e9"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/c135289159f4499ce904a28023209833f134e698",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c135289159f4499ce904a28023209833f134e698",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c135289159f4499ce904a28023209833f134e698",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c135289159f4499ce904a28023209833f134e698/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c55e0cf9400d0966a66bbbcd582d54029ad37ddd"
+            }
+        ]
+    },
+    {
+        "sha": "c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+        "node_id": "C_kwDOAXTAMtoAKGM1NWUwY2Y5NDAwZDA5NjZhNjZiYmJjZDU4MmQ1NDAyOWFkMzdkZGQ",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T19:06:52Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T19:06:52Z"
+            },
+            "message": "fix typo in dependency on latest framework snapshot",
+            "tree": {
+                "sha": "2394367663bcd88cae7b7437b0e565e3407633af",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/2394367663bcd88cae7b7437b0e565e3407633af"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c55e0cf9400d0966a66bbbcd582d54029ad37ddd",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c55e0cf9400d0966a66bbbcd582d54029ad37ddd/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c61c566e4419bed6040f2a5e520c99978999570e",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c61c566e4419bed6040f2a5e520c99978999570e",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c61c566e4419bed6040f2a5e520c99978999570e"
+            }
+        ]
+    },
+    {
+        "sha": "c61c566e4419bed6040f2a5e520c99978999570e",
+        "node_id": "C_kwDOAXTAMtoAKGM2MWM1NjZlNDQxOWJlZDYwNDBmMmE1ZTUyMGM5OTk3ODk5OTU3MGU",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T15:56:19Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T15:56:19Z"
+            },
+            "message": "changelog: style: no end period in version number",
+            "tree": {
+                "sha": "fbaaef171c6f55137b5fe4d0782c343b6c501a74",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/fbaaef171c6f55137b5fe4d0782c343b6c501a74"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/c61c566e4419bed6040f2a5e520c99978999570e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c61c566e4419bed6040f2a5e520c99978999570e",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/c61c566e4419bed6040f2a5e520c99978999570e",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/c61c566e4419bed6040f2a5e520c99978999570e/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "beb16e21e5bfef2bd8cdd6b66d53388b977a970d",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/beb16e21e5bfef2bd8cdd6b66d53388b977a970d",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/beb16e21e5bfef2bd8cdd6b66d53388b977a970d"
+            }
+        ]
+    },
+    {
+        "sha": "beb16e21e5bfef2bd8cdd6b66d53388b977a970d",
+        "node_id": "C_kwDOAXTAMtoAKGJlYjE2ZTIxZTViZmVmMmJkOGNkZDZiNjZkNTMzODhiOTc3YTk3MGQ",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T15:55:45Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-22T15:55:57Z"
+            },
+            "message": "changelog: reflect today's 14.0.1 release",
+            "tree": {
+                "sha": "68cf1658cfd8a9e267d093a354ded2303a243c07",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/68cf1658cfd8a9e267d093a354ded2303a243c07"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/beb16e21e5bfef2bd8cdd6b66d53388b977a970d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/beb16e21e5bfef2bd8cdd6b66d53388b977a970d",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/beb16e21e5bfef2bd8cdd6b66d53388b977a970d",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/beb16e21e5bfef2bd8cdd6b66d53388b977a970d/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f69ca9398af4853db6d959816a446f9a93f0f440",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f69ca9398af4853db6d959816a446f9a93f0f440",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/f69ca9398af4853db6d959816a446f9a93f0f440"
+            }
+        ]
+    },
+    {
+        "sha": "f69ca9398af4853db6d959816a446f9a93f0f440",
+        "node_id": "C_kwDOAXTAMtoAKGY2OWNhOTM5OGFmNDg1M2RiNmQ5NTk4MTZhNDQ2ZjlhOTNmMGY0NDA",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T15:51:49Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T15:51:49Z"
+            },
+            "message": "chore(release):prepare for next development iteration",
+            "tree": {
+                "sha": "a58dbed1cfff0fa9efd53876739dd901a91b0a59",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/a58dbed1cfff0fa9efd53876739dd901a91b0a59"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/f69ca9398af4853db6d959816a446f9a93f0f440",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f69ca9398af4853db6d959816a446f9a93f0f440",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/f69ca9398af4853db6d959816a446f9a93f0f440",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f69ca9398af4853db6d959816a446f9a93f0f440/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "88439d42aaa54c5d3a91967dacde6631139c11d4",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/88439d42aaa54c5d3a91967dacde6631139c11d4",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/88439d42aaa54c5d3a91967dacde6631139c11d4"
+            }
+        ]
+    },
+    {
+        "sha": "88439d42aaa54c5d3a91967dacde6631139c11d4",
+        "node_id": "C_kwDOAXTAMtoAKDg4NDM5ZDQyYWFhNTRjNWQzYTkxOTY3ZGFjZGU2NjMxMTM5YzExZDQ",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T15:51:46Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@hey.com",
+                "date": "2021-11-22T15:51:46Z"
+            },
+            "message": "chore(release):prepare release uportal-home-parent-14.0.1",
+            "tree": {
+                "sha": "6e18f7b4f137e89e69e2ec5c4e4ad4cd267ccc9a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/6e18f7b4f137e89e69e2ec5c4e4ad4cd267ccc9a"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/88439d42aaa54c5d3a91967dacde6631139c11d4",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/88439d42aaa54c5d3a91967dacde6631139c11d4",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/88439d42aaa54c5d3a91967dacde6631139c11d4",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/88439d42aaa54c5d3a91967dacde6631139c11d4/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ea23260d7d3bf0864cbfa2f85c33464b3c646a46",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/ea23260d7d3bf0864cbfa2f85c33464b3c646a46",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/ea23260d7d3bf0864cbfa2f85c33464b3c646a46"
+            }
+        ]
+    },
+    {
+        "sha": "ea23260d7d3bf0864cbfa2f85c33464b3c646a46",
+        "node_id": "C_kwDOAXTAMtoAKGVhMjMyNjBkN2QzYmYwODY0Y2JmYTJmODVjMzM0NjRiM2M2NDZhNDY",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:53Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2021-11-12T22:28:53Z"
+            },
+            "message": "Merge pull request #935 from uPortal-Project/style\n\nstyle: address some eslint flagged issues in /layout/services.js",
+            "tree": {
+                "sha": "97b7160704b56d339b6c82fc835db236bc97aaf5",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/97b7160704b56d339b6c82fc835db236bc97aaf5"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/ea23260d7d3bf0864cbfa2f85c33464b3c646a46",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJhjuqlCRBK7hj4Ov3rIwAAsuUIAA/FITeOl9mj5ReVtFWbB+14\n4dsepBrYVun3Hc7ayv4ytNNGMyTU3F28pPQ9ztkBhdNFLg9qt0NW/vl8Y74YzFy3\n2FA0tz7ESRwMrSPlOVHo0Ae9ySC+7+Z3oLpGjOcUZmyqj8WJZejGPMjTV1iz02In\nDvyQCc/NtS3J7d23nYR8GpLNQ3bnf50PNo2K1qZ79iE8oYzZj3rTu5ODVbpVSohG\nFFen2921nXGrrAAlbFZOp+ARda1qiZPnVynab52RFQ4RtnNz6zsF4pQE87wU5Uiu\ngUTFfmM4/BOzLboZ80RIrhKgRVYkAAtRBQDUuM1qvVIDnQrkh4rAjSG/jlw2qbI=\n=Yhr4\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 97b7160704b56d339b6c82fc835db236bc97aaf5\nparent 07785a5d1acc8ad3c5fec428f3412a87f9d1300a\nparent f75825daf07092056b8b9b6de9f64332ebb63cf9\nauthor Andrew Petro <andrew.petro@wisc.edu> 1636756133 -0600\ncommitter GitHub <noreply@github.com> 1636756133 -0600\n\nMerge pull request #935 from uPortal-Project/style\n\nstyle: address some eslint flagged issues in /layout/services.js ",
+                "verified_at": "2024-11-09T15:03:32Z"
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/ea23260d7d3bf0864cbfa2f85c33464b3c646a46",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/ea23260d7d3bf0864cbfa2f85c33464b3c646a46",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/ea23260d7d3bf0864cbfa2f85c33464b3c646a46/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "07785a5d1acc8ad3c5fec428f3412a87f9d1300a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/07785a5d1acc8ad3c5fec428f3412a87f9d1300a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/07785a5d1acc8ad3c5fec428f3412a87f9d1300a"
+            },
+            {
+                "sha": "f75825daf07092056b8b9b6de9f64332ebb63cf9",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f75825daf07092056b8b9b6de9f64332ebb63cf9",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/f75825daf07092056b8b9b6de9f64332ebb63cf9"
+            }
+        ]
+    },
+    {
+        "sha": "f75825daf07092056b8b9b6de9f64332ebb63cf9",
+        "node_id": "C_kwDOAXTAMtoAKGY3NTgyNWRhZjA3MDkyMDU2YjhiOWI2ZGU5ZjY0MzMyZWJiNjNjZjk",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:19:28Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: prefer AngularJS $log service over bare console log\n\nhttps://eslint.org/docs/rules/no-console",
+            "tree": {
+                "sha": "97b7160704b56d339b6c82fc835db236bc97aaf5",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/97b7160704b56d339b6c82fc835db236bc97aaf5"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/f75825daf07092056b8b9b6de9f64332ebb63cf9",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f75825daf07092056b8b9b6de9f64332ebb63cf9",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/f75825daf07092056b8b9b6de9f64332ebb63cf9",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f75825daf07092056b8b9b6de9f64332ebb63cf9/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8637e1c39ef679989281d19a82e45bf9990f4499",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/8637e1c39ef679989281d19a82e45bf9990f4499",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/8637e1c39ef679989281d19a82e45bf9990f4499"
+            }
+        ]
+    },
+    {
+        "sha": "8637e1c39ef679989281d19a82e45bf9990f4499",
+        "node_id": "C_kwDOAXTAMtoAKDg2MzdlMWMzOWVmNjc5OTg5MjgxZDE5YTgyZTQ1YmY5OTkwZjQ0OTk",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:15:28Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: add trailing comma\n\nappease eslint https://eslint.org/docs/rules/comma-dangle",
+            "tree": {
+                "sha": "b79f26e7022e38dad6293eba5b3234e288bbca79",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/b79f26e7022e38dad6293eba5b3234e288bbca79"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/8637e1c39ef679989281d19a82e45bf9990f4499",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/8637e1c39ef679989281d19a82e45bf9990f4499",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/8637e1c39ef679989281d19a82e45bf9990f4499",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/8637e1c39ef679989281d19a82e45bf9990f4499/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "f6d93fa5b19c246afd91db2115b2176bfe2581ac",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f6d93fa5b19c246afd91db2115b2176bfe2581ac",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/f6d93fa5b19c246afd91db2115b2176bfe2581ac"
+            }
+        ]
+    },
+    {
+        "sha": "f6d93fa5b19c246afd91db2115b2176bfe2581ac",
+        "node_id": "C_kwDOAXTAMtoAKGY2ZDkzZmE1YjE5YzI0NmFmZDkxZGIyMTE1YjIxNzZiZmUyNTgxYWM",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:14:37Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: remove space after key\n\nappease eslint https://eslint.org/docs/rules/key-spacing",
+            "tree": {
+                "sha": "13ff8e2d3d2180ff2fec134207fec2817b833045",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/13ff8e2d3d2180ff2fec134207fec2817b833045"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/f6d93fa5b19c246afd91db2115b2176bfe2581ac",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f6d93fa5b19c246afd91db2115b2176bfe2581ac",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/f6d93fa5b19c246afd91db2115b2176bfe2581ac",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/f6d93fa5b19c246afd91db2115b2176bfe2581ac/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "aacded74d6d25781acc3efe85382d5eb12b9ad20",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/aacded74d6d25781acc3efe85382d5eb12b9ad20",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/aacded74d6d25781acc3efe85382d5eb12b9ad20"
+            }
+        ]
+    },
+    {
+        "sha": "aacded74d6d25781acc3efe85382d5eb12b9ad20",
+        "node_id": "C_kwDOAXTAMtoAKGFhY2RlZDc0ZDZkMjU3ODFhY2MzZWZlODUzODJkNWViMTJiOWFkMjA",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:13:11Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: remove space before function parens\n\nappease eslint https://eslint.org/docs/rules/space-before-function-paren",
+            "tree": {
+                "sha": "303d79b43035d6dbd70b0b22b668c12d79c58837",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/303d79b43035d6dbd70b0b22b668c12d79c58837"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/aacded74d6d25781acc3efe85382d5eb12b9ad20",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/aacded74d6d25781acc3efe85382d5eb12b9ad20",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/aacded74d6d25781acc3efe85382d5eb12b9ad20",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/aacded74d6d25781acc3efe85382d5eb12b9ad20/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8eb2f38a001d513aaa8569449dcd411e1f388a43",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/8eb2f38a001d513aaa8569449dcd411e1f388a43",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/8eb2f38a001d513aaa8569449dcd411e1f388a43"
+            }
+        ]
+    },
+    {
+        "sha": "8eb2f38a001d513aaa8569449dcd411e1f388a43",
+        "node_id": "C_kwDOAXTAMtoAKDhlYjJmMzhhMDAxZDUxM2FhYTg1Njk0NDlkY2Q0MTFlMWYzODhhNDM",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:16:10Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: remove block padding\n\nappease eslint https://eslint.org/docs/rules/padded-blocks",
+            "tree": {
+                "sha": "0c2dbaa121cdd8f95fe5f46ae1c4eb7d46af5159",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/0c2dbaa121cdd8f95fe5f46ae1c4eb7d46af5159"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/8eb2f38a001d513aaa8569449dcd411e1f388a43",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/8eb2f38a001d513aaa8569449dcd411e1f388a43",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/8eb2f38a001d513aaa8569449dcd411e1f388a43",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/8eb2f38a001d513aaa8569449dcd411e1f388a43/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a9c412db3dcba971f3b03be3c3421fffc53778c7",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/a9c412db3dcba971f3b03be3c3421fffc53778c7",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/a9c412db3dcba971f3b03be3c3421fffc53778c7"
+            }
+        ]
+    },
+    {
+        "sha": "a9c412db3dcba971f3b03be3c3421fffc53778c7",
+        "node_id": "C_kwDOAXTAMtoAKGE5YzQxMmRiM2RjYmE5NzFmM2IwM2JlM2MzNDIxZmZmYzUzNzc4Yzc",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:19:05Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: shorten too-long lines\n\nappease eslint https://eslint.org/docs/rules/max-len",
+            "tree": {
+                "sha": "b2961af017bb9a407deeda20e39a9ac5d2311e34",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/b2961af017bb9a407deeda20e39a9ac5d2311e34"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/a9c412db3dcba971f3b03be3c3421fffc53778c7",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/a9c412db3dcba971f3b03be3c3421fffc53778c7",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/a9c412db3dcba971f3b03be3c3421fffc53778c7",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/a9c412db3dcba971f3b03be3c3421fffc53778c7/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "85b63dd6117339987363677af0f34f63390a9ba2",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/85b63dd6117339987363677af0f34f63390a9ba2",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/85b63dd6117339987363677af0f34f63390a9ba2"
+            }
+        ]
+    },
+    {
+        "sha": "85b63dd6117339987363677af0f34f63390a9ba2",
+        "node_id": "C_kwDOAXTAMtoAKDg1YjYzZGQ2MTE3MzM5OTg3MzYzNjc3YWYwZjM0ZjYzMzkwYTliYTI",
+        "commit": {
+            "author": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T21:06:25Z"
+            },
+            "committer": {
+                "name": "Andrew Petro",
+                "email": "andrew.petro@wisc.edu",
+                "date": "2021-11-12T22:28:28Z"
+            },
+            "message": "style: prefer single quote rather than double quote\n\nhttps://eslint.org/docs/rules/quotes",
+            "tree": {
+                "sha": "29ceb9bd6763d6634da399c79ac6bcfe9d52f098",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/trees/29ceb9bd6763d6634da399c79ac6bcfe9d52f098"
+            },
+            "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/git/commits/85b63dd6117339987363677af0f34f63390a9ba2",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/85b63dd6117339987363677af0f34f63390a9ba2",
+        "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/85b63dd6117339987363677af0f34f63390a9ba2",
+        "comments_url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/85b63dd6117339987363677af0f34f63390a9ba2/comments",
+        "author": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "apetro",
+            "id": 952283,
+            "node_id": "MDQ6VXNlcjk1MjI4Mw==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/952283?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/apetro",
+            "html_url": "https://github.com/apetro",
+            "followers_url": "https://api.github.com/users/apetro/followers",
+            "following_url": "https://api.github.com/users/apetro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/apetro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/apetro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/apetro/subscriptions",
+            "organizations_url": "https://api.github.com/users/apetro/orgs",
+            "repos_url": "https://api.github.com/users/apetro/repos",
+            "events_url": "https://api.github.com/users/apetro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/apetro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "07785a5d1acc8ad3c5fec428f3412a87f9d1300a",
+                "url": "https://api.github.com/repos/uPortal-Attic/uportal-home/commits/07785a5d1acc8ad3c5fec428f3412a87f9d1300a",
+                "html_url": "https://github.com/uPortal-Attic/uportal-home/commit/07785a5d1acc8ad3c5fec428f3412a87f9d1300a"
+            }
+        ]
+    }
+]

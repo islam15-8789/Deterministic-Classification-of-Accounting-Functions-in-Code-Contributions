@@ -1,0 +1,2462 @@
+[
+    {
+        "sha": "5623c96dd74acfccee2d2688121c8c1713809b2b",
+        "node_id": "C_kwDOAI8xS9oAKDU2MjNjOTZkZDc0YWNmY2NlZTJkMjY4ODEyMWM4YzE3MTM4MDliMmI",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-23T09:14:45Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-23T09:14:45Z"
+            },
+            "message": "refactor: remove unused field `ServiceWorkerMain::weak_factory_` (#46171)\n\nrefactor: remove unused field ServiceWorkerMain::weak_factory_\n\nAdded in a467d06, appears to have never been used",
+            "tree": {
+                "sha": "b645b3e3f3be0f701f1b031ce746ac1987b3dfd7",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/b645b3e3f3be0f701f1b031ce746ac1987b3dfd7"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/5623c96dd74acfccee2d2688121c8c1713809b2b",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn39EFCRC1aQ7uu5UhlAAAyPcQAI5BsvXiQH6XWQnHucXhbPDy\nBQLVM2FM6tkbyC0+xf31cDNiKNElKrAT4IvS5RBw6lF6Nk227/xLRPGzDKesWy2t\nrFoAcKtRLtMd7m6RltRxQSrT4U/aTT7ckFchA70CrqLRMykn+AW4leex84Z5uYH7\nVrNw+SBeHjErd7tR1B95JgQHGT0zvqwthEbUhdzr4u+5hAF1SukbLN2E2gZaP6UE\ni0Zhsg2dOKpyrknpf45Q597+vD62ZWcPod2T3DsZTfGgc+gffVJ8iT0c6oSWr2EK\ncT2fPp2inIcGKZ7Ofk7SseMHMA4zz6pb9jrB9GSYU/pl8eH/VszaDcGNuyVUmDdl\nJL9Hjz/pZE0BebBLDy/pf+LadpSnF+DVYdlKEtvCQnH74C2V3ISqZtFBEXnq/AfC\n2E4J2+Qj7+BU04ymF19YvHXXw/IzX8t8nmn5HU3peB2ry3aEsi18SvJw6+c2k+9w\nfC45EGBJm13VxQKkqbRw5ugd10Bm7wCF9dPiAvzGNSNNFEnnZvn9VxNTxFFPy8t4\nINyNr/msN6VLc9cGCbyAtRRV9JKKTlJdb9kyT8dcACX+sGSwVIfDlW2GS95mov1s\nWuUR3ayBaEMh2HritPyS5e9WqDS1YrjHFiKlJ3zAkOXJIE31XkX15D7PB7AeP6my\nf39ZbLMxP8aJXtoB+8Ad\n=SKtN\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b645b3e3f3be0f701f1b031ce746ac1987b3dfd7\nparent 3fd35abe98ae74a90d91758e8cfb1077b651d1c1\nauthor Charles Kerr <charles@charleskerr.com> 1742721285 -0500\ncommitter GitHub <noreply@github.com> 1742721285 +0100\n\nrefactor: remove unused field `ServiceWorkerMain::weak_factory_` (#46171)\n\nrefactor: remove unused field ServiceWorkerMain::weak_factory_\n\nAdded in a467d06, appears to have never been used",
+                "verified_at": "2025-03-23T09:14:49Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/5623c96dd74acfccee2d2688121c8c1713809b2b",
+        "html_url": "https://github.com/electron/electron/commit/5623c96dd74acfccee2d2688121c8c1713809b2b",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/5623c96dd74acfccee2d2688121c8c1713809b2b/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "3fd35abe98ae74a90d91758e8cfb1077b651d1c1",
+                "url": "https://api.github.com/repos/electron/electron/commits/3fd35abe98ae74a90d91758e8cfb1077b651d1c1",
+                "html_url": "https://github.com/electron/electron/commit/3fd35abe98ae74a90d91758e8cfb1077b651d1c1"
+            }
+        ]
+    },
+    {
+        "sha": "3fd35abe98ae74a90d91758e8cfb1077b651d1c1",
+        "node_id": "C_kwDOAI8xS9oAKDNmZDM1YWJlOThhZTc0YTkwZDkxNzU4ZThjZmIxMDc3YjY1MWQxYzE",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-22T15:15:15Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-22T15:15:15Z"
+            },
+            "message": "refactor: remove unused method `ElectronBrowserContext::GetWeakPtr()` (#46170)\n\n* refactor: use forward declaration of MediaDeviceIDSalt in electron_browser_context.h\n\n* refactor: remove unused #include from browser_context.h\n\n* refactor: remove unused ElectronBrowserContext::GetWeakPtr()\n\nlast use removed in Aug 2020 by bac2f46",
+            "tree": {
+                "sha": "bb7ba0bf037383e8d2be781b504c62a557d7857d",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/bb7ba0bf037383e8d2be781b504c62a557d7857d"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/3fd35abe98ae74a90d91758e8cfb1077b651d1c1",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3tQDCRC1aQ7uu5UhlAAA31oQAE+76miIkyrrm9k6/nRqhdpk\n3IImlPVDMwzkJDXbHyg5X+H6VL/fXmKHbiIBHRwAom/jSsJ03EhHoOKrYhu9+aOj\ncFA6lB29iHsDkIg8nW99jXrnNkh3+NhL9FlsO7FwuVHSb83Y8/4pJQ9rIOi5e02F\nZPAngUM5720S2cbTHmYwO0gDnGGvh2fB3qg7GV6ub/u/4665jUz8FcLIDld7Y/2D\n4Xhw/f72wkLL770BCmNqVCS85ghsN4LSJojrgl1QS4a/W6kgHHSkOhykOq31n6If\nkXTQhB4JAwVOZbqbGko4U328BZc+Ra9Sud6ItnH9OOa+7agZ8XQj7wIBBdJ3jYf3\ne1gwCp3Rubkk4yUXp/lPOlkg7LGwMyTWN4cTPXztx4OQQpLeNeXCj6gRL6L+VnXP\nVdf2Qzut6M9iQ/DaNpVxvAHp7YqVVlBh2QKDFsxyS9oFFTwkb72PV7kwcuyyY+U+\ndd0PmAZTNO4ZXOlMpRfcc6Ft0crfg1wSVw1AgQKjOXt1z/reA7csEL3c7sXx7EJb\n83inubqqfjJzslJWpPOEpP2bfy1rO39XdtqdkUCOifmUlDHCejA/gWlATsnIdljp\n75GvEsdE6btOznFXPG0g3aMh/Gvz+QCDqEgdEuUD3C/pBIC8dxfUBKmwWcFZJFdl\nvpsvt5JK0HguqRkK1DLL\n=Emlf\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree bb7ba0bf037383e8d2be781b504c62a557d7857d\nparent a81e11d9de462ffcb0d7888206991393fdfb3a0f\nauthor Charles Kerr <charles@charleskerr.com> 1742656515 -0500\ncommitter GitHub <noreply@github.com> 1742656515 -0500\n\nrefactor: remove unused method `ElectronBrowserContext::GetWeakPtr()` (#46170)\n\n* refactor: use forward declaration of MediaDeviceIDSalt in electron_browser_context.h\n\n* refactor: remove unused #include from browser_context.h\n\n* refactor: remove unused ElectronBrowserContext::GetWeakPtr()\n\nlast use removed in Aug 2020 by bac2f46",
+                "verified_at": "2025-03-22T15:15:19Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/3fd35abe98ae74a90d91758e8cfb1077b651d1c1",
+        "html_url": "https://github.com/electron/electron/commit/3fd35abe98ae74a90d91758e8cfb1077b651d1c1",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/3fd35abe98ae74a90d91758e8cfb1077b651d1c1/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a81e11d9de462ffcb0d7888206991393fdfb3a0f",
+                "url": "https://api.github.com/repos/electron/electron/commits/a81e11d9de462ffcb0d7888206991393fdfb3a0f",
+                "html_url": "https://github.com/electron/electron/commit/a81e11d9de462ffcb0d7888206991393fdfb3a0f"
+            }
+        ]
+    },
+    {
+        "sha": "a81e11d9de462ffcb0d7888206991393fdfb3a0f",
+        "node_id": "C_kwDOAI8xS9oAKGE4MWUxMWQ5ZGU0NjJmZmNiMGQ3ODg4MjA2OTkxMzkzZmRmYjNhMGY",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-21T21:15:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T21:15:34Z"
+            },
+            "message": "refactor: use `= default` to define trivial destructors (#46165)\n\nrefactor: use '= default' to define trivial destructors",
+            "tree": {
+                "sha": "04e320ecc273ebb344a7a8debb66d75fb2ad2d8d",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/04e320ecc273ebb344a7a8debb66d75fb2ad2d8d"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/a81e11d9de462ffcb0d7888206991393fdfb3a0f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3db2CRC1aQ7uu5UhlAAAsg4QAKKSgk9vIiuNyOalQczBVwid\ncyqAYVIVnC71ZJ1fiaXvkOOLjJDMbWf/xqcJAzwL5H5GTF/pUHUeJXbDOjs5A/OH\nWbpK/wXN3UNGOvozwzyNxAuM9FcEaworOoo9NXmhxfncXGCdbVICqXIny3Thz8k3\nrJm/SzgKR3lhfuB7iQ71+TXlnT2eZW3spD2pdtp6YHSGUEzn43UzWInHpi/Ge548\nTm9oTvhSyEwYF2tlBHwHPTR/U37rbMjIiutoN7cvMDEPpM7wj5uHa36uwVlo4+3Z\nJ3hQ9VKd93fwZNwIO2bp6hVoju6D9Wf8CSqjjJNwl/ui5Um/ly6tnlNNjberyFfC\nKc1BAuB/RkaSlODp4RnMaVPrrwKVe9cxwa2V3YzJ8DFYG08BeksoW6cahNDlYffj\n9FPPUMiwT9mY6vKVikV15r804TPbvgYHXlasJ3cg1X7DXZExfUlXRz892nnGBPTl\n9FlLncC7fwaYh450ln4iV/NuHrbOnpyfERp13eJywKt2+tRptQd9VAUzm3Ynp9/t\nM9n4mHZ+dupKHDZ6UKoIlkWz4P/vmXaURXG8NlkTM6MPjfQvmv2cTloF/8PP0fgE\nOvdK7mHE8gPx5Q0o7SOJDHU19kD+X6PjAHzvc550UTbhEcBHNZxGAobPu2c4Hk01\nGHV2uqDbxXI6IiOMoc5H\n=e1tH\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 04e320ecc273ebb344a7a8debb66d75fb2ad2d8d\nparent db47267be4db7537c5e3f6952e84ba1eb290b01e\nauthor Charles Kerr <charles@charleskerr.com> 1742591734 -0500\ncommitter GitHub <noreply@github.com> 1742591734 -0500\n\nrefactor: use `= default` to define trivial destructors (#46165)\n\nrefactor: use '= default' to define trivial destructors",
+                "verified_at": "2025-03-21T21:15:38Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/a81e11d9de462ffcb0d7888206991393fdfb3a0f",
+        "html_url": "https://github.com/electron/electron/commit/a81e11d9de462ffcb0d7888206991393fdfb3a0f",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/a81e11d9de462ffcb0d7888206991393fdfb3a0f/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "db47267be4db7537c5e3f6952e84ba1eb290b01e",
+                "url": "https://api.github.com/repos/electron/electron/commits/db47267be4db7537c5e3f6952e84ba1eb290b01e",
+                "html_url": "https://github.com/electron/electron/commit/db47267be4db7537c5e3f6952e84ba1eb290b01e"
+            }
+        ]
+    },
+    {
+        "sha": "db47267be4db7537c5e3f6952e84ba1eb290b01e",
+        "node_id": "C_kwDOAI8xS9oAKGRiNDcyNjdiZTRkYjc1MzdjNWUzZjY5NTJlODRiYTFlYjI5MGIwMWU",
+        "commit": {
+            "author": {
+                "name": "John Kleinschmidt",
+                "email": "jkleinsc@electronjs.org",
+                "date": "2025-03-21T18:45:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T18:45:08Z"
+            },
+            "message": "build: Use windows src cache (#45881)\n\nbuild: use source cache on windows",
+            "tree": {
+                "sha": "1ee4d54004d090c46caa7f209226e4304542af23",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/1ee4d54004d090c46caa7f209226e4304542af23"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/db47267be4db7537c5e3f6952e84ba1eb290b01e",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3bO0CRC1aQ7uu5UhlAAASSAQADiA87cLpFtB6mNkqT1ts4KV\nywW/6CRVn8pARFqU7XmnMj55aiunMlIB6dkD3ZUBfsSBmwaYjrUQJ9OXjdA5TPB4\nwrgO2m28ccdaQP2fUkjCrczrgakQYCSDp9hQAJ+Z0dDxfaKjlSpz288rfAuWNfVc\nCeGSPnD886dFUJ+q233SVfJw+L0MftkfFUX3q1SJZtrLDAAK1OJF3FBzm0VVeXea\nKuj2WioSVLb9g4YUBlzl0ixXVMHJPrbGx3BPmooKUFF2mG70ndvUSR8Shvtit2Ch\n3yiHlWat1OQiQYjMp7r9w/dLe5Sr6sOen8Q0c0vok5R8Au0dqI9rxmBlWSxrcT61\nvp4b+odEwpAkc5jOSF+q/jiDxnpM20yeyH6MSe76Pno1hbo30KzzLHAiXp6juOqy\n2Wwl4Z9jycxm3T9mrJ/XFiKB+qQHd1c7E8zwcNeTSfFpjABuaFBksgehVc5/34pD\nE9HZrDXPHl89k2JIbCt5vZrrRx/rJIemEMT24zVrWrkVp+YyEv0y/hNN1FOa3j3E\nnbIOR+7xUoDmNY9XKaI6KWnTV/w5O9h6/UHd+fOyKUtYMEfwnylaPvD00zGqrBV9\n3eVJCvbB7HEMt0crZXhUURPnZUF8V6p8reEI9VnAFEvqaJaaLBkyfM5thN3YYLgm\nFKOgFYpjLtT+X5tpdyjn\n=fmtg\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 1ee4d54004d090c46caa7f209226e4304542af23\nparent 6723bfbe327da6b447f7cefed4e02bc9d7a74eea\nauthor John Kleinschmidt <jkleinsc@electronjs.org> 1742582708 -0400\ncommitter GitHub <noreply@github.com> 1742582708 -0400\n\nbuild: Use windows src cache (#45881)\n\nbuild: use source cache on windows",
+                "verified_at": "2025-03-21T18:45:13Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/db47267be4db7537c5e3f6952e84ba1eb290b01e",
+        "html_url": "https://github.com/electron/electron/commit/db47267be4db7537c5e3f6952e84ba1eb290b01e",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/db47267be4db7537c5e3f6952e84ba1eb290b01e/comments",
+        "author": {
+            "login": "jkleinsc",
+            "id": 609052,
+            "node_id": "MDQ6VXNlcjYwOTA1Mg==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/609052?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/jkleinsc",
+            "html_url": "https://github.com/jkleinsc",
+            "followers_url": "https://api.github.com/users/jkleinsc/followers",
+            "following_url": "https://api.github.com/users/jkleinsc/following{/other_user}",
+            "gists_url": "https://api.github.com/users/jkleinsc/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/jkleinsc/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/jkleinsc/subscriptions",
+            "organizations_url": "https://api.github.com/users/jkleinsc/orgs",
+            "repos_url": "https://api.github.com/users/jkleinsc/repos",
+            "events_url": "https://api.github.com/users/jkleinsc/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/jkleinsc/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6723bfbe327da6b447f7cefed4e02bc9d7a74eea",
+                "url": "https://api.github.com/repos/electron/electron/commits/6723bfbe327da6b447f7cefed4e02bc9d7a74eea",
+                "html_url": "https://github.com/electron/electron/commit/6723bfbe327da6b447f7cefed4e02bc9d7a74eea"
+            }
+        ]
+    },
+    {
+        "sha": "6723bfbe327da6b447f7cefed4e02bc9d7a74eea",
+        "node_id": "C_kwDOAI8xS9oAKDY3MjNiZmJlMzI3ZGE2YjQ0N2Y3Y2VmZWQ0ZTAyYmM5ZDdhNzRlZWE",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-21T12:33:25Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T12:33:25Z"
+            },
+            "message": "refactor: reduce coupling in `electron::api::Protocol` (#46122)\n\n* refactor: decouple api::Protocol from ElectronBrowserContext\n\nnow they do not know about each other\n\n* refactor: make electron::api::ProtocolError private\n\n* refactor: remove unused isolate arg in Protocol constructor\n\n* refactor: use =default for trivial destructor",
+            "tree": {
+                "sha": "1f1ca9f09a8fe5911dd25a7f3e590752ac7c4e16",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/1f1ca9f09a8fe5911dd25a7f3e590752ac7c4e16"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/6723bfbe327da6b447f7cefed4e02bc9d7a74eea",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3VyVCRC1aQ7uu5UhlAAA6NQQAHEF34LdLRE5y5IEXEeAbN8D\nwC7bQkvjtJmNH3HeOPHfZF77Kd5b25j/7vOE1JC5uHr16E0+itMfurwmOxIJ9Bno\ng9TpqFVh/f/VXL87J2jXnp2rE1eK878fERSWdl4VveKS1Qm3qPtzjDSYbBZN3FP1\npC/6snrNM2dF7o9g2j+XR8CeOMZoMGBvyKZqco91dq3/uD+viPpJe5jx2e4jGl84\nMt2VAmsz5gNR3ObThJo6ZV0PQZhlckIJWF4oGfguQhViIsOfRbrq6J92tpFosWHs\nCEgNNPUWybVAdCD+m6CanjKslKCH5lU3fSjOfuikfehJBEVPpwtH2dp3lR3fTzzq\no6dxnNLIM9iCux8ix/N9SQI2HNLc3VzMuiuAVvLt67OUj2dMLA86UT+hvgVtvfDo\npd6D4abDIYvAuERIQP6LH22cJpPnFbrA9ka4p8dxg0wc1jFM/Syd6alPr7AeZCrS\nSNXkjDFs4Av3tyD8HsMxkEjag3YEzJeKFFxNkP0tOe1prZdrxScLQm5FO8PCCEba\nzYCQ42/WOGD5tO5ZflEaHr7oPl8l1638Rqlbpfr/ITwrDWpkH4f38dB82/u39K/Z\npWs+d336KUPGBLilUDAED+fAYjvFa22tnWURNLvO0PtphzMeuvUXLALo4PFjnMvG\nWjNUf0ucV+DOb+ktQPOS\n=pyd7\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 1f1ca9f09a8fe5911dd25a7f3e590752ac7c4e16\nparent 603057b198415cec42bb42d1367e38829158b999\nauthor Charles Kerr <charles@charleskerr.com> 1742560405 -0500\ncommitter GitHub <noreply@github.com> 1742560405 -0500\n\nrefactor: reduce coupling in `electron::api::Protocol` (#46122)\n\n* refactor: decouple api::Protocol from ElectronBrowserContext\n\nnow they do not know about each other\n\n* refactor: make electron::api::ProtocolError private\n\n* refactor: remove unused isolate arg in Protocol constructor\n\n* refactor: use =default for trivial destructor",
+                "verified_at": "2025-03-21T12:33:29Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/6723bfbe327da6b447f7cefed4e02bc9d7a74eea",
+        "html_url": "https://github.com/electron/electron/commit/6723bfbe327da6b447f7cefed4e02bc9d7a74eea",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/6723bfbe327da6b447f7cefed4e02bc9d7a74eea/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "603057b198415cec42bb42d1367e38829158b999",
+                "url": "https://api.github.com/repos/electron/electron/commits/603057b198415cec42bb42d1367e38829158b999",
+                "html_url": "https://github.com/electron/electron/commit/603057b198415cec42bb42d1367e38829158b999"
+            }
+        ]
+    },
+    {
+        "sha": "603057b198415cec42bb42d1367e38829158b999",
+        "node_id": "C_kwDOAI8xS9oAKDYwMzA1N2IxOTg0MTVjZWM0MmJiNDJkMTM2N2UzODgyOTE1OGI5OTk",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-21T07:40:49Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T07:40:49Z"
+            },
+            "message": "fix: remove `File.path` from types (#46005)",
+            "tree": {
+                "sha": "402fe3a5a2a3fdd82ba16bb79f224ea0b619d370",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/402fe3a5a2a3fdd82ba16bb79f224ea0b619d370"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/603057b198415cec42bb42d1367e38829158b999",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3RgCCRC1aQ7uu5UhlAAAb4YQAH8BYm4vnmXE+FTh285IPdD4\nTH85dCE86/xf6h9Is6qiyRWOtuov86AwqqVYT7Z3oapxMV0UWPSI+tcTxWFfJYJS\nYVYx5n152xSLkITERyfURwnw9ItPIS9ywjSud7vLFgU+D9754wWiuV6NpeCyHAyF\nGxuN3bsObZz8OqwutdAeE6lPNFfy8nEhm64Cgo3vy9ilafwIQHwG0IUcy7uuBRID\nUq8/sxy4vjqwXaEXIXCCyWDAw7rYtWCAuPfWJ6TgxWNBEZ66N0fzatILo1aDXdug\n/Tf/deGvymTHl3clXFyQHqIlXtOcCgGiUuofalCA5Z3dCW4u6xjmVOr7jSyW5KSb\ninoJvvWPbnPA/fVzlpVTjlo7mW+gtHhx398KaMVkbM+E9gMRPQay1Q7ZOlzL9Z1J\nZUgNluC9G2uRf7ETaVAX22MZyB8gBNTa9QjrSGXL7AJijmznnhl4qj7fuhNkWrd/\nCW1XhJ5ANJ9juqAUm9Bi/J68WaLGT7hNluFPEKXSZND6+bToFJ1dO6DDTRJYy6XT\nWIbbxlYrc1PGYkCq6sC20RTZ+JTIqtsKm0qPr5HxAxiIUYVat4BfrK7joqEIFeJV\nxgDfVjGhaMdRv9ohyEnSRGMq1X7hEE1gYotlbDRX5Z0EVievijjTVkpCvcmFWt6F\nIdTmNQIXa2t1P1/2c6oS\n=GCOh\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 402fe3a5a2a3fdd82ba16bb79f224ea0b619d370\nparent 9ccc63d6821f948d4b320eeca9b8110468963452\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742542849 +0100\ncommitter GitHub <noreply@github.com> 1742542849 +0100\n\nfix: remove `File.path` from types (#46005)\n\n",
+                "verified_at": "2025-03-21T07:40:53Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/603057b198415cec42bb42d1367e38829158b999",
+        "html_url": "https://github.com/electron/electron/commit/603057b198415cec42bb42d1367e38829158b999",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/603057b198415cec42bb42d1367e38829158b999/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9ccc63d6821f948d4b320eeca9b8110468963452",
+                "url": "https://api.github.com/repos/electron/electron/commits/9ccc63d6821f948d4b320eeca9b8110468963452",
+                "html_url": "https://github.com/electron/electron/commit/9ccc63d6821f948d4b320eeca9b8110468963452"
+            }
+        ]
+    },
+    {
+        "sha": "9ccc63d6821f948d4b320eeca9b8110468963452",
+        "node_id": "C_kwDOAI8xS9oAKDljY2M2M2Q2ODIxZjk0OGQ0YjMyMGVlY2E5YjgxMTA0Njg5NjM0NTI",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-21T07:40:28Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T07:40:28Z"
+            },
+            "message": "fix: add missing `cpp_heap` to Node.js worker `CreateParams` (#46104)",
+            "tree": {
+                "sha": "b98ff7a2946be11483f3e6f9ea925be4453ca859",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/b98ff7a2946be11483f3e6f9ea925be4453ca859"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/9ccc63d6821f948d4b320eeca9b8110468963452",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3RfsCRC1aQ7uu5UhlAAAX2IQAAUmeDCbiJA/LINpdDT3Ghbo\n7Fe4TkEOVltikWg1pgc2nWfmWfE8Ud+uLScAzdsO5frrQwcURE6JNEotaZfuRSHu\nuq7sT/pm4/Y27Wilon+RgvflyDpWXrQNmL7VuWfnf2JqTOA5+5AE0K1cKc+Pzfj5\nREunYr/jLtJCpRWW5mgZZCeD9rofRpxkjQWWKNFkO/TkJvGVTw+vu/n7HBAGDxBn\nPYWx5IZkstuLrqz8vkWctWEuLb9UyG2YQq0Q7czBcoDdhuwmS1YL9lF18Mr93KHe\nxgcwZlofXyEug8syF1Uo9jfLCbUi+IpYhaSdMVkbBTfTAHBCdnBTiEZA2Ze4MaKz\nwuk3x8JuePltMpLCZq1PNiP59P77eCmZ6TxcsoMNFujSlBW5LxMtecoUklWUsw+h\n5zpFyMPBBLeiv/bnAnQ3niS4Q6DwiUXhVZJtPxBNSLCJL0Lnt06pm3pOK0G30uXj\niL5G6A2hijNXdTletY7bswUc6H+qir+aqhpw5YTQ3DiVyrykTvVCFCBU8ze/A5+h\nRAQ+T2gDnB6oBUraXjSNC4ihlc/STSeqT3xSENp8Bm5T6xRjVItgbVWTypcf2e1a\nTIyS1+oNEtM4CiuAT0x8BkxtycRF2FCzAtpsOkVNrCzNzHmonaYssiSvvyFIfe6N\nv3RpAbK1JPphLzoO9Gww\n=qi7B\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b98ff7a2946be11483f3e6f9ea925be4453ca859\nparent 4d7161f36edacf8d708bc3cb73099db378508bd7\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742542828 +0100\ncommitter GitHub <noreply@github.com> 1742542828 +0100\n\nfix: add missing `cpp_heap` to Node.js worker `CreateParams` (#46104)\n\n",
+                "verified_at": "2025-03-21T07:40:32Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/9ccc63d6821f948d4b320eeca9b8110468963452",
+        "html_url": "https://github.com/electron/electron/commit/9ccc63d6821f948d4b320eeca9b8110468963452",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/9ccc63d6821f948d4b320eeca9b8110468963452/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4d7161f36edacf8d708bc3cb73099db378508bd7",
+                "url": "https://api.github.com/repos/electron/electron/commits/4d7161f36edacf8d708bc3cb73099db378508bd7",
+                "html_url": "https://github.com/electron/electron/commit/4d7161f36edacf8d708bc3cb73099db378508bd7"
+            }
+        ]
+    },
+    {
+        "sha": "4d7161f36edacf8d708bc3cb73099db378508bd7",
+        "node_id": "C_kwDOAI8xS9oAKDRkNzE2MWYzNmVkYWNmOGQ3MDhiYzNjYjczMDk5ZGIzNzg1MDhiZDc",
+        "commit": {
+            "author": {
+                "name": "LZL",
+                "email": "83216456+mai-121@users.noreply.github.com",
+                "date": "2025-03-21T07:24:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T07:24:34Z"
+            },
+            "message": "feat: add ffmpeg.dll to delay load configuration (#46151)\n\nfeat: set ffmpeg.dll as a delay-loaded DLL\n\nUpdated the /DELAYLOAD linker config in BUILD.gn to set ffmpeg.dll\nas a delay-loaded DLL. This reduces startup overhead and prevents unnecessary\nloading when ffmpeg-related functionality is not used (e.g., the browser process\nwas unnecessarily loading it).",
+            "tree": {
+                "sha": "86ae3e962ede3d9700d67813bb82bca3b159badc",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/86ae3e962ede3d9700d67813bb82bca3b159badc"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/4d7161f36edacf8d708bc3cb73099db378508bd7",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3RQyCRC1aQ7uu5UhlAAArD8QAKI4fh/qA9hKGB6YwXhP4yQg\n9cGzrExhaveXLcPsxxudtpLsHgo9sGkO5osxzfhxQIy+EvtQvnw0wJCiN4J6eVRo\n5Ktg5XU3SLS3dCmcu7IiAT3sYxTQFsny8Tei20OpXstWFfGGAKYkxXYa+RwcmXgM\n/ExZZ8J3VPuZrzDgLCLPvVLkbbOK3Wbi+j6rt1d1lM5ZRVPI7pTRFzVo4fKIRNyS\nxOuDRh36QVrAdiM7bUBcgIIJBjESYRT7I/yJihPukkNFNI/8TlKj0MvqFLVYXqik\nZF2QKnaZaMAs+LTecwzfnOVAM9cERRjr5zcZWCU5VtmAL6k8iJK/HPEkiv/jxgtD\nSWL2Clt1sZx0hF9cBwTKddUYkkM7wsoLtAg6lHAxu59bkdz20FHdOgJ7ab8t9BSs\nnuPJCREroD8kEBgDI53Iiwm4SIbNVHPSK1i1AuOPjEcdEMYvcbzsyciWEv54pQDU\nBt6pBF7UZvrTOLAnunddFg+y9T1GNTnEr65Uk1KcJLaTpgr8WPw4U8u0y423FMnh\nz09RZkydHlbd5/deZ+Lm5i4bJ+wfkk6R+vNsE2MsZj6hwyyE6Crn9PuisJxgXjWN\n85O3ldaBU3K87iOT/vqLS3+d5ItJDAHiw03PIwQ5MWecoDhn5AWS5GhJsU810qKk\n4HCqBIysCN+/w0NA+kqu\n=/ewf\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 86ae3e962ede3d9700d67813bb82bca3b159badc\nparent 32141eacfb4acae08a52a24adf4c7221c5846650\nauthor LZL <83216456+mai-121@users.noreply.github.com> 1742541874 +0800\ncommitter GitHub <noreply@github.com> 1742541874 +0900\n\nfeat: add ffmpeg.dll to delay load configuration (#46151)\n\nfeat: set ffmpeg.dll as a delay-loaded DLL\n\nUpdated the /DELAYLOAD linker config in BUILD.gn to set ffmpeg.dll\nas a delay-loaded DLL. This reduces startup overhead and prevents unnecessary\nloading when ffmpeg-related functionality is not used (e.g., the browser process\nwas unnecessarily loading it).",
+                "verified_at": "2025-03-21T07:24:38Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/4d7161f36edacf8d708bc3cb73099db378508bd7",
+        "html_url": "https://github.com/electron/electron/commit/4d7161f36edacf8d708bc3cb73099db378508bd7",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/4d7161f36edacf8d708bc3cb73099db378508bd7/comments",
+        "author": {
+            "login": "mai-121",
+            "id": 83216456,
+            "node_id": "MDQ6VXNlcjgzMjE2NDU2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/83216456?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/mai-121",
+            "html_url": "https://github.com/mai-121",
+            "followers_url": "https://api.github.com/users/mai-121/followers",
+            "following_url": "https://api.github.com/users/mai-121/following{/other_user}",
+            "gists_url": "https://api.github.com/users/mai-121/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/mai-121/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/mai-121/subscriptions",
+            "organizations_url": "https://api.github.com/users/mai-121/orgs",
+            "repos_url": "https://api.github.com/users/mai-121/repos",
+            "events_url": "https://api.github.com/users/mai-121/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/mai-121/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "32141eacfb4acae08a52a24adf4c7221c5846650",
+                "url": "https://api.github.com/repos/electron/electron/commits/32141eacfb4acae08a52a24adf4c7221c5846650",
+                "html_url": "https://github.com/electron/electron/commit/32141eacfb4acae08a52a24adf4c7221c5846650"
+            }
+        ]
+    },
+    {
+        "sha": "32141eacfb4acae08a52a24adf4c7221c5846650",
+        "node_id": "C_kwDOAI8xS9oAKDMyMTQxZWFjZmI0YWNhZTA4YTUyYTI0YWRmNGM3MjIxYzU4NDY2NTA",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-21T04:43:47Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-21T04:43:47Z"
+            },
+            "message": "refactor: use upstream `Widget::IsVisibleOnAllWorkspaces()` (#45887)\n\n* refactor: use upstream Widget::IsVisibleOnAllWorkspaces()\n\n* chore: add to breaking changes",
+            "tree": {
+                "sha": "96762916e5bcd3131aca857d25bc9e0037f19ab4",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/96762916e5bcd3131aca857d25bc9e0037f19ab4"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/32141eacfb4acae08a52a24adf4c7221c5846650",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3O6DCRC1aQ7uu5UhlAAA384QAJKEvlCtppYFFGGXfwuibnQ8\n03mqln1IVScbGexmbg+eL2ul6Ywq6c3twX5561uvqMCDjOiVMuk+nAEceVNPL7Nw\nSm3P9pyoysOZUKwhFyvDTwW87U2vVvbuTFVEAJO1VcJSzB3uP4dmap8yM9XrQLQ2\nr+TPDdNxpUvqvhXkzQIPmq5dVZEL0wC3Vm0Gqg3pa8AmjAAci+Y5TpLILcDdflLj\nzLd/SeUDL2gXEhyDwyqkPMLNVzdkUnM6+BcIqlwVUOZssxbZl6gB13hoGUjHtGeG\nTDcSPCHHF3YHpQ6e2uBFwhObF3oR+M9WInSYOl2/D/+qiV3wu4jo79UkJ3PUq8Ty\n+JY4FkIp5ol++dEo/zZSAPMoL8tJ9PB6XzdzOBZ+KTpCPKMn5Y/7x/wjQsm2la0w\nrYbLCng/pU4caSkvlj5mt1ZeEoO/uKMIuH8tVawAD8GlJy51BhONiLd4FxD2umyJ\nCkPXdqIeh4GIQqiXDIPZGgFcZLTPjKZ9sSyKvqbD548XNKSVMdho75mCtDG6O0l0\namBE3jluFIr0Lox0yJyZRC+7iL1dbgyXpRhmBYJdQ+vpdzzxOoJTVyFASqxar0+5\nEDmlXwVhFNnqL42WwL+tIOQabYZg+/wPj117XJZTLy/bScjtWxMZaCvdvutxMBLC\njBmwduo+pdF1gLfqiB8B\n=LM4N\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 96762916e5bcd3131aca857d25bc9e0037f19ab4\nparent 1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742532227 +0100\ncommitter GitHub <noreply@github.com> 1742532227 -0500\n\nrefactor: use upstream `Widget::IsVisibleOnAllWorkspaces()` (#45887)\n\n* refactor: use upstream Widget::IsVisibleOnAllWorkspaces()\n\n* chore: add to breaking changes",
+                "verified_at": "2025-03-21T04:43:51Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/32141eacfb4acae08a52a24adf4c7221c5846650",
+        "html_url": "https://github.com/electron/electron/commit/32141eacfb4acae08a52a24adf4c7221c5846650",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/32141eacfb4acae08a52a24adf4c7221c5846650/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4",
+                "url": "https://api.github.com/repos/electron/electron/commits/1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4",
+                "html_url": "https://github.com/electron/electron/commit/1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4"
+            }
+        ]
+    },
+    {
+        "sha": "1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4",
+        "node_id": "C_kwDOAI8xS9oAKDFiNWRiOTk4OWUxZjFmN2M2NjdlZDZlZmNhZDFiZWZhZDFkMGU4YzQ",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-20T20:47:47Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T20:47:47Z"
+            },
+            "message": "refactor: make URLPipeLoader private (#46113)\n\nMove the URLPipeLoader class into an anonymous namespace in\nelectron_url_loader_factory.cc.",
+            "tree": {
+                "sha": "dfbadb209efbe34b80717699b4a7597abf4627a9",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/dfbadb209efbe34b80717699b4a7597abf4627a9"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3H7zCRC1aQ7uu5UhlAAA0EkQAHZUHIZTzEDtmGIM89/MdLdB\nSmZor6rrsIANEfy+IeSE+EEEmGzsjLwaPVjf4xpLvoFkTPzbVjQk83tQUDSglZVb\nEnhDCCyAx+hdyzTx8K0Ng7gL0c83joUQsGPDr9KIkF6dAyQzCVteCk9vtiAVtv/r\npBXqxGnQhHXY4wZ4ey5ahwvKOKccNRtQnksD10jGX21X3Rz+yRHzZzUT0XCv2WXZ\nK9spIFddUyZAg+9hXv4GgUnoUzx6y8I9ARttFTCCO8sL5S9wllrBcbIFjCmFAoh3\neaquTsqYuAcjc8zO5zd0oVmUqdVm4cx8tSY9aZc0XGuu7CB/lIVDLDCrDIDwLi33\nUXLV10qi4CK0tAeQzGkv3qXARvwt7sbEApvTultfGNKEB10sZeJYw5/nIDRkAZvn\n3DKwGN3hPCV3SYrWoIEj8Om0Z9ZLtaLxNh3of/eTLYwi3eVUsCfv8Q5qSj6spVxe\nkuTcxMSENR318je9afwyti+uype9qbmLwPfGwFNUEkSbsf6j4X/JYDy4Cva+QcQv\npUUhAIYV6vkBNq1RCHkWJ+lBPzE0SHLhI8T0Lq2JkDVCnEXXGK8+D3RoDoI+qv9N\nYBMWAV9MpwKpDtlUpt47WkqDpDUcyTm79J3W/qe6Dvq8KEkbt4ML5Wp/BzNnXDae\ngUmGUhQzuQSSh1EOU91G\n=7zs/\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree dfbadb209efbe34b80717699b4a7597abf4627a9\nparent 46967ca9c98e0dfab6a07c1aff2c2a607c7dac41\nauthor Charles Kerr <charles@charleskerr.com> 1742503667 -0500\ncommitter GitHub <noreply@github.com> 1742503667 -0500\n\nrefactor: make URLPipeLoader private (#46113)\n\nMove the URLPipeLoader class into an anonymous namespace in\nelectron_url_loader_factory.cc.",
+                "verified_at": "2025-03-20T20:47:51Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4",
+        "html_url": "https://github.com/electron/electron/commit/1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/1b5db9989e1f1f7c667ed6efcad1befad1d0e8c4/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "46967ca9c98e0dfab6a07c1aff2c2a607c7dac41",
+                "url": "https://api.github.com/repos/electron/electron/commits/46967ca9c98e0dfab6a07c1aff2c2a607c7dac41",
+                "html_url": "https://github.com/electron/electron/commit/46967ca9c98e0dfab6a07c1aff2c2a607c7dac41"
+            }
+        ]
+    },
+    {
+        "sha": "46967ca9c98e0dfab6a07c1aff2c2a607c7dac41",
+        "node_id": "C_kwDOAI8xS9oAKDQ2OTY3Y2E5Yzk4ZTBkZmFiNmEwN2MxYWZmMmMyYTYwN2M3ZGFjNDE",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-20T16:17:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T16:17:26Z"
+            },
+            "message": "refactor: Add `ElectronBrowserContext::BrowserContexts()` (#46089)\n\n* refactor: add ElectronBrowserContext::BrowserContexts()\n\n* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronBrowserMainParts::PostMainMessageLoopRun()\n\n* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronExtensionsBrowserClient::IsValidContext()\n\n* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronExtensionsBrowserClient::BroadcastEventToRenderers()\n\n* refactor: move PartitionKey, BrowserContextMap private\n\n* refactor: add ElectronBrowserContext::IsValidContext()\n\ndecouple ElectronExtensionsBrowserClient from the internals of ElectronBrowserContext",
+            "tree": {
+                "sha": "0d62f1069b0e0c3495df47a8cc43426b92939d54",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/0d62f1069b0e0c3495df47a8cc43426b92939d54"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/46967ca9c98e0dfab6a07c1aff2c2a607c7dac41",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn3D+WCRC1aQ7uu5UhlAAAQaMQAAgWu+AfBCujJg4k3RPVP4e2\ns4aUeqAvlIYVXyhQ+m3Sle7VCsHssSgYx9SxeRiLMd8yQvMRNaVD1Rb8O8w+wWBY\nzYzK6yyyxAUlgzGZIg/nyEmSgUH5uwExxiDiMKOCCUgl27Rf2NB49ROpBx+J0f6u\ni1+30kZ+qSC9OTp5Al//camZu0kGWBoc+950emfzTQtVCpezNLKr+hgUkF0HbZVl\nuoY6PfBX5lfCHXJLkcYn2P3ysak0AQ4RRXScGOhrphyg5NL1gedt4x5vgMWs+xNP\nNEiyLp7eEWRC8KgfvRBg6Ig0ofMErQs5T8hOo9i6hSxU2TyfDAESG1lC6Fh2v2P1\nNeK/JNa9Rx61fhbfZkBEev7qB/eu5WqsiOA5DlO/41rEmosbky6KWByEZFxf8ibc\nFMolmFb8MIhobHANhtSN1hQvhQFPXw4MBIozJoKtWQVJhPDHH1Dw66YjCsvmcBMs\nRD1o7aIOKngM8MJ+aPOsyWViQYcg0FGXqtpN5fYv0zhFsLoQsziQB+jIHLOpEJkq\nag5uEG9zBIyvyk+ypkF2891+p6zMcvN7FEJ8yYrp+Q9si7r14XPeFXweFH2EA86W\nCszbZxxTNOtPX0skRpBeUoDyDaseDJ5ZzonKrjF29wk6UsQpQ/vbHrBNHQHVJVM1\nw8WUbhSwoRdCVs4a4erk\n=MGTQ\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 0d62f1069b0e0c3495df47a8cc43426b92939d54\nparent 273baf4ec2c95a399468aa0cb170d609046fffba\nauthor Charles Kerr <charles@charleskerr.com> 1742487446 -0500\ncommitter GitHub <noreply@github.com> 1742487446 -0500\n\nrefactor: Add `ElectronBrowserContext::BrowserContexts()` (#46089)\n\n* refactor: add ElectronBrowserContext::BrowserContexts()\n\n* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronBrowserMainParts::PostMainMessageLoopRun()\n\n* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronExtensionsBrowserClient::IsValidContext()\n\n* refactor: use ElectronBrowserContext::BrowserContexts() in ElectronExtensionsBrowserClient::BroadcastEventToRenderers()\n\n* refactor: move PartitionKey, BrowserContextMap private\n\n* refactor: add ElectronBrowserContext::IsValidContext()\n\ndecouple ElectronExtensionsBrowserClient from the internals of ElectronBrowserContext",
+                "verified_at": "2025-03-20T16:17:29Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/46967ca9c98e0dfab6a07c1aff2c2a607c7dac41",
+        "html_url": "https://github.com/electron/electron/commit/46967ca9c98e0dfab6a07c1aff2c2a607c7dac41",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/46967ca9c98e0dfab6a07c1aff2c2a607c7dac41/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "273baf4ec2c95a399468aa0cb170d609046fffba",
+                "url": "https://api.github.com/repos/electron/electron/commits/273baf4ec2c95a399468aa0cb170d609046fffba",
+                "html_url": "https://github.com/electron/electron/commit/273baf4ec2c95a399468aa0cb170d609046fffba"
+            }
+        ]
+    },
+    {
+        "sha": "273baf4ec2c95a399468aa0cb170d609046fffba",
+        "node_id": "C_kwDOAI8xS9oAKDI3M2JhZjRlYzJjOTVhMzk5NDY4YWEwY2IxNzBkNjA5MDQ2ZmZmYmE",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-20T09:13:28Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T09:13:28Z"
+            },
+            "message": "refactor: use base::NumberToString() (#46141)\n\nbase::NumberToString() is slightly more efficient than\nabsl::StrFormat(\"%u\").",
+            "tree": {
+                "sha": "97c5dec0e2def78557097217847240a118ebb1b3",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/97c5dec0e2def78557097217847240a118ebb1b3"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/273baf4ec2c95a399468aa0cb170d609046fffba",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn29w4CRC1aQ7uu5UhlAAAUHgQABhsX6b+VIX7GPYeSZGJpGnW\nkyrDHoBS2cLWDCFUj4yTkk6UhvuVBjJl2l9z1ug694XEm7HlEeBPTFqXvt3HmCal\nBX4sATcJEDVCxTktXzk3xLuR8bpSjZahbQ5dT3DrPmxD+MIqwx35CeyjlWTX9RyC\nzodVmx/J0z49rTN1RxwrWoBu22afyYiaGl1GM4gGWGodKTYBPfgpxNvkJfM0VlCO\n7aIqV2XnV2TZMIxLYT380LzPxn40y6abfQ/2gSHk/m3g5skebmc/dICLUdNo9o1J\nMoWsOGw5BFIgF7r+LFjXmadOWIgmmJtaKygzQcFI4My4jdwwpNA+x/V4MhW+rmtq\nCSmmTOhtcBO3aSWs2bfCsoIZB83K3kAOATI2YUsXoDyfXmpHAAHzBgaq1IIK2sAH\nVh/Obx65H9NRbwK4PCTzNRaneb6WRF9riDnbnk5JW8k731N+rPF2jl86hSf25xNL\niFHZkJMEenjO2pVeEiUvMSidvdHotVSsfUUZWsnEmX/jD+RlupNDwABqGM3++eMI\n4+ZmO0RHV6x71VRTb1uSSHFit3EH4YRt/Nm43ih/JIJzeIHqPhcco7Ps/INw0lVX\nJOVRyotuYRgSeMnSy2NlRn1jUnWYOJDQTMNYMiKGu7m7BrVHw8k3aH0TkFBgA6Ce\nidQSpiM2IFyAi9hmOtn6\n=Dz6E\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 97c5dec0e2def78557097217847240a118ebb1b3\nparent c4800d99346fdb3633ae81712c1df44edb61cd26\nauthor Charles Kerr <charles@charleskerr.com> 1742462008 -0500\ncommitter GitHub <noreply@github.com> 1742462008 +0100\n\nrefactor: use base::NumberToString() (#46141)\n\nbase::NumberToString() is slightly more efficient than\nabsl::StrFormat(\"%u\").",
+                "verified_at": "2025-03-20T09:13:33Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/273baf4ec2c95a399468aa0cb170d609046fffba",
+        "html_url": "https://github.com/electron/electron/commit/273baf4ec2c95a399468aa0cb170d609046fffba",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/273baf4ec2c95a399468aa0cb170d609046fffba/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "c4800d99346fdb3633ae81712c1df44edb61cd26",
+                "url": "https://api.github.com/repos/electron/electron/commits/c4800d99346fdb3633ae81712c1df44edb61cd26",
+                "html_url": "https://github.com/electron/electron/commit/c4800d99346fdb3633ae81712c1df44edb61cd26"
+            }
+        ]
+    },
+    {
+        "sha": "c4800d99346fdb3633ae81712c1df44edb61cd26",
+        "node_id": "C_kwDOAI8xS9oAKGM0ODAwZDk5MzQ2ZmRiMzYzM2FlODE3MTJjMWRmNDRlZGI2MWNkMjY",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-20T09:04:50Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T09:04:50Z"
+            },
+            "message": "refactor: remove ToV8(isolate, const char*) (#46108)",
+            "tree": {
+                "sha": "993b0dab955119e76fbb4c668bbe314c0e9c9895",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/993b0dab955119e76fbb4c668bbe314c0e9c9895"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/c4800d99346fdb3633ae81712c1df44edb61cd26",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn29ozCRC1aQ7uu5UhlAAAL2sQAAW0fONmWkXsGL+aCJ6s1Sh9\ndCO63ARgUnD3bhlDLQjjE/Wy3f6gq3E4SEJiBMmcguOFZpe5Xo4LgbFK6R2c/Er1\nnkZtD6MCgHMePD9hfx5HVdvzWGaIOzgq0CY54iTxrExHrz0xeKiYHHhE9XmZaHzW\n2JGYUluGNGA5S/bRFe6yd0AtO5q+83l52S6tFo84faTLeSZeAGn8dwb19Ajs9+iS\n+cidzTjJX0sIvbqTvQvzyHLBswrE7+9ZUG2nk73Kdo/XQAwLgS6sJ1SB32ynCgB2\n8DyWHV5QY447wgANuHik/jazq+QkyCSOVshSRbIZVcEfcuzAjmvyW8vZpLiQwJN0\nNvg/l3ppQ56kyxN2vQK7pLyBkL3PWbNpJCY+dWMz7rLI7Etm4CmyutsAu89h6QVE\nyKmKUE+umCM5xSjquANmhp2L8SofMP+Be5Cst63Rj0YmQrp+Bk7Q5gxm+yYx1nN0\nstGlIyCMSzfXgswSmgnxFQqYiapVM34tiPTNi27T3NUwDF+u8h4+5yMgvizkWy8S\neFqMQBMQl8IvXYgbkfbkWKvjxbOv2k12YA+U9GvJTVObN8BjxELMr9ijlV69S4+5\nzWkYNH5VZ+7uMfKoL8Pcb4lMEkguCQ0u2Zs7wunBZWcDozGk8Elotxrkptx7Uz3C\n5g1H4a7+pjmjYekcWjwV\n=6G8P\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 993b0dab955119e76fbb4c668bbe314c0e9c9895\nparent 86cc9f626f90eaa4df5fb916ba6706f825687517\nauthor Charles Kerr <charles@charleskerr.com> 1742461490 -0500\ncommitter GitHub <noreply@github.com> 1742461490 +0100\n\nrefactor: remove ToV8(isolate, const char*) (#46108)\n\n",
+                "verified_at": "2025-03-20T09:04:55Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/c4800d99346fdb3633ae81712c1df44edb61cd26",
+        "html_url": "https://github.com/electron/electron/commit/c4800d99346fdb3633ae81712c1df44edb61cd26",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/c4800d99346fdb3633ae81712c1df44edb61cd26/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "86cc9f626f90eaa4df5fb916ba6706f825687517",
+                "url": "https://api.github.com/repos/electron/electron/commits/86cc9f626f90eaa4df5fb916ba6706f825687517",
+                "html_url": "https://github.com/electron/electron/commit/86cc9f626f90eaa4df5fb916ba6706f825687517"
+            }
+        ]
+    },
+    {
+        "sha": "86cc9f626f90eaa4df5fb916ba6706f825687517",
+        "node_id": "C_kwDOAI8xS9oAKDg2Y2M5ZjYyNmY5MGVhYTRkZjVmYjkxNmJhNjcwNmY4MjU2ODc1MTc",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-20T06:57:50Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T06:57:50Z"
+            },
+            "message": "fix: APNS token ids are lowercase ASCII (#46101)",
+            "tree": {
+                "sha": "5450b0fc4f584ee27b39f8b95785bbef96533dfb",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/5450b0fc4f584ee27b39f8b95785bbef96533dfb"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/86cc9f626f90eaa4df5fb916ba6706f825687517",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn27xuCRC1aQ7uu5UhlAAAG4kQAB0ClHYedvmv+xC/BIPTuQkd\nLqzkMof5CFX8it2OYgDwy1FWhQZ1D3DsBnMZ6sZLL3S2cLXg32/FGTB7drQ4da/h\njYOuqHoNlcLS/irwfIgFAu1cvNqygMutlo9YLhkurbd8ut1gf4FSLdvVSSkrFeQg\niH5Kv8oZTbsAx2y9oZCRfPgqRE6BqB6aSN51Y7RxU8eJnFU+5il7/tvqZR0RggGt\nHewjUKQhZI6zYP5qHA+8yPYpcKKNVWKsm3JRy5e8vnPa9wLHOe4Ft4Emn8QKpGEH\n1+gKP4uPK8Z/VfqgZNga/4OI9QKIqccKqpVe8PWit/aNwsq4GHYPUFgT04zSDWwP\nEAmsLqKUFHdYZIgbTA7lcZfBbpXctH9nkwLi9EzSrO7BfII1uxjj8kx6VpLik6xD\nSzJcEhonaj6zOVXp5sUR2NlaFKOji3VoIZlJvQG5a9hAr0uhd6Ewj7dZvixD+9KO\n1ixbaTyIFx0qe3jh4C2cjdmw38yjb8gGhknWFmQ3azaASIOtfwpiJ799XUBEj/+q\nkBJb4b4895udIUyCQyb/pTCqWFIZui1K6yMe7hWpbVk3afCNXEjp9lvP3fH55fJH\neYvUEQ8bqBTBxF70rvEThGtkvaTPLHNNj3C9vNYq0zStabdHXHrma2+CRUuNzdYN\nQ+kpRp/k8s0KGlIQRjuo\n=tc4M\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5450b0fc4f584ee27b39f8b95785bbef96533dfb\nparent 09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742453870 +0100\ncommitter GitHub <noreply@github.com> 1742453870 +0100\n\nfix: APNS token ids are lowercase ASCII (#46101)\n\n",
+                "verified_at": "2025-03-20T06:57:54Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/86cc9f626f90eaa4df5fb916ba6706f825687517",
+        "html_url": "https://github.com/electron/electron/commit/86cc9f626f90eaa4df5fb916ba6706f825687517",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/86cc9f626f90eaa4df5fb916ba6706f825687517/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c",
+                "url": "https://api.github.com/repos/electron/electron/commits/09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c",
+                "html_url": "https://github.com/electron/electron/commit/09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c"
+            }
+        ]
+    },
+    {
+        "sha": "09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c",
+        "node_id": "C_kwDOAI8xS9oAKDA5YTNiY2YwZjAzYTg2YmM5Y2FhN2M0YjVlNzc3MGU1ZjMzMDZhNWM",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-20T05:41:00Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T05:41:00Z"
+            },
+            "message": "fix: `webContents.print()` crash on Linux (#46087)",
+            "tree": {
+                "sha": "6447490e162ea001d5b45fd4452951226bc97006",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/6447490e162ea001d5b45fd4452951226bc97006"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn26ptCRC1aQ7uu5UhlAAAGM4QAKtuA/NAh79rF9Z/kDW6cn33\nF/ldRxTV1lgdDqy/1vpe52mLSDPOJwobwW/R0lHr5roLIXyTk/zvssqs4gHcdHsA\nVoIQS2MWl6bBh5PUg+/cAP432EYoSHSF8mw7XhDy/V+HgcbQDI+SP1BKFCjLhxyH\n4rtt1xZFYuiCb8+mNBYEtzLWfM1TzSCVFWUWaLu9lJ7jgMMS8yFgW/7/rcBBUP+A\nRBuHUndl40XphNOUNUTCYnoRrUXo2E2Z9dxozZ1sEhw/CAZPBpdXQ1h3PTrg2Ig4\ndUdT7uZwbY7S8r6I9GuyvUzUXv+HZLwYxD3QO78vQvmTi8vHzsDVwZEqn9kVVNhl\nB3gzmKC5OzS3k5WHJgnbxly/6l8dr1U2ipnQ5+KL3dQjH/acin0EVgXXQM0yzDJJ\nXG0wV6eu24cVj20wjcnxrNYYKj7EVyNMln0A7wcEnybqsb+3WhV7F+yqEr+uY3Du\nPpbDcbA5dGf9bdXveD0bBiBdqB3/zMP8X16acwqodNbW4JS2e5hR9s1JTLMCmFOu\n40hSn/PQK8e1oWzegaL2tHrc5YJXl/vrUB6bwondcMOoyPxlLm6gnQnDuQke82W+\n+woBHnr1aI68IEBGPLsHEr1j1xcuiBaxPMmTzaLDHVFX4SxI4rh3Zmjwbu6DuWty\nL9Mnsjcpra8jAKgfvaC6\n=yj8E\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 6447490e162ea001d5b45fd4452951226bc97006\nparent bf64967b68f28eef913383d104b869a3203cc257\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742449260 +0100\ncommitter GitHub <noreply@github.com> 1742449260 +0100\n\nfix: `webContents.print()` crash on Linux (#46087)\n\n",
+                "verified_at": "2025-03-20T05:41:07Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c",
+        "html_url": "https://github.com/electron/electron/commit/09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/09a3bcf0f03a86bc9caa7c4b5e7770e5f3306a5c/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bf64967b68f28eef913383d104b869a3203cc257",
+                "url": "https://api.github.com/repos/electron/electron/commits/bf64967b68f28eef913383d104b869a3203cc257",
+                "html_url": "https://github.com/electron/electron/commit/bf64967b68f28eef913383d104b869a3203cc257"
+            }
+        ]
+    },
+    {
+        "sha": "bf64967b68f28eef913383d104b869a3203cc257",
+        "node_id": "C_kwDOAI8xS9oAKGJmNjQ5NjdiNjhmMjhlZWY5MTMzODNkMTA0Yjg2OWEzMjAzY2MyNTc",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-20T04:26:06Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-20T04:26:06Z"
+            },
+            "message": "build: combine pipewire patches (#46129)",
+            "tree": {
+                "sha": "bb0770420dba4be515b5dbdd593556cc4e253313",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/bb0770420dba4be515b5dbdd593556cc4e253313"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/bf64967b68f28eef913383d104b869a3203cc257",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn25jeCRC1aQ7uu5UhlAAAxlUQAEW0Ne4+xLDy5/cvtxkUX/xB\npAYnG//JR8V+FadXwnQsOW2IY3HvUYZTtvSLMMd3xI7QDoB9agxtk2ZaQ8qIAPjV\ngOxeLfZ71LAuSiVAL+rH9f3coS0iWE4dBklH2BWSOnqEeX2EzdeJN/dw83Ognqqg\nkOx7kmdp3SYrnwMztfngKn9Enf9FGqQcA2luEkE7HVuLDVdC3lrdyuDHw9IaSWE3\nEKJSa/BbFwfr0+ayWWdolmzLwl5sHPch+PCjdVOrgrmj+E+zeUU0IY982BcLE7UK\neWrzBsaGSKavgbFkLyAMCH/exh/VLuzxG3Ej+rDIu5TOgPVxf+CgLoYnw9JY9UlA\nLJLrOn1TcPTRWnva8VZ7Aex3U4e57QUeP7ALyTVqeObCsD0sYxt9Irr0GZ2qT7Ez\nZjAk1tj4sg90kWqTwvXffYrvsyZA+tMgWW5lX9ZqYZkb2AvMz5P2ZSE+dUP+dm4h\nYtp+Bj/W5eY4Jubx3xXwahRuhByTtZZKQvVNncbPGZn0GGfW1sqbd0We0zRUcMlV\n0KasMdiGe98sRGavfzSj3zaCTA5nrbMgiT0w7O6Cz+/AgKW1dyzjsmCWo57p7G4k\nUzGFIUJgIr7jLfFTR6JiuQjbBe+oo0SBN+19OGIUyCka5kXEvgt59uxlERCxiyfK\nIS6dr1oork1JMyFjnTny\n=4Qus\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree bb0770420dba4be515b5dbdd593556cc4e253313\nparent bf1d377e083380b4849c5f42aacf3762176eac07\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742444766 +0100\ncommitter GitHub <noreply@github.com> 1742444766 -0500\n\nbuild: combine pipewire patches (#46129)\n\n",
+                "verified_at": "2025-03-20T04:26:10Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/bf64967b68f28eef913383d104b869a3203cc257",
+        "html_url": "https://github.com/electron/electron/commit/bf64967b68f28eef913383d104b869a3203cc257",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/bf64967b68f28eef913383d104b869a3203cc257/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bf1d377e083380b4849c5f42aacf3762176eac07",
+                "url": "https://api.github.com/repos/electron/electron/commits/bf1d377e083380b4849c5f42aacf3762176eac07",
+                "html_url": "https://github.com/electron/electron/commit/bf1d377e083380b4849c5f42aacf3762176eac07"
+            }
+        ]
+    },
+    {
+        "sha": "bf1d377e083380b4849c5f42aacf3762176eac07",
+        "node_id": "C_kwDOAI8xS9oAKGJmMWQzNzdlMDgzMzgwYjQ4NDljNWY0MmFhY2YzNzYyMTc2ZWFjMDc",
+        "commit": {
+            "author": {
+                "name": "Niklas Wenzel",
+                "email": "dev@nikwen.de",
+                "date": "2025-03-19T23:34:03Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-19T23:34:03Z"
+            },
+            "message": "docs: use optional chaining for `app.dock` (#46119)\n\ndocs: use optional chaining for app.dock",
+            "tree": {
+                "sha": "cc1c587fcf6287a059cda91e20aada2554775fcc",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/cc1c587fcf6287a059cda91e20aada2554775fcc"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/bf1d377e083380b4849c5f42aacf3762176eac07",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn21RrCRC1aQ7uu5UhlAAAFFAQAFE3TbZY8JlHxT8OxZwYsFfd\nftTYEZO30g4FnSkZ+EfhWY+V+Z4cA7+dsYwdT2NsDnW8EK2i3r08eyfnteI845F7\nDkFYUus6PTJdjLszkyMvPY9Jywkpa/QIfbjr0FCAHS/ppzDE9EC3QbAntXE95G34\nwU/RckQuWvLkMSTcLa43gqrPcsU7LyrBGCoPSW09PlPRara2O5Mi3m6nAlNv0xH+\n1n+9nH/CGuqQ+prtMX+j2c3kHAjNmZJlzlVPhuIIn+fv8FBJotnS5D9hc4LKMsX7\nfRWBaqGs8TvrkWMdZJzy3Meyu34xef7ftGYCJu4x/AfPOHKsXl8sR7fFdljnA/3r\nC27UUBG/HuZ0LbXUVoxRBs0cS0e4COnSWHNAsOFHQbqgzkKRiLRnb4cWI6kxnHDl\n8y61KsB5dt8EXinOvO5Z6z/O9hVh5WGJSlSFjPVfucw34uMp10QJHK+4gkhCzs07\n92zliljyd5mUWBdnjaQAkRnnca16GNWOM4XvgUsFN8epPvcrqEUAa5h6ewktIrJr\nFK9v55CqG27fhjJ3I9k9WrHCV31QzZfCJ21ukd2IDrWcEOiZRI+BGQr/Johabfle\n59hDRwvDu2BPb5/qce4/SeK888ovZnPPfitsAIOetmoiIXNb7kKWjNwFxupDYwOn\nnT0ydkr5Vxo/UBsOiMZY\n=p1mh\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree cc1c587fcf6287a059cda91e20aada2554775fcc\nparent d424c3aee7638f5d8f60909485220989e3ece6a4\nauthor Niklas Wenzel <dev@nikwen.de> 1742427243 +0100\ncommitter GitHub <noreply@github.com> 1742427243 -0500\n\ndocs: use optional chaining for `app.dock` (#46119)\n\ndocs: use optional chaining for app.dock",
+                "verified_at": "2025-03-19T23:34:08Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/bf1d377e083380b4849c5f42aacf3762176eac07",
+        "html_url": "https://github.com/electron/electron/commit/bf1d377e083380b4849c5f42aacf3762176eac07",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/bf1d377e083380b4849c5f42aacf3762176eac07/comments",
+        "author": {
+            "login": "nikwen",
+            "id": 3309657,
+            "node_id": "MDQ6VXNlcjMzMDk2NTc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3309657?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nikwen",
+            "html_url": "https://github.com/nikwen",
+            "followers_url": "https://api.github.com/users/nikwen/followers",
+            "following_url": "https://api.github.com/users/nikwen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nikwen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nikwen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nikwen/subscriptions",
+            "organizations_url": "https://api.github.com/users/nikwen/orgs",
+            "repos_url": "https://api.github.com/users/nikwen/repos",
+            "events_url": "https://api.github.com/users/nikwen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nikwen/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d424c3aee7638f5d8f60909485220989e3ece6a4",
+                "url": "https://api.github.com/repos/electron/electron/commits/d424c3aee7638f5d8f60909485220989e3ece6a4",
+                "html_url": "https://github.com/electron/electron/commit/d424c3aee7638f5d8f60909485220989e3ece6a4"
+            }
+        ]
+    },
+    {
+        "sha": "d424c3aee7638f5d8f60909485220989e3ece6a4",
+        "node_id": "C_kwDOAI8xS9oAKGQ0MjRjM2FlZTc2MzhmNWQ4ZjYwOTA5NDg1MjIwOTg5ZTNlY2U2YTQ",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-19T21:03:26Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-19T21:03:26Z"
+            },
+            "message": "test: disable `parallel/test-worker-resource-limits` (#46105)\n\ntest: disable parallel/test-worker-resource-limits",
+            "tree": {
+                "sha": "d24d55433099817229ad3f82b1fa259b8e3b270a",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/d24d55433099817229ad3f82b1fa259b8e3b270a"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/d424c3aee7638f5d8f60909485220989e3ece6a4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2zEeCRC1aQ7uu5UhlAAA0l0QAJ4T1iNk0k1VK2jMiqch9FsA\nuR+jo8OFQrz8cWxSTVM0W3XTfwtwIxrnq1isKlgW7z3A+mOuqX5ud6yuh1xancRl\n1DZrmTp8j2nuXNX+m3pAaiGTe/H2dYMGGC8fXEe26M92r98otl+cM5vTGlVcUuNo\nhD5iTr5kQnWOxY8onz8jH7oPTDyYVjJFMlP6fFqj/bc2hEeNz77fug3irBOjr7Az\ndUw+Ba5C+bmsajvGQYKy5ekFm7gCsian2eRRB28pr2ZA84RjJWrKXVng2dmMAPya\njn65fUFTGukHx0zZuIm1C7kFKtRliYT/t3KTHwAFfHr+bdGvibspA6hYopTvHcgr\nqcC8zP8XyIYhe2nYeuyhbdZc07BgLXJwMDlz3YfTYx0SUSOspLmOV+SI3z+aF6GG\nG1M+ZH7iH52e4ummGD6TLAmAQbv1dZIIYeRb2eULzBDzXtX8jpsGnN6vRyr1oSzC\nS9BTVuL0k5IPo1ymux+WUbjNmt42A3W6WmqeripU1jpjObF0bcd30x8oZH/i1/mg\np5ESwMR0C4GqC9NhJIQL93fD4+MdLsYEdOFkvGS3Ye0TqfkAllKppY0IMHpKNM9E\nGbBAs24EEImkiM4XilzCfU4PvHSISVVXMN9jjfz6/Eh3MQlO6EAEjlKEyNqopQfJ\nZK7rbLydSgY7Avz+kjQ1\n=jvrD\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d24d55433099817229ad3f82b1fa259b8e3b270a\nparent e4d660af86b95254b8b49de948923d4e1f4769f6\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742418206 +0100\ncommitter GitHub <noreply@github.com> 1742418206 +0100\n\ntest: disable `parallel/test-worker-resource-limits` (#46105)\n\ntest: disable parallel/test-worker-resource-limits",
+                "verified_at": "2025-03-19T21:03:32Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/d424c3aee7638f5d8f60909485220989e3ece6a4",
+        "html_url": "https://github.com/electron/electron/commit/d424c3aee7638f5d8f60909485220989e3ece6a4",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/d424c3aee7638f5d8f60909485220989e3ece6a4/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e4d660af86b95254b8b49de948923d4e1f4769f6",
+                "url": "https://api.github.com/repos/electron/electron/commits/e4d660af86b95254b8b49de948923d4e1f4769f6",
+                "html_url": "https://github.com/electron/electron/commit/e4d660af86b95254b8b49de948923d4e1f4769f6"
+            }
+        ]
+    },
+    {
+        "sha": "e4d660af86b95254b8b49de948923d4e1f4769f6",
+        "node_id": "C_kwDOAI8xS9oAKGU0ZDY2MGFmODZiOTUyNTRiOGI0OWRlOTQ4OTIzZDRlMWY0NzY5ZjY",
+        "commit": {
+            "author": {
+                "name": "Niklas Wenzel",
+                "email": "dev@nikwen.de",
+                "date": "2025-03-19T10:20:22Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-19T10:20:22Z"
+            },
+            "message": "docs: fix code example in breaking-changes.md (#46093)",
+            "tree": {
+                "sha": "873f0214a4ef914e245de5a6ed16a6e98636abf2",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/873f0214a4ef914e245de5a6ed16a6e98636abf2"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/e4d660af86b95254b8b49de948923d4e1f4769f6",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2ppmCRC1aQ7uu5UhlAAAiTkQABWZzW2UQj+SOju9N2rDmZj9\nNx5+PoShSmaLXIsL3k+dkQ5xUBnn1xEyHc2Ol5ghAdjaoLjU4gK5bTPImpnyxuMP\nNUMBAM/wVf3oqgN5dI40pBev/l1rstx8kPkhKV7Din3uxiGTYJSozxUrlpp7BV0Z\n1dR43dvb4S3Mrye4B63BHT2bKdt90NKVWnzzni3a5xj9SJDL7tFmA2ySZBQ0Siff\nBjiaQOacaYiXyTxTWrA/m5Lwz97RfJya7b+J4eGSc7h+cT03RmhcqQN6RHPg1CUX\no1V/Hgm2oSe9Jh/KXTjDrho7SMl1+UrzYXmcDaReuBBBMeML5sbG4p9ZDJPLnGUM\nvCsRck8eOoJC4SCAVzjMoFHijPjRtf2kV69Ksh84HyInYe0bZufvgyFKti/mPSlo\nx24UcsU5rM1QimToKJtTIt8XxL4SV7buum1IQSO6dnPUCwwPsXGFrVhuA8NLWrj8\n4W1O9b+FEDw6pEksxwV9WXjnyKkI0rWebqHuK9iNL0HjXlWJijggj96S9pa8m3tS\n+GptztnLVMiy3BIR4i1fRhzQc3CHCMx+0L6NUgoMaYB7X72+huB7R8Qfy2ggboPI\nIJEVkkGvV3Vh53II8szWfA04BdKlGZ6O1ry9ViAdIcId325M0+x7vpHCFMkRzmWc\ndgldGlmWxlFCuVErvw/t\n=8pF5\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 873f0214a4ef914e245de5a6ed16a6e98636abf2\nparent 2efd75e2cad222b60b6b0d6a431587a49cf9d6c0\nauthor Niklas Wenzel <dev@nikwen.de> 1742379622 +0100\ncommitter GitHub <noreply@github.com> 1742379622 +0100\n\ndocs: fix code example in breaking-changes.md (#46093)\n\n",
+                "verified_at": "2025-03-19T10:20:27Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/e4d660af86b95254b8b49de948923d4e1f4769f6",
+        "html_url": "https://github.com/electron/electron/commit/e4d660af86b95254b8b49de948923d4e1f4769f6",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/e4d660af86b95254b8b49de948923d4e1f4769f6/comments",
+        "author": {
+            "login": "nikwen",
+            "id": 3309657,
+            "node_id": "MDQ6VXNlcjMzMDk2NTc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3309657?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nikwen",
+            "html_url": "https://github.com/nikwen",
+            "followers_url": "https://api.github.com/users/nikwen/followers",
+            "following_url": "https://api.github.com/users/nikwen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nikwen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nikwen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nikwen/subscriptions",
+            "organizations_url": "https://api.github.com/users/nikwen/orgs",
+            "repos_url": "https://api.github.com/users/nikwen/repos",
+            "events_url": "https://api.github.com/users/nikwen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nikwen/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2efd75e2cad222b60b6b0d6a431587a49cf9d6c0",
+                "url": "https://api.github.com/repos/electron/electron/commits/2efd75e2cad222b60b6b0d6a431587a49cf9d6c0",
+                "html_url": "https://github.com/electron/electron/commit/2efd75e2cad222b60b6b0d6a431587a49cf9d6c0"
+            }
+        ]
+    },
+    {
+        "sha": "2efd75e2cad222b60b6b0d6a431587a49cf9d6c0",
+        "node_id": "C_kwDOAI8xS9oAKDJlZmQ3NWUyY2FkMjIyYjYwYjZiMGQ2YTQzMTU4N2E0OWNmOWQ2YzA",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-19T09:05:51Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-19T09:05:51Z"
+            },
+            "message": "build: fail for out of date patches on forks (#46080)",
+            "tree": {
+                "sha": "8937da4483dd13b77b7ede738ff3c5e8791a085c",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/8937da4483dd13b77b7ede738ff3c5e8791a085c"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/2efd75e2cad222b60b6b0d6a431587a49cf9d6c0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2ojvCRC1aQ7uu5UhlAAAYsMQAEMFJBzQeu4P+oBKGoGD8DX4\nUKwrTU50SWKWQzNVkHcxg80cRvYbdmiQUpd+IdR+8pev/clWchwBWeK6fWP/NUrN\nlvrwy/UyTJpiMBpMQen7pqqQf3gSxSoCSk9watUeY5oRNbRNuvyLu5/xtFXGs9G9\ntxDvCaC5hR5XIEfNRgTgsGmPdS+Stu1+WdfWEqZCnjUH8MjlJIzCM+cZzzLr7tcw\nWjoKjvTSH9b3rEIp2z/ka7RXN1sX9x7jfkNlpf6jZAYFkDEuFKXRz+FN2IV2Plhz\nDz8KkGbAnfNJJSddl5IC97CH+Qf7/DyXj91wCcYkgJFG1Z0StAxOpMN8UEf69T6I\nClSlyl9NiM5AXF0+X4wsu4jvttf+GS935g/CiIW5FRoaD+HK4AHZDJYBi2E32Oes\nELCPbPo93GWDGLUFyZnnu8egPeZSc7yJkzXfQ1tI67N41OcfYmjHSsvqyyBmnGh7\nPkpI/kItWkysDm9NdcnPawj/KNbJvVe9ZQlimbrcNcDgibjti2MdJkSK9kmyFwyn\nJfD8BZG8FZvF6u3VpvEvWgQsZV8r1qYyyPC3II5lOLXIwthqP9vDh7DGrB+3SFt8\nHrzz0Qh1AagS5xJkKsx2qTFt518/edXQ5Yj3qWD1Yov63EYF+qTsnLHkCXYXlRi4\natrhHokSpZ3O+T57VMNE\n=lDOt\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8937da4483dd13b77b7ede738ff3c5e8791a085c\nparent b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742375151 +0100\ncommitter GitHub <noreply@github.com> 1742375151 +0100\n\nbuild: fail for out of date patches on forks (#46080)\n\n",
+                "verified_at": "2025-03-19T09:05:56Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/2efd75e2cad222b60b6b0d6a431587a49cf9d6c0",
+        "html_url": "https://github.com/electron/electron/commit/2efd75e2cad222b60b6b0d6a431587a49cf9d6c0",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/2efd75e2cad222b60b6b0d6a431587a49cf9d6c0/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3",
+                "url": "https://api.github.com/repos/electron/electron/commits/b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3",
+                "html_url": "https://github.com/electron/electron/commit/b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3"
+            }
+        ]
+    },
+    {
+        "sha": "b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3",
+        "node_id": "C_kwDOAI8xS9oAKGIxM2YwNWUyZGMzNTVhNGQyYmNmYjA4MjNjY2YzYjg5ZTM5MzUwYjM",
+        "commit": {
+            "author": {
+                "name": "electron-roller[bot]",
+                "email": "84116207+electron-roller[bot]@users.noreply.github.com",
+                "date": "2025-03-18T23:20:54Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-18T23:20:54Z"
+            },
+            "message": "chore: bump chromium to 136.0.7067.0 (main) (#46018)\n\n* chore: bump chromium in DEPS to 136.0.7066.0\n\n* chore: bump chromium in DEPS to 136.0.7067.0\n\n* 6325710: [LNA] Add Local Network Access permission type\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6325710\n\n* 6342514: Create frame mojo endpoints in renderer during window.open()\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6342514\n\n* 6344040: Create widget mojo endpoints in renderer process for window.open()\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6344040\n\n* chore: update patches\n\n* 6349218: Move ExtensionService::install_directory() to ExtensionRegistrar\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6349218\n\n* 6349395: Move ExtensionService::extensions_enabled() to ExtensionRegistrar\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6349395\n\n* 6331510: Migrate views::Background class to ui::ColorVariant | https://chromium-review.googlesource.com/c/chromium/src/+/6331510\n\n* build: reorder set-cookie step https://github.com/electron/electron/pull/46091\n\n---------\n\nCo-authored-by: electron-roller[bot] <84116207+electron-roller[bot]@users.noreply.github.com>\nCo-authored-by: David Sanders <dsanders11@ucsbalum.com>\nCo-authored-by: alice <alice@makenotion.com>",
+            "tree": {
+                "sha": "36d37c62e37a726104e91e61edb83701152b2ef4",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/36d37c62e37a726104e91e61edb83701152b2ef4"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2f/WCRC1aQ7uu5UhlAAAMHYQAKEdpcQQKSB8vVtUUMVqh8Bq\nkh3MUEwXtlnbk1tm5c/WHpqkYHhl/G1uzlplSqfTzfzG7uqBObPZbSN1AP0BY7+7\nKRksiaD+I9RlCX4nWxBZKuHQ+tLamm4F2t4o3JeuLEK0F+KJdO6MWVjqRfIJwwPI\nzWsWlqHkC3v85nwusZVCF75uiXlHHARk8Mded5H4O6G/HqSUdBdZmqyCJC2jfVsi\nJ7CgazwTkPFg9MdK8WgGv6H754LVZXvmcwjc2U3SPHPnbu9IwApJNA+bkE27hN/R\nUcW5I6zFHv8Lo+ptEJnx88ZjcjSsUvAagA398iBOCyvBdlbB11vvb6Bf4dOKTlaZ\ni0UL6rl6G/rSvyGOmdWF1wOhH2TsB2C5xc0WlkZvBpSOZ+4rhqQsi3/D7xh1EgXE\n22qUYpe5r0EkT9hheCJIQiwAlBVahsFB2zqI6NhrWBsECReQn6r7Dktv+Z2XQCn9\nMsXB+/FFWv77+JNL+PnMVe1MMNL9aDBxKWrl1jL0+A9+CHpmKQZPuu76N/KMQXrf\nrjAW3xucgocxsXQ0zjqVyEa2ppVWi4z33jAyviniMas2kgI2JLTcPvxhIYPQRWK9\nq9jVSWl7IYT7rJA4Z3n7rVd1GDZNnC0uay8dd19nYltCEMbN5Qi2McwsKrbe0Xrd\nvMTsLGU7at5GuwCR0YYP\n=EeBP\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 36d37c62e37a726104e91e61edb83701152b2ef4\nparent dcbab692c08822602c51e7e12de9f96c5dfead49\nauthor electron-roller[bot] <84116207+electron-roller[bot]@users.noreply.github.com> 1742340054 -0400\ncommitter GitHub <noreply@github.com> 1742340054 -0400\n\nchore: bump chromium to 136.0.7067.0 (main) (#46018)\n\n* chore: bump chromium in DEPS to 136.0.7066.0\n\n* chore: bump chromium in DEPS to 136.0.7067.0\n\n* 6325710: [LNA] Add Local Network Access permission type\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6325710\n\n* 6342514: Create frame mojo endpoints in renderer during window.open()\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6342514\n\n* 6344040: Create widget mojo endpoints in renderer process for window.open()\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6344040\n\n* chore: update patches\n\n* 6349218: Move ExtensionService::install_directory() to ExtensionRegistrar\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6349218\n\n* 6349395: Move ExtensionService::extensions_enabled() to ExtensionRegistrar\n\nRefs https://chromium-review.googlesource.com/c/chromium/src/+/6349395\n\n* 6331510: Migrate views::Background class to ui::ColorVariant | https://chromium-review.googlesource.com/c/chromium/src/+/6331510\n\n* build: reorder set-cookie step https://github.com/electron/electron/pull/46091\n\n---------\n\nCo-authored-by: electron-roller[bot] <84116207+electron-roller[bot]@users.noreply.github.com>\nCo-authored-by: David Sanders <dsanders11@ucsbalum.com>\nCo-authored-by: alice <alice@makenotion.com>",
+                "verified_at": "2025-03-18T23:20:58Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3",
+        "html_url": "https://github.com/electron/electron/commit/b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/b13f05e2dc355a4d2bcfb0823ccf3b89e39350b3/comments",
+        "author": {
+            "login": "electron-roller[bot]",
+            "id": 84116207,
+            "node_id": "MDM6Qm90ODQxMTYyMDc=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/115177?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/electron-roller%5Bbot%5D",
+            "html_url": "https://github.com/apps/electron-roller",
+            "followers_url": "https://api.github.com/users/electron-roller%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/electron-roller%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/electron-roller%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/electron-roller%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/electron-roller%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/electron-roller%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/electron-roller%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/electron-roller%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/electron-roller%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "dcbab692c08822602c51e7e12de9f96c5dfead49",
+                "url": "https://api.github.com/repos/electron/electron/commits/dcbab692c08822602c51e7e12de9f96c5dfead49",
+                "html_url": "https://github.com/electron/electron/commit/dcbab692c08822602c51e7e12de9f96c5dfead49"
+            }
+        ]
+    },
+    {
+        "sha": "dcbab692c08822602c51e7e12de9f96c5dfead49",
+        "node_id": "C_kwDOAI8xS9oAKGRjYmFiNjkyYzA4ODIyNjAyYzUxZTdlMTJkZTlmOTZjNWRmZWFkNDk",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-18T21:44:39Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-18T21:44:39Z"
+            },
+            "message": "test: fix `app.dock` for corrected type (#46110)\n\ntest: fix app.dock for corrected type",
+            "tree": {
+                "sha": "1281f3d27df8d9947e426aa2ddefacffe89d82a6",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/1281f3d27df8d9947e426aa2ddefacffe89d82a6"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/dcbab692c08822602c51e7e12de9f96c5dfead49",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2elHCRC1aQ7uu5UhlAAAG+UQAHcGJCb/quP5I3FtibUf/UdB\nvkCd2MZzbC6OFzvYGH/VhfxqT/znzRGIOzgaIZgo7jPbcoF65bNoEwlO8fnJ1jPM\nG4345i9ijeyMdmb0VONJW/MwKBErCNJZQ/8uOikaq01jyPR6ewUAv/v85KQhxp8P\ntWEvpROgj4Sk21Vmq3Sa6Y0e2bEV38PiPSLNt+umVkQw3PV/iravoqMq5cd+Joz6\n3Gyy0qlo4HLGdYix6QmYq4V/QXgmvyFQxUCZodqxIVEPdvp30zKTtgmiLkr7CERo\nJW4cUJGpmDr9mq0ARBIMlXJzo+P0YQDxhWe42sVdlR9aQmRAu//ey6eH/gAsOYud\nbfDCuyb5paqo8FmZKF+mRoeskFmzEmL7nc1gY96rYqpMl2MWX829cRcmKqIK6mo3\niiFf1R4qqknDKHfg5eoK4eY5HpeWdNEtcENICH+A+E/k3WRhM+p5JfRWwEUbo3lj\nSWZ9QW/RKHkWH0WAJhtBZ6G7VR1/NqE6iaGOQdXBbnM3LPgW0QTfOD7S8d9ZPehl\n5KIT9P0N4br+b5x6rJo0FhGT+XFjCJnj7Tn0R6dOncmJLcOkHoz4aJKgvQRZKqAi\nMKWFakHZtx6irESyxZNOpyt3w+Wp7qou5S3KkSDka6ytfmD4i8QLAz/QeCKMX8/F\nTx8fdUHiygSZoVS6dQk+\n=pc9U\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 1281f3d27df8d9947e426aa2ddefacffe89d82a6\nparent 71f3ff6bf289745c74d48cf54c254120a70804b4\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742334279 +0100\ncommitter GitHub <noreply@github.com> 1742334279 -0400\n\ntest: fix `app.dock` for corrected type (#46110)\n\ntest: fix app.dock for corrected type",
+                "verified_at": "2025-03-18T21:44:44Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/dcbab692c08822602c51e7e12de9f96c5dfead49",
+        "html_url": "https://github.com/electron/electron/commit/dcbab692c08822602c51e7e12de9f96c5dfead49",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/dcbab692c08822602c51e7e12de9f96c5dfead49/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "71f3ff6bf289745c74d48cf54c254120a70804b4",
+                "url": "https://api.github.com/repos/electron/electron/commits/71f3ff6bf289745c74d48cf54c254120a70804b4",
+                "html_url": "https://github.com/electron/electron/commit/71f3ff6bf289745c74d48cf54c254120a70804b4"
+            }
+        ]
+    },
+    {
+        "sha": "71f3ff6bf289745c74d48cf54c254120a70804b4",
+        "node_id": "C_kwDOAI8xS9oAKDcxZjNmZjZiZjI4OTc0NWM3NGQ0OGNmNTRjMjU0MTIwYTcwODA0YjQ",
+        "commit": {
+            "author": {
+                "name": "Niklas Wenzel",
+                "email": "dev@nikwen.de",
+                "date": "2025-03-18T12:14:08Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-18T12:14:08Z"
+            },
+            "message": "docs: fix types of `app.dock` (#46073)",
+            "tree": {
+                "sha": "636757f523f86380257d29f2bf1857ff8a4180fd",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/636757f523f86380257d29f2bf1857ff8a4180fd"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/71f3ff6bf289745c74d48cf54c254120a70804b4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2WOQCRC1aQ7uu5UhlAAAX/EQAFcQq/gvW5IjOYv27/qH5fYY\nbUlktNVzJQxnBH2VBDplswtFzmBkqXFM7ZAoLBPnWWMW5LehJZwYxlltqV8ieT9X\nJmUF5Jm3FpaNQ5PG5gtbu83EEHVKk+QW2Rfhpy4CvlIp1FSIk/T0jVRbfNwCCAMV\nU39sKN/wvazY+veniJVjE5te+NbNvXup1daT2CNp18MQkC9y4uo5LhPVpLm1hQDN\nquCM1h2QM0w24t60DZu6BOLsWHk2GNOpo8WHp60X5ZERpmM73q4VkORgdonloksS\nrWLCLRJEWYWs6Sb6Avp3t360Ssj5arVhY0rTzandffQhSEI3+PPCkXHUjSrY1wkw\nhZz72RFkyckEDgP60dGYujtpnygRAg+pPsZN4G4hgh5AlwH6UGZ6DecDh8MO4Aj+\nj2sS+bZFzGLEUQ+6Eu+H5ARFdAB8lOCNbb78oYKfU3jt3KNfQIyC3wJnsXjcNnp/\nakiwg0xe5GAjauXbIjdsVk1pTL/eW4ksk8SO9Y7C1SZQNj1zEK4CD3E85wW3haTr\npn0CKPYrfrKtYLKtvY0kA9zP3UsBdGUERoZjzV3LjBb0H2s2WzBCPHGcyK+8MKvJ\nCpGvpE4dT36jKljsJ8nf83M/aTKcf7wI4wrrlHHURCmkvTZtS5nQ6CwQMMIMRVWy\ndicf6/I/mywybGmUZKA/\n=eneT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 636757f523f86380257d29f2bf1857ff8a4180fd\nparent ff0a14a7c63bb913da67f3d8660eac32bf29dd92\nauthor Niklas Wenzel <dev@nikwen.de> 1742300048 +0100\ncommitter GitHub <noreply@github.com> 1742300048 +0100\n\ndocs: fix types of `app.dock` (#46073)\n\n",
+                "verified_at": "2025-03-18T12:14:13Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/71f3ff6bf289745c74d48cf54c254120a70804b4",
+        "html_url": "https://github.com/electron/electron/commit/71f3ff6bf289745c74d48cf54c254120a70804b4",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/71f3ff6bf289745c74d48cf54c254120a70804b4/comments",
+        "author": {
+            "login": "nikwen",
+            "id": 3309657,
+            "node_id": "MDQ6VXNlcjMzMDk2NTc=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3309657?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/nikwen",
+            "html_url": "https://github.com/nikwen",
+            "followers_url": "https://api.github.com/users/nikwen/followers",
+            "following_url": "https://api.github.com/users/nikwen/following{/other_user}",
+            "gists_url": "https://api.github.com/users/nikwen/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/nikwen/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/nikwen/subscriptions",
+            "organizations_url": "https://api.github.com/users/nikwen/orgs",
+            "repos_url": "https://api.github.com/users/nikwen/repos",
+            "events_url": "https://api.github.com/users/nikwen/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/nikwen/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "ff0a14a7c63bb913da67f3d8660eac32bf29dd92",
+                "url": "https://api.github.com/repos/electron/electron/commits/ff0a14a7c63bb913da67f3d8660eac32bf29dd92",
+                "html_url": "https://github.com/electron/electron/commit/ff0a14a7c63bb913da67f3d8660eac32bf29dd92"
+            }
+        ]
+    },
+    {
+        "sha": "ff0a14a7c63bb913da67f3d8660eac32bf29dd92",
+        "node_id": "C_kwDOAI8xS9oAKGZmMGExNGE3YzYzYmI5MTNkYTY3ZjNkODY2MGVhYzMyYmYyOWRkOTI",
+        "commit": {
+            "author": {
+                "name": "Alice Zhao",
+                "email": "alice@makenotion.com",
+                "date": "2025-03-18T09:07:05Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-18T09:07:05Z"
+            },
+            "message": "build: move set chromium cookie before build tools step (#46091)\n\nbuild: move set cookie before build tools",
+            "tree": {
+                "sha": "7e2f057d0356ff0b88c2723b8669dacf1c279fe0",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/7e2f057d0356ff0b88c2723b8669dacf1c279fe0"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/ff0a14a7c63bb913da67f3d8660eac32bf29dd92",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2Te5CRC1aQ7uu5UhlAAARIwQAHglimJ7kQg1GigvE0HznhgP\n4059hWXwzRdYWTBLvm4VNZEvs7aNDT58ZO1qM1GYEjhDB2e/KCNvAC1LwjUdCO79\nGASVgc2HQtLKNnTfDhm7NrUUwlDUe8GWv+MjFGgY8FTtIw+I73PPVev3eSv0++OP\nT3AVgQDJmUxXezBsRjic/Y5nE0mpbHcnoKIysKqQl+w3cZ4CrTRlNNVJmemsO4JT\n59jJsqJubjIzKgl4dO54FswSLG29kTvh9xNSZn8voAQ3w31Vt1ON6QVmlk0MJy0L\njA+NIdb3Rr8yP9V9c09xdM8biaoQ5jh9VGIqAw35oUktP1nUP4lDlXny0u/N32vY\nGJE+gIXwSRVDgCVfSY4k8sz43d4RMslBuBzmsQmvgzUzEOWrB0tuq0i0qM5j1R5n\nb5Qh7Mp4ORy20Azu/D/MrF3hEsujT4hWVM7kkOFIhBtQnf+elrurbpdX2lIK5ISD\nIpetWinK/Kjk5+XISDaB+8IRe+6BHtN4E/S7H+DcLt3b8QM5FHFR/Oqu1gzmfALS\n4iXuPkIJ0xc2OW2fyDMUExlc+UA5s0a0siM5ibMJkSCh7OmG1DBnq7BGN7txxqiv\nnxfx5xiuYKMpOe5E+j1HtkAbHB17fVl2MFLNhwgo4R8JAV0H+opDhTlqs2xnzVlT\nsLYzShifZbnqvDWGzMu4\n=T6Pf\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7e2f057d0356ff0b88c2723b8669dacf1c279fe0\nparent 4bf99c9bea60631ef9d534df7d2f5396e2b89f1f\nauthor Alice Zhao <alice@makenotion.com> 1742288825 -0700\ncommitter GitHub <noreply@github.com> 1742288825 +0100\n\nbuild: move set chromium cookie before build tools step (#46091)\n\nbuild: move set cookie before build tools",
+                "verified_at": "2025-03-18T09:07:10Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/ff0a14a7c63bb913da67f3d8660eac32bf29dd92",
+        "html_url": "https://github.com/electron/electron/commit/ff0a14a7c63bb913da67f3d8660eac32bf29dd92",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/ff0a14a7c63bb913da67f3d8660eac32bf29dd92/comments",
+        "author": {
+            "login": "alicelovescake",
+            "id": 66543449,
+            "node_id": "MDQ6VXNlcjY2NTQzNDQ5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/66543449?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/alicelovescake",
+            "html_url": "https://github.com/alicelovescake",
+            "followers_url": "https://api.github.com/users/alicelovescake/followers",
+            "following_url": "https://api.github.com/users/alicelovescake/following{/other_user}",
+            "gists_url": "https://api.github.com/users/alicelovescake/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/alicelovescake/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/alicelovescake/subscriptions",
+            "organizations_url": "https://api.github.com/users/alicelovescake/orgs",
+            "repos_url": "https://api.github.com/users/alicelovescake/repos",
+            "events_url": "https://api.github.com/users/alicelovescake/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/alicelovescake/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4bf99c9bea60631ef9d534df7d2f5396e2b89f1f",
+                "url": "https://api.github.com/repos/electron/electron/commits/4bf99c9bea60631ef9d534df7d2f5396e2b89f1f",
+                "html_url": "https://github.com/electron/electron/commit/4bf99c9bea60631ef9d534df7d2f5396e2b89f1f"
+            }
+        ]
+    },
+    {
+        "sha": "4bf99c9bea60631ef9d534df7d2f5396e2b89f1f",
+        "node_id": "C_kwDOAI8xS9oAKDRiZjk5YzliZWE2MDYzMWVmOWQ1MzRkZjdkMmY1Mzk2ZTJiODlmMWY",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-17T13:43:23Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-17T13:43:23Z"
+            },
+            "message": "refactor: add `ElectronBrowserContext::GetDefaultBrowserContext()` (#46065)\n\n* refactor: add ElectronBrowserContext::DestroyAllContexts()\n\nSimpler semantics than previous implementation; also hides the\n\"default context must be destroyed last\" implementation detail.\n\n* refactor: add ElectronBrowserContext::GetDefaultBrowserContext()\n\nclearer semantics than everyone calling From(\"\", false)",
+            "tree": {
+                "sha": "a17f8edf7e02aa63213093c36771a9994a9c5444",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/a17f8edf7e02aa63213093c36771a9994a9c5444"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/4bf99c9bea60631ef9d534df7d2f5396e2b89f1f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2Cb7CRC1aQ7uu5UhlAAAm4IQAKIK7+SJGF0wjluBUipsqLOC\nqB1r9YqyTF1uzrtB298xHY4H/4LXQhAgZc5D186u2nV8TJ1b9m/C21X3Osoh4Zqs\nE68N4WYGQgQd9f7OTGPU2isGAYv75Ml4exh/RB05JFr0MHmWlUpeOtWaUWjOwA8G\ntibMihUPIAVqWhzhzxcbRIS7kVNX0tymw6BYpi3Jh8mVrplPCTKswtatx4UCZYiZ\nkoPlHEl63N+hqOWb5Y0acbYngmtvEvPXMc/tWqKfR9ZQ0kVqWxQfas6/rwf3GS4s\n3eTTArZVRYXlSWNhMwYJpVras7fW7eqD2iCLrs+u9mCQUjED70kRfKChZnY2EfZr\nLk11Hw+Mk4G7eE5BRirBLFDaM9yzMFD2MV72HLu3UJlHzrYE6k0pqbBZQNtJkcBQ\nNVhYZNDLeq+ohIRIBmwZBvthmFFA89ZrmhcZMDfv32Pyiwta9nEHrtn+BavJKEEy\n5w2XQVi3AsbF6CIO9JtXAxpKYyZxVRIY+EtiZsJkGo/9neZepI8lsQTFah3SMgQa\n/KYoeIvYFwCw6okds5xPhcxDPwTuo1wTys5uMxgMwYCZfx31ULZ+jebTDtujMl54\nCteZWF2W6CMwz2ZBvzwTlvCNwfk/V6rStC6F7UgiigDjCMAUo0rIpRRXgyQiBDox\nqQAACzUp0/smJ2OPXWrU\n=iOoE\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a17f8edf7e02aa63213093c36771a9994a9c5444\nparent 9513486bf3443ae72a990a38514718e3333b2399\nauthor Charles Kerr <charles@charleskerr.com> 1742219003 -0500\ncommitter GitHub <noreply@github.com> 1742219003 -0500\n\nrefactor: add `ElectronBrowserContext::GetDefaultBrowserContext()` (#46065)\n\n* refactor: add ElectronBrowserContext::DestroyAllContexts()\n\nSimpler semantics than previous implementation; also hides the\n\"default context must be destroyed last\" implementation detail.\n\n* refactor: add ElectronBrowserContext::GetDefaultBrowserContext()\n\nclearer semantics than everyone calling From(\"\", false)",
+                "verified_at": "2025-03-17T13:43:28Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/4bf99c9bea60631ef9d534df7d2f5396e2b89f1f",
+        "html_url": "https://github.com/electron/electron/commit/4bf99c9bea60631ef9d534df7d2f5396e2b89f1f",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/4bf99c9bea60631ef9d534df7d2f5396e2b89f1f/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "9513486bf3443ae72a990a38514718e3333b2399",
+                "url": "https://api.github.com/repos/electron/electron/commits/9513486bf3443ae72a990a38514718e3333b2399",
+                "html_url": "https://github.com/electron/electron/commit/9513486bf3443ae72a990a38514718e3333b2399"
+            }
+        ]
+    },
+    {
+        "sha": "9513486bf3443ae72a990a38514718e3333b2399",
+        "node_id": "C_kwDOAI8xS9oAKDk1MTM0ODZiZjM0NDNhZTcyYTk5MGEzODUxNDcxOGUzMzMzYjIzOTk",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-17T13:39:55Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-17T13:39:55Z"
+            },
+            "message": "refactor: use `GetDefaultStoragePartition()` instead of `GetStoragePartition(nullptr)` (#46064)\n\nrefactor: use GetDefaultStoragePartition()\n\nUse GetDefaultStorageParition() instead of GetStoragePartition(nullptr)\n\n- It improves code uniformity, since we use get-default everywhere else\n- It's more readable\n- It's marginally faster, since GetStoragePartition() has more steps\n\nAdded in https://github.com/electron/electron/pull/28907/commits/49b0a1bf4a6c032d1788aac56c1e5eaa0f61e3d3",
+            "tree": {
+                "sha": "7f6059ab3b729634db8a54ff5d368ea2f5a78bb1",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/7f6059ab3b729634db8a54ff5d368ea2f5a78bb1"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/9513486bf3443ae72a990a38514718e3333b2399",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn2CYrCRC1aQ7uu5UhlAAA8GsQAA/3gViswf++wJsqPOw+qkCs\nez9hyYLhukf5xUP1v2w3YtEVBkJlx74fu4Pb5k/iJ8YrhOKyJTTOIeZjvMhZljqc\nTB0/hQQczRMxyqB5qUHj+NpzXMH9U2owPYU7WAt74qutwxRcQuwolRqinbJ/S65V\ntRcvKctOw08FdZf/MbWZo7s0tQ+kgbw9sDmUBymMsxjOPGrC6w3audTp+Mt3oAHs\npuJDZaVSajB+Eto3EyAIA9PWfh7q2eR6XGqnpO95XWRKaVY/aIXXBOUvsP1ieWSM\n/tsaREy2QURIL4CU/SbFrnHgX7B/nrNA9Q1+v/VPmLKmCffbbz+QYrO7gIrGKYf8\nnCkrRNW6lbpxO5/B5xY4zeyCyjHFSmLqhwe45V8tx7fo/qUfm0AxobyFrPWtzyue\nyfQGW4n4mLOd90Ee/Zd/QkXdrsyI37coUQoUdOB07i57o6aSZr054EtcBgF03QpH\nOjeqxyWzMhTR+RBU16IA0vmHplwDD+kOaO7DvQ/vNI7+NBUzRIZQqH0NAhZNFFUU\nSxs74pedGpL98cxhAghMbheiEHfaqnUE0VVIafqpJ3o587iXGaVqAxx9uyZBXFGs\nqvZFwQ4rT3IV7hzZspj92JGrTEKBCMjFryjlGi7V/PJqko7oxLRWsdyO8Nl73uzP\nvFYuq0me7F3abmlUjbjj\n=CB7S\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 7f6059ab3b729634db8a54ff5d368ea2f5a78bb1\nparent bea7d618f1916d196e0a68c05f17a7ada286056f\nauthor Charles Kerr <charles@charleskerr.com> 1742218795 -0500\ncommitter GitHub <noreply@github.com> 1742218795 -0500\n\nrefactor: use `GetDefaultStoragePartition()` instead of `GetStoragePartition(nullptr)` (#46064)\n\nrefactor: use GetDefaultStoragePartition()\n\nUse GetDefaultStorageParition() instead of GetStoragePartition(nullptr)\n\n- It improves code uniformity, since we use get-default everywhere else\n- It's more readable\n- It's marginally faster, since GetStoragePartition() has more steps\n\nAdded in https://github.com/electron/electron/pull/28907/commits/49b0a1bf4a6c032d1788aac56c1e5eaa0f61e3d3",
+                "verified_at": "2025-03-17T13:40:00Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/9513486bf3443ae72a990a38514718e3333b2399",
+        "html_url": "https://github.com/electron/electron/commit/9513486bf3443ae72a990a38514718e3333b2399",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/9513486bf3443ae72a990a38514718e3333b2399/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bea7d618f1916d196e0a68c05f17a7ada286056f",
+                "url": "https://api.github.com/repos/electron/electron/commits/bea7d618f1916d196e0a68c05f17a7ada286056f",
+                "html_url": "https://github.com/electron/electron/commit/bea7d618f1916d196e0a68c05f17a7ada286056f"
+            }
+        ]
+    },
+    {
+        "sha": "bea7d618f1916d196e0a68c05f17a7ada286056f",
+        "node_id": "C_kwDOAI8xS9oAKGJlYTdkNjE4ZjE5MTZkMTk2ZTBhNjhjMDVmMTdhN2FkYTI4NjA1NmY",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-17T01:49:15Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-17T01:49:15Z"
+            },
+            "message": "fix: warning in file picker UI (#46067)",
+            "tree": {
+                "sha": "fe270e3f46819f4668fc398c66544a204431983f",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/fe270e3f46819f4668fc398c66544a204431983f"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/bea7d618f1916d196e0a68c05f17a7ada286056f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn13+bCRC1aQ7uu5UhlAAAOfIQAB12Jzurm1XUmzMHvxQl3geS\nZh2yNhx82s5LwnkrS2wfluOLgyq6aBaONNDbAmhRXmjgp+PeLiTOKkhIcHhNZtc6\nkN7QUIxkmb5pUtwjLoM3Lhx1CXMwBYSeKv94mWknv4WC3vQ3QcLhAljrzbtB6oE8\nBVCG1NGhRQ2kOnHUo7cxHlFKQATWxFzY7T75RKGRTiRNiHPUers8uV9040ZXszCm\nSlxPOcXsxmUPLqK1rqeB9slcy3t24K457xIVOdc7fo9SdgJAD/Pqr2NYCFWzzLSD\nunVe025/YqmJ7iLInvZAGr4ZXN4qxkw9xRyAx7qQf2Lpny9h/4nYqjoXsmlAhYE+\niKXncwgqIFUxOoROuXCAeZ/JHM7yyt009PYqfK6x1kOp7P4dMCQb66iJQdaBMYu8\n3jmCQ7iC4d+eyxYU4+LgvUTfPsfpm9dDle45TGfCvHSZzEaGfqmTjiqA9bbFSvIV\nvwcAPHIObTi1kjd79UGfhxJu7WdLZDhYhV3GTMW31xy7MejdQ0kdt3HRuzSNIGqF\nd96a4HZQvbXFlirh/+TsSbQ18GaFcIorfMDIW+VNTvTEowbyHNYkAqsyjf8jilh+\nt1oQ8HzpRf3paKgQOnA7Kc9+nij1K7SpDUqFMOVl65o2uTEWD7JcFcIMvJ2tQ7ih\nL6TS8HkVo+spyzeMgwE2\n=FqXB\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree fe270e3f46819f4668fc398c66544a204431983f\nparent 4ad20ccb396a3354d99b8843426bece2b28228bf\nauthor Charles Kerr <charles@charleskerr.com> 1742176155 -0500\ncommitter GitHub <noreply@github.com> 1742176155 -0500\n\nfix: warning in file picker UI (#46067)\n\n",
+                "verified_at": "2025-03-17T01:49:20Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/bea7d618f1916d196e0a68c05f17a7ada286056f",
+        "html_url": "https://github.com/electron/electron/commit/bea7d618f1916d196e0a68c05f17a7ada286056f",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/bea7d618f1916d196e0a68c05f17a7ada286056f/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4ad20ccb396a3354d99b8843426bece2b28228bf",
+                "url": "https://api.github.com/repos/electron/electron/commits/4ad20ccb396a3354d99b8843426bece2b28228bf",
+                "html_url": "https://github.com/electron/electron/commit/4ad20ccb396a3354d99b8843426bece2b28228bf"
+            }
+        ]
+    },
+    {
+        "sha": "4ad20ccb396a3354d99b8843426bece2b28228bf",
+        "node_id": "C_kwDOAI8xS9oAKDRhZDIwY2NiMzk2YTMzNTRkOTliODg0MzQyNmJlY2UyYjI4MjI4YmY",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-16T19:04:01Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-16T19:04:01Z"
+            },
+            "message": "chore: e patches all (#46068)",
+            "tree": {
+                "sha": "a27b21f7ffbe351c05a4212a9706bd2813bf38bb",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/a27b21f7ffbe351c05a4212a9706bd2813bf38bb"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/4ad20ccb396a3354d99b8843426bece2b28228bf",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn1yChCRC1aQ7uu5UhlAAAWqAQAKrhF7kfZddK2gjtllFm5qHY\n4I1BWpe4rBCf7o0+MyectUiRz7M/Q4of9OBtbkhAzlfWjp5Tqq8/mCUSkZ0fREJL\nPCX0RLLDZSaqazuRYjnV9cC7P5cL4MV3qf6uQPn4Ew7CGlrYOWbMmI1ABhwEHnrT\n0iaAv8sLyuCCFdI5faaTnNOqaDZIgSX+Gv0nlnLdraIj7F1c/Ip1NAcw5MPYRc7k\nuy/O45xIT92j4das5ygIs8q/WhT62RU+10lda0JCTnSKGjWT9+ov1uKw2ZGTbwGy\nCXo4bwIEM41BdFW2nIccyVSCfkRZQs4Q19MJ3GTYXVBsRepQxp8Wx1HQXcOJF10L\nsKVeKBXazyfW9dH3ZR4qDVmFeKIZkPPUYGoubURdQelALf7Oem+YQcYqMjR48VkC\nfgmctkXrds7N4aiFl2PYd5pZzIQ9paC1iEQegCpm2CQPIxcZ10AJvk2qj+kk0lf7\nkybJwE78wvhC7DzKAe7OpU9EBgAwXRyGe5I8f2ZJeV1jjoWy0VCh+70SZ6LSizhm\nPfo6cAkWeW2oeqx5wMPLwhrD4SE2vfLCskZiwax0ibt7N4ODyWQtkS5BeLcorzU5\nfITC/tOG+EsVnI20YhYwC0v2V51eb+ya80xpWyddLawmT7MkIwP3LAB1Fmxb0Qlp\no+DVgFRiJHIWcLRh1/tc\n=JjlK\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a27b21f7ffbe351c05a4212a9706bd2813bf38bb\nparent 73a017577e6d8cf67c76acb8f6a199c2b64ccb5d\nauthor Charles Kerr <charles@charleskerr.com> 1742151841 -0500\ncommitter GitHub <noreply@github.com> 1742151841 -0500\n\nchore: e patches all (#46068)\n\n",
+                "verified_at": "2025-03-16T19:04:06Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/4ad20ccb396a3354d99b8843426bece2b28228bf",
+        "html_url": "https://github.com/electron/electron/commit/4ad20ccb396a3354d99b8843426bece2b28228bf",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/4ad20ccb396a3354d99b8843426bece2b28228bf/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "73a017577e6d8cf67c76acb8f6a199c2b64ccb5d",
+                "url": "https://api.github.com/repos/electron/electron/commits/73a017577e6d8cf67c76acb8f6a199c2b64ccb5d",
+                "html_url": "https://github.com/electron/electron/commit/73a017577e6d8cf67c76acb8f6a199c2b64ccb5d"
+            }
+        ]
+    },
+    {
+        "sha": "73a017577e6d8cf67c76acb8f6a199c2b64ccb5d",
+        "node_id": "C_kwDOAI8xS9oAKDczYTAxNzU3N2U2ZDhjZjY3Yzc2YWNiOGY2YTE5OWMyYjY0Y2NiNWQ",
+        "commit": {
+            "author": {
+                "name": "Charles Kerr",
+                "email": "charles@charleskerr.com",
+                "date": "2025-03-15T14:51:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-15T14:51:20Z"
+            },
+            "message": "perf: avoid redundant map lookup in ElectronBrowserContext::From() (#46044)\n\nperf: avoid redundant map lookup in ElectronBrowserContext::FromPath()",
+            "tree": {
+                "sha": "8a456751da39c0f430717c462c298729faca0392",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/8a456751da39c0f430717c462c298729faca0392"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/73a017577e6d8cf67c76acb8f6a199c2b64ccb5d",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn1ZPoCRC1aQ7uu5UhlAAAESMQAIbJPFBhPmGMURNlsapnaPT9\n9DeIvrnPEPEXgJMkzOi9LC1mcvw1+5wCzXMpVdpDaQTpANAt7Lcnt6yfaug07EnT\nzeDstwUA5UooF5i7tbgIAwW86xT805+FJpK/5g3VhRLT8UJq/kFiEQNw8a8ei163\nhui8FyzOyYRojxrZvV0X2s+mWltsj+wCaUGH8aXUys7VmM4s2BslZTkX+QHvBkeB\nL/GLdsz/edmVPfszluJbBtSK4ILQ+PJJ+nL3BLV+Oiu/DuJDHTWQPYvHvXL+6zf1\nc6bw9bC9J8zRM8LN6TpC3BvceSmb9ZHSX9WNT1npV29I9iHdph9DdWEs1TW9PxI6\nxQ8ieipn7MvgA8CZa5q5B+axbMIWpdzoHdJP5GgbGSPECYvBo4FUQ5591+nyPQn6\n7i++D8IgltiKUAJ9tvWw9u6u4RdduMexWdMjGTLkQe9rUe+NR1lsLwAQlJjnjl4F\ngZAH9D9FYtTWhbqWry/syLUcnKAv4ML/jkeTGq+TLtNZNRu6fup1fVuyYNZ1O0R7\n+KGVyQLD7NPdA9QXE7ZwMd4yoT2nYsjX+p08NfuUOksiEmwBV+JwRwTxRrK3Exzb\nLx7hDQPdFO2hdqgSR84DVkt6gaB1d1Oo2nSXE8d1rNlqY41oBaspw2cOji/JF/Q0\nl+bJzJOztgPhLq48wv99\n=qnCF\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 8a456751da39c0f430717c462c298729faca0392\nparent 2d8a5476921a8681c9d678578da917a369d4621f\nauthor Charles Kerr <charles@charleskerr.com> 1742050280 -0500\ncommitter GitHub <noreply@github.com> 1742050280 -0500\n\nperf: avoid redundant map lookup in ElectronBrowserContext::From() (#46044)\n\nperf: avoid redundant map lookup in ElectronBrowserContext::FromPath()",
+                "verified_at": "2025-03-15T14:51:25Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/73a017577e6d8cf67c76acb8f6a199c2b64ccb5d",
+        "html_url": "https://github.com/electron/electron/commit/73a017577e6d8cf67c76acb8f6a199c2b64ccb5d",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/73a017577e6d8cf67c76acb8f6a199c2b64ccb5d/comments",
+        "author": {
+            "login": "ckerr",
+            "id": 70381,
+            "node_id": "MDQ6VXNlcjcwMzgx",
+            "avatar_url": "https://avatars.githubusercontent.com/u/70381?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ckerr",
+            "html_url": "https://github.com/ckerr",
+            "followers_url": "https://api.github.com/users/ckerr/followers",
+            "following_url": "https://api.github.com/users/ckerr/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ckerr/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ckerr/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ckerr/subscriptions",
+            "organizations_url": "https://api.github.com/users/ckerr/orgs",
+            "repos_url": "https://api.github.com/users/ckerr/repos",
+            "events_url": "https://api.github.com/users/ckerr/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ckerr/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "2d8a5476921a8681c9d678578da917a369d4621f",
+                "url": "https://api.github.com/repos/electron/electron/commits/2d8a5476921a8681c9d678578da917a369d4621f",
+                "html_url": "https://github.com/electron/electron/commit/2d8a5476921a8681c9d678578da917a369d4621f"
+            }
+        ]
+    },
+    {
+        "sha": "2d8a5476921a8681c9d678578da917a369d4621f",
+        "node_id": "C_kwDOAI8xS9oAKDJkOGE1NDc2OTIxYTg2ODFjOWQ2Nzg1NzhkYTkxN2EzNjlkNDYyMWY",
+        "commit": {
+            "author": {
+                "name": "Shelley Vohr",
+                "email": "shelley.vohr@gmail.com",
+                "date": "2025-03-15T08:57:59Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-03-15T08:57:59Z"
+            },
+            "message": "build: fix compound bash conditional in patchup (#46047)",
+            "tree": {
+                "sha": "b0bea3299684f7ea058130ccb6f62a17b0d41874",
+                "url": "https://api.github.com/repos/electron/electron/git/trees/b0bea3299684f7ea058130ccb6f62a17b0d41874"
+            },
+            "url": "https://api.github.com/repos/electron/electron/git/commits/2d8a5476921a8681c9d678578da917a369d4621f",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJn1UEXCRC1aQ7uu5UhlAAAoAIQADUse1jtQWH/LUugYXd2WkYJ\nDlPC+vPK5uEOj+mnLfp6jHe39iv2kGP50Wl8Kh1It043+bRJLNDNUxykD6e2iy8f\n1386CrcaNu7xrN7S5T7HBVNhEQohurWsggrU8xd/azTEL7lZuFNG3gJs+4MbgIkb\nuw0f8ZCAp2Sfx1PxHAahfifkWmsSRUnG5fImeubyFv+6woPaykkpjBKko+hr/o12\nf9AaHqFgk5iGyitj0movEurxtlkcsvSW1H2sD5ATkUAMpewqO3Dr+kNrp81HV2pQ\naPuDVZAV3dApYak95G9zcYbeMoQyWjrXDoao9+VfZuLLHYKzi0IAMvMbRSeQOjP1\n3nLwCppFXAB1C2Q6vFGqHZ5qR8NXfQv76hMcFGonlSdkLG1pXwBYLt3l40lFnOzU\nZD3tYnsOxtR+2lZEefA6mVfId9SHbokD2KoIR2osoF4g/tCIBvUCSXA37K0+Lrb9\na46fY2ceZbv3Hfirp92v+Y0fMATDKkpdv0/EI2mGZSQLl+jrq7/BtOa2hT1QHvBB\nGnQXLoPkynBshYfqJpeLWgkxufTSkLBBAvbInIxzPueQIISKScf2w+FrA+Qu62j2\nNKIT7jx4kY+ONjXaUrxp/akD6Q1PtnpH1Y6ziqiTBwP1Kui0wfzx3/nrtoDW9WBy\nGnx+K3yMx+TH++A23TCB\n=X4zH\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree b0bea3299684f7ea058130ccb6f62a17b0d41874\nparent 5f0603ed2863d7cb1327efa6e704cba91edf68d0\nauthor Shelley Vohr <shelley.vohr@gmail.com> 1742029079 +0100\ncommitter GitHub <noreply@github.com> 1742029079 +0100\n\nbuild: fix compound bash conditional in patchup (#46047)\n\n",
+                "verified_at": "2025-03-15T08:58:05Z"
+            }
+        },
+        "url": "https://api.github.com/repos/electron/electron/commits/2d8a5476921a8681c9d678578da917a369d4621f",
+        "html_url": "https://github.com/electron/electron/commit/2d8a5476921a8681c9d678578da917a369d4621f",
+        "comments_url": "https://api.github.com/repos/electron/electron/commits/2d8a5476921a8681c9d678578da917a369d4621f/comments",
+        "author": {
+            "login": "codebytere",
+            "id": 2036040,
+            "node_id": "MDQ6VXNlcjIwMzYwNDA=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/2036040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/codebytere",
+            "html_url": "https://github.com/codebytere",
+            "followers_url": "https://api.github.com/users/codebytere/followers",
+            "following_url": "https://api.github.com/users/codebytere/following{/other_user}",
+            "gists_url": "https://api.github.com/users/codebytere/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/codebytere/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/codebytere/subscriptions",
+            "organizations_url": "https://api.github.com/users/codebytere/orgs",
+            "repos_url": "https://api.github.com/users/codebytere/repos",
+            "events_url": "https://api.github.com/users/codebytere/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/codebytere/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "5f0603ed2863d7cb1327efa6e704cba91edf68d0",
+                "url": "https://api.github.com/repos/electron/electron/commits/5f0603ed2863d7cb1327efa6e704cba91edf68d0",
+                "html_url": "https://github.com/electron/electron/commit/5f0603ed2863d7cb1327efa6e704cba91edf68d0"
+            }
+        ]
+    }
+]

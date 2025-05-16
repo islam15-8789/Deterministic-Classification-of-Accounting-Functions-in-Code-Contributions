@@ -1,0 +1,235 @@
+Commit Message,DEMPE Function Class
+docs fix importing raw files,3
+docsdemo add styledcomponents,3
+refactor export default windowscrollmanager,1
+chore bump chromium in deps to,3
+choredeps update dependency typesnode to v,3
+docs update readme,3
+chorereleaseprepare for next development iteration,3
+build fix compound bash conditional in patchup,4
+style remove space before function parens,2
+docs move most styles to css,3
+feat set ffmpegdll as a delayloaded dll,0
+test reduce precision,3
+refactor use electronbrowsercontextbrowsercontexts in electronextensionsbrowserclientbroadcasteventtorenderers,1
+chorepackage update dependencies,3
+test improve centerelement test,3
+fix proper handling of scroll to element percent,3
+refactor use getdefaultstoragepartition instead of getstoragepartitionnullptr,1
+changelog style no end period in version number,2
+chore release,3
+docs missing return in usage builder function,3
+chorereleaseprepare release uportalappframeworkmaven,3
+chorereleaseprepare for next development iteration,3
+fixdeps update dependency conventionalchangelogconventionalcommits to v,3
+build fail for out of date patches on forks,4
+chorepackage update lockfile yarnlock,3
+featmisc add scrollto function,0
+chore fix promise issue using cypress,3
+fix getdisttocenterelement not working,3
+feat add misc,0
+fix add missing cpp_heap to nodejs worker createparams,3
+docs fix example of coerce,3
+fixreadme incorrect external onscroll example,3
+chorereleaseprepare release uportalhomeparent,3
+docsreadme add greenkeeper badge,3
+refactor add electronbrowsercontextisvalidcontext,1
+chore release master,3
+fix minor problems,3
+chore add en strings for unknown command,3
+docsreadme add codepen for examples in readme,3
+feat improve public api,0
+fix propagate dictionary including undefined in value type,3
+chore e patches all,3
+chore bump chromium to main,3
+choredeps update dependency eslintpluginpromise to v,3
+refactor add electronbrowsercontextbrowsercontexts,1
+docsdemo add rightbar,3
+fixdeps update dependency conventionalrecommendedbump to v,3
+test mock additional hascolors method introduced in node,3
+docsdemo remove readme,3
+chore switch to nondeprecated gh action,3
+refactor improve api,1
+choremain release,3
+fix use allgeneratedpositionsfor for more accurate source map transforms,3
+choredeps updates nyc and moves to codecov,3
+chore bump chromium in deps to,3
+chorepackage update lockfile packagelockjson,3
+feat add method to hide option extras,0
+docsdemo add more ruler types,3
+fix scrollsize getter,3
+fix allow use of importattributes babel parser plugin,3
+chore adds codecov badge to readme,3
+docs wip improve demo,3
+build move set cookie before build tools,4
+test basic browserstack test config,3
+docsdemo fix cdn scrollutility version,3
+fix,3
+test improve tests,3
+chorereleaseprepare release uportalhomeparent,3
+docsdemo improve styles,3
+fix incorrectly handling shouldbe when out of limits,3
+refactor add electronbrowsercontextbrowsercontexts,1
+build move set chromium cookie before build tools step,4
+build reorder setcookie step httpsgithubcomelectronelectronpull,4
+fix istanbullibsourcemaps to preserve implicit else when sourcemaps are used,3
+chore release main,3
+docsreadme fix typo,3
+docsdemo improve site generation,3
+fix ensures provided packagefiles arguments are merged with bumpfiles when no bumpfiles argument is specified default,3
+chore remove yarnlock,3
+fixbuild address problems with typescript compilation,3
+fix remove browserstack scripts returning cyclic structures,3
+fix test capabilities,3
+chorereleaseprepare for next development iteration,3
+docswip add more documentation,3
+fixreadme fix element examples,3
+refactor use electronbrowsercontextbrowsercontexts in electronbrowsermainpartspostmainmessagelooprun,1
+docs add basic set of buttons in topbar,3
+docs add demo link to readme,3
+breaking change api changed,0
+feat add ffmpegdll to delay load configuration,0
+feat add getelementplacement,0
+refactor change position to scrollposition,1
+chorepackage update typesnode to version,3
+fixbuild update typescript eslint rollup deps fixing bundling of yargs,3
+chore remove browserstack,3
+test update tests to new api,3
+docs add toc,3
+chorereleaseprepare for next development iteration,3
+fix use new api,3
+fix improve detection of external scroll,3
+docswip add centerelement component,3
+refactor use basenumbertostring,1
+fix do not crash completion when having negated options,3
+chorereleaseprepare release uportalhomeparent,3
+refactor change detection of external scroll,1
+refactor decouple apiprotocol from electronbrowsercontext,1
+refactor improve engine,1
+style prefer angularjs log service over bare console log,2
+docs update readme,3
+refactor add electronbrowsercontextdestroyallcontexts,1
+fix remove reactmarkdown from dependencies,3
+choremaster release,3
+docs updated generate artifacts code snippet,3
+fix missing module in packagejson,3
+fixdeps update dependency yargs to v,3
+chore release,3
+featlocale adds hebrew translation,0
+docs use optional chaining for appdock,3
+chore run ci on node versions and as well,3
+fixux address bug with firefox event handling,3
+refactor reduce coupling in electronapiprotocol,1
+chorereleaseprepare release uportalappframeworkmaven,3
+docs add example for objects using env vars,3
+test adds basic coverage for preset flag and changelog output,3
+chore change exported api,3
+test fix creating scrollmanager scope,3
+docs fix jsdelivr references,3
+refactor remove value from options,1
+chore release,3
+docsdemo improve demo,3
+chorepackage update tsnode to version,3
+docsdemo improve rulers,3
+chorereleaseprepare release uportalhomeparent,3
+chore release main,3
+chore update patches,3
+test disable paralleltestworkerresourcelimits,3
+chore release main,3
+fix warning in file picker ui,3
+chore release main,3
+docswip update readme,3
+test add screenshots for readme,3
+test disable paralleltestworkerresourcelimits,3
+build use source cache on windows,4
+chore release,3
+docs update readme,3
+refactor change animationmanager,1
+refactor add electronbrowsercontextgetdefaultbrowsercontext,1
+style remove block padding,2
+build use windows src cache,4
+style shorten toolong lines,2
+feat add cjs config file,0
+refactor add partialrecursive for settings,1
+chore update gh actions,3
+refactor use getdefaultstoragepartition,1
+refactor use default for trivial destructor,1
+refactor remove unnecessary getters,1
+fix webcontentsprint crash on linux,3
+chore release main,3
+fix exit after async handler done,3
+chore use scrollsize as avaliable scroll instead of scrollsize,3
+chore release main,3
+test remove cypress,3
+fix use allgeneratedpositionsfor for more accurate source map transforms,3
+test refactor tests,3
+refactor remove tovisolate const char,1
+test use min capabilities test,3
+docs improve grid responsiveness,3
+fix scrolling in document element,3
+chore release main,3
+style remove space after key,2
+refactor use default to define trivial destructors,1
+refactor remove unused include from browser_contexth,1
+refactor make electronapiprotocolerror private,1
+build rename master to main,4
+test improve tests,3
+fixdeps update dependency conventionalchangelog to v,3
+choremain release,3
+fixupdater npm package locks inner version not being updated,3
+fix apns token ids are lowercase ascii,3
+chore release master,3
+chorereleaseprepare for next development iteration,3
+chore move to native fsaccess removes fsaccess package,3
+docs fix types of appdock,3
+refactor use default to define trivial destructors,1
+refactor make urlpipeloader private,1
+fix copy the description of the option to its alias in completion,3
+test update test for elementposition,3
+feat add lernapackage flag used to extract tags in case of lerna repo,0
+fix make tests use new api,3
+refactor rename elementrelativeposition relativeelementposition,1
+fix fix sroll change detection,3
+docs fix code example in breakingchangesmd,3
+refactor fix codeclimate issues,1
+perf replace scrollelement class with functions,1
+chore updates nyc and moves to codecov,3
+refactor remove unused field serviceworkermainweak_factory_,1
+feat convert line break to whitespace for the description of the option,0
+fix change type in centerelement from _htmlelement_ to _element_,3
+build update publish configuration,4
+style add trailing comma,2
+docs fix typos in terminalwidth example,3
+fix correct ci badge in sourcemaps readme,3
+docs improve styles,3
+refactor move partitionkey browsercontextmap private,1
+docs add browserstack logo,3
+perf avoid redundant map lookup in electronbrowsercontextfrompath,1
+ci updates test matrix to include nodejs distributions across multiple os,4
+choremain release,3
+refactor improve api,1
+featdeprecated add deprecation message,0
+chorereleaseprepare for next development iteration,3
+refactor add default settings file,1
+test add browserstack tests,3
+perf avoid redundant map lookup in electronbrowsercontextfrom,1
+fix allow documentqueryselector to instantiate scrollmanager,3
+refactor remove unused field serviceworkermainweak_factory_,1
+choredeps bump nthcheck from to,3
+chore release main,3
+chore add to breaking changes,3
+docs improve demo,3
+fix remove filepath from types,3
+fix address display bug with default subcommands,3
+build pin npm version,4
+buildnode require node,4
+docs use optional chaining for appdock,3
+chore remove greenkeeper badges,3
+choremaster release,3
+docs improve documentation on providing an empty tagprefix,3
+fix correct ci check to properly release,3
+test fix appdock for corrected type,3
+refactor move element function logic to scrollelement,1
+perf not removing all scroll animations,1
+docs fix readme,3
+refactor use upstream widgetisvisibleonallworkspaces,1

@@ -1,0 +1,246 @@
+Raw Serial Number,Commit Message,DEMPE Function Class
+1,Create nodejs.yml (#51),Non-conventional
+3,'floor' raw scrollPosition when checking for scroll change (codepen returning floating values),Non-conventional
+5,Update dependencies to enable Greenkeeper 🌴 (#49),Non-conventional
+6,merge scroll functions into scrollTo,Non-conventional
+6,replace cypress with browserstack for better browser support,Non-conventional
+6,Squashed commit of the following:,Non-conventional
+6,commit 9f91793ff5a2a46d7b217c5cc0b4e195f99d803e,Non-conventional
+6,Author: David Perez Alvarez <david@leddgroup.com>,Non-conventional
+6,Date:   Mon Apr 29 00:08:58 2019 -0400,Non-conventional
+6,commit 4dae7a75c43f10ec5397efd3467ec27315024871,Non-conventional
+6,Author: David Perez Alvarez <david@leddgroup.com>,Non-conventional
+6,Date:   Sun Apr 28 22:59:28 2019 -0400,Non-conventional
+6,change 'describe' for 'suit',Non-conventional
+6,commit db8bfabc3b4baedb470de5d029f87d7ee6e457dd,Non-conventional
+6,Author: David Perez Alvarez <david@leddgroup.com>,Non-conventional
+6,Date:   Sun Apr 28 20:44:33 2019 -0400,Non-conventional
+6,commit 5f6ca6ba1c086fa1311a3dc80e1842b7f8ed4ff5,Non-conventional
+6,Author: David Perez Alvarez <david@leddgroup.com>,Non-conventional
+6,Date:   Sun Apr 28 18:40:11 2019 -0400,Non-conventional
+6,commit f0af97d38814fcfbe67038b6ab8cd181680aae9f,Non-conventional
+6,Author: David Perez Alvarez <david@leddgroup.com>,Non-conventional
+6,Date:   Sun Apr 28 18:36:34 2019 -0400,Non-conventional
+6,commit 34fef3c9d6708bc77275eea1965f998d89997141,Non-conventional
+6,Author: David Perez Alvarez <david@leddgroup.com>,Non-conventional
+6,Date:   Sun Apr 28 17:45:34 2019 -0400,Non-conventional
+7,Update ts-node to the latest version 🚀 (#46),Non-conventional
+8,Update @types/node to the latest version 🚀 (#45),Non-conventional
+12,v3 greater refactor (#43),Non-conventional
+12,similar to `scrollBy`,Non-conventional
+12,returns `true` if element is visible from its container #14,Non-conventional
+12,"""design"" -> ""designed""",Non-conventional
+12,ts-node,Non-conventional
+12,Squashed commit of the following:,Non-conventional
+21,change `HTMLElement` to `Element`,Non-conventional
+21,`HTMLElement` extends `Element`,Non-conventional
+24,"Using scroll-utility@1, now use @2",Non-conventional
+28,use new api,Non-conventional
+28,add prism,Non-conventional
+28,improve styles,Non-conventional
+30,types thanks to Daniel Perez Alvarez <daniel@protonmail.com>,Non-conventional
+30,`windowScrollManager` its usually prefer ed to scroll,Non-conventional
+31,readme: note that no longer maintained,Non-conventional
+31,"Acknowledge that with UW-Madison's stepping away, this is now largely unmaintained.",Non-conventional
+32,Merge pull request #1051 from nogalpaulina/activate-myuw-feedback-component,Non-conventional
+32,Activate Feedback Web Component in header,Non-conventional
+33,Activate Feedback Web Component in header,Non-conventional
+36,Merge pull request #1050 from nogalpaulina/tooltip-style-adj,Non-conventional
+36,Adjust height and line-height of the tooltip for better readability,Non-conventional
+37,Adjust height and line-height of the tooltip for better readibility,Non-conventional
+38,Merge pull request #1049 from nogalpaulina/tooltips-adjustments,Non-conventional
+38,Adjust z-index and position of tooltips attached to header buttons,Non-conventional
+39,Adjust z-index and position of tooltips attached to header buttons,Non-conventional
+42,Merge pull request #1048 from nogalpaulina/myuw-feedback-v-update,Non-conventional
+42,Update myuw-feedbback version,Non-conventional
+43,Update myuw-feedbback version,Non-conventional
+44,Merge pull request #1047 from nogalpaulina/myuw-help-v-update,Non-conventional
+44,Updates  myuw-help to v.1.5.5,Non-conventional
+45,Updates  to v.1.5.5,Non-conventional
+46,Merge pull request #1046 from nogalpaulina/add-favorites-hover-style,Non-conventional
+46,Revert removing border when hovering on Add To Home button,Non-conventional
+47,Revert removing border when hovering on Add To Home button,Non-conventional
+48,Merge pull request #1045 from nogalpaulina/fix-widget-less-2,Non-conventional
+48,Fix mismatched closing curly braces,Non-conventional
+49,Fix missmatched closing curly braces,Non-conventional
+50,Merge pull request #1044 from uPortal-Project/fix-widget-less,Non-conventional
+50,add missing } in widget.less,Non-conventional
+51,add missing } in widget.less,Non-conventional
+52,Merge pull request #1043 from nogalpaulina/update-myuw-versions,Non-conventional
+52,Updates myuw-feedback and myuw-help versions,Non-conventional
+53,Visual improvements for hover and focus effects on interactive elements,Non-conventional
+54,Updates myuw-feedback and myuw-help versions,Non-conventional
+55,Merge pull request #1042 from nogalpaulina/widget-action-focus-style,Non-conventional
+55,Apply focus & hover style to widget action button,Non-conventional
+56,Apply focus style to widget action button,Non-conventional
+57,Merge pull request #1041 from nogalpaulina/apply-material-style-to-tooltips,Non-conventional
+57,Make tooltips more readable by applying contrasting background,Non-conventional
+58,Make tooltips more readible by applying contrasting background,Non-conventional
+59,Merge pull request #1040 from nogalpaulina/update-profile-version,Non-conventional
+59,Include lastName to be passed into myuw-login event listener,Non-conventional
+60,Include lastName to be passed into myuw-login event listener,Non-conventional
+61,"Added in a467d06, appears to have never been used",Non-conventional
+62,last use removed in Aug 2020 by bac2f46,Non-conventional
+65,now they do not know about each other,Non-conventional
+68,Updated the /DELAYLOAD linker config in BUILD.gn to set ffmpeg.dll,Non-conventional
+68,as a delay-loaded DLL. This reduces startup overhead and prevents unnecessary,Non-conventional
+68,"loading when ffmpeg-related functionality is not used (e.g., the browser process",Non-conventional
+68,was unnecessarily loading it).,Non-conventional
+70,Move the URLPipeLoader class into an anonymous namespace in,Non-conventional
+70,electron_url_loader_factory.cc.,Non-conventional
+71,decouple ElectronExtensionsBrowserClient from the internals of ElectronBrowserContext,Non-conventional
+72,base::NumberToString() is slightly more efficient than,Non-conventional
+72,"absl::StrFormat(""%u"").",Non-conventional
+81,* 6325710: [LNA] Add Local Network Access permission type,Non-conventional
+81,Refs https://chromium-review.googlesource.com/c/chromium/src/+/6325710,Non-conventional
+81,* 6342514: Create frame mojo endpoints in renderer during window.open(),Non-conventional
+81,Refs https://chromium-review.googlesource.com/c/chromium/src/+/6342514,Non-conventional
+81,* 6344040: Create widget mojo endpoints in renderer process for window.open(),Non-conventional
+81,Refs https://chromium-review.googlesource.com/c/chromium/src/+/6344040,Non-conventional
+81,* 6349218: Move ExtensionService::install_directory() to ExtensionRegistrar,Non-conventional
+81,Refs https://chromium-review.googlesource.com/c/chromium/src/+/6349218,Non-conventional
+81,* 6349395: Move ExtensionService::extensions_enabled() to ExtensionRegistrar,Non-conventional
+81,Refs https://chromium-review.googlesource.com/c/chromium/src/+/6349395,Non-conventional
+81,* 6331510: Migrate views::Background class to ui::ColorVariant | https://chromium-review.googlesource.com/c/chromium/src/+/6331510,Non-conventional
+81,---------,Non-conventional
+81,Co-authored-by: electron-roller[bot] <84116207+electron-roller[bot]@users.noreply.github.com>,Non-conventional
+81,Co-authored-by: David Sanders <dsanders11@ucsbalum.com>,Non-conventional
+81,Co-authored-by: alice <alice@makenotion.com>,Non-conventional
+85,Simpler semantics than previous implementation; also hides the,Non-conventional
+85,"""default context must be destroyed last"" implementation detail.",Non-conventional
+85,"clearer semantics than everyone calling From("""", false)",Non-conventional
+86,Use GetDefaultStorageParition() instead of GetStoragePartition(nullptr),Non-conventional
+86,"- It improves code uniformity, since we use get-default everywhere else",Non-conventional
+86,- It's more readable,Non-conventional
+86,"- It's marginally faster, since GetStoragePartition() has more steps",Non-conventional
+86,Added in https://github.com/electron/electron/pull/28907/commits/49b0a1bf4a6c032d1788aac56c1e5eaa0f61e3d3,Non-conventional
+91,readme: reflect that no longer maintained.,Non-conventional
+91,Unmaintained.,Non-conventional
+92,Merge pull request #943 from uPortal-Project/self-aware-compact-mode,Non-conventional
+92,Make modes and switching modes more discoverable,Non-conventional
+93,Make modes and switching modes more discoverable,Non-conventional
+96,Changelog update for uPortal-app-framework 21.0.4 release (#942),Non-conventional
+97,Merge pull request #939 from uPortal-Project/fix-build-on-snapshot,Non-conventional
+97,build on frame 21.0.4-SNAPSHOT,Non-conventional
+98,build on frame 21.0.4-SNAPSHOT,Non-conventional
+98,"build on latest SNAPSHOT of uPortal-app-framework ( https://github.com/uPortal-Project/uportal-app-framework/blob/master/pom.xml#L27 ), so that latest snapshot of uPortal-home builds on latest snapshot of uPortal-app-framework so that an environment running uPortal-home latest snapshot is using the latest everything.",Non-conventional
+101,Improve accessibility of tabbing through widgets in compact mode (#938),Non-conventional
+101,* Removes white border style when hovering over 'Add more to home' on compact layout,Non-conventional
+101,* Removes unnecessary taindex from list items surrounding widgets,Non-conventional
+101,* Adds tabindex to Add to home button as a fix for button being inaccessible in Firefox,Non-conventional
+102,Removes white border style when hovering over 'Add more to home' on compact layout (#937),Non-conventional
+105,prep 14.0.2 release,Non-conventional
+106,Merge pull request #936 from uPortal-Project/drop-duplicates-during-layout-migrate,Non-conventional
+106,drop duplicate fnames when migrating layout from old layout backend,Non-conventional
+107,drop duplicate fnames when migrating layout from old layout backend,Non-conventional
+108,fix typo in dependency on latest framework snapshot,Non-conventional
+110,changelog: reflect today's 14.0.1 release,Non-conventional
+113,Merge pull request #935 from uPortal-Project/style,Non-conventional
+114,https://eslint.org/docs/rules/no-console,Non-conventional
+115,appease eslint https://eslint.org/docs/rules/comma-dangle,Non-conventional
+116,appease eslint https://eslint.org/docs/rules/key-spacing,Non-conventional
+117,appease eslint https://eslint.org/docs/rules/space-before-function-paren,Non-conventional
+118,appease eslint https://eslint.org/docs/rules/padded-blocks,Non-conventional
+119,appease eslint https://eslint.org/docs/rules/max-len,Non-conventional
+120,https://eslint.org/docs/rules/quotes,Non-conventional
+121,Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>,Non-conventional
+123,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+125,Co-authored-by: Renovate Bot <renovate@whitesourcesoftware.com>,Non-conventional
+125,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+126,Co-authored-by: Renovate Bot <renovate@whitesourcesoftware.com>,Non-conventional
+127,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+127,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+129,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+132,closes #793,Non-conventional
+133,- Merges `packageFiles` with `defaults.bumpFiles` before merging in arguments when a `packageFile` argument is present.,Non-conventional
+133,"- Adds some simple ""validation"" to updaters and improves error messaging.",Non-conventional
+133,- Adds a test case covering #533,Non-conventional
+133,closes #533,Non-conventional
+134,Co-authored-by: Renovate Bot <bot@renovateapp.com>,Non-conventional
+135,closes #720,Non-conventional
+136,Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>,Non-conventional
+137,Co-authored-by: Renovate Bot <renovate@whitesourcesoftware.com>,Non-conventional
+138,Co-authored-by: Renovate Bot <bot@renovateapp.com>,Non-conventional
+139,Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>,Non-conventional
+141,Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>,Non-conventional
+142,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+143,Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>,Non-conventional
+145,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+145,Co-authored-by: Joe Bottigliero <694253+jbottigliero@users.noreply.github.com>,Non-conventional
+145,fixes #490,Non-conventional
+146,Co-authored-by: Joe Bottigliero <694253+jbottigliero@users.noreply.github.com>,Non-conventional
+148,Co-authored-by: release-please[bot] <55107282+release-please[bot]@users.noreply.github.com>,Non-conventional
+149,Co-authored-by: Renovate Bot <bot@renovateapp.com>,Non-conventional
+150,Co-authored-by: Renovate Bot <bot@renovateapp.com>,Non-conventional
+152,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+154,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+156,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+158,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+160,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+162,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+166,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+169,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+171,See reasoning in https://github.com/istanbuljs/istanbuljs/pull/743#discussion_r1496887454 and https://github.com/istanbuljs/istanbuljs/pull/685#discussion_r887426322.,Non-conventional
+171,This will enable us to switch to `TraceMap` without any test failures.,Non-conventional
+174,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+175,Rename master branch to main.,Non-conventional
+176,Co-authored-by: Alex Ristich <alex.ristich@zalando.de>,Non-conventional
+176,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+178,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+179,This prevents a thrown when the statement map needs to be processed for,Non-conventional
+179,"container hits, because the statement map entries do not contain a ""loc""",Non-conventional
+179,"field, they just have this inforation at the top level.",Non-conventional
+180,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+181,docs,Non-conventional
+182,13.1.0,Non-conventional
+183,conditionally close modal and drawers,Non-conventional
+184,conditionally close modal and drawers,Non-conventional
+185,13.0.1,Non-conventional
+186,modal open prop,Non-conventional
+187,modal open prop,Non-conventional
+188,formatting and docs,Non-conventional
+189,13.0.0,Non-conventional
+190,test,Non-conventional
+191,bump css,Non-conventional
+192,12.1.1,Non-conventional
+193,update deps,Non-conventional
+194,12.1.0,Non-conventional
+195,autocomplete fix,Non-conventional
+196,12.0.5,Non-conventional
+197,package json update,Non-conventional
+198,12.0.4,Non-conventional
+199,formatting,Non-conventional
+200,formatting,Non-conventional
+201,12.0.4,Non-conventional
+202,tests,Non-conventional
+203,update demo component with latest hljs,Non-conventional
+203,update deps,Non-conventional
+204,12.0.3,Non-conventional
+205,update deps,Non-conventional
+206,12.0.2,Non-conventional
+207,update deps,Non-conventional
+208,12.0.1,Non-conventional
+209,update deps,Non-conventional
+211,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+215,doc: switch legacy .argv to .parse() (#2346),Non-conventional
+217,Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>,Non-conventional
+218,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+225,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+226,Current completion crashes when using ZSH and having negated options.,Non-conventional
+227,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+228,"Fixes #2291, #2247",Non-conventional
+229,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+230,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+233,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+236,Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>,Non-conventional
+238,Add example note of `.wrap()` method usage with `.terminalWidth()`.,Non-conventional
+238,Ref: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504,Non-conventional
+238,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+239,Add example note of `.wrap()` method usage with `.terminalWidth()`.,Non-conventional
+239,Ref: https://github.com/yargs/yargs/pull/165#issuecomment-1214959504,Non-conventional
+239,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
+240,Currently the `yargs` is not usable in Deno with `.env()`.,Non-conventional
+240,This was fixed in https://github.com/yargs/yargs-parser/pull/432,Non-conventional
+240,It was released in yargs-parser v21.0.1,Non-conventional
+240,This dependency bump will fix `yargs` for Deno.,Non-conventional
+240,Co-authored-by: Benjamin E. Coe <bencoe@google.com>,Non-conventional
