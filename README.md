@@ -129,7 +129,7 @@ This command performs **all data preparation steps**:
 - 🏷️ **Labeling**: Assign DEMPE class labels using conventional commit prefixes and store in ```data/csv_data/labeled_commits.csv```
 - 🧹 **Cleaning**: Normalize, clean and filter commit messages, then store the conventional commit in ```data/csv_data/cleaned_commits.csv``` and non-coventional messages in ```data/csv_data/non_conventional_commits.csv```
 - 📊 **Visualization**: Plots various analysis images and store in ```data/plots```
-- 🔁 **Oversampling**: Apply MLSMOTE to balance minority classes, applies Sentence-BERT tokenazation and store in ```data/csv_data/resampled_mlsmote.csv```
+- 🔁 **Oversampling**: Apply MLSMOTE to balance minority classes, applies Sentence-BERT tokenization and store in ```data/csv_data/resampled_mlsmote.csv```
 - 🧪 **Splitting**: Train/test split with stratification (20% test set and 80% training set), then store train data in ```data/csv_data/train_re_sampled_mlsmote.csv ``` and test data in ```data/csv_data/test_re_sampled_mlsmote.csv```.
 - 🖼️ **Post-Oversampling Visualization**: Plots post-oversampling distribution and stores in ```data/plots/resampled_label_distribution.png```
 
