@@ -38,7 +38,7 @@ docker run -it --rm \
   -c "python main_cli.py dempe predict-dempe"
 ```
 
-After running the Docker container, you’ll be prompted to choose a model and enter **commit message** e.g. 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat Step 3.
+> After running the Docker container, you’ll be prompted to choose a model and enter **commit message** e.g. 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat Step 3.
 
 
 ##  (Optional) Run the Complete Data Pipeline
