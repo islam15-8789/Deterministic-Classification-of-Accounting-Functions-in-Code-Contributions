@@ -6,7 +6,9 @@ This project provides a **Docker-based Command-Line Interface (CLI)** to classif
 
 ## 🎯 Predict DEMPE Classes (Pretrained)
 
-> ✅ You don’t need to install Python or train any models — just run a Docker command.
+You don't need to install Python or train any models manually — everything runs seamlessly through Docker.
+
+> ✅ Prerequisite: Make sure [Docker](https://docs.docker.com/desktop/) is installed on your system. Please follow the steps accordingy, Let's start:
 
 ### 📥 Step 1: Clone the Repository
 
@@ -18,6 +20,8 @@ cd Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions
 ---
 
 ### 🐳 Step 2: Build the Docker Image
+> Note: Building the Docker image may take some time.
+On a MacBook Air M2 (8GB RAM), the initial build took approx. 10 minutes (609s).
 
 ```bash
 docker build -t dempe-classifier . --no-cache
@@ -34,11 +38,10 @@ docker run -it --rm \
   -c "python main_cli.py dempe predict-dempe"
 ```
 
-You'll be prompted to choose a model and enter **commit message**, and the model will return the **predicted DEMPE function(s)**.
+After running the Docker container, you’ll be prompted to choose a model and enter **commit message** e.g. 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat Step 3.
 
----
 
-## 🧱 (Optional) Run the Complete Data Pipeline
+##  (Optional) Run the Complete Data Pipeline
 
 If you'd like to prepare and process your own dataset, run the full pipeline:
 
@@ -60,7 +63,7 @@ Example:
 
 ---
 
-### 🏗️ Step 2: Execute the Pipeline
+###  Step 2: Execute the Pipeline
 
 ```bash
 # 🔹 Step 1: Fetch Commits
@@ -198,26 +201,12 @@ docker run --rm \
 
 ---
 
-## 🧼 Cleanup
+##  Cleanup
 
 Remove the Docker image when done:
 
 ```bash
 docker rmi dempe-classifier
-```
-
----
-
-## 🛠 Optional: Run Locally with Python (Advanced)
-
-If you prefer running without Docker:
-
-```bash
-# Install dependencies
-pdm install
-
-# Run any CLI directly
-pdm run dempe-cli predict-dempe
 ```
 
 ---
@@ -228,4 +217,4 @@ This project is released under the [MIT License](LICENSE).
 
 ---
 
-Made by **Arni Islam**
+Any queries, please contact **arni.ai.islam@fau.de**
