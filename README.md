@@ -42,7 +42,7 @@ docker run -it --rm \
 > After running the Docker container, you’ll be prompted to choose a model and enter **commit message** (Conventional or Non-conventional) e.g., 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat **Step 3**.
 
 
-##  Reproduce the results 
+##  Reproduce the Results 
 
 To reproduce the results, Please follow the below steps:
 
@@ -68,6 +68,7 @@ Example:
 ---
 
 ###  Step 2: Execute the Pipeline
+> Copy and paste the following commands directly on your terminal to execute the whole pipeline.
 
 ```bash
 # 🔹 Step 1: Fetch Commits
@@ -123,15 +124,14 @@ docker run --rm \
 
 This command performs **all data preparation steps**:
 
-- 📥 **Fetching**: Clone raw commits from GitHub
-- 🧠 **Extraction**: Extract commit messages
-- 🏷️ **Labeling**: Assign DEMPE class labels using conventional commit prefixes
-- 🧹 **Cleaning**: Normalize and filter messages
-- 📊 **Visualization**: View class imbalance
-- 🔁 **Oversampling**: Apply MLSMOTE to balance minority classes
-- 🔡 **Vectorization**: Encode text with Sentence-BERT
-- 🖼️ **Post-Oversampling Visualization**
-- 🧪 **Splitting**: Train/test split with stratification
+- 📥 **Fetching**: Clones raw commits from GitHub, store in ```data/raw_data```
+- 🧠 **Extraction**: Extract commit messages and store in ```data/csv_data/raw_commit_messages.csv```
+- 🏷️ **Labeling**: Assign DEMPE class labels using conventional commit prefixes and store in ```data/csv_data/labeled_commits.csv```
+- 🧹 **Cleaning**: Normalize, clean and filter commit messages, then store the conventional commit in ```data/csv_data/cleaned_commits.csv``` and non-coventional messages in ```data/csv_data/non_conventional_commits.csv```
+- 📊 **Visualization**: Plots various analysis images and store in ```data/plots```
+- 🔁 **Oversampling**: Apply MLSMOTE to balance minority classes, applies Sentence-BERT tokenazation and store in ```data/csv_data/resampled_mlsmote.csv```
+- 🧪 **Splitting**: Train/test split with stratification (20% test set and 80% training set), then store train data in ```data/csv_data/train_re_sampled_mlsmote.csv ``` and test data in ```data/csv_data/test_re_sampled_mlsmote.csv```.
+- 🖼️ **Post-Oversampling Visualization**: Plots post-oversampling distribution and stores in ```data/plots/resampled_label_distribution.png```
 
 ---
 
