@@ -42,7 +42,7 @@ docker run -it --rm \
 > After running the Docker container, you’ll be prompted to choose a model and enter **commit message** (Conventional or Non-conventional) e.g., 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat **Step 3**.
 
 
-##  Reproduce the Results 
+## 🤖 Reproduce the Results 
 
 To reproduce the results, Please follow the below steps:
 
@@ -135,7 +135,7 @@ This command performs **all data preparation steps**:
 
 ---
 
-## 🤖 (Optional) Train Your Own Models
+## Train Models
 
 To retrain all models using the processed dataset:
 
@@ -174,10 +174,12 @@ docker run --rm \
 The following models will be trained and saved:
 
 - ✅ Logistic Regression (One-vs-Rest)
-- ✅ Random Forest
-- ✅ XGBoost / LightGBM
+- ✅ Random Forest (One-vs-Rest)
+- ✅ XGBoost 
 - ✅ Neural Network (with Keras Tuner)
 - ✅ Classifier Chain (with Logistic Regression base)
+
+All evaluation reports are stored in ```data/reports```.
 
 ---
 
