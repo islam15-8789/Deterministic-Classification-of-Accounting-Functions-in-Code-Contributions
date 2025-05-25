@@ -1,7 +1,6 @@
 # 🔍 Classification of DEMPE Functions in Code Contributions
 
-This project provides a **Docker-based Command-Line Interface (CLI)** to classify DEMPE business functions from GitHub commit messages using pretrained machine learning models.
-
+This project provides a **Docker-based Command-Line Interface (CLI)** to classify DEMPE business functions from Commit messages.
 ---
 
 ## 🎯 Predict DEMPE Classes (Pretrained)
@@ -12,6 +11,8 @@ You don't need to install Python or train any models manually — everything run
 
 ### 📥 Step 1: Clone the Repository
 
+> Open your terminal and copy-paste the the following command to clone the repo in your local mechine.
+
 ```bash
 git clone https://github.com/islam15-8789/Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions.git
 cd Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions
@@ -21,7 +22,7 @@ cd Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions
 
 ### 🐳 Step 2: Build the Docker Image
 > Note: Building the Docker image may take some time.
-On a MacBook Air M2 (8GB RAM), the initial build took approx. 10 minutes (609s).
+On a MacBook Air M2 (8GB RAM) basic setup, the initial build took approx. 10 minutes (609s).
 
 ```bash
 docker build -t dempe-classifier . --no-cache
@@ -29,7 +30,7 @@ docker build -t dempe-classifier . --no-cache
 
 ---
 
-### 🔍 Step 3: Run the Predictor
+### 🔍 Step 3: Run the Prediction Engine 
 
 ```bash
 docker run -it --rm \
@@ -38,14 +39,17 @@ docker run -it --rm \
   -c "python main_cli.py dempe predict-dempe"
 ```
 
-> After running the Docker container, you’ll be prompted to choose a model and enter **commit message** e.g. 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat Step 3.
+> After running the Docker container, you’ll be prompted to choose a model and enter **commit message** (Conventional or Non-conventional) e.g., 'feat: Menubar added', and the model will return the **predicted DEMPE function(s)** based on your input. To try a different model, simply exit and repeat **Step 3**.
 
 
-##  (Optional) Run the Complete Data Pipeline
+##  Reproduce the results 
 
-If you'd like to prepare and process your own dataset, run the full pipeline:
+To reproduce the results, Please follow the below steps:
 
 ### 📝 Step 1: Create a `repos.json` File
+
+> ✅ Create a repos.json file in you root directory. These are the repos from where the commits will be
+ fetched for model trainning and evaluation pourposes. 
 
 Example:
 
