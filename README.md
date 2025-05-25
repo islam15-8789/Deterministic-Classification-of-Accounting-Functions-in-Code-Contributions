@@ -1,152 +1,231 @@
-# **Deterministic Classification of Accounting Functions in Code Contributions**
+# 🔍 Classification of DEMPE Functions in Code Contributions
 
-A CLI tool for fetching GitHub commit data and processing commit messages into a structured CSV format.
-
----
-
-## **Table of Contents**
-1. [Features](#features)
-2. [Installation](#installation)
-3. [Usage](#usage)
-    - [Fetch Commits](#fetch-commits)
-    - [Extract Commit Messages](#extract-commit-messages)
-4. [Directory Structure](#directory-structure)
-5. [Contributing](#contributing)
-6. [License](#license)
+This project provides a **Docker-based Command-Line Interface (CLI)** to classify DEMPE business functions from GitHub commit messages using pretrained machine learning models.
 
 ---
 
-## **Features**
-- Fetches commits from a list of GitHub repositories provided in a JSON file.
-- Saves commit data in separate JSON files for each repository.
-- Extracts commit messages from JSON files into a CSV file with columns:
-  1. **Serial Number**
-  2. **Commit Message**
-  3. **Label (empty for manual labeling)**
+## 🎯 Predict DEMPE Classes (Pretrained)
 
----
+> ✅ You don’t need to install Python or train any models — just run a Docker command.
 
-## **Installation**
-### Prerequisites
-1. **Python**: Requires Python `3.12.*`. Install it from [Python.org](https://www.python.org/).
-2. **PDM**: Install PDM (Python Dependency Manager) globally:
-   ```bash
-   pip install pdm
-   ```
+### 📥 Step 1: Clone the Repository
 
-### Clone the Repository
 ```bash
-git clone git@github.com:islam15-8789/Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions.git
-cd Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions/
-```
-
-### Install Dependencies
-Use PDM to install dependencies:
-```bash
-pdm install
+git clone https://github.com/islam15-8789/Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions.git
+cd Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions
 ```
 
 ---
 
-## **Usage**
-After installation, the CLI tool can be accessed using the `pdm run` command or by running `cli.py` directly.
+### 🐳 Step 2: Build the Docker Image
 
-### **1. Fetch Commits**
-Fetch commit data from GitHub repositories listed in a JSON file.
+```bash
+docker build -t dempe-classifier . --no-cache
+```
 
-#### **Input**
-A JSON file (e.g., `repos.json`) containing repository details:
+---
+
+### 🔍 Step 3: Run the Predictor
+
+```bash
+docker run -it --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py dempe predict-dempe"
+```
+
+You'll be prompted to choose a model and enter **commit message**, and the model will return the **predicted DEMPE function(s)**.
+
+---
+
+## 🧱 (Optional) Run the Complete Data Pipeline
+
+If you'd like to prepare and process your own dataset, run the full pipeline:
+
+### 📝 Step 1: Create a `repos.json` File
+
+Example:
+
 ```json
 [
-    {
-        "repo_name": "https://github.com/owner/repo1",
-        "owner": "owner",
-        "token": "your_personal_access_token"
-    },
-    {
-        "repo_name": "https://github.com/owner/repo2",
-        "owner": "owner",
-        "token": "your_personal_access_token"
-    }
+  {
+    "repo_name": "https://github.com/OWNER/REPO",
+    "owner": "OWNER",
+    "token": "ghp_yourGitHubTokenHere"
+  }
 ]
 ```
 
-#### **Command**
-Run the following command:
+> 🔐 Create a [GitHub Personal Access Token](https://github.com/settings/tokens) with `repo` or `public_repo` access.
+
+---
+
+### 🏗️ Step 2: Execute the Pipeline
+
 ```bash
-pdm run c fetch-commits --input-file repos.json
+# 🔹 Step 1: Fetch Commits
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  -v "$(pwd)/repos.json:/usr/src/app/repos.json" \
+  dempe-classifier \
+  -c "python main_cli.py data fetch-commits --input-file repos.json --output-folder data/raw_data"
+
+# 🔹 Step 2: Extract Raw Commit Messages
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data extract-raw-commit-messages --input-folder data/raw_data --output-file data/csv_data/raw_commit_messages.csv"
+
+# 🔹 Step 3: Label Commit Messages
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data label-commits --input-file data/csv_data/raw_commit_messages.csv --output-file data/csv_data/labeled_commits.csv"
+
+# 🔹 Step 4: Clean Labeled Commit Messages
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data clean-commits --input-file data/csv_data/labeled_commits.csv --output-file data/csv_data/cleaned_commits.csv --nonconv-output data/csv_data/non_conventional_commits.csv"
+
+# 🔹 Step 5: Visualize Cleaned Data
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data visualize-cleaned-commits --input-file data/csv_data/cleaned_commits.csv --output-dir data/plots"
+
+# 🔹 Step 6: Apply MLSMOTE
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data apply-mlsmote --input-file data/csv_data/cleaned_commits.csv --output-file data/csv_data/resampled_mlsmote.csv"
+
+# 🔹 Step 7: Split Train/Test Dataset
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data split-dataset --input-file data/csv_data/resampled_mlsmote.csv --train-output data/csv_data/train_re_sampled_mlsmote.csv --test-output data/csv_data/test_re_sampled_mlsmote.csv"
+
+# 🔹 Step 8: Visualize Resampled Label Distribution
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py data visualize-mlsmote-distribution --resampled-file data/csv_data/resampled_mlsmote.csv --output-image data/plots/resampled_label_distribution.png"
+
 ```
 
-#### **Output**
-- JSON files for each repository are saved in the `data/raw_data` directory.
-- Example output:
-  - `data/raw_data/repo1.json`
-  - `data/raw_data/repo2.json`
+This command performs **all data preparation steps**:
+
+- 📥 **Fetching**: Clone raw commits from GitHub
+- 🧠 **Extraction**: Extract commit messages
+- 🏷️ **Labeling**: Assign DEMPE class labels using conventional commit prefixes
+- 🧹 **Cleaning**: Normalize and filter messages
+- 📊 **Visualization**: View class imbalance
+- 🔁 **Oversampling**: Apply MLSMOTE to balance minority classes
+- 🔡 **Vectorization**: Encode text with Sentence-BERT
+- 🖼️ **Post-Oversampling Visualization**
+- 🧪 **Splitting**: Train/test split with stratification
 
 ---
 
-### **2. Extract Commit Messages**
-Extract commit messages from the JSON files generated by the `fetch-commits` command and save them in a CSV file.
+## 🤖 (Optional) Train Your Own Models
 
-#### **Command**
-Run the following command:
+To retrain all models using the processed dataset:
+
 ```bash
-pdm run c extract-raw-commit-messages
+# ✅ Train Logistic Regression (One-vs-Rest)
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py train train-one-vs-rest-ovr"
+
+# ✅ Train Random Forest (One-vs-Rest)
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py train train-random-forest-ovr"
+
+# ✅ Train Gradient Boosting Model (XGBoost / LightGBM)
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py train train-gbm-ovr"
+
+# ✅ Train Neural Network (with Keras Tuner)
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py train train-nn"
+
+# ✅ Train Classifier Chain Model (based on Logistic Regression)
+docker run --rm \
+  -v "$(pwd)/data:/usr/src/app/data" \
+  dempe-classifier \
+  -c "python main_cli.py train train-classifier-chain"
 ```
 
-#### **Output**
-- A CSV file containing commit messages is saved in the `data/csv_data` directory.
-- Example file: `data/csv_data/raw_commit_messages.csv`
+The following models will be trained and saved:
 
-#### **CSV Format**
-The CSV file will have the following columns:
-| Serial Number | Commit Message                                      | Label |
-|---------------|-----------------------------------------------------|-------|
-| 1             | "Initial commit"                                    |       |
-| 2             | "Added new feature for data processing"             |       |
-| 3             | "Fixed issue with API response handling"            |       |
+- ✅ Logistic Regression (One-vs-Rest)
+- ✅ Random Forest
+- ✅ XGBoost / LightGBM
+- ✅ Neural Network (with Keras Tuner)
+- ✅ Classifier Chain (with Logistic Regression base)
 
 ---
 
-## **Directory Structure**
+## 🧭 Explore CLI Commands
+
+You can inspect all available commands with:
+
+```bash
+docker run --rm \
+  dempe-classifier \
+  -c "python main_cli.py" --help
+
+docker run --rm \
+  dempe-classifier \
+  -c "python main_cli.py data" --help
+
+docker run --rm \
+  dempe-classifier \
+  -c "python main_cli.py train" --help
+
+docker run --rm \
+  dempe-classifier \
+  -c "python main_cli.py dempe" --help
 ```
-Deterministic-Classification-of-Accounting-Functions-in-Code-Contributions/
-├── cli.py                          # Main CLI entry point
-├── commands/
-│   ├── fetch_commits.py            # Command to fetch commits
-│   ├── extract_raw_commits.py      # Command to extract commit messages
-├── data/
-│   ├── raw_data/                   # Directory for fetched JSON commit data
-│   ├── csv_data/                # Directory for processed CSV files
-├── pyproject.toml                  # PDM configuration
-├── README.md                       # Documentation
+
+---
+
+## 🧼 Cleanup
+
+Remove the Docker image when done:
+
+```bash
+docker rmi dempe-classifier
 ```
 
 ---
 
-## **Contributing**
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push to your fork:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Create a pull request.
+## 🛠 Optional: Run Locally with Python (Advanced)
+
+If you prefer running without Docker:
+
+```bash
+# Install dependencies
+pdm install
+
+# Run any CLI directly
+pdm run dempe-cli predict-dempe
+```
 
 ---
 
-## **License**
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
+## 📄 License
+
+This project is released under the [MIT License](LICENSE).
 
 ---
 
-### **Contact**
-For any questions or issues, feel free to reach out to **Arni Islam** at [arniislam03@gmail.com](mailto:arniislam03@gmail.com).
-
+Made by **Arni Islam**

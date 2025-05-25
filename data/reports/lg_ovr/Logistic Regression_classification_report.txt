@@ -1,0 +1,12 @@
+              precision    recall  f1-score   support
+
+ Development       0.94      0.92      0.93        48
+ Enhancement       0.89      0.98      0.93        42
+ Maintenance       0.86      0.78      0.82        46
+  Protection       0.96      0.96      0.96        45
+Exploitation       0.98      0.92      0.95        49
+
+   micro avg       0.92      0.91      0.92       230
+   macro avg       0.92      0.91      0.92       230
+weighted avg       0.92      0.91      0.92       230
+ samples avg       0.90      0.91      0.90       230

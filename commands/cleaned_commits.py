@@ -6,7 +6,14 @@ import pandas as pd
 
 # Cleaning function
 def clean_text(text):
-    text = text.lower()  # lowercase
+    text = text.lower()  # convert to lowercase
+    text = re.sub(r"commit\s+[a-f0-9]{7,40}", "", text)  # remove commit hashes
+    text = re.sub(r"author:\s.*?<.*?>", "", text)  # remove author lines with emails
+    text = re.sub(r"date:\s.*", "", text)  # remove date lines
+    text = re.sub(r"co-authored-by:.*", "", text)  # remove co-author metadata
+    text = re.sub(r"signed-off-by:.*", "", text)  # remove signed-off lines
+    text = re.sub(r"see reasoning in.*", "", text)  # remove long reference lines
+    text = re.sub(r"https?://\S+", "", text)  # remove URLs
     text = re.sub(r"[^\w\s]", "", text)  # remove punctuation
     text = re.sub(r"\d+", "", text)  # remove numbers
     text = re.sub(r"\s+", " ", text)  # normalize whitespace

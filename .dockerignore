@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+venv/
+.venv/
+.env
+.idea/
+.vscode/
+tuner_logs/
+data/raw_data/
+data/csv_data/*.csv
+data/models/*.h5
+data/models/*.pkl

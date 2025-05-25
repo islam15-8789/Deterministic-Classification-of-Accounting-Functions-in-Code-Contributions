@@ -19,7 +19,8 @@ using the GitHub API, and saves the results into separate JSON files under the s
 )
 @click.option(
     "--input-file",
-    prompt="Input file path",
+    default="repos.json",
+    show_default=True,
     help="""
 Path to the JSON file containing GitHub repository details.
 
@@ -40,15 +41,19 @@ def fetch_commits(input_file, output_folder):
     Fetch commits from GitHub repositories listed in a JSON file and
     save them to JSON files.
     """
+    import os
+
+    print("📦 Inside fetch_commits")
+    print("🧭 CWD:", os.getcwd())
+    print("📁 LS:", os.listdir("."))
+    print("📁 Target output folder:", output_folder)
     try:
         # Read repository details from input file
         with open(input_file, "r") as file:
             repos = json.load(file)
 
         if not repos or not isinstance(repos, list):
-            click.echo(
-                "The input file is empty or does not contain a valid JSON array."
-            )
+            click.echo("The input file is empty or does not contain a valid JSON array.")
             return
 
         total_repos = len(repos)
@@ -75,7 +80,10 @@ def fetch_commits(input_file, output_folder):
         # Use ThreadPoolExecutor for parallel processing
         with ThreadPoolExecutor() as executor:
             future_to_repo = {
-                executor.submit(fetch_commits_for_repo, repo, bar, output_folder): (repo, bar)
+                executor.submit(fetch_commits_for_repo, repo, bar, output_folder): (
+                    repo,
+                    bar,
+                )
                 for repo, bar in progress_bars
             }
 

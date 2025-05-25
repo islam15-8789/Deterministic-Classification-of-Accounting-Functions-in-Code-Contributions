@@ -16,18 +16,25 @@ class MultiLabelCommitClassifier:
         self.file_path = file_path
         self.output_file = output_file
         self.commit_column = commit_column
-        self.mapping = dempe_conv_commit_mapping
+        self.mapping = {
+            k: v if isinstance(v, list) else [v]
+            for k, v in dempe_conv_commit_mapping.items()
+        }
 
     def extract_commit_tags(self, commit_msg):
-        tags = []
+        tags = set()
         commit_msg = commit_msg.lower()
         for tag in self.mapping:
             if (
                 re.search(rf"\b{re.escape(tag)}(?:\(.+?\))?!?:", commit_msg)
                 or f"{tag}:" in commit_msg
             ):
-                tags.append(self.mapping[tag])
-        return sorted(set(tags))
+                value = self.mapping[tag]
+                if isinstance(value, list):
+                    tags.update(value)
+                else:
+                    tags.add(value)
+        return sorted(tags)
 
     def process_commits(self):
         try:
@@ -59,7 +66,17 @@ class MultiLabelCommitClassifier:
             expanded_df = pd.DataFrame(expanded_commits)
 
             # Multi-label binarization
-            mlb = MultiLabelBinarizer(classes=sorted(set(self.mapping.values())))
+            from itertools import chain
+
+            unique_labels = sorted(
+                set(
+                    chain.from_iterable(
+                        v if isinstance(v, list) else [v] for v in self.mapping.values()
+                    )
+                )
+            )
+            mlb = MultiLabelBinarizer(classes=unique_labels)
+
             label_matrix = mlb.fit_transform(expanded_df["DEMPE_Labels"])
             label_df = pd.DataFrame(
                 label_matrix, columns=[f"DEMPE_Class_{i}" for i in mlb.classes_]

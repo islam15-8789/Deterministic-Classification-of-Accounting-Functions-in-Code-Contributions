@@ -6,19 +6,19 @@ from sklearn.model_selection import train_test_split
 @click.command()
 @click.option(
     "--input-file",
-    default="data/csv_data/cleaned_multilabel_commits.csv",
+    default="data/csv_data/resampled_mlsmote.csv",
     type=click.Path(exists=True),
-    help="Path to the cleaned multi-label CSV file.",
+    help="Path to the resampled_mlsmote CSV file.",
 )
 @click.option(
     "--train-output",
-    default="data/csv_data/train_multilabel.csv",
+    default="data/csv_data/train_re_sampled_mlsmote.csv",
     type=click.Path(),
     help="Path to save the training set.",
 )
 @click.option(
     "--test-output",
-    default="data/csv_data/test_multilabel.csv",
+    default="data/csv_data/test_re_sampled_mlsmote.csv",
     type=click.Path(),
     help="Path to save the test set.",
 )
@@ -36,8 +36,9 @@ def split_dataset(input_file, train_output, test_output, test_size):
     df = pd.read_csv(input_file)
 
     label_cols = [col for col in df.columns if col.startswith("DEMPE_Class_")]
+    feature_cols = [col for col in df.columns if col.startswith("f_")]
 
-    X = df[["Commit Message"]]
+    X = df[feature_cols]
     y = df[label_cols]
 
     click.echo("🔄 Performing train-test split...")
